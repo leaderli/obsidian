@@ -7,19 +7,9 @@
         "id": "f6a06f2087dd6e69",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
-        },
-        "group": "76e1b8d1cd8c3d85"
-      },
-      {
-        "id": "8ff7befeebf2dfad",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
-        },
-        "group": "76e1b8d1cd8c3d85"
+        }
       }
     ],
     "direction": "vertical"
@@ -46,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#反射",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,11 +53,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 221
+    "width": 221,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -120,8 +112,9 @@
     "width": 310,
     "collapsed": true
   },
-  "active": "8ff7befeebf2dfad",
+  "active": "f6a06f2087dd6e69",
   "lastOpenFiles": [
+    "css.md",
     "software/obsidan.md",
     "software/深入git.md",
     "frontend/css.md",
@@ -130,7 +123,6 @@
     "linux/linux.md",
     "other/常用.md",
     "other/flink.md",
-    "other/english.md",
-    "java/maven入门.md"
+    "other/english.md"
   ]
 }

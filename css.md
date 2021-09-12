@@ -1,7 +1,4 @@
 ---
-title: css
-date: 2019-12-03 23:59:46
-categories: frontend
 tags:
   - css
 ---
