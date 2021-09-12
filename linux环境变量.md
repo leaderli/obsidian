@@ -1,12 +1,4 @@
----
-title: linux环境变量
-date: 2020-05-11 21:51:47
-categories: linux
-tags:
-  - linux
-  - 环境变量
----
-
+#linux #环境变量  #shell 
 ## 配置文件加载
 
 ### login shell

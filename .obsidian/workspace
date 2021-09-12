@@ -4,11 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "f6a06f2087dd6e69",
+        "id": "3163f8aa1b02782c",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "localgraph",
+          "state": {
+            "file": "linux环境变量.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": true,
+              "showTags": true,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1,
+              "close": false
+            }
+          }
         }
       }
     ],
@@ -36,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#inux123456",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,13 +80,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 221,
-    "collapsed": true
+    "width": 262
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -75,7 +100,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": true,
+                "file": "linux环境变量.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -101,7 +127,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "linux环境变量.md"
+              }
             }
           }
         ],
@@ -109,20 +137,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310,
-    "collapsed": true
+    "width": 310
   },
-  "active": "f6a06f2087dd6e69",
+  "active": "3163f8aa1b02782c",
   "lastOpenFiles": [
+    "linux环境变量.md",
+    "linux.md",
+    "sip.md",
+    "freeswitch.md",
     "css.md",
     "software/obsidan.md",
     "software/深入git.md",
     "frontend/css.md",
     "java/generics.md",
-    "java/annotation.md",
-    "linux/linux.md",
-    "other/常用.md",
-    "other/flink.md",
-    "other/english.md"
+    "java/annotation.md"
   ]
 }
