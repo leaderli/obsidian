@@ -410,7 +410,7 @@ protected Object doCreateBean(final String beanName, final RootBeanDefinition mb
 
 断点调试最后输出的日志如下  
 ![spring-initMethod执行过程_2019-11-14-01-29-22.png](spring-initMethod执行过程_2019-11-14-01-29-22.png)
-我们可以得知被`@Autowired`的属性或方法是否处理器`AutowiredAnnotationBeanPostProcessor`去实现的，具体加载过程参考 {% post_link Spring_Autowired源码分析 %}
+我们可以得知被`@Autowired`的属性或方法是否处理器`AutowiredAnnotationBeanPostProcessor`去实现的，具体加载过程参考 [[Spring_Autowired源码分析 ]]
 
 ```java
 protected void populateBean(String beanName, RootBeanDefinition mbd, @Nullable BeanWrapper bw) {

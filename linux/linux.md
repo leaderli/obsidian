@@ -33,9 +33,10 @@ linux 的用户分为以下几类
 
 - w 查看当前登录用户
 
-1. {% post_link linux环境变量 %}
-2. {% post_link linux进程管理 %}
-3. {% post_link linux查看 %}
-4. {% post_link linux搜索 %}
-5. {% post_link linux常用命令 %}
-6. {% post_link linux文件系统 %}
+1.  [[linux环境变量 ]]
+1. [[linux环境变量 ]]
+2. [[linux进程管理 ]]
+3. [[linux查看 ]]
+4. [[linux搜索 ]]
+5. [[linux常用命令 ]]
+6. [[linux文件系统 ]]

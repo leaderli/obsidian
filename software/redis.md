@@ -6,16 +6,16 @@ tags:
   - redis
 ---
 
-1. {% post_link redis集群 %}
-2. {% post_link redis管道 %}
-3. {% post_link redis发布订阅 %}
-4. {% post_link redis-script %}
-5. {% post_link redis-过期时间 %}
-6. {% post_link redis事务 %}
-7. {% post_link redis-清除策略 %}
-8. {% post_link redis-分区 %}
-9. {% post_link redis-主从复制 %}
-10. {% post_link redis-持久化 %}
+1. [[redis集群 ]]
+2. [[redis管道 ]]
+3. [[redis发布订阅 ]]
+4. [[redis-script ]]
+5. [[redis-过期时间 ]]
+6. [[redis事务 ]]
+7. [[redis-清除策略 ]]
+8. [[redis-分区 ]]
+9. [[redis-主从复制 ]]
+10. [[redis-持久化 ]]
 
 ## 安装
 

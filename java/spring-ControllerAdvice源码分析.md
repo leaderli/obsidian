@@ -20,7 +20,7 @@ tags:
 仅仅针对被`@ControllerAdvice`注解的且实现接口`ResponseBodyAdvice`的类，进行源码分析，了解一下当`controller`中被`@ResponseBody`注解的方法的返回值，是如何被解析成前端需要的值的。
 至于`RequestBodyAdvice`和`@ExceptionHandler`等实现原理是差不多的。
 
-根据{% post_link Spring自定义ReturnValueHandlers %}中的分析，我们了解了实际调用`controller`类中的被`@ResponseBody`注解方法时，实际使用`RequestResponseBodyMethodProcessor`处理器去处理。
+根据[[Spring自定义ReturnValueHandlers ]]中的分析，我们了解了实际调用`controller`类中的被`@ResponseBody`注解方法时，实际使用`RequestResponseBodyMethodProcessor`处理器去处理。
 
 我们查看下`RequestResponseBodyMethodProcessor`的`handleReturnValue`
 

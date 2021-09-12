@@ -91,7 +91,7 @@ public void addMimeMapping(String extension, String mimeType) {
 }
 ```
 
-根据{% post_link spring静态资源加载源码浅析 %}中的分析，找到`ResourceHttpRequestHandler`，实际执行方法`handleRequest`节选代码片段
+根据[[spring静态资源加载源码浅析 ]]中的分析，找到`ResourceHttpRequestHandler`，实际执行方法`handleRequest`节选代码片段
 
 ```java
 MediaType mediaType = getMediaType(request, resource);

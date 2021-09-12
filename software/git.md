@@ -493,4 +493,4 @@ git push -f #强制推送
 
 ## `Git`原理
 
-参考{% post_link 深入git %}
+参考[[深入git ]]

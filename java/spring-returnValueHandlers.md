@@ -11,7 +11,7 @@ tags:
 ## 源码分析
 
 省略构建项目，junit 测试等步骤，只分析代码与实现。
-根据{% post_link spring静态资源加载源码浅析 %}中的分析,我们可以知道 `DispatcherServlet`会拦截所有请求，寻找合适的`mappedHandler`去处理请求，并根据`mappedHandler`去找对应的适配器`HandlerAdapter`来实际请求`controller`的方法，针对接口来说一般使用的是`RequestMappingHandlerAdapter`
+根据[[spring静态资源加载源码浅析 ]]中的分析,我们可以知道 `DispatcherServlet`会拦截所有请求，寻找合适的`mappedHandler`去处理请求，并根据`mappedHandler`去找对应的适配器`HandlerAdapter`来实际请求`controller`的方法，针对接口来说一般使用的是`RequestMappingHandlerAdapter`
 
 具体调用`controller`方法的细节我们不需要关注，这里我们仅仅关注`RequestMappingHandlerAdapter`是如何处理方法的返回值的。
 节选部分`DispatcherServlet`的`doDispatch`方法

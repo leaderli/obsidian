@@ -6,10 +6,52 @@
       {
         "id": "1783437f8a01e871",
         "type": "leaf",
+        "dimension": 76.08695652173914,
         "state": {
-          "type": "empty",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "software/obsidan.md",
+            "mode": "source"
+          }
+        },
+        "group": "62167a635a33fc61"
+      },
+      {
+        "id": "34b066cbb0bc28c3",
+        "type": "leaf",
+        "dimension": 23.91304347826087,
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "software/obsidan.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1,
+              "close": false
+            }
+          }
+        },
+        "group": "62167a635a33fc61"
       }
     ],
     "direction": "vertical"
@@ -65,13 +107,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "software/obsidan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -82,17 +125,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1783437f8a01e871",
+  "active": "34b066cbb0bc28c3",
   "lastOpenFiles": [
-    "vx_images/tomcat入门_2020-05-15-02-22-01.png.md",
-    "frontend/hexo.md",
-    "java/tomcat.md",
-    "software/office.md",
-    "office.md",
-    "regex.md",
-    "idea.md",
-    "image/5238116129180.png",
+    "software/obsidan.md",
+    "另一个页面的标题.md",
+    "software/websites.md",
+    "other/常用.md",
     "frontend/vue.md",
-    "software/idea.md"
+    "ivr/mrcp.md",
+    "ivr/sip.md",
+    "ivr/freeswitch.md",
+    "ivr/avaya.md",
+    "linux/linux环境变量.md"
   ]
 }
