@@ -1,11 +1,5 @@
----
-title: maven入门
-date: 2019-07-15 19:00:45
-categories: java
-tags:
-  - maven
-  - 入门教程
----
+
+#maven  #tutorial
 
 省略下载安装过程
 

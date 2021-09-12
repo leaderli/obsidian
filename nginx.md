@@ -1,10 +1,5 @@
----
-title: nginx入门
-date: 2020-06-19 19:20:42
-categories: linux
-tags:
-  - nginx
----
+
+#nginx #linux #tutorial #web
 
 ## 安装
 

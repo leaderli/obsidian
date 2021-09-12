@@ -4,37 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "3163f8aa1b02782c",
+        "id": "59d42d378ad19cba",
         "type": "leaf",
         "state": {
-          "type": "localgraph",
+          "type": "markdown",
           "state": {
-            "file": "linux环境变量.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": true,
-              "showTags": true,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1,
-              "close": false
-            }
+            "file": "vue.md",
+            "mode": "source"
           }
         }
       }
@@ -84,7 +60,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262
+    "width": 246
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -100,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux环境变量.md",
+                "file": "vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux环境变量.md"
+                "file": "vue.md"
               }
             }
           }
@@ -137,19 +113,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310
+    "width": 597,
+    "collapsed": true
   },
-  "active": "3163f8aa1b02782c",
+  "active": "59d42d378ad19cba",
   "lastOpenFiles": [
-    "linux环境变量.md",
-    "linux.md",
-    "sip.md",
-    "freeswitch.md",
-    "css.md",
-    "software/obsidan.md",
-    "software/深入git.md",
-    "frontend/css.md",
-    "java/generics.md",
-    "java/annotation.md"
+    "vue.md",
+    "english.md",
+    "常用.md",
+    "深入git.md",
+    "maven入门.md",
+    "nginx入门.md",
+    "redis-过期时间.md",
+    "redis.md",
+    "annotation.md",
+    "flink.md"
   ]
 }

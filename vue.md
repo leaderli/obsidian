@@ -5,6 +5,9 @@ categories: frontend
 tags:
 ---
 
+#html #vue
+
+
 ## 双向绑定
 
 通过构造函数 Vue 就可以创建一个 Vue 的根示例，并启动 Vue 应用，Vue 实例需要挂载一个 DOM 元素，它可以是 HTMLElement，也可以是 CSS 选择器

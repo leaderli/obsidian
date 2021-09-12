@@ -1,18 +1,11 @@
----
-title: genericsAndReflect
-date: 2019-10-19 19:51:27
-categories: java
-tags:
-  - 泛型
-  - 反射
----
+#泛型 #反射 #泛型数组
 
 ## 泛型 `extends super`
 
 
-<div class="li_hl">
-    不管是extends或是super，只能使用在变量声明上，实际赋值的时候，一定是指定具体实现类的，这就是extend和super的方法会有所限制
-</div>
+```ad-li
+不管是extends或是super，只能使用在变量声明上，实际赋值的时候，一定是指定具体实现类的，这就是extend和super的方法会有所限制
+```
 
 ```java
 
@@ -75,90 +68,6 @@ class C2 extends B<Node1,RootNode>{
 
 ```
 
-## 桥接方法
-
-当类定义中的类型参数没有任何限制时，在类型擦除中直接被替换为Object，即形如`<T>`和`<?>`的类型参数都被替换为Object。
-
-```java
-public class Node<T> {
-
-    public T data;
-
-    public Node(T data) { this.data = data; }
-
-    public void setData(T data) {
-        System.out.println("Node.setData");
-        this.data = data;
-    }
-}
-
-public class MyNode extends Node<Integer> {
-    public MyNode(Integer data) { super(data); }
-
-    public void setData(Integer data) {
-        System.out.println("MyNode.setData");
-        super.setData(data);
-    }
-}
-```
-
-当做如下使用时
-
-```java
-Node node = new MyNode(5);
-n.setData("Hello");
-```
-
-当子类重写了`setData`方法时其参数为`Integer`，我们的子类中实际是没有 `setData(Object.class)`的方法的，`java`编译器在进行类型擦除的时候会自动生成一个`synthetic`方法，也叫`bridge`方法,我们通过生成的字节码可以看到实际`bridge`方法，首先校验类型是否为`Integer`，然后在调用`setData(Integer.class)`因此，上述代码会抛出`ClassCastException`
-
-```java
-//通过javap -c 的方法可以显示桥接方法
-public void setData(java.lang.Integer);
-    descriptor: (Ljava/lang/Integer;)V
-    flags: ACC_PUBLIC
-    Code:
-        stack=2, locals=2, args_size=2
-            0: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
-            3: ldc           #3                  // String MyNode.setNode
-            5: invokevirtual #4                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
-            8: aload_0
-            9: aload_1
-            10: invokespecial #5                  // Method com/li/springboot/bridge/Node.setData:(Ljava/lang/Object;)V
-            13: return
-        LineNumberTable:
-        line 11: 0
-        line 12: 8
-        line 13: 13
-        LocalVariableTable:
-        Start  Length  Slot  Name   Signature
-            0      14     0  this   Lcom/li/springboot/bridge/MyNode;
-            0      14     1 integer   Ljava/lang/Integer;
-    MethodParameters:
-        Name                           Flags
-        integer
-
-
-public void setData(java.lang.Object);
-    descriptor: (Ljava/lang/Object;)V
-    flags: ACC_PUBLIC, ACC_BRIDGE, ACC_SYNTHETIC
-    Code:
-        stack=2, locals=2, args_size=2
-            0: aload_0
-            1: aload_1
-            2: checkcast     #11                 // class java/lang/Integer
-            5: invokevirtual #12                 // Method setData:(Ljava/lang/Integer;)V
-            8: return
-        LineNumberTable:
-        line 3: 0
-        LocalVariableTable:
-        Start  Length  Slot  Name   Signature
-            0       9     0  this   Lcom/li/springboot/bridge/MyNode;
-    MethodParameters:
-        Name                           Flags
-        integer                        synthetic
-
-```
-
 
 ## 子类继承时不使用泛型
 
@@ -174,6 +83,8 @@ public Son implements Father<String> {
   }
 }
 ```
+
+
 ##  当使用通配符不能直接使用时，可使用强转来实现
 
 ```java
@@ -198,6 +109,8 @@ public interface ILiEventListener<T> {
 }
 
 ```
+
+
 ## `void`类型的范型方法
 
 ```java
@@ -232,6 +145,22 @@ public <T>T get(Class<T> type){
 ArrayWithTypeToken<Integer> arrayToken = new ArrayWithTypeToken<Integer>(Integer.class, 100);
 Integer[] array = arrayToken.create();
 
+```
+
+
+
+## 反射工具类创建数组
+```java
+int arr[] = (int[])Array.newInstance(int.class, 5);
+Array.set(arr, 0, 5);
+Array.set(arr, 1, 1);
+Array.set(arr, 2, 9);
+Array.set(arr, 3, 3);
+Array.set(arr, 4, 7);
+System.out.print("The array elements are: ");
+for(int i: arr) {
+    System.out.print(i + " ");
+}
 ```
 
 ## 获取类声明的泛型
@@ -411,6 +340,90 @@ public class com/leaderli/demo/TheClassTest {
 
 ```
 
+
+## 桥接方法
+
+当类定义中的类型参数没有任何限制时，在类型擦除中直接被替换为Object，即形如`<T>`和`<?>`的类型参数都被替换为Object。
+
+```java
+public class Node<T> {
+
+    public T data;
+
+    public Node(T data) { this.data = data; }
+
+    public void setData(T data) {
+        System.out.println("Node.setData");
+        this.data = data;
+    }
+}
+
+public class MyNode extends Node<Integer> {
+    public MyNode(Integer data) { super(data); }
+
+    public void setData(Integer data) {
+        System.out.println("MyNode.setData");
+        super.setData(data);
+    }
+}
+```
+
+当做如下使用时
+
+```java
+Node node = new MyNode(5);
+n.setData("Hello");
+```
+
+当子类重写了`setData`方法时其参数为`Integer`，我们的子类中实际是没有 `setData(Object.class)`的方法的，`java`编译器在进行类型擦除的时候会自动生成一个`synthetic`方法，也叫`bridge`方法,我们通过生成的字节码可以看到实际`bridge`方法，首先校验类型是否为`Integer`，然后在调用`setData(Integer.class)`因此，上述代码会抛出`ClassCastException`
+
+```java
+//通过javap -c 的方法可以显示桥接方法
+public void setData(java.lang.Integer);
+    descriptor: (Ljava/lang/Integer;)V
+    flags: ACC_PUBLIC
+    Code:
+        stack=2, locals=2, args_size=2
+            0: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+            3: ldc           #3                  // String MyNode.setNode
+            5: invokevirtual #4                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+            8: aload_0
+            9: aload_1
+            10: invokespecial #5                  // Method com/li/springboot/bridge/Node.setData:(Ljava/lang/Object;)V
+            13: return
+        LineNumberTable:
+        line 11: 0
+        line 12: 8
+        line 13: 13
+        LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      14     0  this   Lcom/li/springboot/bridge/MyNode;
+            0      14     1 integer   Ljava/lang/Integer;
+    MethodParameters:
+        Name                           Flags
+        integer
+
+
+public void setData(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)V
+    flags: ACC_PUBLIC, ACC_BRIDGE, ACC_SYNTHETIC
+    Code:
+        stack=2, locals=2, args_size=2
+            0: aload_0
+            1: aload_1
+            2: checkcast     #11                 // class java/lang/Integer
+            5: invokevirtual #12                 // Method setData:(Ljava/lang/Integer;)V
+            8: return
+        LineNumberTable:
+        line 3: 0
+        LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       9     0  this   Lcom/li/springboot/bridge/MyNode;
+    MethodParameters:
+        Name                           Flags
+        integer                        synthetic
+
+```
 
 ## 桥接子类获取泛型
 
