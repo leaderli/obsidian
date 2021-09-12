@@ -7,11 +7,8 @@
         "id": "1783437f8a01e871",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "frontend/hexo.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -39,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "/\\[.*?]\\(\\.",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,8 +45,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "frontend/hexo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +84,9 @@
   },
   "active": "1783437f8a01e871",
   "lastOpenFiles": [
+    "vx_images/tomcat入门_2020-05-15-02-22-01.png.md",
     "frontend/hexo.md",
     "java/tomcat.md",
-    "vx_images/tomcat入门_2020-05-15-02-22-01.png.md",
     "software/office.md",
     "office.md",
     "regex.md",
