@@ -3,6 +3,8 @@
   "theme": "moonstone",
   "translucency": false,
   "enabledCssSnippets": [
-    "obsidian"
-  ]
+    "obsidian",
+    "li"
+  ],
+  "cssTheme": "obsidian-minimal"
 }

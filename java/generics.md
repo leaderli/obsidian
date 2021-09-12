@@ -77,7 +77,7 @@ class C2 extends B<Node1,RootNode>{
 
 ## 桥接方法
 
-当类定义中的类型参数没有任何限制时，在类型擦除中直接被替换为Object，即形如<T>和<?>的类型参数都被替换为Object。，
+当类定义中的类型参数没有任何限制时，在类型擦除中直接被替换为Object，即形如`<T>`和`<?>`的类型参数都被替换为Object。
 
 ```java
 public class Node<T> {
