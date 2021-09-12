@@ -9,23 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ip.md",
+            "file": "自动机理论.md",
             "mode": "source"
           }
-        },
-        "group": "5a2c58573e56f0ff"
-      },
-      {
-        "id": "d11664ad4f5a4844",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "ip.md",
-            "mode": "preview"
-          }
-        },
-        "group": "5a2c58573e56f0ff"
+        }
       }
     ],
     "direction": "vertical"
@@ -89,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ip.md",
+                "file": "自动机理论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ip.md"
+                "file": "自动机理论.md"
               }
             }
           }
@@ -131,6 +118,7 @@
   },
   "active": "b2503f9398d5c8fa",
   "lastOpenFiles": [
+    "自动机理论.md",
     "ip.md",
     "fork.md",
     "linux查看.md",
@@ -139,7 +127,6 @@
     "c.md",
     "python入门.md",
     "python-tips.md",
-    "python队列.md",
-    "python线程.md"
+    "python队列.md"
   ]
 }
