@@ -6,5 +6,6 @@
     "obsidian",
     "li"
   ],
-  "cssTheme": "obsidian-minimal"
+  "cssTheme": "obsidian-minimal",
+  "baseFontSizeAction": false
 }

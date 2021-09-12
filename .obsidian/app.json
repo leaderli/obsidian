@@ -6,5 +6,6 @@
   "foldIndent": true,
   "showLineNumber": true,
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "resource"
+  "attachmentFolderPath": "resource",
+  "showFrontmatter": true
 }

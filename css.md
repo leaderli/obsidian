@@ -893,19 +893,4 @@ white-space: nowrap; #省略显示
 ```
 
 效果如下：
-
-<div>
-<style>
-    #line-height div {
-        height: 40px;
-        width: 200px;
-        background-color: skyblue;
-        border: 1px solid;
-    }
-</style>
-
-<div id="line-height">
-<div style="line-height: 20px;">line-heigth:20px</div>
-<div style="line-height: 40px;">line-heigth:40px</div>
-</div>
-<div>
+![[line-height.html]]
