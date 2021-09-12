@@ -1,9 +1,4 @@
----
-title: sip
-date: 2020-09-04 13:34:17
-categories: ivr
-tags:
----
+#ivr	#sip #sdp #freeswitch
 
 SIP 是一个对等的协议，类似 P2P。它可以在不需要服务器的情况下进行通信，只要通信双方都彼此指导对方的地址（或者只有一方知道另一方的地址）即可，这种情况称为点对点通信。详细标准可查看[RFC3261](https://tools.ietf.org/html/rfc3261#section-7.3)
 

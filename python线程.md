@@ -1,10 +1,4 @@
----
-title: python线程
-date: 2019-12-24 02:15:49
-categories: python
-tags:
-  - thread
----
+#python #thread 
 
 ## 获取线程执行结果
 

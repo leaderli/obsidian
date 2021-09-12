@@ -1,11 +1,5 @@
----
-title: python队列
-date: 2019-12-24 01:15:32
-categories: python
-tags:
-  - queue
-  - thread
----
+
+#python  #queue
 
 我们直接以代码示例来分析
 

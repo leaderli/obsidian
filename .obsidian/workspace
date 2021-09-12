@@ -4,15 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "59d42d378ad19cba",
+        "id": "b2503f9398d5c8fa",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vue.md",
+            "file": "ip.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "5a2c58573e56f0ff"
+      },
+      {
+        "id": "d11664ad4f5a4844",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ip.md",
+            "mode": "preview"
+          }
+        },
+        "group": "5a2c58573e56f0ff"
       }
     ],
     "direction": "vertical"
@@ -76,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue.md",
+                "file": "ip.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vue.md"
+                "file": "ip.md"
               }
             }
           }
@@ -116,17 +129,17 @@
     "width": 597,
     "collapsed": true
   },
-  "active": "59d42d378ad19cba",
+  "active": "b2503f9398d5c8fa",
   "lastOpenFiles": [
-    "vue.md",
-    "english.md",
-    "常用.md",
-    "深入git.md",
-    "maven入门.md",
-    "nginx入门.md",
-    "redis-过期时间.md",
-    "redis.md",
-    "annotation.md",
-    "flink.md"
+    "ip.md",
+    "fork.md",
+    "linux查看.md",
+    "linux环境变量.md",
+    "db2.md",
+    "c.md",
+    "python入门.md",
+    "python-tips.md",
+    "python队列.md",
+    "python线程.md"
   ]
 }

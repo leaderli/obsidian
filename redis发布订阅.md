@@ -1,9 +1,4 @@
----
-title: redis发布订阅
-date: 2020-05-19 20:10:06
-categories: redis
-tags:
----
+#redis 
 
 redis 提供发布订阅功能，客户端可订阅一个或多个 channel，也可以取消订阅。使用`redis-cli`进入订阅模式，只能使用`ctrl-c`取消订阅
 

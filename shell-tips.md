@@ -1,9 +1,4 @@
----
-title: shell-tips
-date: 2020-06-04 22:25:37
-categories: linux
-tags:
----
+#shell #bash #linux 
 
 ## 多命令
 

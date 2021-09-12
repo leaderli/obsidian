@@ -1,9 +1,4 @@
----
-title: c
-date: 2020-09-21 19:35:26
-categories: c
-tags:
----
+#c #tutorial 
 
 ## 基础知识
 

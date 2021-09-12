@@ -1,13 +1,4 @@
----
-title: python装饰器
-date: 2019-12-22 00:21:57
-categories: python
-tags:
-  - pyhton
-  - decorator
-  - 装饰器
----
-
+#python #decorator 
 ## 基础
 
 `python`装饰器，类似`java`反射，用以实现切面。

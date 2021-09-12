@@ -1,9 +1,4 @@
----
-title: redis-script
-date: 2020-05-19 20:02:20
-categories: redis
-tags:
----
+#redis  #lua
 
 ## 简介
 

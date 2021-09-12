@@ -1,17 +1,9 @@
----
-title: bash.md
-date: 2019-10-15 20:38:27
-categories: linux
-tags:
-  - bash
-  - shell
----
+#linux #bash #shell 
 
 ## 概述
 
 每条`shell`命令执行都会有个状态码`0`表示成功，`1`表示失败。可以使用`$?`得到上一条命令的执行结果来决定是否执行后续命令，快速的用法是使用`&&`,`||`
 
-[[shell-变量 ]]
 
 ## 重定向符
 

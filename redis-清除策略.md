@@ -1,9 +1,4 @@
----
-title: redis-清除策略
-date: 2020-05-22 15:14:44
-categories: redis
-tags:
----
+#redis
 
 当 redis 内存使用达到最大限制时，当新的数据需要添加时会根据配置的过期策略（maxmemory_policy）表现出不同的行为
 

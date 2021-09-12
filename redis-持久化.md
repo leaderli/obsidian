@@ -1,9 +1,5 @@
----
-title: redis-持久化
-date: 2020-05-26 18:33:02
-categories: redis
-tags:
----
+
+#redis #backup
 
 ## RDB
 

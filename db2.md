@@ -1,10 +1,4 @@
----
-title: db2
-date: 2020-04-23 11:03:36
-categories: db
-tags:
-  - db2
----
+#db #sql  #db2
 
 ### 导出表结构
 

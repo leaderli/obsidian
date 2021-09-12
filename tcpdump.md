@@ -1,9 +1,4 @@
----
-title: tcpdump
-date: 2020-08-19 14:10:47
-categories: linux
-tags:
----
+#linux #tcp 
 
 tcpdump 是一个命令行实用工具，允许你抓取和分析经过系统的流量数据包。它通常被用作于网络故障分析工具以及安全工具。
 

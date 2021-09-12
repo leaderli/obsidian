@@ -1,9 +1,4 @@
----
-title: avaya
-date: 2020-08-13 09:21:02
-categories: ivr
-tags:
----
+#avaya	#ivr	#uui	
 
 ## 一通会话的进线过程
 

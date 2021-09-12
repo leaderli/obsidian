@@ -1,9 +1,5 @@
----
-title: linux一切皆文件
-date: 2020-05-11 23:19:19
-categories: linux
-tags:
----
+
+#linux
 
 ## 概述
 

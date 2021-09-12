@@ -1,11 +1,4 @@
----
-title: java面试题_1
-date: 2019-11-12 13:56:42
-categories: 面试题
-tags:
-  - 面试题
-  - java
----
+#java #面试题 #link 
 
 ## 面试题网站
 

@@ -1,11 +1,5 @@
----
-title: spring_initMethod执行过程
-date: 2019-11-13 22:50:12
-categories: spring
-tags:
-  - 源码分析
-  - Spring加载过程
----
+
+#java #spring #lifecycle #源码 
 
 ## 准备
 
@@ -555,7 +549,7 @@ void setInitMethodName(@Nullable String initMethodName);
 
 然后`initializeBean`通过`invokeInitMethods`来执行`initMethod`
 
-#### applyBeanPostProcessorsBeforeInitialization
+### applyBeanPostProcessorsBeforeInitialization
 
 我们同样通过断点调试的方式来观察，`@PostConstruct`方法是何时被执行的  
 ![spring-initMethod执行过程_2019-11-14-01-45-47.png](spring-initMethod执行过程_2019-11-14-01-45-47.png)

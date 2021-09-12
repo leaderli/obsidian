@@ -1,9 +1,4 @@
----
-title: freeswitch
-date: 2020-07-04 21:48:37
-categories: ivr
-tags:
----
+#ivr #freeswitch #sip  #install
 
 [官方文档](https://freeswitch.org/confluence/display/FREESWITCH/FreeSWITCH+First+Steps)
 

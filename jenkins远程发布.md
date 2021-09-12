@@ -1,12 +1,5 @@
----
-title: jenkins远程发布
-date: 2019-07-22 20:45:38
-categories: 工具
-tags:
-  - jenkins
-  - docker
-  - tomact
----
+
+#jenkins #java #tomcat #docker 
 
 ## 版本说明
 

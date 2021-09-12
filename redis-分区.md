@@ -1,9 +1,4 @@
----
-title: redis-分区
-date: 2020-05-22 22:35:41
-categories: redis
-tags:
----
+#redis
 
 分区是指将将数据分别存储在不同 redis 节点，每个节点仅存储所有 key 的一部分。
 

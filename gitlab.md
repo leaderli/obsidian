@@ -1,14 +1,9 @@
----
-title: gitlab
-date: 2020-01-14 01:27:59
-categories: tips
-tags:
-  - git
-  - gitlab
----
+#git #gitlab 
 
-初始密码
-qwer1234
+```ad-info
+
+测试环境初始密码:qwer1234
+```
 
 ## api
 

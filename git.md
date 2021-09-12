@@ -1,11 +1,4 @@
----
-title: git
-date: 2019-11-21 02:43:31
-categories: tips
-tags:
-  - git
-  - tips
----
+#git #tutorial #install #linux 
 
 ## 安装 git
 

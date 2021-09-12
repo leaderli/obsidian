@@ -1,12 +1,4 @@
----
-title: springboot静态资源定义mime类型
-date: 2019-08-02 23:52:43
-categories: spring
-tags:
-  - springboot
-  - mime
-  - 问题
----
+#springboot #mime #problem #java 
 
 ## 问题描述
 

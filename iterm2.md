@@ -1,9 +1,4 @@
----
-title: iterm2
-date: 2020-06-19 13:09:17
-categories: 工具
-tags:
----
+#mac #tutorial  #util
 
 ### 切换编辑模式
 

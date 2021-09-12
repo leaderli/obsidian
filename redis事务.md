@@ -1,9 +1,4 @@
----
-title: redis事务
-date: 2020-05-22 08:20:24
-categories: redis
-tags:
----
+#redis 
 
 ## 使用 script
 

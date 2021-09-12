@@ -1,9 +1,4 @@
----
-title: redis-过期时间
-date: 2020-05-20 19:18:33
-categories: redis
-tags:
----
+#redis
 
 ## 概述
 

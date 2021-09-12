@@ -1,9 +1,4 @@
----
-title: redis集群
-date: 2020-05-19 19:27:20
-categories: redis
-tags:
----
+#redis 
 
 ## 端口
 

@@ -1,9 +1,5 @@
----
-title: redis-主从复制
-date: 2020-05-26 09:17:49
-categories: redis
-tags:
----
+
+#redis 
 
 ## 基础概念
 

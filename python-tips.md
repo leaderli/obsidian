@@ -1,10 +1,4 @@
----
-title: python-tips
-date: 2020-06-27 11:12:00
-categories: python
-tags:
-  - tips
----
+#python #tips 
 
 ## 截取字符串或数组
 

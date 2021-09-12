@@ -1,12 +1,5 @@
----
-title: idea
-date: 2019-07-21 19:57:47
-categories: tips
-tags:
-  - idea
-  - 快捷键
-  - tips
----
+#java #tips #util #快捷键 
+
 
 ## 为了方便在各个平台使用，统一定义快捷键
 

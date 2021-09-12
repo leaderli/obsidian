@@ -1,9 +1,4 @@
----
-title: mac
-date: 2019-10-17 20:49:58
-categories: tips
-tags: mac
----
+#mac #tutorial 
 
 ## 常见问题
 

@@ -1,11 +1,4 @@
----
-title: kafka
-date: 2020-06-03 22:04:57
-categories: code
-tags:
-  - kafka
-  - 中间件
----
+#java #kafka #中间件
 
 ## 安装
 

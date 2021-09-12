@@ -1,12 +1,7 @@
----
-layout: posts
-title: linux
-date: 2019-07-04 00:49:32
-categories: linux
-tags:
-  - linux
-  - tips
----
+
+#linux  #shell
+
+## 概述
 
 shell 是系统内核和用户沟通的桥梁，它作为系统的命令解释器为用户提供解释命令的功能。linux 系统上存在多种 shell。可通过
 
@@ -32,6 +27,8 @@ linux 的用户分为以下几类
 在 linux 系统下创建的用户的信息都被写在`/etc/passwd`这个文件中永久性保存，用户的密码经过 MD5 加密后存放在称为影子文件的`/etc/shadow`中
 
 - w 查看当前登录用户
+
+## 导航
 
 1.  [[linux环境变量 ]]
 1. [[linux环境变量 ]]

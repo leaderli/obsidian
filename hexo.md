@@ -1,10 +1,4 @@
----
-title: hexo
-date: 2020-07-15 08:26:05
-categories: code
-tags:
-  - hexo
----
+#hexo
 
 ## 快捷方式
 

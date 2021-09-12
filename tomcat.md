@@ -1,12 +1,5 @@
----
-title: tomcat
-date: 2019-08-10 22:24:42
-categories: java
-tags:
-  - tomcat
-  - jndi
-  - datasource
----
+
+#java #jndi #tomcat #datasource 
 
 ## 配置 JNDI
 

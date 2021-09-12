@@ -1,9 +1,4 @@
----
-title: python入门
-date: 2019-10-10 23:19:22
-categories: python
-tags: python
----
+#python #tutorial  
 
 ## class 实例的方法，第一个参数自动转换为实例的索引
 
