@@ -6,22 +6,100 @@
       {
         "id": "2534f5a9bcc486c2",
         "type": "leaf",
-        "dimension": 32.482993197278915,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/面试题/java面试题-1.md",
+            "file": "c/c++.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "ab10e85b0b60f906",
+        "id": "cf47bd9a0bcdc216",
         "type": "leaf",
-        "dimension": 67.51700680272108,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "c/socket.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "fc17414f6cb5f4e5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "software/深入git.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "0b3c2ae9314d38ad",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ivr/avaya.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "517778bf4482f6dd",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "面试题/java面试题-1.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "396f439a47766a82",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "c/make.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "6f4be3c42bbc9a0c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ivr/mrcp.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "6804458da685373c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "c/make.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "cffeea009621e817",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ivr/avaya.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -58,11 +136,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 635
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -78,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/面试题/java面试题-1.md",
+                "file": "c/c++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,18 +172,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "2534f5a9bcc486c2",
   "lastOpenFiles": [
-    "md/面试题/java面试题-1.md",
-    "md/other/flink.md",
-    "md/other/常用.md",
-    "md/code/regex.md",
-    "md/code/自动机理论.md",
-    "md/code/动态规划.md",
-    "md/code/常用数学符号.md",
-    "md/code/背包问题.md"
+    "c/c++.md",
+    "avaya.md",
+    "深入git.md",
+    "java面试题-1.md",
+    "make.md",
+    "mrcp.md",
+    "c/make.md",
+    "c/socket.md",
+    "面试题/java面试题-1.md",
+    "code/vx_images/大学计算机笔记_2020-04-18-17-50-17.png"
   ]
 }
