@@ -4,54 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "1783437f8a01e871",
+        "id": "183255a3f29fc335",
         "type": "leaf",
-        "dimension": 76.08695652173914,
+        "dimension": 44.44444444444444,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "software/obsidan.md",
+            "file": "java/generics.md",
             "mode": "source"
           }
         },
-        "group": "62167a635a33fc61"
+        "group": "d42e2af818b9dea4"
       },
       {
-        "id": "34b066cbb0bc28c3",
+        "id": "f6a06f2087dd6e69",
         "type": "leaf",
-        "dimension": 23.91304347826087,
+        "dimension": 55.55555555555556,
         "state": {
-          "type": "localgraph",
+          "type": "markdown",
           "state": {
-            "file": "software/obsidan.md",
-            "options": {
-              "collapse-filter": true,
-              "search": "",
-              "localJumps": 1,
-              "localBacklinks": true,
-              "localForelinks": true,
-              "localInterlinks": false,
-              "showTags": false,
-              "showAttachments": false,
-              "hideUnresolved": false,
-              "collapse-color-groups": true,
-              "colorGroups": [],
-              "collapse-display": true,
-              "showArrow": false,
-              "textFadeMultiplier": 0,
-              "nodeSizeMultiplier": 1,
-              "lineSizeMultiplier": 1,
-              "collapse-forces": true,
-              "centerStrength": 0.518713248970312,
-              "repelStrength": 10,
-              "linkStrength": 1,
-              "linkDistance": 250,
-              "scale": 1,
-              "close": false
-            }
+            "file": "java/generics.md",
+            "mode": "preview"
           }
         },
-        "group": "62167a635a33fc61"
+        "group": "d42e2af818b9dea4"
       }
     ],
     "direction": "vertical"
@@ -86,12 +62,22 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "cb087599afad4542",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 372
+    "width": 329,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -107,14 +93,47 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "software/obsidan.md",
-                "collapseAll": false,
+                "file": "java/generics.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "e68ac9349b8098da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "86347b6e25e44455",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "java/generics.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "970720b93a8af3ca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "java/generics.md"
               }
             }
           }
@@ -122,20 +141,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 310,
     "collapsed": true
   },
-  "active": "34b066cbb0bc28c3",
+  "active": "183255a3f29fc335",
   "lastOpenFiles": [
+    "java/generics.md",
+    "frontend/css.md",
+    "linux/linux.md",
     "software/obsidan.md",
-    "另一个页面的标题.md",
-    "software/websites.md",
     "other/常用.md",
-    "frontend/vue.md",
-    "ivr/mrcp.md",
-    "ivr/sip.md",
-    "ivr/freeswitch.md",
-    "ivr/avaya.md",
-    "linux/linux环境变量.md"
+    "other/flink.md",
+    "other/english.md",
+    "java/maven入门.md",
+    "java/JVM/java字节码.md",
+    "software/redis.md"
   ]
 }
