@@ -1,0 +1,110 @@
+{
+  "main": {
+    "id": "0de266d25322a6de",
+    "type": "split",
+    "children": [
+      {
+        "id": "2534f5a9bcc486c2",
+        "type": "leaf",
+        "dimension": 32.482993197278915,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/面试题/java面试题-1.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "ab10e85b0b60f906",
+        "type": "leaf",
+        "dimension": 67.51700680272108,
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6aef424ec9fb2be8",
+    "type": "split",
+    "children": [
+      {
+        "id": "adf9b7233a946914",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af01c39738594ab8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "51f7c28400713fd9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4b761e4e5ad66709",
+    "type": "split",
+    "children": [
+      {
+        "id": "80c9229a973b90d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4320d20a6e734de5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "md/面试题/java面试题-1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "2534f5a9bcc486c2",
+  "lastOpenFiles": [
+    "md/面试题/java面试题-1.md",
+    "md/other/flink.md",
+    "md/other/常用.md",
+    "md/code/regex.md",
+    "md/code/自动机理论.md",
+    "md/code/动态规划.md",
+    "md/code/常用数学符号.md",
+    "md/code/背包问题.md"
+  ]
+}
