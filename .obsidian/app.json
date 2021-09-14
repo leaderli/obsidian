@@ -7,5 +7,6 @@
   "showLineNumber": true,
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "resource",
-  "showFrontmatter": true
+  "showFrontmatter": true,
+  "readableLineLength": false
 }
