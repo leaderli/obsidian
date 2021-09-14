@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "自动机理论.md",
+            "file": "AST.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "53fafd252d5a4ef1"
+      },
+      {
+        "id": "108add81624de722",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "AST.md",
+            "mode": "preview"
+          }
+        },
+        "group": "53fafd252d5a4ef1"
       }
     ],
     "direction": "vertical"
@@ -60,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246
+    "width": 223
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -76,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "自动机理论.md",
+                "file": "AST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "自动机理论.md"
+                "file": "AST.md"
               }
             }
           }
@@ -118,6 +131,7 @@
   },
   "active": "b2503f9398d5c8fa",
   "lastOpenFiles": [
+    "未命名.md",
     "自动机理论.md",
     "ip.md",
     "fork.md",
@@ -126,7 +140,6 @@
     "db2.md",
     "c.md",
     "python入门.md",
-    "python-tips.md",
-    "python队列.md"
+    "python-tips.md"
   ]
 }
