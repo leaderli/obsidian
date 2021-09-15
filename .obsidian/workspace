@@ -4,15 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "fbd67128a7693fe3",
+        "id": "1d60cf775ae15b0e",
         "type": "leaf",
+        "dimension": 49.867197875166,
         "state": {
           "type": "markdown",
           "state": {
             "file": "AST.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "8cde1f349d33f448"
+      },
+      {
+        "id": "c050d2c31c28ed56",
+        "type": "leaf",
+        "dimension": 50.132802124834,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "AST.md",
+            "mode": "preview"
+          }
+        },
+        "group": "8cde1f349d33f448"
       }
     ],
     "direction": "vertical"
@@ -39,8 +54,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#inux123456",
-                "matchingCase": false,
+                "query": "类加载",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -55,12 +70,20 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "c20fbe807a37e609",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 102,
+    "width": 395,
     "collapsed": true
   },
   "right": {
@@ -117,17 +140,17 @@
     "width": 597,
     "collapsed": true
   },
-  "active": "fbd67128a7693fe3",
+  "active": "1d60cf775ae15b0e",
   "lastOpenFiles": [
     "AST.md",
     "avaya.md",
-    "未命名.md",
-    "自动机理论.md",
-    "ip.md",
-    "fork.md",
-    "linux查看.md",
-    "linux环境变量.md",
-    "db2.md",
-    "c.md"
+    "计算机组成笔记.md",
+    "动态规划.md",
+    "java-tips.md",
+    "generics.md",
+    "vim.md",
+    "vscode相关.md",
+    "voicexml解析器实现相关.md",
+    "有限状态机.md"
   ]
 }

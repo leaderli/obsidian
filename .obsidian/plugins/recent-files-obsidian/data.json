@@ -1,0 +1,54 @@
+{
+  "recentFiles": [
+    {
+      "basename": "AST",
+      "path": "AST.md"
+    },
+    {
+      "basename": "avaya",
+      "path": "avaya.md"
+    },
+    {
+      "basename": "计算机组成笔记",
+      "path": "计算机组成笔记.md"
+    },
+    {
+      "basename": "动态规划",
+      "path": "动态规划.md"
+    },
+    {
+      "basename": "java-tips",
+      "path": "java-tips.md"
+    },
+    {
+      "basename": "generics",
+      "path": "generics.md"
+    },
+    {
+      "basename": "vim",
+      "path": "vim.md"
+    },
+    {
+      "basename": "vscode相关",
+      "path": "vscode相关.md"
+    },
+    {
+      "basename": "voicexml解析器实现相关",
+      "path": "voicexml解析器实现相关.md"
+    },
+    {
+      "basename": "有限状态机",
+      "path": "有限状态机.md"
+    },
+    {
+      "basename": "自动机理论",
+      "path": "自动机理论.md"
+    },
+    {
+      "basename": "深入git",
+      "path": "深入git.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null
+}

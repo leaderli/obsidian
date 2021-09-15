@@ -1,11 +1,4 @@
----
-title: vscode相关
-date: 2019-08-01 21:48:45
-categories: vscode
-tags:
-  - vscode
-  - 插件
----
+#vscode #插件
 
 ## vim 自动切换输入法
 

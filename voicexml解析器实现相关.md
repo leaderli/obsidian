@@ -1,11 +1,4 @@
----
-title: voicexml解析器实现相关
-date: 2020-06-10 21:40:41
-categories: ivr
-tags:
-  - voicexml
-  - xml
----
+#xml #voicexml #ivr #avaya #计算机组成原理
 
 ## 概述
 

@@ -2,5 +2,7 @@
   "obsidian-git",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-admonition",
-  "code-block-copy"
+  "code-block-copy",
+  "recent-files-obsidian",
+  "table-editor-obsidian"
 ]
