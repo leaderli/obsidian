@@ -163,7 +163,7 @@ scope 不是文件扩展名
 "pasteImage.forceUnixStyleSeparator": true,
 "pasteImage.prefix": "/",
 //插入markdown的语法
-"pasteImage.insertPattern": "![${imageFileName}](./vx_images/${imageFileName})"
+"pasteImage.insertPattern": "![${imageFileName}](./${imageFileName})"
 ```
 
 ## 快捷键

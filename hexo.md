@@ -126,7 +126,7 @@ hexo.extend.filter.register("after_post_render", function (data) {
     $("img").each(function () {
       if ($(this).attr("src")) {
         var src = $(this).attr("src").replace("\\", "/");
-        if (src.startsWith("./vx_images/")) {
+        if (src.startsWith("./iamges/")) {
           src = src.substring(1);
           $(this).attr("src", src);
         }

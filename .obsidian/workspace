@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "1d60cf775ae15b0e",
+        "id": "e96867006ddeb664",
         "type": "leaf",
-        "dimension": 49.867197875166,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AST.md",
+            "file": "java字节码.md",
             "mode": "source"
           }
         },
-        "group": "8cde1f349d33f448"
+        "group": "b626d52a3ab9cf4c"
       },
       {
-        "id": "c050d2c31c28ed56",
+        "id": "7e7f234e3bd43d5a",
         "type": "leaf",
-        "dimension": 50.132802124834,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AST.md",
+            "file": "java字节码.md",
             "mode": "preview"
           }
         },
-        "group": "8cde1f349d33f448"
+        "group": "b626d52a3ab9cf4c"
       }
     ],
     "direction": "vertical"
@@ -54,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "类加载",
+                "query": "vx_image",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,12 +77,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 395,
-    "collapsed": true
+    "width": 568
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -100,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AST.md",
+                "file": "java字节码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AST.md"
+                "file": "java字节码.md"
               }
             }
           }
@@ -140,17 +138,17 @@
     "width": 597,
     "collapsed": true
   },
-  "active": "1d60cf775ae15b0e",
+  "active": "e96867006ddeb664",
   "lastOpenFiles": [
+    "java字节码.md",
+    "未命名.md",
+    "java类加载机制.md",
+    "jvm性能排除.md",
+    "vscode相关.md",
+    "markdown_katex.md",
+    "hexo.md",
     "AST.md",
     "avaya.md",
-    "计算机组成笔记.md",
-    "动态规划.md",
-    "java-tips.md",
-    "generics.md",
-    "vim.md",
-    "vscode相关.md",
-    "voicexml解析器实现相关.md",
-    "有限状态机.md"
+    "计算机组成笔记.md"
   ]
 }

@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "java字节码",
+      "path": "java字节码.md"
+    },
+    {
+      "basename": "java类加载机制",
+      "path": "java类加载机制.md"
+    },
+    {
+      "basename": "jvm性能排除",
+      "path": "jvm性能排除.md"
+    },
+    {
+      "basename": "vscode相关",
+      "path": "vscode相关.md"
+    },
+    {
+      "basename": "markdown_katex",
+      "path": "markdown_katex.md"
+    },
+    {
+      "basename": "hexo",
+      "path": "hexo.md"
+    },
+    {
       "basename": "AST",
       "path": "AST.md"
     },
@@ -27,10 +51,6 @@
     {
       "basename": "vim",
       "path": "vim.md"
-    },
-    {
-      "basename": "vscode相关",
-      "path": "vscode相关.md"
     },
     {
       "basename": "voicexml解析器实现相关",

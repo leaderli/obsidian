@@ -518,41 +518,25 @@ public class Test {
 
 ![[ast_asttree.png]]
 
-## Java 模型
-
-  
+### Java 模型
 
 在 eclipse 中将 Java 项目表示为一个树形结构。这里只是简单描述一下
 
-  
+![[ast_java_model.png]]
 
-![ast_java_model.png](./vx_images/ast_java_model.png)
-
-  
-
-## 如何查找指定的 AST 节点
-
-  
+### 如何查找指定的 AST 节点
 
 一个简单的“hello world”代码编译后的 AST 也会是一个复杂的树，如何查找指定的节点。我们可以使用`ASTVisitor`，ASTNode 可以可以使用`accept`方法接受一个`ASTVistor`对象，遍历 ASTNode 的所有节点。每个节点依次调用方法
 
   
 
 1. preVisit(ASTNode node)
-
 2. visit(MethodInvocation node)，只有当节点为 MethodInvocation 类型时，才会调用该方法。
-
 3. 当 visit 返回`true`时则遍历该节点的子节点，否则跳过
-
 4. endVisit(MethodInvocation node)
-
 5. postVisit(ASTNode node)
 
-  
-
 示例
-
-  
 
 ```java
 
@@ -701,7 +685,7 @@ public class Hello {
 
   
 
-```txt
+```java
 
 visit Declaration of 'i' at line2
 
@@ -741,7 +725,7 @@ post visit:public void test(){
 
   
 
-## 代码示例
+### 代码示例
 
   
 
@@ -827,11 +811,7 @@ CompilationUnit cu= (CompilationUnit) (astParser.createAST(null));
 
 ```
 
-  
-
 将一段代码的字符串转换为`ASTNode`
-
-  
 
 ```java
 
@@ -861,10 +841,8 @@ private ASTNode createAstNodeWithMethodBody() {
 
 ```
 
-  
 
 关于方法的`ASTNode`
-
   
 
 ```java
@@ -933,10 +911,8 @@ private ASTNode createAstNodeWithMethodBody() {
 
 ```
 
-  
 
 修改类名
-
   
 
 ```java
