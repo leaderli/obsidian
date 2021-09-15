@@ -6,27 +6,13 @@
       {
         "id": "fbd67128a7693fe3",
         "type": "leaf",
-        "dimension": 54.877239548772394,
         "state": {
           "type": "markdown",
           "state": {
             "file": "AST.md",
-            "mode": "preview"
+            "mode": "source"
           }
-        },
-        "group": "6a61b6f5a1b8bc41"
-      },
-      {
-        "id": "8550d1eaeaf47fce",
-        "type": "leaf",
-        "dimension": 45.122760451227606,
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "AST.md"
-          }
-        },
-        "group": "6a61b6f5a1b8bc41"
+        }
       }
     ],
     "direction": "vertical"
@@ -131,7 +117,7 @@
     "width": 597,
     "collapsed": true
   },
-  "active": "8550d1eaeaf47fce",
+  "active": "fbd67128a7693fe3",
   "lastOpenFiles": [
     "AST.md",
     "avaya.md",

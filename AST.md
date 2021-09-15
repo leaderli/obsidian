@@ -59,11 +59,11 @@ root(Type=CompilationUnit):
  printWriter.print(printer.output(cu));
 ```
 
-可通过[在线预览](https://dreampuf.github.io/GraphvizOnline/#digraph)dot文件，生成的图像如下
+生成的文件，可通过[在线预览](https://dreampuf.github.io/GraphvizOnline/#digraph)dot文件，生成的图像如下
 
 ![[graphviz.svg]]
 
-#### 也可以使用xml
+#### 使用xml
 
 ```java
 CompilationUnit cu = StaticJavaParser.parse("class X { int x; }");  
@@ -93,7 +93,7 @@ System.out.println(printer.output(cu));
 
 ###   一个简单的示例
 
-去解析一个分析方法`m1`有几个返回值的从而进行提前校验异常规则的一个示例。可先打印出语法树的结构，然后使用指定类型的`visitor`去访问
+去解析一个方法`m1`有几个返回值的从而进行提前校验异常规则的一个示例。可先打印出语法树的结构，然后使用指定类型的`visitor`去访问
 需要分析的源文件
 
 ```java
