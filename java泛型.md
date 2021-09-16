@@ -1,4 +1,4 @@
-#java #泛型 #反射 #泛型数组
+#java #泛型  #泛型数组
 
 ## 泛型 `extends super`
 
@@ -149,22 +149,7 @@ Integer[] array = arrayToken.create();
 
 
 
-## 反射工具类创建数组
-```java
-int arr[] = (int[])Array.newInstance(int.class, 5);
-Array.set(arr, 0, 5);
-Array.set(arr, 1, 1);
-Array.set(arr, 2, 9);
-Array.set(arr, 3, 3);
-Array.set(arr, 4, 7);
-System.out.print("The array elements are: ");
-for(int i: arr) {
-    System.out.print(i + " ");
-}
-```
-
 ## 获取类声明的泛型
-
 
 当继承一个泛型类时指定了具体的泛型，通过反射获取该泛型的具体类型
 
@@ -190,155 +175,6 @@ paramterizedType.getActualTypeArguments()
 
 通过查看字节码就可以了解,直接 `return (T) value` 是在方法外检测`cast`
 
-## 数组的 class
-
-```java
-Object[].class
-```
-
-## 可变参数方法的反射
-
-```java
-public static void me(Object ... objects){
-    for (Object object : objects) {
-        System.out.println(object);
-    }
-}
-@Test
-public void  test() throws Exception {
-    Class clazz = this.getClass();
-    //Method method = clazz.getMethod("me",(new Object[0]).getClass());
-    //Method method = clazz.getMethod("me",Array.newInstance(Object.class,0).getClass());
-    Method method = clazz.getMethod("me",Class.forName("[Ljava.lang.Object;"));
-    //1
-    Object objs = Array.newInstance(object.class,2);
-    Array.set(objs,0,1);
-    Array.set(objs,1,"test");
-    method.invoke(clazz,objs);
-    //2
-    Object[] obj = {1,"test"}
-    method.invoke(clazz,new Object[]{obj});
-    
-
-    //例如对于String的可变参数可通过如下方式去调用
-    Object[] arr = (Object[])Array.newInstance(String.class, 5);
-    Array.set(arr, 0, "5");
-    Array.set(arr, 1, "1");
-    Array.set(arr, 2, "9");
-    Array.set(arr, 3, "3");
-    Array.set(arr, 4, "7");
-    
-    method.invoke(clazz,new Object[]{arr});
-}
-```
-
-可变参数不可直接显式使用 null 作为参数
-
-```java
-public class TestStatic {
-    public static void main(String[] args) {
-        String s = null;
-        m1(s);
-        Util.log("begin null");
-        m1(null);
-    }
-
-    private static void m1(String... strs) {
-        System.out.println(strs.length);
-    }
-
-}
-```
-
-```java
-0: aconst_null          //将null压入操作栈
-1: astore_1             //弹出栈顶(null)存储到本地变量1
-2: iconst_1             //压栈1此时已经到方法m1了，在初始化参数，此值作为数组长度
-3: anewarray     #2     //新建数组            // class java/lang/String
-6: dup                  //复制数组指针引用
-7: iconst_0             //压栈0，作为数组0角标
-8: aload_1              //取本地变量1值压栈，作为数组0的值
-9: aastore              //根据栈顶的引用型数值（value）、数组下标（index）、数组引用（arrayref）出栈，将数值存入对应的数组元素中
-10: invokestatic  #3    //此时实际传递的是一个数组，只是0位置为null的元素 Method m1:([Ljava/lang/String;)V
-13: iconst_1
-14: anewarray     #4    //class java/lang/Object
-17: dup
-18: iconst_0
-19: ldc           #5    //String begin null
-1: aastore
-22: invokestatic  #6    //Method li/Util.log:([Ljava/lang/Object;)V
-25: aconst_null         //此处并没有新建数组操作，直接压栈null
-26: invokestatic  #3    //此处一定会抛出空指针  Method m1:([Ljava/lang/String;)V
-29: return
-```
-
-
-## 数组对象与数组的区别
-
-![genericsAndReflect_代码示例.png](genericsAndReflect_代码示例.png)
-
-其字节码如下
-
-```java
-public class com/leaderli/demo/TheClassTest {
-
-  public <init>()V
-   L0
-    LINENUMBER 3 L0
-    ALOAD 0
-    INVOKESPECIAL java/lang/Object.<init> ()V
-    RETURN
-   L1
-    LOCALVARIABLE this Lcom/leaderli/demo/TheClassTest; L0 L1 0
-    MAXSTACK = 1
-    MAXLOCALS = 1
-
-  public static varargs test([Ljava/lang/Object;)V
-   L0
-    LINENUMBER 8 L0
-    RETURN
-   L1
-    LOCALVARIABLE args [Ljava/lang/Object; L0 L1 0
-    MAXSTACK = 0
-    MAXLOCALS = 1
-
-  public static main([Ljava/lang/String;)V
-   L0
-    LINENUMBER 10 L0
-    ICONST_0                     //压入0
-    ANEWARRAY java/lang/String   //弹出栈顶，生成一个栈顶数值长度的String数组
-    ASTORE 1                     //弹出栈顶到本地变量1，即p1
-   L1
-    LINENUMBER 11 L1
-    ICONST_1                     //压入1
-    ANEWARRAY java/lang/Object   //生成一个长度为1的Object数组
-    DUP                          //复制一份引用至栈顶
-    ICONST_0                     //压入0
-    ALOAD 1                      //压入本地变量1，即p1
-    AASTORE                      //弹出栈顶的引用型数值（value）、数组下标（index）、数组引用（arrayref）出栈，将数值存入对应的数组元素中。这里的意思是将p1存入到方法test的形参数组角标0的位置
-    INVOKESTATIC com/leaderli/demo/TheClassTest.test ([Ljava/lang/Object;)V // 弹出栈顶所有元素作为参数调用方法，方法返回值会被压入栈顶，因方法返回类型为V，操作栈则清空
-   L2
-    LINENUMBER 12 L2
-    ALOAD 1                       //压入本地变量1
-    CHECKCAST [Ljava/lang/Object; //类型检查
-    CHECKCAST [Ljava/lang/Object; //类型检查
-    ASTORE 2                      //弹出栈顶到本地变量2，即p2
-   L3
-    LINENUMBER 13 L3
-    ALOAD 2                       //压入本地变量1，即p1
-    INVOKESTATIC com/leaderli/demo/TheClassTest.test ([Ljava/lang/Object;)V // 弹出栈顶所有元素作为参数调用方法，方法返回值会被压入栈顶，因方法返回类型为V，操作栈则清空
-   L4
-    LINENUMBER 14 L4
-    RETURN
-   L5
-    LOCALVARIABLE args [Ljava/lang/String; L0 L5 0
-    LOCALVARIABLE p1 Ljava/lang/Object; L1 L5 1  //描述符L表示它是对象类型
-    LOCALVARIABLE p2 [Ljava/lang/Object; L3 L5 2 //描述符[L表示它是对象数组类型
-    MAXSTACK = 4
-    MAXLOCALS = 3
-}
-
-```
 
 
 ## 桥接方法

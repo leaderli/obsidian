@@ -1,11 +1,5 @@
----
-title: java字节码
-date: 2020-04-23 10:04:27
-categories: java
-tags:
-  - jvm
-  - 字节码
----
+
+#jvm #字节码 #java 
 
 ## 基础概念
 

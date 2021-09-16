@@ -1,6 +1,3 @@
-# java数据类型
-
-
 ## 八个基本类型
 
 | 类型     | 占用字节 |
@@ -196,3 +193,8 @@ System.out.println(s1.intern() == s3);  // true
 System.out.println(s1 == s3);  // false
 System.out.println(s0 == s3);  // true
 ```
+
+
+
+## 数组
+[[java-数组]]

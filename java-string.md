@@ -1,9 +1,6 @@
----
-title: java-字符串
-date: 2020-06-04 22:15:48
-categories: java
-tags:
----
+#java #string
+
+[[java基础-数据类型#String]]
 
 ### 切割字符串
 
