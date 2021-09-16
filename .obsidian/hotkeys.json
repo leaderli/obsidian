@@ -14,5 +14,54 @@
       ],
       "key": "["
     }
+  ],
+  "editor:insert-link": [],
+  "app:open-settings": [],
+  "editor:follow-link": [],
+  "workspace:close": [],
+  "editor:toggle-checklist-status": [],
+  "editor:toggle-bold": [],
+  "editor:toggle-italics": [],
+  "editor:toggle-comments": [],
+  "editor:delete-paragraph": [],
+  "file-explorer:new-file": [],
+  "editor:open-link-in-new-leaf": [],
+  "file-explorer:new-file-in-new-pane": [],
+  "table-editor-obsidian:table-control-bar": [],
+  "editor:save-file": [],
+  "workspace:edit-file-title": [],
+  "outline:open-for-current": [],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
+    }
+  ],
+  "workspace:close-others": [],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
   ]
 }

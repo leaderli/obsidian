@@ -2,12 +2,10 @@
   "file-explorer",
   "global-search",
   "switcher",
-  "graph",
   "backlink",
   "tag-pane",
   "page-preview",
   "command-palette",
   "starred",
-  "random-note",
   "outline"
 ]

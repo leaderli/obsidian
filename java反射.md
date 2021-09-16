@@ -1,4 +1,4 @@
-#java #反射
+#java #反射 #源码
 
 ## 概述
 
@@ -48,11 +48,48 @@ public final class Class<T> implements java.io.Serializable,
 2. [[java字节码]]
 
 ## 常用API
-### Class类
+### Class
+
 | 方法              | 说明                                     |
 | ----------------- | ---------------------------------------- |
 | `getName()`       | 取全限定的类名(包括包名)，即类的完整名字 | 
-| `getSimpleName()` | 获取类名(不包括包名)                     |
+| `getSimpleName()` | 获取类名(不包括包名)|
+
+### Field
+| 方法                  | 说明                                                                        |
+| --------------------- | --------------------------------------------------------------------------- |
+| `getDeclaredFields()` | 获取Class对象所表示的类或接口的所有(包含private修饰的)字段,不包括继承的字段 |
+| `getFields()`         | 获取修饰符为public的字段，包含继承字段 |
+| `getType()`           | Field 对象所表示字段的声明类型。   |
+| `getDeclaringClass()` | Field 对象表示的字段的所在的类    |
+
+```ad-warning
+需要特别注意的是被final关键字修饰的Field字段是安全的，在运行时可以接收任何修改，但最终其实际值是不会发生改变的。
+```
+
+### Method
+| 方法                  | 说明                                                                                                                  |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| `getMethods()`        | 此 Class 对象所表示的类或接口（包括那些由该类或接口声明的以及从超类和超接口继承的那些的类或接口）的公共 member 方法。 |
+| `getDeclaredMethod()` | 此 Class 对象所表示的类或接口声明的所有方法，包括公共、保护、默认（包）访问和私有方法，但不包括继承的方法。           |
+| `isVarArgs()`         | 判断方法是否带可变参数，如果将此方法声明为带有可变数量的参数，则返回 true；否则，返回 false。                         |
+|                       ||
+
+
+
+
+## 源码分析
+
+```java
+@CallerSensitive
+public static Class<?> forName(String className) throws ClassNotFoundException {
+	// 先通过反射，获取调用进来的类信息，从而获取当前的 classLoader
+	Class<?> caller = Reflection.getCallerClass();
+	// 调用native方法进行获取class信息
+	return forName0(className, true, ClassLoader.getClassLoader(caller), caller);
+}
+
+```
 ## 可变参数方法的反射
 
 ```java

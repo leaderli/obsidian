@@ -4,30 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ac72a0951e97e19d",
+        "id": "65639a350aba7049",
         "type": "leaf",
-        "dimension": 57.280219780219774,
         "state": {
           "type": "markdown",
           "state": {
             "file": "java反射.md",
             "mode": "source"
           }
-        },
-        "group": "84b9d4d401288901"
-      },
-      {
-        "id": "41e700e895f1557d",
-        "type": "leaf",
-        "dimension": 42.71978021978022,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "java反射.md",
-            "mode": "preview"
-          }
-        },
-        "group": "84b9d4d401288901"
+        }
       }
     ],
     "direction": "vertical"
@@ -133,14 +118,15 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 597,
     "collapsed": true
   },
-  "active": "ac72a0951e97e19d",
+  "active": "65639a350aba7049",
   "lastOpenFiles": [
     "java反射.md",
     "java字节码.md",
