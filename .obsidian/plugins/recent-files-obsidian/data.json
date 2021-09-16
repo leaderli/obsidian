@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "java字节码",
+      "path": "java字节码.md"
+    },
+    {
       "basename": "java反射",
       "path": "java反射.md"
     },
     {
-      "basename": "java基础",
-      "path": "java基础.md"
+      "basename": "java类加载机制",
+      "path": "java类加载机制.md"
     },
     {
-      "basename": "java字节码",
-      "path": "java字节码.md"
+      "basename": "java基础",
+      "path": "java基础.md"
     },
     {
       "basename": "java泛型",
@@ -43,10 +47,6 @@
     {
       "basename": "java-string",
       "path": "java-string.md"
-    },
-    {
-      "basename": "java类加载机制",
-      "path": "java类加载机制.md"
     },
     {
       "basename": "jvm性能排除",

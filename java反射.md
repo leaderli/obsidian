@@ -6,6 +6,47 @@
 JAVA反射机制是在运行状态中，对于任意一个类，都能够知道这个类的所有属性和方法；对于任意一个对象，都能够调用它的任意一个方法和属性；这种动态获取的信息以及动态调用对象的方法的功能称为java语言的反射机制
 ```
 
+## Class类
+
+每个java类运行时都在JVM里表现为一个class对象，基本类型`boolean`，`byte`，`char`，`short`，`int`，`long`，`float`，`double`和关键字`void`同样表现为 class 对象
+
+```java
+public final class Class<T> implements java.io.Serializable,
+                              GenericDeclaration,
+                              Type,
+                              AnnotatedElement {
+    private static final int ANNOTATION= 0x00002000;
+    private static final int ENUM      = 0x00004000;
+    private static final int SYNTHETIC = 0x00001000;
+
+    private static native void registerNatives();
+    static {
+        registerNatives();
+    }
+
+    /*
+     * Private constructor. Only the Java Virtual Machine creates Class objects.   //私有构造器，只有JVM才能调用创建Class对象
+     * This constructor is not used and prevents the default constructor being
+     * generated.
+     */
+    private Class(ClassLoader loader) {
+        // Initialize final field for classLoader.  The initialization value of non-null
+        // prevents future JIT optimizations from assuming this final field is null.
+        classLoader = loader;
+    }
+
+```
+
+- Class也是类的一种
+- 编写的类被编译后产生一个Class对象，其表示创建的类的类型信息，而这个Class对象保存在同名class文件中（字节码文件）
+- 每个通过关键字class标识的类，在内存中有且仅有一个与之对应的Class对象来描述其类型信息
+- Class类只存在私有构造函数，因此对应Class对象只有JVM创建和加载
+- Class类的对象在运行时提供获得某个对象的类型信息，成员变量，方法，构造方法，注解等。
+
+## 类加载
+1. [[java类加载机制]]
+2. [[java字节码]]
+
 ## 可变参数方法的反射
 
 ```java
