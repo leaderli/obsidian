@@ -6,6 +6,37 @@
 JAVA反射机制是在运行状态中，对于任意一个类，都能够知道这个类的所有属性和方法；对于任意一个对象，都能够调用它的任意一个方法和属性；这种动态获取的信息以及动态调用对象的方法的功能称为java语言的反射机制
 ```
 
+我们通过分析反射的API的源码，最终都会指向`ReflectionData`
+
+```java
+//类的反射的数据都缓存在该属性上，该属性可能会被GC
+private volatile transient SoftReference<ReflectionData<T>> reflectionData;
+
+private static class ReflectionData<T> {  
+    volatile Field[] declaredFields;  
+    volatile Field[] publicFields;  
+    volatile Method[] declaredMethods;  
+    volatile Method[] publicMethods;  
+    volatile Constructor<T>[] declaredConstructors;  
+    volatile Constructor<T>[] publicConstructors;  
+    volatile Field[] declaredPublicFields;  
+    volatile Method[] declaredPublicMethods;  
+    volatile Class<?>[] interfaces;  
+    final int redefinedCount;  
+  
+    ReflectionData(int redefinedCount) {  
+        this.redefinedCount = redefinedCount;  
+    }  
+}
+
+//主要通过下述4个native方法进行赋值
+private native Field[]       getDeclaredFields0(boolean publicOnly);  
+private native Method[]      getDeclaredMethods0(boolean publicOnly);  
+private native Constructor<T>[] getDeclaredConstructors0(boolean publicOnly);  
+private native Class<?>[]   getDeclaredClasses0();
+```
+
+
 ## Class类
 
 每个java类运行时都在JVM里表现为一个class对象，基本类型`boolean`，`byte`，`char`，`short`，`int`，`long`，`float`，`double`和关键字`void`同样表现为 class 对象
@@ -43,11 +74,15 @@ public final class Class<T> implements java.io.Serializable,
 - Class类只存在私有构造函数，因此对应Class对象只有JVM创建和加载
 - Class类的对象在运行时提供获得某个对象的类型信息，成员变量，方法，构造方法，注解等。
 
+### Class类有关的一些方法
+
+在Class类中很多方法内使用`Reflection.getCallerClass()`，该代码通过反射返回调用该方法的具体的Class对象
+
 ## 类加载
 1. [[java类加载机制]]
 2. [[java字节码]]
 
-## 常用API
+## 反射常用API
 ### Class
 
 | 方法              | 说明                                     |
@@ -79,7 +114,7 @@ public final class Class<T> implements java.io.Serializable,
 
 
 ## 源码分析
-
+###  forName
 ```java
 @CallerSensitive
 public static Class<?> forName(String className) throws ClassNotFoundException {
@@ -90,6 +125,10 @@ public static Class<?> forName(String className) throws ClassNotFoundException {
 }
 
 ```
+
+`forName()`反射获取类信息，并没有将实现留给了java,而是交给了[[java类加载机制|jvm去加载]]。
+### newInstance
+#todo 
 ## 可变参数方法的反射
 
 ```java

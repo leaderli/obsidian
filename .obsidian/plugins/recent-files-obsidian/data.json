@@ -5,6 +5,26 @@
       "path": "java反射.md"
     },
     {
+      "basename": "分布式锁实现",
+      "path": "分布式锁实现.md"
+    },
+    {
+      "basename": "java注解",
+      "path": "java注解.md"
+    },
+    {
+      "basename": "java基础",
+      "path": "java基础.md"
+    },
+    {
+      "basename": "快捷键",
+      "path": "快捷键.md"
+    },
+    {
+      "basename": "常用",
+      "path": "常用.md"
+    },
+    {
       "basename": "java字节码",
       "path": "java字节码.md"
     },
@@ -15,10 +35,6 @@
     {
       "basename": "JVM",
       "path": "JVM.md"
-    },
-    {
-      "basename": "java基础",
-      "path": "java基础.md"
     },
     {
       "basename": "java类加载机制",
@@ -39,14 +55,6 @@
     {
       "basename": "java异常",
       "path": "java异常.md"
-    },
-    {
-      "basename": "java注解",
-      "path": "java注解.md"
-    },
-    {
-      "basename": "分布式锁实现",
-      "path": "分布式锁实现.md"
     },
     {
       "basename": "java-string",

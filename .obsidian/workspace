@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "putfield ",
+                "query": "todo",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +65,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 244,
-    "collapsed": true
+    "width": 244
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -129,14 +128,14 @@
   "active": "65639a350aba7049",
   "lastOpenFiles": [
     "java反射.md",
+    "分布式锁实现.md",
+    "java注解.md",
+    "java基础.md",
+    "快捷键.md",
+    "常用.md",
     "java字节码.md",
     "java基础-数据类型.md",
     "JVM.md",
-    "未命名.md",
-    "java基础.md",
-    "java类加载机制.md",
-    "java泛型.md",
-    "java数组.md",
-    "dom4j.md"
+    "未命名.md"
   ]
 }
