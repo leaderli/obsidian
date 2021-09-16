@@ -47,6 +47,12 @@ public final class Class<T> implements java.io.Serializable,
 1. [[java类加载机制]]
 2. [[java字节码]]
 
+## 常用API
+### Class类
+| 方法              | 说明                                     |
+| ----------------- | ---------------------------------------- |
+| `getName()`       | 取全限定的类名(包括包名)，即类的完整名字 | 
+| `getSimpleName()` | 获取类名(不包括包名)                     |
 ## 可变参数方法的反射
 
 ```java

@@ -52,9 +52,9 @@ int i = 5;
 
 ### 类字段
 
-java 类里面的字段作为类对象实例的一部分，存储在堆里(类变量存储在对应类对象里)。关于字段的信息会添加到类的`field_info` 数组里，像下面这样
+java 类里面的字段作为类对象实例的一部分，存储在堆里(类变量存储在对应类对象里)。关于字段的信息会添加到类的[[JVM#类文件的数据结构|field_info]] 数组里，像下面这样
 
-![[java字节码_2020-04-23-10-48-26.png]]
+![[JVM#类文件的数据结构]]
 
 另外如果变量被初始化了，那么初始化的字节码会添加到构造方法里。
 下面这段代码编译之后：
@@ -65,57 +65,66 @@ public class SimpleClass {
 }
 ```
 
-如果你用 javap 进行反编译，这个被添加到了 field_info 数组里的字段就会多了一段描述：
+如果你用 [[java基础#javap|javap]] 进行反编译，这个被添加到了 [[JVM#类文件的数据结构|field_info]]数组里的字段就会多了一段描述：
 
 ```java
-public int simpleField;
-    Signature: I
-    flags: ACC_PUBLIC
-```
-
-初始化变量的字节码会被加到构造方法里，像下面这样：
-
-```java
-public SimpleClass();
-  Signature: ()V
-  flags: ACC_PUBLIC
-  Code:
-    stack=2, locals=1, args_size=1
-       0: aload_0
-       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
-       4: aload_0
-       5: bipush        100
-       7: putfield      #2                  // Field simpleField:I
-      10: return
-```
-
-上述代码执行的时候内存里面是这样的：
-![[java字节码_2020-04-23-10-48-45.png]]
-
-这里的 putfield 指令的操作数引用的常量池里的第二个位置，JVM 会为每个类型维护一个常量池，运行时的数据结构有点类似一个符号表，尽管它包含的信息更多。java 的字节码操作需要对应的数据，但是这些数据太大了，存储在字节码里不合适，它们都被存储在常量池里，而字节码包含一个常量池的引用，当类文件生成的时候，其中一块就是常量池
-
-```java
+//javap -v SimpleClass
+Classfile /C:/Users/pc/Desktop/SimpleClass.class
+  Last modified 2021-9-16; size 242 bytes
+  MD5 checksum 5e72ac9df8d32a402db494c35624dc25
+  Compiled from "SimpleClass.java"
+public class SimpleClass
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
 Constant pool:
-   #1 = Methodref          #4.#16         //  java/lang/Object."<init>":()V
-   #2 = Fieldref           #3.#17         //  SimpleClass.simpleField:I
-   #3 = Class              #13            //  SimpleClass
-   #4 = Class              #19            //  java/lang/Object
+   #1 = Methodref          #4.#13         // java/lang/Object."<init>":()V
+   #2 = Fieldref           #3.#14         // SimpleClass.simpleField:I
+   #3 = Class              #15            // SimpleClass
+   #4 = Class              #16            // java/lang/Object
    #5 = Utf8               simpleField
    #6 = Utf8               I
    #7 = Utf8               <init>
    #8 = Utf8               ()V
    #9 = Utf8               Code
   #10 = Utf8               LineNumberTable
-  #11 = Utf8               LocalVariableTable
-  #12 = Utf8               this
-  #13 = Utf8               SimpleClass
-  #14 = Utf8               SourceFile
-  #15 = Utf8               SimpleClass.java
-  #16 = NameAndType        #7:#8          //  "<init>":()V
-  #17 = NameAndType        #5:#6          //  simpleField:I
-  #18 = Utf8               LSimpleClass;
-  #19 = Utf8               java/lang/Object
+  #11 = Utf8               SourceFile
+  #12 = Utf8               SimpleClass.java
+  #13 = NameAndType        #7:#8          // "<init>":()V
+  #14 = NameAndType        #5:#6          // simpleField:I
+  #15 = Utf8               SimpleClass
+  #16 = Utf8               java/lang/Object
+{
+  public int simpleField;
+    descriptor: I
+    flags: ACC_PUBLIC
+
+  public SimpleClass();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0                    //操作码将this这个引用变量压入操作数栈
+         1: invokespecial #1           //弹出栈顶并调用默认构造器#1 Object."<init>":()V
+         4: aload_0                    //操作码将this这个引用变量压入到操作数栈
+         5: bipush        100          //将100压入操作数栈
+         7: putfield      #2           //弹出栈顶两个元素，将100赋值给属性#2 simpleField:I
+        10: return
+      LineNumberTable:
+        line 1: 0
+        line 2: 4
+}
+SourceFile: "SimpleClass.java"
 ```
+
+可以看到初始化成员变量的字节码会被加到构造方法里。
+
+putfield 指令的操作数引用的常量池里的第二个位置。![[JVM#常量池]]
+
+上述代码执行的时候内存里面是这样的：
+![[java字节码_2020-04-23-10-48-45.png]]
+
+
 
 ### 常量字段（类常量）
 
@@ -123,7 +132,7 @@ Constant pool:
 
 ```java
 public class SimpleClass {
-    public int simpleField = 100;
+    public final int simpleField = 100;
 }
 ```
 
@@ -549,7 +558,7 @@ _Note that any referenced "value" refers to a 32-bit int as per the Java instruc
 
 ## 描述符
 
-描述符的作用是用来描述字段的数据类型、方法的参数列表（包括数量、类型以及顺序）和返回值。根据描述符规则，基本数据类型（byte、char、double、float、int、long、short、boolean）以及代表无返回值的 void 类型都用一个大写字符来表示，而对象类型则用字符 L 加对象的全限定名来表示，详见下表:
+描述符的作用是用来描述字段的数据类型、方法的参数列表（包括数量、类型以及顺序）和返回值。根据描述符规则，基本数据类型（`byte`、`char`、`double`、`float`、`int`、`long`、`short`、`boolean`）以及代表无返回值的 `void` 类型都用一个大写字符`V`来表示，而对象类型则用字符`L` 加对象的全限定名来表示，详见下表:
 
 | 标志符 | 含义                           |
 | :----- | :---------------------------- |
