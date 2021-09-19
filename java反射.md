@@ -6,7 +6,7 @@
 JAVA反射机制是在运行状态中，对于任意一个类，都能够知道这个类的所有属性和方法；对于任意一个对象，都能够调用它的任意一个方法和属性；这种动态获取的信息以及动态调用对象的方法的功能称为java语言的反射机制
 ```
 
-我们通过分析反射的API的源码，最终都会指向`ReflectionData`
+我们通过分析反射的API[[#newInstance|源码]] ，最终都会指向`ReflectionData`
 
 ```java
 //类的反射的数据都缓存在该属性上，该属性可能会被GC
@@ -35,6 +35,8 @@ private native Method[]      getDeclaredMethods0(boolean publicOnly);
 private native Constructor<T>[] getDeclaredConstructors0(boolean publicOnly);  
 private native Class<?>[]   getDeclaredClasses0();
 ```
+
+上述四个native方法，我们可以推断其是去解析[[java字节码#类字段|class]]文件，查找出对应的值。
 
 
 ## Class类
@@ -128,7 +130,106 @@ public static Class<?> forName(String className) throws ClassNotFoundException {
 
 `forName()`反射获取类信息，并没有将实现留给了java,而是交给了[[java类加载机制|jvm去加载]]。
 ### newInstance
-#todo 
+
+```java
+@CallerSensitive  
+public T newInstance()  throws InstantiationException, IllegalAccessException  {  
+	
+    if (System.getSecurityManager() != null) {  
+        checkMemberAccess(Member.PUBLIC, Reflection.getCallerClass(), false);  
+    }  
+  
+ 	//做缓存 
+	if (cachedConstructor == null) {	
+		//不允许通过这种方式加载Class对象，仅允许ClassLoader加载
+		if (this == Class.class) {  
+			throw new IllegalAccessException("Can not call newInstance() on the Class for java.lang.Class");  
+		}  
+		try {  
+			Class<?>[] empty = {};  
+
+			final Constructor<T> c = getConstructor0(empty, Member.DECLARED);  
+				new java.security.PrivilegedAction<Void>() {  
+					public Void run() {  
+							c.setAccessible(true);  
+							return null;  
+						}  
+				});  
+			cachedConstructor = c;  
+		} catch (NoSuchMethodException e) {  
+			throw (InstantiationException) new InstantiationException(getName()).initCause(e);  
+		}  
+    }  
+    Constructor<T> tmpConstructor = cachedConstructor;  
+    // 校验package的权限
+ 	int modifiers = tmpConstructor.getModifiers();  
+    if (!Reflection.quickCheckMemberAccess(this, modifiers)) {  
+        Class<?> caller = Reflection.getCallerClass();  
+        if (newInstanceCallerCache != caller) {  
+            Reflection.ensureMemberAccess(caller, this, null, modifiers);  
+            newInstanceCallerCache = caller;  
+        }  
+    }  
+	//调用构造器对象的newInstance()方法返回Class的实例对象
+	try {  
+		return tmpConstructor.newInstance((Object[])null);  
+	} catch (InvocationTargetException e) {  
+		Unsafe.getUnsafe().throwException(e.getTargetException());  
+		return null;  
+	}  
+}
+```
+
+			
+上述代码调用`getConstructor0`传递的参数表面查找一个无参，`Member.DECLARED` 表示声明的成员，不包括继承的成员
+
+```java
+private Constructor<T> getConstructor0(Class<?>[] parameterTypes,  int which) throws NoSuchMethodException  
+{  
+    Constructor<T>[] constructors = privateGetDeclaredConstructors((which == Member.PUBLIC));  
+    for (Constructor<T> constructor : constructors) {  
+		//遍历所有构造器，找到一个无参构造器，返回一个拷贝
+        if (arrayContentsEq(parameterTypes,  constructor.getParameterTypes())) {  
+            return getReflectionFactory().copyConstructor(constructor);  
+        }  
+    }  
+    throw new NoSuchMethodException(getName() + ".<init>" + argumentTypesToString(parameterTypes));  
+}
+```
+
+
+```java
+private Constructor<T>[] privateGetDeclaredConstructors(boolean publicOnly) {  
+    checkInitted();  
+    Constructor<T>[] res;  
+    ReflectionData<T> rd = reflectionData();  
+	//当反射元数据存在时，直接返回
+    if (rd != null) {  
+        res = publicOnly ? rd.publicConstructors : rd.declaredConstructors;  
+        if (res != null) return res;  
+    }  
+	//接口无构造器
+	if (isInterface()) {  
+		@SuppressWarnings("unchecked")  
+		Constructor<T>[] temporaryRes = (Constructor<T>[]) new Constructor<?>[0];  
+		res = temporaryRes;  
+	} else {  
+		//查找Class文件对应的字节码，仅查找当前class文件声明的方法
+	
+		res = getDeclaredConstructors0(publicOnly);  
+	}  
+	
+	if (rd != null) {  
+		if (publicOnly) {  
+			rd.publicConstructors = res;  
+		} else {  
+			rd.declaredConstructors = res;  
+		}  
+	}  
+	
+    return res;  
+}
+```
 ## 可变参数方法的反射
 
 ```java
