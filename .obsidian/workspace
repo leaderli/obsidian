@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java反射.md",
+            "file": "maven.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "todo",
+                "query": "META-INF",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244,
-    "collapsed": true
+    "width": 244
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java反射.md",
+                "file": "maven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java反射.md"
+                "file": "maven.md"
               }
             }
           }
@@ -136,6 +135,7 @@
   },
   "active": "65639a350aba7049",
   "lastOpenFiles": [
+    "maven.md",
     "java反射.md",
     "java字节码.md",
     "有限状态机.md",
@@ -144,7 +144,6 @@
     "常用.md",
     "通用.md",
     "分布式锁实现.md",
-    "java注解.md",
-    "java基础.md"
+    "java注解.md"
   ]
 }
