@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "常用",
+      "path": "常用.md"
+    },
+    {
       "basename": "java反射",
       "path": "java反射.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "快捷键",
       "path": "快捷键.md"
-    },
-    {
-      "basename": "常用",
-      "path": "常用.md"
     },
     {
       "basename": "java字节码",

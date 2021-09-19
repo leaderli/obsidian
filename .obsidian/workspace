@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java反射.md",
+            "file": "常用.md",
             "mode": "source"
           }
         }
@@ -64,8 +64,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java反射.md",
+                "file": "常用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java反射.md"
+                "file": "常用.md"
               }
             }
           }
@@ -127,15 +126,15 @@
   },
   "active": "65639a350aba7049",
   "lastOpenFiles": [
+    "常用.md",
+    "通用.md",
     "java反射.md",
     "分布式锁实现.md",
     "java注解.md",
     "java基础.md",
     "快捷键.md",
-    "常用.md",
     "java字节码.md",
     "java基础-数据类型.md",
-    "JVM.md",
-    "未命名.md"
+    "JVM.md"
   ]
 }
