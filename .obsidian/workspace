@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "常用.md",
+            "file": "obsidan.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "常用.md",
+            "file": "obsidan.md",
             "mode": "preview"
           }
         },
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用.md",
+                "file": "obsidan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用.md"
+                "file": "obsidan.md"
               }
             }
           }
@@ -146,8 +146,9 @@
     "width": 597,
     "collapsed": true
   },
-  "active": "36bd81061e7b4c0c",
+  "active": "65639a350aba7049",
   "lastOpenFiles": [
+    "obsidan.md",
     "常用.md",
     "通用.md",
     "java反射.md",
@@ -156,7 +157,6 @@
     "java基础.md",
     "快捷键.md",
     "java字节码.md",
-    "java基础-数据类型.md",
-    "JVM.md"
+    "java基础-数据类型.md"
   ]
 }
