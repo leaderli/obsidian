@@ -46,5 +46,95 @@ public static void main(String[] args) {
 }
 ```
 
+## 源码
+
+前面的过程都是在查找类加载器
+
+```java
+public static <S> ServiceLoader<S> load(Class<S> service) {  
+    ClassLoader cl = Thread.currentThread().getContextClassLoader();  
+    return ServiceLoader.load(service, cl);  
+}
+
+public static <S> ServiceLoader<S> load(Class<S> service,  
+                                        ClassLoader loader)  
+{  
+    return new ServiceLoader<>(service, loader);  
+}
+
+private ServiceLoader(Class<S> svc, ClassLoader cl) {  
+    service = Objects.requireNonNull(svc, "Service interface cannot be null");  
+    loader = (cl == null) ? ClassLoader.getSystemClassLoader() : cl;  
+    acc = (System.getSecurityManager() != null) ? AccessController.getContext() : null;  
+    reload();  
+}
+
+public void reload() {  
+    providers.clear();  
+    lookupIterator = new LazyIterator(service, loader);  
+}
+
+```
+
+reload中生成了一个Iterator，其中最重要的两个方法为
+
+```java
+private static final String PREFIX = "META-INF/services/";
+
+private boolean hasNextService() {  
+    if (nextName != null) {  
+        return true;  
+    }  
+    if (configs == null) {  
+        try {  
+            String fullName = PREFIX + service.getName();  
+            if (loader == null)  
+                configs = ClassLoader.getSystemResources(fullName);  
+            else  
+ configs = loader.getResources(fullName);  
+        } catch (IOException x) {  
+            fail(service, "Error locating configuration files", x);  
+        }  
+    }  
+    while ((pending == null) || !pending.hasNext()) {  
+        if (!configs.hasMoreElements()) {  
+            return false;  
+        }  
+        pending = parse(service, configs.nextElement());  
+    }  
+    nextName = pending.next();  
+    return true;  
+}  
+  
+private S nextService() {  
+    if (!hasNextService())  
+        throw new NoSuchElementException();  
+    String cn = nextName;  
+    nextName = null;  
+    Class<?> c = null;  
+    try {  
+        c = Class.forName(cn, false, loader);  
+    } catch (ClassNotFoundException x) {  
+        fail(service,  
+             "Provider " + cn + " not found");  
+    }  
+    if (!service.isAssignableFrom(c)) {  
+        fail(service,  
+             "Provider " + cn + " not a subtype");  
+    }  
+    try {  
+        S p = service.cast(c.newInstance());  
+        providers.put(cn, p);  
+        return p;  
+    } catch (Throwable x) {  
+        fail(service,  
+             "Provider " + cn + " could not be instantiated",  
+             x);  
+    }  
+    throw new Error();          // This cannot happen  
+}
+```
+
+
 ## 应用
 - JDBC DriverManager

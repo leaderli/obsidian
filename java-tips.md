@@ -214,9 +214,23 @@ public class Test
 
 ### 获取项目中所有jar
 
+可查找classpath目录下所有的[[maven#META-INF|META-INF]]，从而找到所有jar包
 ```java
+  
+ClassLoader loader = Thread.currentThread().getContextClassLoader();  
+Enumeration<URL> resources = loader.getResources("META-INF");  
+Collections.list(resources).stream()  
+        .filter(url -> "jar".equals(url.getProtocol()))  
+        .map(URL::getFile)  
+        .forEach(System.out::println);
 
 ```
+
+>file:/D:/resouce/java/maven/repository/junit/junit/4.12/junit-4.12.jar!/META-INF
+>file:/D:/resouce/java/maven/repository/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar!/META-INF
+>file:/D:/ProgramFiles/IDEA2020/lib/idea_rt.jar!/META-INF
+
+根据[stackoverflow](https://stackoverflow.com/questions/25729319/how-does-a-classloader-load-classes-reference-in-the-manifest-classpath)中的回答，[[maven#META-INF|META-INF]]是由JVM底层去加载的
 ### 异常
 
 对于一个 Throwable 的异常，通常可根据
@@ -237,6 +251,8 @@ if( e.getCause() !=null){
 
 
 ```
+
+
 
 ### 文件锁
 

@@ -1,28 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "快捷键",
-      "path": "快捷键.md"
-    },
-    {
-      "basename": "常用",
-      "path": "常用.md"
-    },
-    {
-      "basename": "obsidan",
-      "path": "obsidan.md"
-    },
-    {
-      "basename": "java-stream",
-      "path": "java-stream.md"
+      "basename": "java-SPI",
+      "path": "java-SPI.md"
     },
     {
       "basename": "java-tips",
       "path": "java-tips.md"
     },
     {
-      "basename": "java-SPI",
-      "path": "java-SPI.md"
+      "basename": "java类加载机制",
+      "path": "java类加载机制.md"
+    },
+    {
+      "basename": "java-stream",
+      "path": "java-stream.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "obsidan.md"
+    },
+    {
+      "basename": "快捷键",
+      "path": "快捷键.md"
+    },
+    {
+      "basename": "常用",
+      "path": "常用.md"
     },
     {
       "basename": "URL",
@@ -55,10 +59,6 @@
     {
       "basename": "有限状态机",
       "path": "有限状态机.md"
-    },
-    {
-      "basename": "自动机理论",
-      "path": "自动机理论.md"
     }
   ],
   "omittedPaths": [],
