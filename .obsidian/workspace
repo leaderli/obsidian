@@ -6,11 +6,11 @@
       {
         "id": "65639a350aba7049",
         "type": "leaf",
-        "dimension": 54.943596549435966,
+        "dimension": 65.14935988620199,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java-函数式编程库.md",
+            "file": "代码规范检测表.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "4ec2ce37f3e81501",
         "type": "leaf",
-        "dimension": 45.056403450564034,
+        "dimension": 34.85064011379801,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java-函数式编程库.md",
+            "file": "代码规范检测表.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Live templates",
+                "query": "建造者",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,11 +88,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 406
+    "width": 330
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java-函数式编程库.md",
+                "file": "代码规范检测表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java-函数式编程库.md"
+                "file": "代码规范检测表.md"
               }
             }
           }
@@ -150,15 +150,15 @@
   },
   "active": "65639a350aba7049",
   "lastOpenFiles": [
+    "代码规范检测表.md",
+    "静态内部类的泛型与建造者模式.md",
     "java-函数式编程库.md",
+    "快捷键.md",
+    "obsidan.md",
     "java-utils.md",
     "idea.md",
     "Untitled.md",
     "java-thread.md",
-    "java-SPI.md",
-    "java-tips.md",
-    "java-string.md",
-    "URL.md",
-    "java类加载机制.md"
+    "java-SPI.md"
   ]
 }
