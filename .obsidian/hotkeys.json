@@ -2,7 +2,7 @@
   "app:go-forward": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "]"
     }
@@ -10,9 +10,49 @@
   "app:go-back": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "["
+    }
+  ],
+  "workspace:close": [],
+  "file-explorer:new-file": [],
+  "file-explorer:new-file-in-new-pane": [],
+  "editor:delete-paragraph": [],
+  "workspace:edit-file-title": [],
+  "editor:follow-link": [],
+  "graph:open": [],
+  "editor:insert-link": [],
+  "editor:open-link-in-new-leaf": [],
+  "app:open-settings": [],
+  "editor:save-file": [],
+  "editor:open-search-replace": [],
+  "editor:toggle-bold": [],
+  "editor:toggle-checklist-status": [],
+  "editor:toggle-comments": [],
+  "editor:toggle-italics": [],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowRight"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
     }
   ]
 }

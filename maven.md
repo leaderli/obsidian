@@ -882,6 +882,8 @@ maven 的模块是在父类 pom 中定义聚合关系，其本质仅仅是一次
 mvn clean package
 #指定pdu profile
 mvn clean package -P pdu
+#可同时指定多个profile
+mvn clean package -P pdu,uat
 ```
 
 profile 支持激活的方式
