@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "常用",
-      "path": "常用.md"
+      "basename": "URL",
+      "path": "URL.md"
     },
     {
       "basename": "java-SPI",
       "path": "java-SPI.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "obsidan.md"
+    },
+    {
+      "basename": "java-string",
+      "path": "java-string.md"
+    },
+    {
+      "basename": "freeswitch",
+      "path": "freeswitch.md"
+    },
+    {
+      "basename": "常用",
+      "path": "常用.md"
     },
     {
       "basename": "maven",
@@ -33,10 +49,6 @@
       "path": "自动机理论.md"
     },
     {
-      "basename": "obsidan",
-      "path": "obsidan.md"
-    },
-    {
       "basename": "分布式锁实现",
       "path": "分布式锁实现.md"
     },
@@ -47,88 +59,8 @@
     {
       "basename": "快捷键",
       "path": "快捷键.md"
-    },
-    {
-      "basename": "java基础-数据类型",
-      "path": "java基础-数据类型.md"
-    },
-    {
-      "basename": "JVM",
-      "path": "JVM.md"
-    },
-    {
-      "basename": "java类加载机制",
-      "path": "java类加载机制.md"
-    },
-    {
-      "basename": "java泛型",
-      "path": "java泛型.md"
-    },
-    {
-      "basename": "dom4j",
-      "path": "dom4j.md"
-    },
-    {
-      "basename": "java-数组",
-      "path": "java-数组.md"
-    },
-    {
-      "basename": "java异常",
-      "path": "java异常.md"
-    },
-    {
-      "basename": "java-string",
-      "path": "java-string.md"
-    },
-    {
-      "basename": "jvm性能排除",
-      "path": "jvm性能排除.md"
-    },
-    {
-      "basename": "vscode相关",
-      "path": "vscode相关.md"
-    },
-    {
-      "basename": "markdown_katex",
-      "path": "markdown_katex.md"
-    },
-    {
-      "basename": "hexo",
-      "path": "hexo.md"
-    },
-    {
-      "basename": "AST",
-      "path": "AST.md"
-    },
-    {
-      "basename": "avaya",
-      "path": "avaya.md"
-    },
-    {
-      "basename": "计算机组成笔记",
-      "path": "计算机组成笔记.md"
-    },
-    {
-      "basename": "动态规划",
-      "path": "动态规划.md"
-    },
-    {
-      "basename": "java-tips",
-      "path": "java-tips.md"
-    },
-    {
-      "basename": "vim",
-      "path": "vim.md"
-    },
-    {
-      "basename": "voicexml解析器实现相关",
-      "path": "voicexml解析器实现相关.md"
-    },
-    {
-      "basename": "深入git",
-      "path": "深入git.md"
     }
   ],
   "omittedPaths": [],
-  "maxLength": null
+  "maxLength": 15
 }

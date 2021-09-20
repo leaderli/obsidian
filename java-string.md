@@ -57,7 +57,7 @@ import org.apache.commons.lang3.StringEscapeUtils;
 StringEscapeUtils.unescapeHtml4（str）
 ```
 
-### URL 中文转议
+### URL 中文转义字符
 
 ```java
 URLEncoder.encode("中文", StandardCharsets.UTF_8.name())

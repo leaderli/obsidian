@@ -6,13 +6,28 @@
       {
         "id": "65639a350aba7049",
         "type": "leaf",
+        "dimension": 75.07537688442211,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "常用.md",
+            "file": "URL.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "799280dd86afa2ba"
+      },
+      {
+        "id": "4ec2ce37f3e81501",
+        "type": "leaf",
+        "dimension": 24.92462311557789,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "URL.md",
+            "mode": "preview"
+          }
+        },
+        "group": "799280dd86afa2ba"
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "META-INF",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,12 +87,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 244,
+    "width": 315,
     "collapsed": true
   },
   "right": {
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用.md",
+                "file": "URL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用.md"
+                "file": "URL.md"
               }
             }
           }
@@ -136,15 +150,15 @@
   },
   "active": "65639a350aba7049",
   "lastOpenFiles": [
-    "常用.md",
+    "URL.md",
+    "Untitled.md",
     "java-SPI.md",
+    "obsidan.md",
+    "java-string.md",
+    "freeswitch.md",
+    "常用.md",
     "maven.md",
     "java基础.md",
-    "java反射.md",
-    "java字节码.md",
-    "有限状态机.md",
-    "自动机理论.md",
-    "obsidan.md",
-    "通用.md"
+    "java反射.md"
   ]
 }
