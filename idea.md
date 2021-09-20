@@ -112,6 +112,18 @@ if (var == null) {
 }
 ```
 
+自定义`live templates`
+
+```java
+@org.junit.Test  
+public void test$START$() {  
+    $END$  
+}
+```
+
+指定其生效的范围，触发的关键字为`test`，默认`tab`触发补全
+![[Pasted image 20210921012204.png]]
+
 ## `Hippie completion`
 
 自动输入前面或后面的单词`⌥/` `⌥⇧/`

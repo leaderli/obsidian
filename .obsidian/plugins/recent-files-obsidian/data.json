@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "java-函数式编程库",
+      "path": "java-函数式编程库.md"
+    },
+    {
       "basename": "java-utils",
       "path": "java-utils.md"
+    },
+    {
+      "basename": "idea",
+      "path": "idea.md"
     },
     {
       "basename": "java-thread",
@@ -51,14 +59,6 @@
     {
       "basename": "maven",
       "path": "maven.md"
-    },
-    {
-      "basename": "java基础",
-      "path": "java基础.md"
-    },
-    {
-      "basename": "java反射",
-      "path": "java反射.md"
     }
   ],
   "omittedPaths": [],

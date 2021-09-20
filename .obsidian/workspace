@@ -6,11 +6,11 @@
       {
         "id": "65639a350aba7049",
         "type": "leaf",
-        "dimension": 64.63636363636364,
+        "dimension": 54.943596549435966,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java-utils.md",
+            "file": "java-函数式编程库.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "4ec2ce37f3e81501",
         "type": "leaf",
-        "dimension": 35.36363636363637,
+        "dimension": 45.056403450564034,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java-utils.md",
+            "file": "java-函数式编程库.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "多线程",
+                "query": "Live templates",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406,
-    "collapsed": true
+    "width": 406
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java-utils.md",
+                "file": "java-函数式编程库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java-utils.md"
+                "file": "java-函数式编程库.md"
               }
             }
           }
@@ -151,15 +150,15 @@
   },
   "active": "65639a350aba7049",
   "lastOpenFiles": [
+    "java-函数式编程库.md",
     "java-utils.md",
+    "idea.md",
+    "Untitled.md",
     "java-thread.md",
     "java-SPI.md",
     "java-tips.md",
     "java-string.md",
     "URL.md",
-    "java类加载机制.md",
-    "java-stream.md",
-    "obsidan.md",
-    "快捷键.md"
+    "java类加载机制.md"
   ]
 }
