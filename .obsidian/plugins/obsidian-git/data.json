@@ -3,11 +3,11 @@
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 60,
   "autoPullInterval": 60,
-  "autoPullOnBoot": false,
+  "autoPullOnBoot": true,
   "disablePush": false,
   "pullBeforePush": true,
-  "disablePopups": true,
+  "disablePopups": false,
   "listChangedFilesInMessageBody": true,
-  "showStatusBar": false,
+  "showStatusBar": true,
   "updateSubmodules": false
 }
