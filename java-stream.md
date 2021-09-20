@@ -75,6 +75,13 @@ String join= numbers.stream().map(String::valueOf).reduce((total, element) -> to
 System.out.println("join= " + join);
 ```
 
+###  转换stream
+
+#### Enumeration转换为Stream流
+```java
+Collections.list(enumeration).stream()...
+```
+
 ### 流快速删除,`Collection`提供了方法
 
 ```java
