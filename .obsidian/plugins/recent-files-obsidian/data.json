@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "常用",
+      "path": "常用.md"
+    },
+    {
       "basename": "java-SPI",
       "path": "java-SPI.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "obsidan",
       "path": "obsidan.md"
-    },
-    {
-      "basename": "常用",
-      "path": "常用.md"
     },
     {
       "basename": "分布式锁实现",

@@ -6,11 +6,10 @@
       {
         "id": "65639a350aba7049",
         "type": "leaf",
-        "dimension": 61.254295532646054,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java-SPI.md",
+            "file": "常用.md",
             "mode": "source"
           }
         }
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java-SPI.md",
+                "file": "常用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java-SPI.md"
+                "file": "常用.md"
               }
             }
           }
@@ -137,6 +136,7 @@
   },
   "active": "65639a350aba7049",
   "lastOpenFiles": [
+    "常用.md",
     "java-SPI.md",
     "maven.md",
     "java基础.md",
@@ -145,7 +145,6 @@
     "有限状态机.md",
     "自动机理论.md",
     "obsidan.md",
-    "常用.md",
     "通用.md"
   ]
 }
