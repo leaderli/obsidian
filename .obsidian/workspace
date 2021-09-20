@@ -4,29 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "b2503f9398d5c8fa",
+        "id": "65639a350aba7049",
         "type": "leaf",
         "dimension": 61.254295532646054,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vim.md",
+            "file": "maven.md",
             "mode": "source"
           }
         },
-        "group": "4dbbc0663ba59111"
+        "group": "b741c9fd6a637d43"
       },
       {
-        "id": "e1d0ec6ad0621281",
+        "id": "b0f6c35d2239f0cf",
         "type": "leaf",
-        "dimension": 38.74570446735395,
         "state": {
-          "type": "outline",
+          "type": "markdown",
           "state": {
-            "file": "vim.md"
+            "file": "maven.md",
+            "mode": "preview"
           }
         },
-        "group": "4dbbc0663ba59111"
+        "group": "b741c9fd6a637d43"
       }
     ],
     "direction": "vertical"
@@ -53,9 +53,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " 特殊字符",
+                "query": "META-INF",
                 "matchingCase": true,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -69,13 +69,30 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "c20fbe807a37e609",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "02e74d89ba966a63",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 238
+    "width": 244,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -91,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim.md",
+                "file": "maven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vim.md"
+                "file": "maven.md"
               }
             }
           }
@@ -128,20 +145,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 597,
+    "width": 481,
     "collapsed": true
   },
-  "active": "b2503f9398d5c8fa",
+  "active": "65639a350aba7049",
   "lastOpenFiles": [
-    "vim.md",
-    "linux常用命令.md",
-    "linux搜索.md",
-    "java-tips.md",
-    "快捷键.md",
-    "maven相关.md",
     "maven.md",
-    "mybatis入门.md",
+    "java反射.md",
+    "java字节码.md",
+    "有限状态机.md",
+    "自动机理论.md",
+    "obsidan.md",
     "常用.md",
-    "linux查看.md"
+    "通用.md",
+    "分布式锁实现.md",
+    "java注解.md"
   ]
 }

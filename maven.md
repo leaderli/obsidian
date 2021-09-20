@@ -229,8 +229,26 @@ pom 是最基础的组件，是 maven 用来构建项目的基础配置文件，
 </project>
 ```
 
-## 属性
+## 标准目录结构
 
+| 目录               | 说明              |
+| :-----------------------------|: ------------------ |
+| src/main/java      | 应用程序/库源      |     
+| src/main/resources | 应用程序/库资源    |     
+| src/main/config    | 配置文件           | 
+| src/main/scripts   | 应用程序/库脚本    |   
+| src/main/webapp    | 应用程序/库脚本... |  
+| src/test/java      | 测试源             |
+| src/test/resources | 测试资源           |
+| src/assembly       | 汇编描述符         |
+| src/site           | Site               |
+| target             | 编译目录           |    
+| LICENSE.txt        | 项目许可证         |    
+| NOTICE.txt         | 通知和归因         |   
+| README.txt         | 项目的自述         |  
+
+
+## 属性
 ### 内置属性
 
 - `${basedir}`表示项目根目录，即包含`pom.xml`文件的目录;
@@ -253,6 +271,7 @@ pom 是最基础的组件，是 maven 用来构建项目的基础配置文件，
 - `${project.version}`:项目的`version`,于`${version}`等价
 - `${project.build.finalName}`:项目打包输出文件的名称，默认 为`${project.artifactId}${project.version}`
 - `${project.compile.version}`:项目默认的编译版本
+- ` ${resource.delimiter>}`:filter默认的占位符`${}`
 
 ### 自定义属性
 
@@ -273,6 +292,7 @@ pom 是最基础的组件，是 maven 用来构建项目的基础配置文件，
 ### 手动指定变量
 
 我们可以在打包时使用`-D`指定变量，例如`mvn package -Denv=uat`
+
 
 ## 编译资源文件
 
@@ -304,8 +324,202 @@ pom 是最基础的组件，是 maven 用来构建项目的基础配置文件，
 </project>
 ```
 
-- `targetPath` 编译目录,默认位置为`classes`目录
-- `directory` 项目资源目录
+- `targetPath` 资源编译目录,默认位置为`classes`
+- `directory` 资源源目录
+- `filtering` 是否替换占位符
+
+### filter
+在资源文件中可以使用`${...}`来表示变量。变量的定义可以为系统属性，项目中属性，筛选的资源以及命令。
+
+例如： 在 `src/main/resources/hello.txt` 中包含以下内容：
+
+```txt
+Hello ${name}
+```
+
+默认情况下，`copy-resources`时不会将`${name}`替换
+当`pom`中做如下配置时
+
+```xml
+<properties>  
+	<name>My Resources Plugin Practice Project</name>
+</properties>
+<build>
+	<resource>
+		<directory>src/main/resources</directory>
+		<filtering>true</filtering>
+	</resource>
+</build>
+
+```
+
+`copy-resources`后生成的文件内容如下
+```txt
+hello My Resources Plugin Practice Project
+```
+
+我们可以将filter的变量单独写在一个配置文件中，该配置文件优先级低于maven的`properties`属性
+
+```properties
+# my-filter-values.properties
+name=fuck  
+name2=fuck
+```
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project ...>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.example</groupId>
+    <artifactId>test</artifactId>
+    <version>1.0</version>
+
+    <name>My Resources Plugin Practice Project</name>
+
+    <build>
+        <filters>
+            <filter>src/main/resources-filtered/my-filter-values.properties</filter>
+        </filters>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
+
+</project>
+
+```
+
+```txt
+hello ${test}
+hello ${test2}
+```
+
+当编译后会生成
+
+```txt
+hello My Resources Plugin Practice Project
+hello fuck
+```
+
+我们可以通过 [[#profiles]]和[[#自定义属性]]来指定不同环境的变量替换
+
+```ad-error
+**不要过滤二进制内容的文件（如：图像）！会导致输出损坏。**
+有文本和二进制资源文件情况下，推荐使用两个独立的文件夹。文件夹 `src/main/resources (默认)`中存放不需要过滤的资源文件，`src/main/resources-filtered`文件夹存放需要过滤的资源文件。
+```
+
+**SpringBoot Filter不生效**
+
+如果在 pom 文件中继承了 `spring-boot-starter-parent` pom文件，那么maven-resources-plugins的 Filtering 默认的过滤符号就从 `${*}` 改为 `@...@` 
+  
+## META-INF  
+
+使用标准的目录结构，可以将
+## profiles
+
+多环境支持
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.leaderli</groupId>
+    <artifactId>vxml-test</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <properties>
+        <config1>uat.properites</config1>
+        <config2>pdu.properties</config2>
+    </properties>
+    <profiles>
+        <profile>
+            <id>uat</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <config>${config1}</config>
+            </properties>
+        </profile>
+        <profile>
+            <id>pdu</id>
+            <properties>
+                <config>${config2}</config>
+            </properties>
+        </profile>
+    </profiles>
+    <dependencies></dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <!-- 拷贝插件 -->
+                <executions>
+                    <execution>
+                        <id>rename</id>
+                        <phase>prepare-package</phase>
+                        <!-- 在打包前执行-->
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <tasks>
+                                <!-- 其他语法自行百度maven-antrun-plugin插件的相关用法-->
+                                <copy
+                file="${project.build.directory}/${project.artifactId}/WEB-INF/classes/${config}"
+                tofile="${project.build.directory}/${project.artifactId}/WEB-INF/classes/config.properties"/>
+                            </tasks>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+```
+
+我们在执行命令时使用
+
+```shell
+#默认uat profile
+mvn clean package
+#指定pdu profile
+mvn clean package -P pdu
+#指定激活多个profile
+mvn clean package -P pdu,test
+```
+
+profile 支持激活的方式
+
+```shell
+<!--配置默认激活-->
+<activeByDefault>true</activeByDefault>
+<!--通过jdk版本-->
+<jdk>1.5</jdk>
+<jdk>[1.5,)</jdk>
+<!--根据当前操作系统-->
+<os>
+    <name>Windows XP</name>
+    <family>Windows</family>
+    <arch>x86</arch>
+    <version>5.1.2600</version>
+</os>
+<!--通过系统环境变量-->
+<property>
+    <name>env</name>
+    <value>test</value>
+</property>
+<!--通过文件的存在或缺失-->
+<file>
+    <missing>target/generated-sources/axistools/wsdl2java/wdl</missing>
+    <exists/>
+</file>
+```
 
 ## 生命周期和阶段
 
@@ -811,107 +1025,6 @@ maven 的模块是在父类 pom 中定义聚合关系，其本质仅仅是一次
 执行 mvn install，maven 会自动将 source install 到 repository 。
 执行 mvn deploy，maven 会自动将 source deploy 到 remote-repository 。
 执行 mvn source:jar，单独打包源码。
-
-## profiles
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<project
-    xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.leaderli</groupId>
-    <artifactId>vxml-test</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <properties>
-        <config1>uat.properites</config1>
-        <config2>pdu.properties</config2>
-    </properties>
-    <profiles>
-        <profile>
-            <id>uat</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <properties>
-                <config>${config1}</config>
-            </properties>
-        </profile>
-        <profile>
-            <id>pdu</id>
-            <properties>
-                <config>${config2}</config>
-            </properties>
-        </profile>
-    </profiles>
-    <dependencies></dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <artifactId>maven-antrun-plugin</artifactId>
-                <!-- 拷贝插件 -->
-                <executions>
-                    <execution>
-                        <id>rename</id>
-                        <phase>prepare-package</phase>
-                        <!-- 在打包前执行-->
-                        <goals>
-                            <goal>run</goal>
-                        </goals>
-                        <configuration>
-                            <tasks>
-                                <!-- 其他语法自行百度maven-antrun-plugin插件的相关用法-->
-                                <copy
-                file="${project.build.directory}/${project.artifactId}/WEB-INF/classes/${config}"
-                tofile="${project.build.directory}/${project.artifactId}/WEB-INF/classes/config.properties"/>
-                            </tasks>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
-</project>
-```
-
-我们在执行命令时使用
-
-```shell
-#默认uat profile
-mvn clean package
-#指定pdu profile
-mvn clean package -P pdu
-#可同时指定多个profile
-mvn clean package -P pdu,uat
-```
-
-profile 支持激活的方式
-
-```shell
-<!--配置默认激活-->
-<activeByDefault>true</activeByDefault>
-<!--通过jdk版本-->
-<jdk>1.5</jdk>
-<jdk>[1.5,)</jdk>
-<!--根据当前操作系统-->
-<os>
-    <name>Windows XP</name>
-    <family>Windows</family>
-    <arch>x86</arch>
-    <version>5.1.2600</version>
-</os>
-<!--通过系统环境变量-->
-<property>
-    <name>env</name>
-    <value>test</value>
-</property>
-<!--通过文件的存在或缺失-->
-<file>
-    <missing>target/generated-sources/axistools/wsdl2java/wdl</missing>
-    <exists/>
-</file>
-```
 
 ## 测试
 

@@ -2,3 +2,9 @@
 .li_hl {
     color:#ff8000
 }
+
+/* preview */
+.markdown-preview-view table {
+    border: 1px solid var(--background-modifier-border);
+    
+  }

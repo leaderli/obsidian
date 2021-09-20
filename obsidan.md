@@ -4,7 +4,7 @@
 
 ###  插件
 
-obsidian-admonition
+#### obsidian-admonition
 
 ```ad-note
 title: Nested Admonitions
@@ -24,4 +24,9 @@ This is in the original admonition.
 ```
 
 
-![[line-height.html]]
+
+#### obsidian-icons-plugin
+
+图标插件
+
+`ris:Notification` `ris:Bank` `ris:AncientGate`

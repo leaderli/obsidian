@@ -4,7 +4,8 @@
   "translucency": false,
   "enabledCssSnippets": [
     "obsidian",
-    "li"
+    "li",
+    "tableStyles"
   ],
   "cssTheme": "obsidian-minimal",
   "baseFontSizeAction": false

@@ -15,26 +15,35 @@
       "key": "["
     }
   ],
-  "workspace:close": [],
-  "file-explorer:new-file": [],
-  "file-explorer:new-file-in-new-pane": [],
-  "editor:delete-paragraph": [],
-  "workspace:edit-file-title": [],
-  "editor:follow-link": [],
-  "graph:open": [],
   "editor:insert-link": [],
-  "editor:open-link-in-new-leaf": [],
   "app:open-settings": [],
-  "editor:save-file": [],
-  "editor:open-search-replace": [],
-  "editor:toggle-bold": [],
+  "editor:follow-link": [],
+  "workspace:close": [],
   "editor:toggle-checklist-status": [],
-  "editor:toggle-comments": [],
+  "editor:toggle-bold": [],
   "editor:toggle-italics": [],
+  "editor:toggle-comments": [],
+  "editor:delete-paragraph": [],
+  "file-explorer:new-file": [],
+  "editor:open-link-in-new-leaf": [],
+  "file-explorer:new-file-in-new-pane": [],
+  "table-editor-obsidian:table-control-bar": [],
+  "editor:save-file": [],
+  "workspace:edit-file-title": [],
+  "outline:open-for-current": [],
+  "outline:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "workspace:close-others": [],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "ArrowRight"
     }
@@ -42,15 +51,47 @@
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "ArrowLeft"
+    }
+  ],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "P"
+    }
+  ],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
+  ],
+  "editor:fold-all": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
     }
   ],
   "editor:toggle-fold": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "L"
     }
