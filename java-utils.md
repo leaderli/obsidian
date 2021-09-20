@@ -163,3 +163,15 @@ public class Base64Utils {
     }
 }
 ```
+
+
+###  AssertJ
+```xml
+<dependency>
+  <groupId>org.assertj</groupId>
+  <artifactId>assertj-core</artifactId>
+  <!-- use 2.5.0 for Java 7 projects -->
+  <version>3.5.2</version>
+  <scope>test</scope>
+</dependency>
+```

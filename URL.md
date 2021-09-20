@@ -36,3 +36,10 @@ System.out.println(url.getFile());
 ```
 >jar
 >file:/D:/ProgramFiles/Java/jdk1.8.0_281/jre/lib/charsets.jar!/META-INF
+
+可直接通过URL打开InputStream 
+```java
+URL url = new URL("jar:file:/D:/resouce/java/maven/repository/com/leaderli/LiDemo/1.0/LiDemo-1.0.jar!/META-INF/services/com.leaderli.lidemo.ISpiDemo ");  
+InputStream inputStream = url.openStream();  
+String text = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8)).lines().collect(Collectors.joining("\n"));
+```

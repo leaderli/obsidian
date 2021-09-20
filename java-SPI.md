@@ -76,7 +76,7 @@ public void reload() {
 
 ```
 
-reload中生成了一个Iterator，其中最重要的两个方法为
+reload中生成了一个LazyIterator，SPI仅在需要的时候才会去加载，其中主要的代码如下
 
 ```java
 private static final String PREFIX = "META-INF/services/";
@@ -87,11 +87,14 @@ private boolean hasNextService() {
     }  
     if (configs == null) {  
         try {  
+			//根据 META-INF/services/接口的全限定名 这个文件
             String fullName = PREFIX + service.getName();  
-            if (loader == null)  
+            if (loader == null){
                 configs = ClassLoader.getSystemResources(fullName);  
-            else  
- configs = loader.getResources(fullName);  
+			}  
+            else  {
+ 				configs = loader.getResources(fullName);  
+			}
         } catch (IOException x) {  
             fail(service, "Error locating configuration files", x);  
         }  
@@ -100,6 +103,7 @@ private boolean hasNextService() {
         if (!configs.hasMoreElements()) {  
             return false;  
         }  
+		//解析文件内容，找到所有实现类的全限定名，会剔除重复的
         pending = parse(service, configs.nextElement());  
     }  
     nextName = pending.next();  
@@ -123,13 +127,12 @@ private S nextService() {
              "Provider " + cn + " not a subtype");  
     }  
     try {  
+		//使用默认构造器进行实现类的初始化加载
         S p = service.cast(c.newInstance());  
         providers.put(cn, p);  
         return p;  
     } catch (Throwable x) {  
-        fail(service,  
-             "Provider " + cn + " could not be instantiated",  
-             x);  
+        fail(service,   "Provider " + cn + " could not be instantiated",  x);  
     }  
     throw new Error();          // This cannot happen  
 }
@@ -138,3 +141,17 @@ private S nextService() {
 
 ## 应用
 - JDBC DriverManager
+
+
+## SPI机制的缺陷
+
+通过上面的解析，可以发现，我们使用SPI机制的缺陷：
+
+-   不能按需加载，需要遍历所有的实现，并实例化，然后在循环中才能找到我们需要的实现。如果不想用某些实现类，或者某些类实例化很耗时，它也被载入并实例化了，这就造成了浪费。
+    
+-   获取某个实现类的方式不够灵活，只能通过 Iterator 形式获取，不能根据某个参数来获取对应的实现类。
+    
+-   多个并发多线程使用 ServiceLoader 类的实例是不安全的。
+
+
+我们可以根据其实现原理，来合理化构建一个适合自己使用的SPI服务。

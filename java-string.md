@@ -71,3 +71,15 @@ URLDecoder.decode("%E4%B8%AD%E6%96%87", StandardCharsets.UTF_8.name())
 ```java
 String.format("%03d",num)
 ```
+
+
+### inputstream 转换 String
+
+```java
+String text = new BufferedReader( new InputStreamReader(inputStream, StandardCharsets.UTF_8)) .lines() .collect(Collectors.joining("\n"));
+```
+
+使用`Apache Commons IO`
+```java
+String text = IOUtils.toString(inputStream, StandardCharsets.UTF_8.name());
+```

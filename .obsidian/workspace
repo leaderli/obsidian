@@ -6,11 +6,11 @@
       {
         "id": "65639a350aba7049",
         "type": "leaf",
-        "dimension": 61.16152450090744,
+        "dimension": 64.63636363636364,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java-SPI.md",
+            "file": "java-utils.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "4ec2ce37f3e81501",
         "type": "leaf",
-        "dimension": 38.83847549909255,
+        "dimension": 35.36363636363637,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java-SPI.md",
+            "file": "java-utils.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "classpath",
+                "query": "多线程",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,11 +88,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 267
+    "width": 406,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java-SPI.md",
+                "file": "java-utils.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java-SPI.md"
+                "file": "java-utils.md"
               }
             }
           }
@@ -150,15 +151,15 @@
   },
   "active": "65639a350aba7049",
   "lastOpenFiles": [
+    "java-utils.md",
+    "java-thread.md",
     "java-SPI.md",
     "java-tips.md",
+    "java-string.md",
+    "URL.md",
     "java类加载机制.md",
     "java-stream.md",
     "obsidan.md",
-    "快捷键.md",
-    "常用.md",
-    "URL.md",
-    "Untitled.md",
-    "java-string.md"
+    "快捷键.md"
   ]
 }
