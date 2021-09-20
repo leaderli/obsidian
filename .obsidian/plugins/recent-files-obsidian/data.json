@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "java-SPI",
+      "path": "java-SPI.md"
+    },
+    {
       "basename": "maven",
       "path": "maven.md"
+    },
+    {
+      "basename": "java基础",
+      "path": "java基础.md"
     },
     {
       "basename": "java反射",
@@ -35,10 +43,6 @@
     {
       "basename": "java注解",
       "path": "java注解.md"
-    },
-    {
-      "basename": "java基础",
-      "path": "java基础.md"
     },
     {
       "basename": "快捷键",

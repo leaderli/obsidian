@@ -9,23 +9,10 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "maven.md",
+            "file": "java-SPI.md",
             "mode": "source"
           }
-        },
-        "group": "b741c9fd6a637d43"
-      },
-      {
-        "id": "b0f6c35d2239f0cf",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "maven.md",
-            "mode": "preview"
-          }
-        },
-        "group": "b741c9fd6a637d43"
+        }
       }
     ],
     "direction": "vertical"
@@ -86,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -107,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maven.md",
+                "file": "java-SPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "maven.md"
+                "file": "java-SPI.md"
               }
             }
           }
@@ -149,15 +136,15 @@
   },
   "active": "65639a350aba7049",
   "lastOpenFiles": [
+    "java-SPI.md",
     "maven.md",
+    "java基础.md",
     "java反射.md",
     "java字节码.md",
     "有限状态机.md",
     "自动机理论.md",
     "obsidan.md",
     "常用.md",
-    "通用.md",
-    "分布式锁实现.md",
-    "java注解.md"
+    "通用.md"
   ]
 }
