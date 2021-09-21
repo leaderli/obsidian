@@ -6,11 +6,11 @@
       {
         "id": "65639a350aba7049",
         "type": "leaf",
-        "dimension": 46.7687074829932,
+        "dimension": 67.65402843601895,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java-utils.md",
+            "file": "go.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "4ec2ce37f3e81501",
         "type": "leaf",
-        "dimension": 53.2312925170068,
+        "dimension": 32.34597156398104,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java-utils.md",
+            "file": "go.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java-utils.md",
+                "file": "go.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java-utils.md"
+                "file": "go.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "active": "65639a350aba7049",
   "lastOpenFiles": [
+    "go.md",
     "java-utils.md",
     "代码规范检测表.md",
     "静态内部类的泛型与建造者模式.md",
@@ -158,7 +159,6 @@
     "obsidan.md",
     "idea.md",
     "Untitled.md",
-    "java-thread.md",
-    "java-SPI.md"
+    "java-thread.md"
   ]
 }

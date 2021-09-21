@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "go",
+      "path": "go.md"
+    },
+    {
       "basename": "java-utils",
       "path": "java-utils.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "java-stream",
       "path": "java-stream.md"
-    },
-    {
-      "basename": "常用",
-      "path": "常用.md"
     }
   ],
   "omittedPaths": [],
