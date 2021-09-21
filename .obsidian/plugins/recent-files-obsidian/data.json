@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "idea",
+      "path": "idea.md"
+    },
+    {
+      "basename": "java-函数式编程库",
+      "path": "java-函数式编程库.md"
+    },
+    {
+      "basename": "java-utils",
+      "path": "java-utils.md"
+    },
+    {
+      "basename": "java-tips",
+      "path": "java-tips.md"
+    },
+    {
+      "basename": "vim",
+      "path": "vim.md"
+    },
+    {
       "basename": "代码规范检测表",
       "path": "代码规范检测表.md"
     },
     {
       "basename": "静态内部类的泛型与建造者模式",
       "path": "静态内部类的泛型与建造者模式.md"
-    },
-    {
-      "basename": "java-函数式编程库",
-      "path": "java-函数式编程库.md"
     },
     {
       "basename": "快捷键",
@@ -21,24 +37,12 @@
       "path": "obsidan.md"
     },
     {
-      "basename": "java-utils",
-      "path": "java-utils.md"
-    },
-    {
-      "basename": "idea",
-      "path": "idea.md"
-    },
-    {
       "basename": "java-thread",
       "path": "java-thread.md"
     },
     {
       "basename": "java-SPI",
       "path": "java-SPI.md"
-    },
-    {
-      "basename": "java-tips",
-      "path": "java-tips.md"
     },
     {
       "basename": "java-string",
@@ -55,10 +59,6 @@
     {
       "basename": "java-stream",
       "path": "java-stream.md"
-    },
-    {
-      "basename": "常用",
-      "path": "常用.md"
     }
   ],
   "omittedPaths": [],
