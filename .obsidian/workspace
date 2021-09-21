@@ -4,15 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "b2503f9398d5c8fa",
+        "id": "65639a350aba7049",
         "type": "leaf",
+        "dimension": 46.7687074829932,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "idea.md",
+            "file": "java-utils.md",
+            "mode": "source"
+          }
+        },
+        "group": "799280dd86afa2ba"
+      },
+      {
+        "id": "4ec2ce37f3e81501",
+        "type": "leaf",
+        "dimension": 53.2312925170068,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "java-utils.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "799280dd86afa2ba"
       }
     ],
     "direction": "vertical"
@@ -39,9 +54,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "live",
-                "matchingCase": true,
-                "explainSearch": true,
+                "query": "建造者",
+                "matchingCase": false,
+                "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -57,7 +72,15 @@
             }
           },
           {
-            "id": "a414de19b3407843",
+            "id": "c20fbe807a37e609",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "02e74d89ba966a63",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -65,11 +88,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 125
+    "width": 330
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "idea.md",
+                "file": "java-utils.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "idea.md"
+                "file": "java-utils.md"
               }
             }
           }
@@ -122,20 +145,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 597,
+    "width": 481,
     "collapsed": true
   },
-  "active": "b2503f9398d5c8fa",
+  "active": "65639a350aba7049",
   "lastOpenFiles": [
-    "idea.md",
-    "java-函数式编程库.md",
     "java-utils.md",
-    "java-tips.md",
-    "vim.md",
-    "linux常用命令.md",
-    "linux搜索.md",
+    "代码规范检测表.md",
+    "静态内部类的泛型与建造者模式.md",
+    "java-函数式编程库.md",
     "快捷键.md",
-    "maven相关.md",
-    "maven.md"
+    "obsidan.md",
+    "idea.md",
+    "Untitled.md",
+    "java-thread.md",
+    "java-SPI.md"
   ]
 }
