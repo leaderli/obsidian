@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "idea.md",
-            "mode": "preview"
+            "file": "sip.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "live",
+                "query": "\"refer ",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 125
+    "width": 509
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "idea.md",
+                "file": "sip.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "idea.md"
+                "file": "sip.md"
               }
             }
           }
@@ -122,11 +122,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 597,
+    "width": 365.5,
     "collapsed": true
   },
   "active": "b2503f9398d5c8fa",
   "lastOpenFiles": [
+    "sip.md",
+    "linux文件系统.md",
     "idea.md",
     "java-函数式编程库.md",
     "java-utils.md",
@@ -134,8 +136,6 @@
     "vim.md",
     "linux常用命令.md",
     "linux搜索.md",
-    "快捷键.md",
-    "maven相关.md",
-    "maven.md"
+    "快捷键.md"
   ]
 }
