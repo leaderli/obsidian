@@ -128,3 +128,8 @@ ches
 ```shell
 setx GOPATH E:\Gopath
 ```
+
+报错`go: GOPATH entry is relative; must be absolute path`
+```shell
+$ export GOPATH="/d/resource/gopath"
+```

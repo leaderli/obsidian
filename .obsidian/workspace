@@ -19,7 +19,7 @@
       {
         "id": "4ec2ce37f3e81501",
         "type": "leaf",
-        "dimension": 32.34597156398104,
+        "dimension": 32.345971563981045,
         "state": {
           "type": "markdown",
           "state": {
@@ -148,7 +148,7 @@
     "width": 481,
     "collapsed": true
   },
-  "active": "65639a350aba7049",
+  "active": "4ec2ce37f3e81501",
   "lastOpenFiles": [
     "go.md",
     "java-utils.md",
