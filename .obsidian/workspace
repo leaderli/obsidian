@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "go.md",
+            "file": "vim.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "go.md",
+            "file": "vim.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go.md",
+                "file": "vim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "go.md"
+                "file": "vim.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "active": "4ec2ce37f3e81501",
   "lastOpenFiles": [
+    "vim.md",
     "go.md",
     "java-utils.md",
     "代码规范检测表.md",
@@ -158,7 +159,6 @@
     "快捷键.md",
     "obsidan.md",
     "idea.md",
-    "Untitled.md",
-    "java-thread.md"
+    "Untitled.md"
   ]
 }

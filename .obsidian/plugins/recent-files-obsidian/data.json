@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vim",
+      "path": "vim.md"
+    },
+    {
       "basename": "go",
       "path": "go.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "java类加载机制",
       "path": "java类加载机制.md"
-    },
-    {
-      "basename": "java-stream",
-      "path": "java-stream.md"
     }
   ],
   "omittedPaths": [],
