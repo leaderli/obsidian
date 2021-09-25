@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "vim",
+      "path": "vim.md"
+    },
+    {
+      "basename": "shell-tips",
+      "path": "shell-tips.md"
+    },
+    {
       "basename": "快捷键",
       "path": "快捷键.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "常用",
       "path": "常用.md"
-    },
-    {
-      "basename": "vim",
-      "path": "vim.md"
     },
     {
       "basename": "go",
@@ -55,10 +59,6 @@
     {
       "basename": "java-string",
       "path": "java-string.md"
-    },
-    {
-      "basename": "URL",
-      "path": "URL.md"
     }
   ],
   "omittedPaths": [],
