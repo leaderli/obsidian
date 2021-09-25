@@ -304,3 +304,5 @@ modifier.set(value, value.getModifiers() | Modifier.FINAL);}
 ```
 
 
+##  HttpServletRequest
+HttpServletRequest.getRequestURL()中获取的是请求地址，不是实际的IP地址，当通过nginx转发时，有可能返回nginx地址，想要获取真实IP，使用 [[java-config#3 InetAddress getLocalHost java net UnknownHostException 异常|InetAddress getLocalHost]]

@@ -85,3 +85,11 @@ do
    echo $var
 done
 ```
+
+## inputrc
+
+在`~/.inputrc`下面新增，以实现终端Tab补全提示忽略大小写
+
+```
+set completion-ignore-case on
+```
