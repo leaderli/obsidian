@@ -68,7 +68,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "ArrowUp"
+      "key": "ArrowDown"
     }
   ],
   "app:toggle-left-sidebar": [
@@ -100,7 +100,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "ArrowDown"
+      "key": "ArrowUp"
     }
   ]
 }

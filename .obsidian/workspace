@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "常用.md",
+            "file": "快捷键.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "常用.md",
+            "file": "快捷键.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常用.md",
+                "file": "快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "常用.md"
+                "file": "快捷键.md"
               }
             }
           }
@@ -150,6 +150,8 @@
   },
   "active": "65639a350aba7049",
   "lastOpenFiles": [
+    "快捷键.md",
+    "obsidan.md",
     "常用.md",
     "vim.md",
     "go.md",
@@ -157,8 +159,6 @@
     "代码规范检测表.md",
     "静态内部类的泛型与建造者模式.md",
     "java-函数式编程库.md",
-    "快捷键.md",
-    "obsidan.md",
     "idea.md"
   ]
 }

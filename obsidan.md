@@ -1,4 +1,10 @@
 
+### 配置
+为了在多环境下的快捷键不冲突，在`.gitignore`设置`.obsidian/hotkey.json`。同时将各个环境的配置备份一份。
+
+### 快捷键
+
+![[快捷键#obsidian]]
 ### 搜索
 
 `foo bar` 搜索同时存在`foo`和`bar`的笔记

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "快捷键",
+      "path": "快捷键.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "obsidan.md"
+    },
+    {
       "basename": "常用",
       "path": "常用.md"
     },
@@ -27,14 +35,6 @@
     {
       "basename": "java-函数式编程库",
       "path": "java-函数式编程库.md"
-    },
-    {
-      "basename": "快捷键",
-      "path": "快捷键.md"
-    },
-    {
-      "basename": "obsidan",
-      "path": "obsidan.md"
     },
     {
       "basename": "idea",
