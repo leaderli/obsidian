@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vim.md",
+            "file": "java-config.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vim.md",
+            "file": "java-config.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vim",
+                "query": "netad",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim.md",
+                "file": "java-config.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vim.md"
+                "file": "java-config.md"
               }
             }
           }
@@ -150,15 +150,15 @@
   },
   "active": "65639a350aba7049",
   "lastOpenFiles": [
+    "java-config.md",
+    "git.md",
+    "常用.md",
     "vim.md",
     "shell-tips.md",
     "快捷键.md",
     "obsidan.md",
-    "常用.md",
     "go.md",
     "java-utils.md",
-    "代码规范检测表.md",
-    "静态内部类的泛型与建造者模式.md",
-    "java-函数式编程库.md"
+    "代码规范检测表.md"
   ]
 }

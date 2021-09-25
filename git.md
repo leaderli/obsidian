@@ -62,6 +62,47 @@ st = status -s
 sw = checkout
 ```
 
+### 配置颜色
+
+
+使用默认的颜色配置
+```shell
+git config --global color.ui auto
+```
+
+
+自定义颜色配置，指定具体颜色
+```
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+
+[color "status"]
+  added = green
+  changed = red bold
+  untracked = magenta bold
+
+[color "branch"]
+  remote = yellow
+```
+
+### 换行符
+
+假如你正在Windows上写程序，又或者你正在和其他人合作，他们在Windows上编程，而你却在其他系统上，在这些情况下，就可能会遇到行尾结束符问题，这是因为Windows使用回车和换行两个字符来结束一行，而Mac和Linux只使用换行符一个字符。虽然这是小问题，但它会极大地扰乱跨平台协作，在提交时产生非常多的冲突
+
+对于不同的平台，有不同的处理方案：
+1. Git可以在你提交时自动地把行结束符CRLF转换成LF，而在签出代码时把LF转换成CRLF。设置core.autocrlf来打开此项功能，如果是在Windows系统上，就把它设置成true，这样当签出代码时，LF会被转换成CRLF：
+	```
+	$ git config --global core.autocrlf true
+	```
+2. Linux或Mac系统使用LF作为行结束符，因此你不想Git在签出文件时进行自动的转换；当一个以CRLF为行结束符的文件不小心被引入时你肯定想进行修正，把core.autocrlf设置成input来告诉Git在提交时把CRLF转换成LF，签出时不转换：
+	```
+	$ git config --global core.autocrlf input
+	```
+	
+这样会在Windows系统上的签出文件中保留CRLF，会在Mac和Linux系统上，包括仓库中保留LF。
 ## 查看
 
 ### 查看状态

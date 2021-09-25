@@ -1,10 +1,4 @@
----
-title: java-配置相关
-date: 2020-06-04 22:28:28
-categories: java
-tags:
-  - tips
----
+#config #tips   #java 
 
 ### 1. `加载资源文件`
 
