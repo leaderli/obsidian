@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "常用",
+      "path": "常用.md"
+    },
+    {
       "basename": "vim",
       "path": "vim.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "URL",
       "path": "URL.md"
-    },
-    {
-      "basename": "java类加载机制",
-      "path": "java类加载机制.md"
     }
   ],
   "omittedPaths": [],

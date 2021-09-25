@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vim.md",
+            "file": "常用.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vim.md",
+            "file": "常用.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vim.md",
+                "file": "常用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vim.md"
+                "file": "常用.md"
               }
             }
           }
@@ -148,8 +148,9 @@
     "width": 481,
     "collapsed": true
   },
-  "active": "4ec2ce37f3e81501",
+  "active": "65639a350aba7049",
   "lastOpenFiles": [
+    "常用.md",
     "vim.md",
     "go.md",
     "java-utils.md",
@@ -158,7 +159,6 @@
     "java-函数式编程库.md",
     "快捷键.md",
     "obsidan.md",
-    "idea.md",
-    "Untitled.md"
+    "idea.md"
   ]
 }
