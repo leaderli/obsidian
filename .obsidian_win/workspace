@@ -4,11 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "4b3ff8325dc1604d",
+        "id": "f9e3b1e4f01b5f38",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "kanban",
+          "state": {
+            "file": "kanban.md"
+          }
         }
       }
     ],
@@ -73,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370
+    "width": 470
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -89,6 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +118,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "kanban.md"
+              }
             }
           }
         ],
@@ -140,17 +145,17 @@
     "width": 481,
     "collapsed": true
   },
-  "active": "4b3ff8325dc1604d",
+  "active": "f9e3b1e4f01b5f38",
   "lastOpenFiles": [
+    "kanban.md",
+    "md/kanban.md",
+    "- [ ]  123.md",
+    "obsidan.md",
+    "Untitled Kanban.md",
+    "Untitled.md",
     "daily/2021-09-26.md",
     "Day Planners/Day Planner-20210926.md",
     "2021-09-26.md",
-    "常用.md",
-    "image/5238116129180.png",
-    "java-u.md",
-    "java-tips.md",
-    "linux常用命令.md",
-    "linux环境变量.md",
-    "shell-tips.md"
+    "常用.md"
   ]
 }
