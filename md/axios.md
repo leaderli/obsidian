@@ -2,7 +2,9 @@
 title: axios
 date: 2020-11-04 17:13:01
 categories: front-end
-tags:
+tags:  
+-  front-end
+- ajax
 ---
 
 ## 安装

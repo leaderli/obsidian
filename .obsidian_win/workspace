@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "f9e3b1e4f01b5f38",
+        "id": "14cbe860f94728b2",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "kanban.md",
+            "mode": "preview"
           }
         }
       }
@@ -71,11 +72,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 470
+    "width": 470,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -145,17 +148,17 @@
     "width": 481,
     "collapsed": true
   },
-  "active": "f9e3b1e4f01b5f38",
+  "active": "14cbe860f94728b2",
   "lastOpenFiles": [
     "kanban.md",
-    "md/kanban.md",
-    "- [ ]  123.md",
-    "obsidan.md",
-    "Untitled Kanban.md",
+    "md/axios.md",
+    "md/常用.md",
+    "md/常用数学符号.md",
+    "md/bash.md",
+    "md/git.md",
+    "test.md",
     "Untitled.md",
-    "daily/2021-09-26.md",
-    "Day Planners/Day Planner-20210926.md",
-    "2021-09-26.md",
-    "常用.md"
+    "md/kanban.md",
+    "- [ ]  123.md"
   ]
 }

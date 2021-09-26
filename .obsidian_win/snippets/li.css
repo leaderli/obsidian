@@ -11,4 +11,11 @@
   font-variant: none;
 }
 
+.kanban-plugin__item-tags .kanban-plugin__item-tag{
+    color: #569ff7;
+}
+.frontmatter-container .tag, a.tag {
+  color: #569ff7;
+
+}
   

@@ -20,6 +20,7 @@ $ cp /usr/local/src/git-master/git /usr/bin
 
 ## 配置
 
+
 ### `gitignore`
 
 1. `/mtk`过滤整个文件夹,但不过滤子文件夹
