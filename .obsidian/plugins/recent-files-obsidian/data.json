@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "java-tips",
+      "path": "java-tips.md"
+    },
+    {
       "basename": "linux常用命令",
       "path": "linux常用命令.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "java-config",
       "path": "java-config.md"
-    },
-    {
-      "basename": "java-tips",
-      "path": "java-tips.md"
     },
     {
       "basename": "git",
@@ -55,10 +55,6 @@
     {
       "basename": "静态内部类的泛型与建造者模式",
       "path": "静态内部类的泛型与建造者模式.md"
-    },
-    {
-      "basename": "java-函数式编程库",
-      "path": "java-函数式编程库.md"
     }
   ],
   "omittedPaths": [],

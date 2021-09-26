@@ -1,0 +1,12 @@
+{
+  "baseFontSize": 16,
+  "theme": "moonstone",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "obsidian",
+    "li",
+    "tableStyles"
+  ],
+  "cssTheme": "obsidian-minimal",
+  "baseFontSizeAction": false
+}

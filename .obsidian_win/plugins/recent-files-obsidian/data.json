@@ -1,0 +1,62 @@
+{
+  "recentFiles": [
+    {
+      "basename": "java-tips",
+      "path": "java-tips.md"
+    },
+    {
+      "basename": "linux常用命令",
+      "path": "linux常用命令.md"
+    },
+    {
+      "basename": "linux环境变量",
+      "path": "linux环境变量.md"
+    },
+    {
+      "basename": "shell-tips",
+      "path": "shell-tips.md"
+    },
+    {
+      "basename": "java-config",
+      "path": "java-config.md"
+    },
+    {
+      "basename": "git",
+      "path": "git.md"
+    },
+    {
+      "basename": "常用",
+      "path": "常用.md"
+    },
+    {
+      "basename": "vim",
+      "path": "vim.md"
+    },
+    {
+      "basename": "快捷键",
+      "path": "快捷键.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "obsidan.md"
+    },
+    {
+      "basename": "go",
+      "path": "go.md"
+    },
+    {
+      "basename": "java-utils",
+      "path": "java-utils.md"
+    },
+    {
+      "basename": "代码规范检测表",
+      "path": "代码规范检测表.md"
+    },
+    {
+      "basename": "静态内部类的泛型与建造者模式",
+      "path": "静态内部类的泛型与建造者模式.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": 15
+}
