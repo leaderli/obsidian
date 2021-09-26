@@ -36,8 +36,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "junit",
-                "matchingCase": false,
+                "query": "/\\.png/",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -69,11 +69,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 330
+    "width": 370
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -128,6 +129,7 @@
   },
   "active": "65639a350aba7049",
   "lastOpenFiles": [
+    "image/5238116129180.png",
     "java-u.md",
     "java-tips.md",
     "linux常用命令.md",
@@ -136,7 +138,6 @@
     "java-config.md",
     "git.md",
     "常用.md",
-    "vim.md",
-    "快捷键.md"
+    "vim.md"
   ]
 }
