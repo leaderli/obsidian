@@ -18,4 +18,16 @@
   color: #569ff7;
 
 }
-  
+.markdown-preview-view .internal-embed:not(.image-embed) {
+  background-color: beige;
+  display: inline-block;
+  padding: 0px 5px;
+  margin: 5px 5px;
+}
+view-header-title, .file-embed-title, .markdown-embed-title{
+  font-weight:normal;
+  color: #569ff7;
+  line-height:40px;
+  font-size: 1em;
+
+}

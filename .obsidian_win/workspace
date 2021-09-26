@@ -7,10 +7,9 @@
         "id": "14cbe860f94728b2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "kanban.md",
-            "mode": "preview"
+            "file": "kanban.md"
           }
         }
       }
@@ -72,8 +71,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
