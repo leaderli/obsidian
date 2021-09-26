@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2021-09-26",
+      "path": "daily/2021-09-26.md"
+    },
+    {
+      "basename": "Day Planner-20210926",
+      "path": "Day Planners/Day Planner-20210926.md"
+    },
+    {
+      "basename": "常用",
+      "path": "常用.md"
+    },
+    {
       "basename": "java-tips",
       "path": "java-tips.md"
     },
@@ -25,10 +37,6 @@
       "path": "git.md"
     },
     {
-      "basename": "常用",
-      "path": "常用.md"
-    },
-    {
       "basename": "vim",
       "path": "vim.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "代码规范检测表",
       "path": "代码规范检测表.md"
-    },
-    {
-      "basename": "静态内部类的泛型与建造者模式",
-      "path": "静态内部类的泛型与建造者模式.md"
     }
   ],
   "omittedPaths": [],
