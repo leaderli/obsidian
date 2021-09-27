@@ -1,0 +1,17 @@
+{
+  "show-checkboxes": true,
+  "hide-tags-in-title": false,
+  "hide-tags-display": false,
+  "hide-date-display": false,
+  "hide-date-in-title": true,
+  "prepend-archive-date": true,
+  "new-line-trigger": "enter",
+  "metadata-keys": [
+    {
+      "metadataKey": "tags",
+      "label": "",
+      "shouldHideLabel": true,
+      "containsMarkdown": false
+    }
+  ]
+}

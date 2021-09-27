@@ -277,6 +277,12 @@ awk '{print};/222/{exit}' < <(tail -f -n0 1.txt|grep --line-buffered 1)
 1222 #命令结束执行
 ```
 
+跟踪`bin`文件
+
+```shell
+tail -f somefile | hexdump -C
+```
+
 ### 查看内存信息
 
 ```shell
@@ -754,4 +760,10 @@ public class TestTelnet {
         }
 }
 
+```
+
+### zip
+
+```shell
+zip -r  test.zip   test_folder1/  test_foler2/
 ```

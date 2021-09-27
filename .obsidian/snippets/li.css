@@ -11,4 +11,23 @@
   font-variant: none;
 }
 
-  
+.kanban-plugin__item-tags .kanban-plugin__item-tag{
+    color: #569ff7;
+}
+.frontmatter-container .tag, a.tag {
+  color: #569ff7;
+
+}
+.markdown-preview-view .internal-embed:not(.image-embed) {
+  background-color: beige;
+  display: inline-block;
+  padding: 0px 5px;
+  margin: 5px 5px;
+}
+view-header-title, .file-embed-title, .markdown-embed-title{
+  font-weight:normal;
+  color: #569ff7;
+  line-height:40px;
+  font-size: 1em;
+
+}
