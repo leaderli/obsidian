@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "shell-tips",
+      "path": "shell-tips.md"
+    },
+    {
+      "basename": "vim",
+      "path": "vim.md"
+    },
+    {
+      "basename": "linux常用命令",
+      "path": "linux常用命令.md"
+    },
+    {
       "basename": "sip",
       "path": "sip.md"
+    },
+    {
+      "basename": "linux查看",
+      "path": "linux查看.md"
     },
     {
       "basename": "linux文件系统",
@@ -25,10 +41,6 @@
       "path": "java-tips.md"
     },
     {
-      "basename": "vim",
-      "path": "vim.md"
-    },
-    {
       "basename": "代码规范检测表",
       "path": "代码规范检测表.md"
     },
@@ -43,22 +55,6 @@
     {
       "basename": "obsidan",
       "path": "obsidan.md"
-    },
-    {
-      "basename": "java-thread",
-      "path": "java-thread.md"
-    },
-    {
-      "basename": "java-SPI",
-      "path": "java-SPI.md"
-    },
-    {
-      "basename": "java-string",
-      "path": "java-string.md"
-    },
-    {
-      "basename": "URL",
-      "path": "URL.md"
     }
   ],
   "omittedPaths": [],
