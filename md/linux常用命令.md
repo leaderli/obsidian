@@ -761,3 +761,9 @@ public class TestTelnet {
 }
 
 ```
+
+### zip
+
+```shell
+zip -r  test.zip   test_folder1/  test_foler2/
+```

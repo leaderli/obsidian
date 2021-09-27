@@ -7,8 +7,11 @@
         "id": "00eccafe1fe4b1d9",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "md/obsidan.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git pull",
+                "query": "zip",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -66,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 736
+    "width": 100,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "md/obsidan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +113,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "md/obsidan.md"
+              }
             }
           }
         ],
@@ -121,6 +128,8 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/obsidan.md",
+    "md/linux常用命令.md",
     "git.md",
     "conflict-files-obsidian-git.md",
     "shell-tips.md",
@@ -128,8 +137,6 @@
     "linux常用命令.md",
     "sip.md",
     "linux查看.md",
-    "linux文件系统.md",
-    "idea.md",
-    "java-函数式编程库.md"
+    "linux文件系统.md"
   ]
 }

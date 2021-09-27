@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
+    },
+    {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
       "basename": "git",
       "path": "git.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "静态内部类的泛型与建造者模式",
       "path": "静态内部类的泛型与建造者模式.md"
-    },
-    {
-      "basename": "快捷键",
-      "path": "快捷键.md"
-    },
-    {
-      "basename": "obsidan",
-      "path": "obsidan.md"
     }
   ],
   "omittedPaths": [],

@@ -1,7 +1,6 @@
 
 ## 配置
-为了在多环境下的快捷键不冲突，在`.gitignore`设置`.obsidian/hotkey.json`。同时将各个环境的配置备份一份。
-
+#todo 
 ## 快捷键
 
 ![[快捷键#obsidian]]
