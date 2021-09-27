@@ -7,9 +7,10 @@
         "id": "3707095591c9eeb2",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/java-utils.md",
+            "mode": "preview"
           }
         }
       }
@@ -38,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "断言 异常",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +72,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -91,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/java-utils.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/java-utils.md"
               }
             }
           }
@@ -147,6 +149,7 @@
   },
   "active": "3707095591c9eeb2",
   "lastOpenFiles": [
+    "md/java-utils.md",
     "kanban.md",
     "md/bash.md",
     "Untitled.md",
@@ -155,7 +158,6 @@
     "Untitled Kanban.md",
     "md/axios.md",
     "md/常用.md",
-    "md/常用数学符号.md",
-    "md/git.md"
+    "md/常用数学符号.md"
   ]
 }

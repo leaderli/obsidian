@@ -7,24 +7,8 @@ hide-date-display: false
 
 ---
 
-## 开发中
+## todo
 
-- [ ] [[axios]] @{2021-09-28}
-
-
-## 已完成
-
-- [ ] [[bash#变量#变量引用]]<br>@{2021-09-26}
-
-
-## <span class="li_hl">测试中</span> 
-
-- [ ] # TODO
-
-
-## <span class="li_hl">延期</span>
-
-- [ ] 33<br>```ad-info<br>123<br>```<br>``` note-purple<br>This text will be pruple<br>```<br>#h/red **This bold text will be red**<br>
 
 
 ***
