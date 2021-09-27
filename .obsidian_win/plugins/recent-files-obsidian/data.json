@@ -5,6 +5,14 @@
       "path": "kanban.md"
     },
     {
+      "basename": "bash",
+      "path": "md/bash.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
+    },
+    {
       "basename": "axios",
       "path": "md/axios.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "常用数学符号",
       "path": "md/常用数学符号.md"
-    },
-    {
-      "basename": "bash",
-      "path": "md/bash.md"
     },
     {
       "basename": "git",
