@@ -1,0 +1,142 @@
+{
+  "main": {
+    "id": "0de266d25322a6de",
+    "type": "split",
+    "children": [
+      {
+        "id": "00eccafe1fe4b1d9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "git.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6aef424ec9fb2be8",
+    "type": "split",
+    "children": [
+      {
+        "id": "adf9b7233a946914",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af01c39738594ab8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "51f7c28400713fd9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "git pull",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cb087599afad4542",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "a414de19b3407843",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 736,
+    "collapsed": true
+  },
+  "right": {
+    "id": "4b761e4e5ad66709",
+    "type": "split",
+    "children": [
+      {
+        "id": "80c9229a973b90d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4320d20a6e734de5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "e68ac9349b8098da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "970720b93a8af3ca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "git.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 365.5,
+    "collapsed": true
+  },
+  "active": "00eccafe1fe4b1d9",
+  "lastOpenFiles": [
+    "git.md",
+    "conflict-files-obsidian-git.md",
+    "shell-tips.md",
+    "vim.md",
+    "linux常用命令.md",
+    "sip.md",
+    "linux查看.md",
+    "linux文件系统.md",
+    "idea.md",
+    "java-函数式编程库.md"
+  ]
+}
