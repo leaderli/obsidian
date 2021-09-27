@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-utils.md",
-            "mode": "preview"
+            "file": "md/obsidan.md",
+            "mode": "source"
           }
         }
       }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-utils.md",
+                "file": "md/obsidan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java-utils.md"
+                "file": "md/obsidan.md"
               }
             }
           }
@@ -149,11 +149,11 @@
   },
   "active": "3707095591c9eeb2",
   "lastOpenFiles": [
+    "md/obsidan.md",
     "md/java-utils.md",
     "kanban.md",
     "md/bash.md",
     "Untitled.md",
-    "md/obsidan.md",
     "vnote_blog/vx.json.md",
     "Untitled Kanban.md",
     "md/axios.md",

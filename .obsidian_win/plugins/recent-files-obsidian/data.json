@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
+    },
+    {
       "basename": "java-utils",
       "path": "md/java-utils.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "bash",
       "path": "md/bash.md"
-    },
-    {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
     },
     {
       "basename": "axios",
