@@ -1,0 +1,30 @@
+{
+  "recentFiles": [
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "axios",
+      "path": "md/axios.md"
+    },
+    {
+      "basename": "常用",
+      "path": "md/常用.md"
+    },
+    {
+      "basename": "常用数学符号",
+      "path": "md/常用数学符号.md"
+    },
+    {
+      "basename": "bash",
+      "path": "md/bash.md"
+    },
+    {
+      "basename": "git",
+      "path": "md/git.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": 15
+}

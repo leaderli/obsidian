@@ -1,0 +1,12 @@
+{
+  "alwaysUpdateLinks": true,
+  "vimMode": true,
+  "fileSortOrder": "alphabetical",
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "resource",
+  "showFrontmatter": true,
+  "readableLineLength": false
+}
