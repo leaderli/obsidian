@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vscode相关.md",
-            "mode": "source"
+            "file": "md/AntV_X6.md",
+            "mode": "preview"
           }
         }
       }
@@ -72,8 +72,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -93,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vscode相关.md",
+                "file": "md/AntV_X6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,26 +120,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vscode相关.md"
+                "file": "md/AntV_X6.md"
               }
             }
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "11f61b345d047afe",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d1f86493baa46bf1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -149,6 +134,8 @@
   },
   "active": "3707095591c9eeb2",
   "lastOpenFiles": [
+    "md/Untitled.md",
+    "md/vue.md",
     "md/vscode相关.md",
     "md/obsidan.md",
     "md/java-utils.md",
@@ -156,8 +143,6 @@
     "md/bash.md",
     "Untitled.md",
     "vnote_blog/vx.json.md",
-    "Untitled Kanban.md",
-    "md/axios.md",
-    "md/常用.md"
+    "Untitled Kanban.md"
   ]
 }
