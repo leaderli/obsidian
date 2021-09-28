@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "git",
-      "path": "md/git.md"
+      "basename": "common_常用",
+      "path": "md/common_常用.md"
+    },
+    {
+      "basename": "cheatsheet_快捷键",
+      "path": "md/cheatsheet_快捷键.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
     },
     {
       "basename": "shell-tips",
       "path": "md/shell-tips.md"
+    },
+    {
+      "basename": "git",
+      "path": "md/git.md"
     },
     {
       "basename": "linux",
@@ -15,10 +27,6 @@
     {
       "basename": "gitlab",
       "path": "md/gitlab.md"
-    },
-    {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
     },
     {
       "basename": "linux常用命令",
@@ -51,14 +59,6 @@
     {
       "basename": "linux文件系统",
       "path": "linux文件系统.md"
-    },
-    {
-      "basename": "idea",
-      "path": "idea.md"
-    },
-    {
-      "basename": "java-函数式编程库",
-      "path": "java-函数式编程库.md"
     }
   ],
   "omittedPaths": [],

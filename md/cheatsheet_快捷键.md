@@ -74,3 +74,5 @@ iTerm2 可以自动补齐命令，输入若干字符，按 ⌘+;弹出自动补�
 | `alt + ]`          | 前进                     |
 | `CTRL + SHIFT + I` | 打开内置浏览器的调试模式 | 
 | `CTRL + SHIFT + v` | 粘贴纯文本               |
+
+mac下的将`alt`替换为`command`

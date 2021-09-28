@@ -9,7 +9,7 @@
 ![[Pasted image 20210927231336.png]]
 ## 快捷键
 
-![[快捷键#obsidian]]
+![[cheatsheet_快捷键#obsidian]]
 ## 搜索
 
 `foo bar` 搜索同时存在`foo`和`bar`的笔记
