@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
+    },
+    {
+      "basename": "java-utils",
+      "path": "md/java-utils.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
+    },
+    {
+      "basename": "bash",
+      "path": "md/bash.md"
     },
     {
       "basename": "axios",
@@ -15,10 +27,6 @@
     {
       "basename": "常用数学符号",
       "path": "md/常用数学符号.md"
-    },
-    {
-      "basename": "bash",
-      "path": "md/bash.md"
     },
     {
       "basename": "git",
