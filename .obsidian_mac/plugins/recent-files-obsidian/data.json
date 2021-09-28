@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "git",
+      "path": "md/git.md"
+    },
+    {
       "basename": "shell-tips",
       "path": "md/shell-tips.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "java-函数式编程库",
       "path": "java-函数式编程库.md"
-    },
-    {
-      "basename": "java-utils",
-      "path": "java-utils.md"
     }
   ],
   "omittedPaths": [],

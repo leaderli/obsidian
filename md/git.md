@@ -529,3 +529,18 @@ git push -f #强制推送
 ## `Git`原理
 
 参考[[深入git ]]
+## 搭建简单的git服务
+
+```shell
+
+# 建立一个空的仓库
+$ git init --bare --shared sample.git/
+Initialized empty shared Git repository in /home/li/temp/sample.git
+
+
+# 在其他服务器上即可使用clone项目，然后就可以正常使用了。
+git clone li@centos7:~/temp/sample.git
+
+```
+
+使用`git clone`需要配置[[shell-tips#ssh免密及执行远程命令|ssh免密]]

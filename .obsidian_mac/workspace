@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/shell-tips.md",
+            "file": "md/git.md",
             "mode": "source"
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/shell-tips.md",
+                "file": "md/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/shell-tips.md"
+                "file": "md/git.md"
               }
             }
           }
@@ -127,6 +127,7 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/git.md",
     "md/shell-tips.md",
     "md/linux.md",
     "md/gitlab.md",
@@ -135,7 +136,6 @@
     "git.md",
     "conflict-files-obsidian-git.md",
     "shell-tips.md",
-    "vim.md",
-    "linux常用命令.md"
+    "vim.md"
   ]
 }
