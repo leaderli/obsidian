@@ -12,3 +12,5 @@ npm install @antv/x6 --save
 ```js
 import { Graph } from '@antv/x6';
 ```
+
+![[li-runner-flow.zip]]
