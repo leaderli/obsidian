@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vscode相关",
+      "path": "md/vscode相关.md"
+    },
+    {
       "basename": "obsidan",
       "path": "md/obsidan.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "axios",
       "path": "md/axios.md"
-    },
-    {
-      "basename": "常用",
-      "path": "md/常用.md"
     },
     {
       "basename": "常用数学符号",
