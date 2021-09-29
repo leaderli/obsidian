@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "git",
-      "path": "md/git.md"
-    },
-    {
       "basename": "AntV_X6",
       "path": "md/AntV_X6.md"
+    },
+    {
+      "basename": "git",
+      "path": "md/git.md"
     },
     {
       "basename": "vue-element-admin",

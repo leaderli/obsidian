@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/git.md",
-            "mode": "preview"
+            "file": "md/AntV_X6.md",
+            "mode": "source"
           }
         }
       }
@@ -72,7 +72,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -92,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/git.md",
+                "file": "md/AntV_X6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/git.md"
+                "file": "md/AntV_X6.md"
               }
             }
           },
@@ -130,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/git.md",
+                "file": "md/AntV_X6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,6 +147,7 @@
   },
   "active": "3707095591c9eeb2",
   "lastOpenFiles": [
+    "md/AntV_X6.md",
     "md/git.md",
     "md/Untitled.md",
     "md/vue.md",
@@ -154,7 +156,6 @@
     "md/java-utils.md",
     "kanban.md",
     "md/bash.md",
-    "Untitled.md",
-    "vnote_blog/vx.json.md"
+    "Untitled.md"
   ]
 }
