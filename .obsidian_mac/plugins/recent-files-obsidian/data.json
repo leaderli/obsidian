@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "maven",
+      "path": "md/maven.md"
+    },
+    {
       "basename": "common_常用",
       "path": "md/common_常用.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "linux查看",
       "path": "linux查看.md"
-    },
-    {
-      "basename": "linux文件系统",
-      "path": "linux文件系统.md"
     }
   ],
   "omittedPaths": [],

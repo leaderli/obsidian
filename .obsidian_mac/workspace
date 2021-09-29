@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/common_常用.md",
+            "file": "md/maven.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "常用",
+                "query": "强制",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 524,
-    "collapsed": true
+    "width": 524
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/common_常用.md",
+                "file": "md/maven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/common_常用.md"
+                "file": "md/maven.md"
               }
             }
           }
@@ -128,6 +127,7 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/maven.md",
     "md/common_常用.md",
     "md/cheatsheet_快捷键.md",
     "md/常用.md",
@@ -136,7 +136,6 @@
     "md/shell-tips.md",
     "md/git.md",
     "md/linux.md",
-    "md/gitlab.md",
-    "md/linux常用命令.md"
+    "md/gitlab.md"
   ]
 }
