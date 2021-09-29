@@ -1621,6 +1621,14 @@ export default {
 }
 ```
 
+## 加载项目下的图片
+
+在`assets`目录下存入静态资源，则可通过`@`的方式引入
+
+![[Pasted image 20210928231805.png]]
+```
+<img src="@/assets/avatar/icons8-programmer-64.png?imageView2/1/w/80/h/80" class="user-avatar">
+```
 ## 路由
 
 ### 定义

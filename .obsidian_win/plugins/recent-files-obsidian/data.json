@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "git",
+      "path": "md/git.md"
+    },
+    {
+      "basename": "AntV_X6",
+      "path": "md/AntV_X6.md"
+    },
+    {
+      "basename": "vue-element-admin",
+      "path": "md/vue-element-admin.md"
+    },
+    {
+      "basename": "vue",
+      "path": "md/vue.md"
+    },
+    {
+      "basename": "vscode相关",
+      "path": "md/vscode相关.md"
+    },
+    {
       "basename": "obsidan",
       "path": "md/obsidan.md"
     },
@@ -21,16 +41,8 @@
       "path": "md/axios.md"
     },
     {
-      "basename": "常用",
-      "path": "md/常用.md"
-    },
-    {
       "basename": "常用数学符号",
       "path": "md/常用数学符号.md"
-    },
-    {
-      "basename": "git",
-      "path": "md/git.md"
     }
   ],
   "omittedPaths": [],

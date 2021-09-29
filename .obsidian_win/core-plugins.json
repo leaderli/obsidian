@@ -4,9 +4,15 @@
   "switcher",
   "graph",
   "backlink",
+  "outgoing-link",
   "tag-pane",
   "page-preview",
   "command-palette",
   "starred",
-  "outline"
+  "markdown-importer",
+  "outline",
+  "word-count",
+  "slides",
+  "open-with-default-app",
+  "workspaces"
 ]
