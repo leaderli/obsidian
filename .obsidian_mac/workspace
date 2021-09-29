@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "强制",
+                "query": "purge",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 524
+    "width": 524,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",

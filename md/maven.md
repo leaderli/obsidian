@@ -1005,10 +1005,6 @@ maven 的模块是在父类 pom 中定义聚合关系，其本质仅仅是一次
 > MyApplication-0.0.1-SNAPSHOT.war (可运行行文件)
 > MyApplication-0.0.1-SNAPSHOT.war.original(不可运行文件，用以发布在容器下)
 
-## 强制刷新本地缓存
-
-`mvn dependency:purge-local-repository`
-
 ## 打包源码
 
 ```xml
@@ -1081,3 +1077,7 @@ maven 的模块是在父类 pom 中定义聚合关系，其本质仅仅是一次
         </configuration>
 </plugin>
 ```
+
+## 常用命令
+- 强制刷新本地缓存`mvn dependency:purge-local-repository`
+- `mvn clean install -U`
