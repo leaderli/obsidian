@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "maven",
-      "path": "md/maven.md"
-    },
-    {
       "basename": "common_常用",
       "path": "md/common_常用.md"
+    },
+    {
+      "basename": "maven",
+      "path": "md/maven.md"
     },
     {
       "basename": "cheatsheet_快捷键",

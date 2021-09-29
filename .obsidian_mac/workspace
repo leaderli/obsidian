@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/maven.md",
-            "mode": "source"
+            "file": "md/common_常用.md",
+            "mode": "preview"
           }
         }
       }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/maven.md",
+                "file": "md/common_常用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/maven.md"
+                "file": "md/common_常用.md"
               }
             }
           }
@@ -128,8 +128,8 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
-    "md/maven.md",
     "md/common_常用.md",
+    "md/maven.md",
     "md/cheatsheet_快捷键.md",
     "md/常用.md",
     "md/快捷键.md",
