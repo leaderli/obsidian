@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "common-configuration",
+      "path": "md/common-configuration.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "分布式锁实现",
+      "path": "md/分布式锁实现.md"
+    },
+    {
       "basename": "java-utils",
       "path": "md/java-utils.md"
     },
@@ -27,14 +43,6 @@
     {
       "basename": "vscode相关",
       "path": "md/vscode相关.md"
-    },
-    {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     },
     {
       "basename": "bash",
