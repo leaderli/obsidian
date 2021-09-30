@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
+      "basename": "java_app_一些常用的应用",
+      "path": "md/java_app_一些常用的应用.md"
+    },
+    {
       "basename": "common_常用",
       "path": "md/common_常用.md"
     },
@@ -33,10 +41,6 @@
       "path": "md/gitlab.md"
     },
     {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
-    },
-    {
       "basename": "git",
       "path": "git.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "sip",
       "path": "sip.md"
-    },
-    {
-      "basename": "linux查看",
-      "path": "linux查看.md"
     }
   ],
   "omittedPaths": [],

@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/common_常用.md",
-            "mode": "preview"
+            "file": "md/linux常用命令.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "purge",
+                "query": "zip ",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 524,
-    "collapsed": true
+    "width": 171
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/common_常用.md",
+                "file": "md/linux常用命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/common_常用.md"
+                "file": "md/linux常用命令.md"
               }
             }
           }
@@ -128,6 +127,8 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/linux常用命令.md",
+    "md/Untitled.md",
     "md/common_常用.md",
     "md/maven.md",
     "md/cheatsheet_快捷键.md",
@@ -135,8 +136,6 @@
     "md/快捷键.md",
     "md/obsidan.md",
     "md/shell-tips.md",
-    "md/git.md",
-    "md/linux.md",
-    "md/gitlab.md"
+    "md/git.md"
   ]
 }
