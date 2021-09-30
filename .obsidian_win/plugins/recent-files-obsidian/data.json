@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "java-utils",
+      "path": "md/java-utils.md"
+    },
+    {
+      "basename": "idea",
+      "path": "md/idea.md"
+    },
+    {
       "basename": "AntV_X6",
       "path": "md/AntV_X6.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "obsidan",
       "path": "md/obsidan.md"
-    },
-    {
-      "basename": "java-utils",
-      "path": "md/java-utils.md"
     },
     {
       "basename": "kanban",
