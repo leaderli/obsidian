@@ -250,3 +250,7 @@ System.out.println(rend);
 └───────────────────────────────────────┴──────────────────────────────────────┘
 ```
 
+
+###  Common-Configuration
+
+[[common-configuration]]

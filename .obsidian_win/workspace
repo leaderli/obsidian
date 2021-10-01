@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/git.md",
-            "mode": "preview"
+            "file": "md/common-configuration.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "断言 异常",
+                "query": "tag:#todo",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,11 +72,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 299
+    "width": 154
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -92,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/git.md",
+                "file": "md/common-configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/git.md"
+                "file": "md/common-configuration.md"
               }
             }
           },
@@ -130,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/git.md",
+                "file": "md/common-configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,15 +147,15 @@
   },
   "active": "3707095591c9eeb2",
   "lastOpenFiles": [
+    "md/common-configuration.md",
+    "md/obsidan.md",
+    "kanban.md",
+    "md/分布式锁实现.md",
+    "md/java-utils.md",
+    "md/idea.md",
+    "md/AntV_X6.md",
     "md/git.md",
     "md/Untitled.md",
-    "md/vue.md",
-    "md/vscode相关.md",
-    "md/obsidan.md",
-    "md/java-utils.md",
-    "kanban.md",
-    "md/bash.md",
-    "Untitled.md",
-    "vnote_blog/vx.json.md"
+    "md/vue.md"
   ]
 }
