@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/regex.md",
+            "file": "md/java-string.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "正则",
+                "query": "stream java string",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 171
+    "width": 250
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/regex.md",
+                "file": "md/java-string.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/regex.md"
+                "file": "md/java-string.md"
               }
             }
           }
@@ -127,6 +127,7 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/java-string.md",
     "md/regex.md",
     "md/common-configuration.md",
     "md/java-utils.md",
@@ -135,7 +136,6 @@
     "md/common_常用.md",
     "md/maven.md",
     "md/cheatsheet_快捷键.md",
-    "md/常用.md",
-    "md/快捷键.md"
+    "md/常用.md"
   ]
 }
