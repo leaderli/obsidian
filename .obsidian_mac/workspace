@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/linux常用命令.md",
+            "file": "md/common-configuration.md",
             "mode": "source"
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/linux常用命令.md",
+                "file": "md/common-configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/linux常用命令.md"
+                "file": "md/common-configuration.md"
               }
             }
           }
@@ -127,6 +127,8 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/common-configuration.md",
+    "md/java-utils.md",
     "md/linux常用命令.md",
     "md/Untitled.md",
     "md/common_常用.md",
@@ -134,8 +136,6 @@
     "md/cheatsheet_快捷键.md",
     "md/常用.md",
     "md/快捷键.md",
-    "md/obsidan.md",
-    "md/shell-tips.md",
-    "md/git.md"
+    "md/obsidan.md"
   ]
 }

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "common-configuration",
+      "path": "md/common-configuration.md"
+    },
+    {
+      "basename": "java-utils",
+      "path": "md/java-utils.md"
+    },
+    {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "vim",
       "path": "vim.md"
-    },
-    {
-      "basename": "linux常用命令",
-      "path": "linux常用命令.md"
-    },
-    {
-      "basename": "sip",
-      "path": "sip.md"
     }
   ],
   "omittedPaths": [],
