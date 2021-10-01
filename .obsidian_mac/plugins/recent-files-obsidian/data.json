@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "common-configuration",
+      "path": "md/common-configuration.md"
+    },
+    {
       "basename": "java-string",
       "path": "md/java-string.md"
     },
     {
       "basename": "regex",
       "path": "md/regex.md"
-    },
-    {
-      "basename": "common-configuration",
-      "path": "md/common-configuration.md"
     },
     {
       "basename": "java-utils",

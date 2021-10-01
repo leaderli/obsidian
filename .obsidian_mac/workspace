@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-string.md",
+            "file": "md/common-configuration.md",
             "mode": "source"
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-string.md",
+                "file": "md/common-configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java-string.md"
+                "file": "md/common-configuration.md"
               }
             }
           }
@@ -127,9 +127,9 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/common-configuration.md",
     "md/java-string.md",
     "md/regex.md",
-    "md/common-configuration.md",
     "md/java-utils.md",
     "md/linux常用命令.md",
     "md/Untitled.md",
