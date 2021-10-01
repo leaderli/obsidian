@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/common-configuration.md",
+            "file": "md/regex.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zip ",
+                "query": "正则",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/common-configuration.md",
+                "file": "md/regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/common-configuration.md"
+                "file": "md/regex.md"
               }
             }
           }
@@ -127,6 +127,7 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/regex.md",
     "md/common-configuration.md",
     "md/java-utils.md",
     "md/linux常用命令.md",
@@ -135,7 +136,6 @@
     "md/maven.md",
     "md/cheatsheet_快捷键.md",
     "md/常用.md",
-    "md/快捷键.md",
-    "md/obsidan.md"
+    "md/快捷键.md"
   ]
 }

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "regex",
+      "path": "md/regex.md"
+    },
+    {
       "basename": "common-configuration",
       "path": "md/common-configuration.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "shell-tips",
       "path": "shell-tips.md"
-    },
-    {
-      "basename": "vim",
-      "path": "vim.md"
     }
   ],
   "omittedPaths": [],
