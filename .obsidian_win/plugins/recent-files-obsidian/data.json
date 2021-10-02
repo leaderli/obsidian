@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "dom4j",
-      "path": "md/dom4j.md"
-    },
-    {
       "basename": "maven",
       "path": "md/maven.md"
+    },
+    {
+      "basename": "maven相关",
+      "path": "md/maven相关.md"
+    },
+    {
+      "basename": "dom4j",
+      "path": "md/dom4j.md"
     },
     {
       "basename": "common-configuration",
@@ -55,10 +59,6 @@
     {
       "basename": "bash",
       "path": "md/bash.md"
-    },
-    {
-      "basename": "axios",
-      "path": "md/axios.md"
     }
   ],
   "omittedPaths": [],

@@ -1030,6 +1030,7 @@ maven 的模块是在父类 pom 中定义聚合关系，其本质仅仅是一次
 执行 mvn deploy，maven 会自动将 source deploy 到 remote-repository 。
 执行 mvn source:jar，单独打包源码。
 
+
 ## 测试
 
 打包项目时跑的 junit，中文乱码
@@ -1076,6 +1077,26 @@ maven 的模块是在父类 pom 中定义聚合关系，其本质仅仅是一次
           </excludes>
         </configuration>
 </plugin>
+```
+
+##  可选依赖
+
+当仅用到部分类时，不需要加载全部的jar包，可将依赖声明为`optional`，这样仅当使用相关方法时，才需要相关依赖
+
+
+```xml
+<dependency>  
+  <groupId>jaxen</groupId>  
+  <artifactId>jaxen</artifactId>  
+  <version>1.2.0</version>  
+  <optional>true</optional>  
+</dependency>  
+<dependency>  
+  <groupId>dom4j</groupId>  
+  <artifactId>dom4j</artifactId>  
+  <version>1.6.1</version>  
+  <optional>true</optional>  
+</dependency>
 ```
 
 ## 常用命令

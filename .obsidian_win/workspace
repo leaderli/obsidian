@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/dom4j.md",
+            "file": "md/maven.md",
             "mode": "source"
           }
         }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/dom4j.md",
+                "file": "md/maven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/dom4j.md"
+                "file": "md/maven.md"
               }
             }
           },
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/dom4j.md",
+                "file": "md/maven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,20 +143,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481,
-    "collapsed": true
+    "width": 481
   },
   "active": "3707095591c9eeb2",
   "lastOpenFiles": [
-    "md/dom4j.md",
     "md/maven.md",
+    "md/maven相关.md",
+    "md/dom4j.md",
     "md/common-configuration.md",
     "md/obsidan.md",
     "kanban.md",
     "md/分布式锁实现.md",
     "md/java-utils.md",
     "md/idea.md",
-    "md/AntV_X6.md",
-    "md/git.md"
+    "md/AntV_X6.md"
   ]
 }

@@ -68,16 +68,15 @@ for(Object element : root.content()){
 
 ## 格式化输出
 
-`有bug，别用`
 
 ```java
-//document 
-OutputFormat format = OutputFormat.createPrettyPrint();
-XMLWriter   writer = new XMLWriter(System.out, format);
-writer.write(document);
-writer.close();
+//document DOMDocument 
+StringWriter writer = new StringWriter();  
+XMLWriter xmlWriter = new XMLWriter(writer, OutputFormat.createPrettyPrint());  
+xmlWriter.write(document);  
+xmlWriter.close();  
 //输出的为格式化后的文本
-System.out.println(document.asXML())
+System.out.println(writer.toString());
 ```
 
 ## XPATH
