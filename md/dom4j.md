@@ -68,6 +68,8 @@ for(Object element : root.content()){
 
 ## 格式化输出
 
+`有bug，别用`
+
 ```java
 //document 
 OutputFormat format = OutputFormat.createPrettyPrint();
@@ -107,6 +109,7 @@ dom.selectNodes("child/name/text()")
 - `..` 选择父节点
 - `.` 选择当前节点
 - `and`,`or`操作符
+- `"child::*` 获取当前节点子节点
 
 一些示例
 
