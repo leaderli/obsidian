@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/common-configuration.md",
-            "mode": "source"
+            "file": "md/dom4j.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "iter   collection",
+                "query": "jax",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 715
+    "width": 715,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/common-configuration.md",
+                "file": "md/dom4j.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/common-configuration.md"
+                "file": "md/dom4j.md"
               }
             }
           },
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/common-configuration.md",
+                "file": "md/dom4j.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,6 +148,8 @@
   },
   "active": "3707095591c9eeb2",
   "lastOpenFiles": [
+    "md/dom4j.md",
+    "md/maven.md",
     "md/common-configuration.md",
     "md/obsidan.md",
     "kanban.md",
@@ -154,8 +157,6 @@
     "md/java-utils.md",
     "md/idea.md",
     "md/AntV_X6.md",
-    "md/git.md",
-    "md/Untitled.md",
-    "md/vue.md"
+    "md/git.md"
   ]
 }

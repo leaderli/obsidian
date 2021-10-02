@@ -5,6 +5,10 @@
       "path": "md/dom4j.md"
     },
     {
+      "basename": "maven",
+      "path": "md/maven.md"
+    },
+    {
       "basename": "common-configuration",
       "path": "md/common-configuration.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "axios",
       "path": "md/axios.md"
-    },
-    {
-      "basename": "常用数学符号",
-      "path": "md/常用数学符号.md"
     }
   ],
   "omittedPaths": [],

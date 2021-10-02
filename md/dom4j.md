@@ -6,6 +6,20 @@ tags:
   - dom4j
 ---
 
+
+
+```xml
+<dependency>
+      <groupId>jaxen</groupId>
+      <artifactId>jaxen</artifactId>
+      <version>1.2.0</version>
+</dependency>
+<dependency>
+    <groupId>dom4j</groupId>
+    <artifactId>dom4j</artifactId>
+    <version>1.6.1</version>
+</dependency>
+```
 ## SAXReader
 
 `feature`属性，禁止校验`dtd`文件
