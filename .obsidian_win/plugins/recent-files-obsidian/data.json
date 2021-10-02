@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "规则引擎",
+      "path": "md/规则引擎.md"
+    },
+    {
       "basename": "maven",
       "path": "md/maven.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "vscode相关",
       "path": "md/vscode相关.md"
-    },
-    {
-      "basename": "bash",
-      "path": "md/bash.md"
     }
   ],
   "omittedPaths": [],
