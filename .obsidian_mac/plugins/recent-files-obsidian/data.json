@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
       "basename": "common-configuration",
       "path": "md/common-configuration.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "java-utils",
       "path": "md/java-utils.md"
-    },
-    {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
     },
     {
       "basename": "java_app_一些常用的应用",
