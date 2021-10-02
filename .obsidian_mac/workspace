@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/linux常用命令.md",
+            "file": "md/dom4j.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Matcher",
+                "query": "dom4j",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/linux常用命令.md",
+                "file": "md/dom4j.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/linux常用命令.md"
+                "file": "md/dom4j.md"
               }
             }
           }
@@ -127,6 +127,7 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/dom4j.md",
     "md/linux常用命令.md",
     "md/common-configuration.md",
     "md/java-string.md",
@@ -135,7 +136,6 @@
     "md/Untitled.md",
     "md/common_常用.md",
     "md/maven.md",
-    "md/cheatsheet_快捷键.md",
-    "md/常用.md"
+    "md/cheatsheet_快捷键.md"
   ]
 }
