@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/dom4j.md",
+            "file": "md/java-函数式编程库.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dom4j",
+                "query": "vavr",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/dom4j.md",
+                "file": "md/java-函数式编程库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/dom4j.md"
+                "file": "md/java-函数式编程库.md"
               }
             }
           }
@@ -127,6 +127,7 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/java-函数式编程库.md",
     "md/dom4j.md",
     "md/linux常用命令.md",
     "md/common-configuration.md",
@@ -135,7 +136,6 @@
     "md/java-utils.md",
     "md/Untitled.md",
     "md/common_常用.md",
-    "md/maven.md",
-    "md/cheatsheet_快捷键.md"
+    "md/maven.md"
   ]
 }

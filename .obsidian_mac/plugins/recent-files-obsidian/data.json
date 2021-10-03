@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "java-函数式编程库",
+      "path": "md/java-函数式编程库.md"
+    },
+    {
       "basename": "dom4j",
       "path": "md/dom4j.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "linux",
       "path": "md/linux.md"
-    },
-    {
-      "basename": "gitlab",
-      "path": "md/gitlab.md"
     }
   ],
   "omittedPaths": [],
