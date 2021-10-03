@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "git",
+      "path": "md/git.md"
+    },
+    {
+      "basename": "visitor_访问者模式",
+      "path": "md/visitor_访问者模式.md"
+    },
+    {
+      "basename": "java-utils",
+      "path": "md/java-utils.md"
+    },
+    {
       "basename": "java-tips",
       "path": "md/java-tips.md"
     },
@@ -41,24 +53,12 @@
       "path": "md/regex.md"
     },
     {
-      "basename": "java-utils",
-      "path": "md/java-utils.md"
-    },
-    {
       "basename": "java_app_一些常用的应用",
       "path": "md/java_app_一些常用的应用.md"
     },
     {
       "basename": "common_常用",
       "path": "md/common_常用.md"
-    },
-    {
-      "basename": "cheatsheet_快捷键",
-      "path": "md/cheatsheet_快捷键.md"
-    },
-    {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
     }
   ],
   "omittedPaths": [],

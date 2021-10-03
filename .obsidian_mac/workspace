@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-tips.md",
-            "mode": "source"
+            "file": "md/git.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "reflections",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-tips.md",
+                "file": "md/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java-tips.md"
+                "file": "md/git.md"
               }
             }
           }
@@ -127,15 +127,15 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/git.md",
+    "md/visitor_访问者模式.md",
+    "md/java-utils.md",
     "md/java-tips.md",
     "md/java-SPI.md",
     "md/maven.md",
     "md/java-stream.md",
     "md/java-函数式编程库.md",
     "md/dom4j.md",
-    "md/linux常用命令.md",
-    "md/common-configuration.md",
-    "md/java-string.md",
-    "md/regex.md"
+    "md/linux常用命令.md"
   ]
 }
