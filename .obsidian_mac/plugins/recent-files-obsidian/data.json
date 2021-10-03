@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
+      "basename": "java-SPI",
+      "path": "md/java-SPI.md"
+    },
+    {
+      "basename": "maven",
+      "path": "md/maven.md"
+    },
+    {
       "basename": "java-stream",
       "path": "md/java-stream.md"
     },
@@ -41,24 +53,12 @@
       "path": "md/common_常用.md"
     },
     {
-      "basename": "maven",
-      "path": "md/maven.md"
-    },
-    {
       "basename": "cheatsheet_快捷键",
       "path": "md/cheatsheet_快捷键.md"
     },
     {
       "basename": "obsidan",
       "path": "md/obsidan.md"
-    },
-    {
-      "basename": "shell-tips",
-      "path": "md/shell-tips.md"
-    },
-    {
-      "basename": "git",
-      "path": "md/git.md"
     }
   ],
   "omittedPaths": [],
