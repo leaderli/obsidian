@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "3707095591c9eeb2",
+        "id": "1c4bd967789cd47c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/规则引擎.md",
+            "file": "md/visitor_访问者模式.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jax",
+                "query": "event java liste",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,11 +73,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 715
+    "width": 100
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/规则引擎.md",
+                "file": "md/visitor_访问者模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/规则引擎.md"
+                "file": "md/visitor_访问者模式.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/规则引擎.md",
+                "file": "md/visitor_访问者模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,19 +142,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481
+    "width": 100
   },
-  "active": "3707095591c9eeb2",
+  "active": "1c4bd967789cd47c",
   "lastOpenFiles": [
+    "md/visitor_访问者模式.md",
+    "md/订阅发布模式.md",
+    "md/设计模式.md",
+    "md/gef-event.md",
+    "md/java-utils.md",
+    "md/java泛型.md",
+    "md/静态内部类的泛型与建造者模式.md",
     "md/规则引擎.md",
     "md/maven.md",
-    "md/maven相关.md",
-    "md/dom4j.md",
-    "md/common-configuration.md",
-    "md/obsidan.md",
-    "kanban.md",
-    "md/分布式锁实现.md",
-    "md/java-utils.md",
-    "md/idea.md"
+    "md/maven相关.md"
   ]
 }
