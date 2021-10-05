@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/visitor_访问者模式.md",
+            "file": "md/编译原理.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/visitor_访问者模式.md",
+            "file": "md/编译原理.md",
             "mode": "preview"
           }
         },
@@ -85,13 +85,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 100,
-    "collapsed": true
+    "width": 337
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -107,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/visitor_访问者模式.md",
+                "file": "md/编译原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/visitor_访问者模式.md"
+                "file": "md/编译原理.md"
               }
             }
           },
@@ -145,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/visitor_访问者模式.md",
+                "file": "md/编译原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,6 +159,7 @@
   },
   "active": "1c4bd967789cd47c",
   "lastOpenFiles": [
+    "md/Untitled.md",
     "md/visitor_访问者模式.md",
     "md/订阅发布模式.md",
     "md/设计模式.md",
@@ -169,7 +168,6 @@
     "md/java泛型.md",
     "md/静态内部类的泛型与建造者模式.md",
     "md/规则引擎.md",
-    "md/maven.md",
-    "md/maven相关.md"
+    "md/maven.md"
   ]
 }

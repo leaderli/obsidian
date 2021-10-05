@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "编译原理",
+      "path": "md/编译原理.md"
+    },
+    {
       "basename": "visitor_访问者模式",
       "path": "md/visitor_访问者模式.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "kanban",
       "path": "kanban.md"
-    },
-    {
-      "basename": "分布式锁实现",
-      "path": "md/分布式锁实现.md"
     }
   ],
   "omittedPaths": [],
