@@ -159,6 +159,7 @@
   },
   "active": "1c4bd967789cd47c",
   "lastOpenFiles": [
+    "md/编译原理.md",
     "md/Untitled.md",
     "md/visitor_访问者模式.md",
     "md/订阅发布模式.md",
@@ -167,7 +168,6 @@
     "md/java-utils.md",
     "md/java泛型.md",
     "md/静态内部类的泛型与建造者模式.md",
-    "md/规则引擎.md",
-    "md/maven.md"
+    "md/规则引擎.md"
   ]
 }
