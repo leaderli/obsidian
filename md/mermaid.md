@@ -16,18 +16,16 @@ mermaid 是一个流程图插件的语法，可定义多种类型的流程图，
 
 ```txt
 	```mermaid
-	graph LR;
+	graph LR
 		Start --> Stop
 	```
 ```
 
 
 ```mermaid
-graph LR;
+graph LR
     Start --> Stop
 ```
-
-^951b43
 
 graph 标明当前为流程图，LR 标明方向
 

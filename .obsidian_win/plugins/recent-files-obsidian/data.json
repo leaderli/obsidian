@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "编译原理",
+      "path": "md/编译原理.md"
+    },
+    {
       "basename": "mermaid",
       "path": "md/mermaid.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
     },
     {
       "basename": "markdown_katex",
@@ -11,10 +23,6 @@
     {
       "basename": "hexo",
       "path": "md/hexo.md"
-    },
-    {
-      "basename": "编译原理",
-      "path": "md/编译原理.md"
     },
     {
       "basename": "规则引擎",
@@ -51,14 +59,6 @@
     {
       "basename": "java泛型",
       "path": "md/java泛型.md"
-    },
-    {
-      "basename": "静态内部类的泛型与建造者模式",
-      "path": "md/静态内部类的泛型与建造者模式.md"
-    },
-    {
-      "basename": "maven",
-      "path": "md/maven.md"
     }
   ],
   "omittedPaths": [],

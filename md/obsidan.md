@@ -82,3 +82,7 @@ This is in the original admonition.
 图标插件
 
 `ris:Notification` `ris:Bank` `ris:AncientGate`
+
+### find-unlinked-files
+
+查找未被引用的笔记，文件，可用来删除无用的图片等

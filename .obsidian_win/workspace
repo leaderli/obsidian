@@ -4,15 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "252da055a37a72b2",
+        "id": "95c6758a3ab54a6c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/mermaid.md",
+            "file": "md/编译原理.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "f153d8129e83650f"
+      },
+      {
+        "id": "89ee4a2c0f08baa8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/编译原理.md",
+            "mode": "preview"
+          }
+        },
+        "group": "f153d8129e83650f"
       }
     ],
     "direction": "vertical"
@@ -39,9 +52,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "951b43",
                 "matchingCase": true,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -77,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337
+    "width": 337,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -93,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/mermaid.md",
+                "file": "md/编译原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/mermaid.md"
+                "file": "md/编译原理.md"
               }
             }
           },
@@ -131,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/mermaid.md",
+                "file": "md/编译原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,17 +159,17 @@
     "width": 396,
     "collapsed": true
   },
-  "active": "252da055a37a72b2",
+  "active": "95c6758a3ab54a6c",
   "lastOpenFiles": [
+    "md/编译原理.md",
     "md/mermaid.md",
+    "md/obsidan.md",
+    "unlinked files output.md",
+    "kanban.md",
     "md/markdown_katex.md",
     "md/hexo.md",
-    "md/编译原理.md",
     "md/规则引擎.md",
     "md/自动机理论.md",
-    "resource/编译原理课件.pdf",
-    "md/Untitled.md",
-    "md/visitor_访问者模式.md",
-    "md/订阅发布模式.md"
+    "resource/编译原理课件.pdf"
   ]
 }
