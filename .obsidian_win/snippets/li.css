@@ -7,12 +7,12 @@
 a {
    color:#569ff7;
 }
-.minimal-theme.links-int-on .markdown-preview-view .internal-link, .markdown-preview-view .internal-link {
+/* .minimal-theme.links-int-on .markdown-preview-view .internal-link, .markdown-preview-view .internal-link {
     text-decoration: none;
 }
 .minimal-theme.links-ext-on .external-link, .external-link {
     text-decoration: none
-}
+} */
 
 /* preview */
 
@@ -28,4 +28,7 @@ a {
 .frontmatter-container .tag, a.tag {
   color: #569ff7;
 
+}
+.fuck {
+  color:red
 }

@@ -4,28 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1c4bd967789cd47c",
+        "id": "252da055a37a72b2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/编译原理.md",
+            "file": "md/mermaid.md",
             "mode": "source"
           }
-        },
-        "group": "9e27a4fa07ad2703"
-      },
-      {
-        "id": "13523a10eef82089",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/编译原理.md",
-            "mode": "preview"
-          }
-        },
-        "group": "9e27a4fa07ad2703"
+        }
       }
     ],
     "direction": "vertical"
@@ -52,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "event java liste",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +72,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -105,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/编译原理.md",
+                "file": "md/mermaid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/编译原理.md"
+                "file": "md/mermaid.md"
               }
             }
           },
@@ -143,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/编译原理.md",
+                "file": "md/mermaid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,20 +142,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100,
+    "width": 396,
     "collapsed": true
   },
-  "active": "1c4bd967789cd47c",
+  "active": "252da055a37a72b2",
   "lastOpenFiles": [
+    "md/mermaid.md",
+    "md/markdown_katex.md",
+    "md/hexo.md",
     "md/编译原理.md",
+    "md/规则引擎.md",
+    "md/自动机理论.md",
+    "resource/编译原理课件.pdf",
     "md/Untitled.md",
     "md/visitor_访问者模式.md",
-    "md/订阅发布模式.md",
-    "md/设计模式.md",
-    "md/gef-event.md",
-    "md/java-utils.md",
-    "md/java泛型.md",
-    "md/静态内部类的泛型与建造者模式.md",
-    "md/规则引擎.md"
+    "md/订阅发布模式.md"
   ]
 }

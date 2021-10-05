@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "mermaid",
+      "path": "md/mermaid.md"
+    },
+    {
+      "basename": "markdown_katex",
+      "path": "md/markdown_katex.md"
+    },
+    {
+      "basename": "hexo",
+      "path": "md/hexo.md"
+    },
+    {
       "basename": "编译原理",
       "path": "md/编译原理.md"
+    },
+    {
+      "basename": "规则引擎",
+      "path": "md/规则引擎.md"
+    },
+    {
+      "basename": "自动机理论",
+      "path": "md/自动机理论.md"
+    },
+    {
+      "basename": "编译原理课件",
+      "path": "resource/编译原理课件.pdf"
     },
     {
       "basename": "visitor_访问者模式",
@@ -33,32 +57,8 @@
       "path": "md/静态内部类的泛型与建造者模式.md"
     },
     {
-      "basename": "规则引擎",
-      "path": "md/规则引擎.md"
-    },
-    {
       "basename": "maven",
       "path": "md/maven.md"
-    },
-    {
-      "basename": "maven相关",
-      "path": "md/maven相关.md"
-    },
-    {
-      "basename": "dom4j",
-      "path": "md/dom4j.md"
-    },
-    {
-      "basename": "common-configuration",
-      "path": "md/common-configuration.md"
-    },
-    {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     }
   ],
   "omittedPaths": [],
