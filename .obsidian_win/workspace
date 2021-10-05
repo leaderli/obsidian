@@ -6,6 +6,7 @@
       {
         "id": "95c6758a3ab54a6c",
         "type": "leaf",
+        "dimension": 35.301924353019245,
         "state": {
           "type": "markdown",
           "state": {
@@ -13,11 +14,12 @@
             "mode": "source"
           }
         },
-        "group": "f153d8129e83650f"
+        "group": "5ec67e81a17d5fca"
       },
       {
-        "id": "89ee4a2c0f08baa8",
+        "id": "ea3ddf7728e6091e",
         "type": "leaf",
+        "dimension": 64.69807564698075,
         "state": {
           "type": "markdown",
           "state": {
@@ -25,7 +27,7 @@
             "mode": "preview"
           }
         },
-        "group": "f153d8129e83650f"
+        "group": "5ec67e81a17d5fca"
       }
     ],
     "direction": "vertical"
@@ -159,7 +161,7 @@
     "width": 396,
     "collapsed": true
   },
-  "active": "95c6758a3ab54a6c",
+  "active": "ea3ddf7728e6091e",
   "lastOpenFiles": [
     "md/编译原理.md",
     "md/mermaid.md",
