@@ -5,6 +5,10 @@
       "path": "md/编译原理.md"
     },
     {
+      "basename": "AST",
+      "path": "md/AST.md"
+    },
+    {
       "basename": "自动机理论",
       "path": "md/自动机理论.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "设计模式",
       "path": "md/设计模式.md"
-    },
-    {
-      "basename": "gef-event",
-      "path": "md/gef-event.md"
     }
   ],
   "omittedPaths": [],

@@ -6,7 +6,6 @@
       {
         "id": "9e24ac82da3914cc",
         "type": "leaf",
-        "dimension": 48.148148148148145,
         "state": {
           "type": "markdown",
           "state": {
@@ -14,12 +13,11 @@
             "mode": "source"
           }
         },
-        "group": "bc6c337a396afbbf"
+        "group": "85d0fba9cc989f8b"
       },
       {
-        "id": "16ad68dafd3d8367",
+        "id": "0f1e060306acf650",
         "type": "leaf",
-        "dimension": 51.85185185185185,
         "state": {
           "type": "markdown",
           "state": {
@@ -27,7 +25,7 @@
             "mode": "preview"
           }
         },
-        "group": "bc6c337a396afbbf"
+        "group": "85d0fba9cc989f8b"
       }
     ],
     "direction": "vertical"
@@ -54,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mermaid",
+                "query": "AST",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -88,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,6 +162,7 @@
   "active": "9e24ac82da3914cc",
   "lastOpenFiles": [
     "md/编译原理.md",
+    "md/AST.md",
     "md/自动机理论.md",
     "md/markdown_katex.md",
     "resource/编译原理课件.pdf",
@@ -171,7 +170,6 @@
     "md/规则引擎.md",
     "md/sip.md",
     "md/mermaid.md",
-    "md/obsidan.md",
-    "unlinked files output.md"
+    "md/obsidan.md"
   ]
 }
