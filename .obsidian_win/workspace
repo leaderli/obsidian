@@ -4,9 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "2e03fc14b7c80eb5",
+        "id": "5480f45cf4cf27ee",
         "type": "leaf",
-        "dimension": 46.43962848297213,
+        "dimension": 53.97215397215397,
         "state": {
           "type": "markdown",
           "state": {
@@ -14,20 +14,40 @@
             "mode": "source"
           }
         },
-        "group": "351cc6151c28f0e8"
+        "group": "7fbf1ebddb728c62"
       },
       {
-        "id": "2e7a5b14a017d5c4",
-        "type": "leaf",
-        "dimension": 53.56037151702786,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/语言及文法.md",
-            "mode": "preview"
+        "id": "cbd8a708d35bce56",
+        "type": "split",
+        "dimension": 46.027846027846024,
+        "children": [
+          {
+            "id": "65a365389dea9119",
+            "type": "leaf",
+            "dimension": 69.41896024464832,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "md/语言及文法.md",
+                "mode": "preview"
+              }
+            },
+            "group": "7fbf1ebddb728c62"
+          },
+          {
+            "id": "2e03fc14b7c80eb5",
+            "type": "leaf",
+            "dimension": 30.58103975535168,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "md/katex.md",
+                "mode": "preview"
+              }
+            }
           }
-        },
-        "group": "351cc6151c28f0e8"
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -92,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270
+    "width": 270,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -160,17 +181,17 @@
     "width": 396,
     "collapsed": true
   },
-  "active": "2e03fc14b7c80eb5",
+  "active": "5480f45cf4cf27ee",
   "lastOpenFiles": [
     "md/语言及文法.md",
-    "md/obsidan.md",
-    "md/自动机理论.md",
+    "md/katex.md",
+    "md/编译原理.md",
     "md/markdown_katex.md",
     "md/Untitled.md",
-    "md/编译原理.md",
+    "md/自动机理论.md",
+    "md/obsidan.md",
     "md/AST.md",
     "resource/编译原理课件.pdf",
-    "md/avaya.md",
-    "md/规则引擎.md"
+    "md/avaya.md"
   ]
 }

@@ -5,20 +5,24 @@
       "path": "md/语言及文法.md"
     },
     {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
+      "basename": "katex",
+      "path": "md/katex.md"
     },
     {
-      "basename": "自动机理论",
-      "path": "md/自动机理论.md"
+      "basename": "编译原理",
+      "path": "md/编译原理.md"
     },
     {
       "basename": "markdown_katex",
       "path": "md/markdown_katex.md"
     },
     {
-      "basename": "编译原理",
-      "path": "md/编译原理.md"
+      "basename": "自动机理论",
+      "path": "md/自动机理论.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
     },
     {
       "basename": "AST",
@@ -55,10 +59,6 @@
     {
       "basename": "hexo",
       "path": "md/hexo.md"
-    },
-    {
-      "basename": "订阅发布模式",
-      "path": "md/订阅发布模式.md"
     }
   ],
   "omittedPaths": [],
