@@ -103,7 +103,7 @@ tags:
 常用
 
 | 表达式                         | 示例                           |
-| :----------------------------- | :----------------------------- |
+|:------------------------------ |:------------------------------ |
 | `\{\}`                         | $\{\}$                         |
 | `\ge`                          | $\ge$                          |
 | `\le`                          | $\le$                          |
@@ -117,6 +117,7 @@ tags:
 | `\Sigma`                       | $\Sigma$                       |
 | `\omega`                       | $\omega$                       |
 | `\lbrace \rbrace`              | $\lbrace \rbrace$              |
+| `\langle\rangle`              | $\langle\rangle$              |
 | `\vert`                        | $\vert$                        |
 | `\emptyset`                    | $\emptyset$                    |
 | `\varrho`                      | $\varrho$                      |
@@ -132,6 +133,8 @@ tags:
 | `\supset`                      | $\supset$                      |
 | `\supseteq`                    | $\supseteq$                    |
 | `\varepsilon\text{-}NFA`       | $\varepsilon\text{-}NFA$       |
+| `\rightarrow`                  | $\rightarrow$                  |
+| `\leftarrow`                   | $\leftarrow$                   |
 
 块状使用`$$`包含
 

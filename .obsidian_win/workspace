@@ -6,6 +6,7 @@
       {
         "id": "9e24ac82da3914cc",
         "type": "leaf",
+        "dimension": 48.148148148148145,
         "state": {
           "type": "markdown",
           "state": {
@@ -18,6 +19,7 @@
       {
         "id": "16ad68dafd3d8367",
         "type": "leaf",
+        "dimension": 51.85185185185185,
         "state": {
           "type": "markdown",
           "state": {
@@ -162,14 +164,14 @@
   "active": "9e24ac82da3914cc",
   "lastOpenFiles": [
     "md/编译原理.md",
+    "md/自动机理论.md",
+    "md/markdown_katex.md",
     "resource/编译原理课件.pdf",
     "md/avaya.md",
     "md/规则引擎.md",
     "md/sip.md",
-    "md/自动机理论.md",
     "md/mermaid.md",
     "md/obsidan.md",
-    "unlinked files output.md",
-    "kanban.md"
+    "unlinked files output.md"
   ]
 }

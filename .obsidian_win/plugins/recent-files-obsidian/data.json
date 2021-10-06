@@ -5,6 +5,14 @@
       "path": "md/编译原理.md"
     },
     {
+      "basename": "自动机理论",
+      "path": "md/自动机理论.md"
+    },
+    {
+      "basename": "markdown_katex",
+      "path": "md/markdown_katex.md"
+    },
+    {
       "basename": "编译原理课件",
       "path": "resource/编译原理课件.pdf"
     },
@@ -25,10 +33,6 @@
       "path": "md/sip.md"
     },
     {
-      "basename": "自动机理论",
-      "path": "md/自动机理论.md"
-    },
-    {
       "basename": "mermaid",
       "path": "md/mermaid.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "kanban",
       "path": "kanban.md"
-    },
-    {
-      "basename": "markdown_katex",
-      "path": "md/markdown_katex.md"
     },
     {
       "basename": "hexo",
