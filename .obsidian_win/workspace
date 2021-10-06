@@ -4,28 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "9e24ac82da3914cc",
+        "id": "2e03fc14b7c80eb5",
         "type": "leaf",
+        "dimension": 46.43962848297213,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/编译原理.md",
+            "file": "md/语言及文法.md",
             "mode": "source"
           }
         },
-        "group": "85d0fba9cc989f8b"
+        "group": "351cc6151c28f0e8"
       },
       {
-        "id": "0f1e060306acf650",
+        "id": "2e7a5b14a017d5c4",
         "type": "leaf",
+        "dimension": 53.56037151702786,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/编译原理.md",
+            "file": "md/语言及文法.md",
             "mode": "preview"
           }
         },
-        "group": "85d0fba9cc989f8b"
+        "group": "351cc6151c28f0e8"
       }
     ],
     "direction": "vertical"
@@ -52,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "AST",
+                "query": "字母表",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -86,12 +88,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 250.5,
-    "collapsed": true
+    "width": 270
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -107,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/编译原理.md",
+                "file": "md/语言及文法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/编译原理.md"
+                "file": "md/语言及文法.md"
               }
             }
           },
@@ -145,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/编译原理.md",
+                "file": "md/语言及文法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,17 +160,17 @@
     "width": 396,
     "collapsed": true
   },
-  "active": "9e24ac82da3914cc",
+  "active": "2e03fc14b7c80eb5",
   "lastOpenFiles": [
-    "md/编译原理.md",
-    "md/AST.md",
+    "md/语言及文法.md",
+    "md/obsidan.md",
     "md/自动机理论.md",
     "md/markdown_katex.md",
+    "md/Untitled.md",
+    "md/编译原理.md",
+    "md/AST.md",
     "resource/编译原理课件.pdf",
     "md/avaya.md",
-    "md/规则引擎.md",
-    "md/sip.md",
-    "md/mermaid.md",
-    "md/obsidan.md"
+    "md/规则引擎.md"
   ]
 }

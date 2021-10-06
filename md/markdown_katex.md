@@ -53,7 +53,8 @@ tags:
   | Division 1     |   Division 2   |     Division 3 |
   | Division 1     |   Division 2   |     Division 3 |
   | Division 1     |   Division 2   |     Division 3 |
-
+	
+  可以通过[网站](https://www.convertcsv.com/csv-to-markdown.htm)，将纯文本转换为table格式。
 - 文本换行可在上一段文本后追加至少两个空格
 
 - 水平线 `---`

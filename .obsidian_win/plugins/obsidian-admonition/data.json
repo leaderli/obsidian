@@ -16,5 +16,5 @@
   "autoCollapse": false,
   "defaultCollapseType": "open",
   "syncLinks": true,
-  "enableMarkdownProcessor": false
+  "enableMarkdownProcessor": true
 }

@@ -39,7 +39,7 @@
 
 ##  插件
 
-### obsidian-admonition
+### [obsidian-admonition](https://github.com/valentine195/obsidian-admonition)
 
 ```ad-note
 title: Nested Admonitions
@@ -58,6 +58,50 @@ Hello!
 This is in the original admonition.
 ```
 
+支持的类型有
+
+```ad-abstract
+```
+```ad-info
+```
+```ad-tip
+```
+```ad-success
+```
+```ad-question
+```
+```ad-warning
+```
+```ad-failure
+```
+```ad-bug
+```
+```ad-example
+```
+```ad-quote
+```
+
+可以使用别名
+
+| Type     | Aliases                     |
+| -------- | --------------------------- |
+| note     | note, seealso               |
+| abstract | abstract, summary, tldr     |
+| info     | info, todo                  |
+| tip      | tip, hint, important        |
+| success  | success, check, done        |
+| question | question, help, faq         |
+| warning  | warning, caution, attention |
+| failure  | failure, fail, missing      |
+| danger   | danger, error               |
+| bug      | bug                         |
+| example  | example                     |
+| quote    | quote, cite                 |
+
+也可以自己定义类型
+
+```ad-li
+```
 ### obsidian-timeline
 
 使用3个`+`作为一个时间段

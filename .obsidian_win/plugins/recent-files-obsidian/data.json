@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "编译原理",
-      "path": "md/编译原理.md"
+      "basename": "语言及文法",
+      "path": "md/语言及文法.md"
     },
     {
-      "basename": "AST",
-      "path": "md/AST.md"
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
     },
     {
       "basename": "自动机理论",
@@ -15,6 +15,14 @@
     {
       "basename": "markdown_katex",
       "path": "md/markdown_katex.md"
+    },
+    {
+      "basename": "编译原理",
+      "path": "md/编译原理.md"
+    },
+    {
+      "basename": "AST",
+      "path": "md/AST.md"
     },
     {
       "basename": "编译原理课件",
@@ -41,10 +49,6 @@
       "path": "md/mermaid.md"
     },
     {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
-    },
-    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "订阅发布模式",
       "path": "md/订阅发布模式.md"
-    },
-    {
-      "basename": "设计模式",
-      "path": "md/设计模式.md"
     }
   ],
   "omittedPaths": [],
