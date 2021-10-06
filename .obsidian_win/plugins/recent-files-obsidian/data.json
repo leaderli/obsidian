@@ -5,6 +5,30 @@
       "path": "md/编译原理.md"
     },
     {
+      "basename": "编译原理课件",
+      "path": "resource/编译原理课件.pdf"
+    },
+    {
+      "basename": "avaya",
+      "path": "md/avaya.md"
+    },
+    {
+      "basename": "规则引擎",
+      "path": "md/规则引擎.md"
+    },
+    {
+      "basename": "visitor_访问者模式",
+      "path": "md/visitor_访问者模式.md"
+    },
+    {
+      "basename": "sip",
+      "path": "md/sip.md"
+    },
+    {
+      "basename": "自动机理论",
+      "path": "md/自动机理论.md"
+    },
+    {
       "basename": "mermaid",
       "path": "md/mermaid.md"
     },
@@ -25,22 +49,6 @@
       "path": "md/hexo.md"
     },
     {
-      "basename": "规则引擎",
-      "path": "md/规则引擎.md"
-    },
-    {
-      "basename": "自动机理论",
-      "path": "md/自动机理论.md"
-    },
-    {
-      "basename": "编译原理课件",
-      "path": "resource/编译原理课件.pdf"
-    },
-    {
-      "basename": "visitor_访问者模式",
-      "path": "md/visitor_访问者模式.md"
-    },
-    {
       "basename": "订阅发布模式",
       "path": "md/订阅发布模式.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "gef-event",
       "path": "md/gef-event.md"
-    },
-    {
-      "basename": "java-utils",
-      "path": "md/java-utils.md"
-    },
-    {
-      "basename": "java泛型",
-      "path": "md/java泛型.md"
     }
   ],
   "omittedPaths": [],

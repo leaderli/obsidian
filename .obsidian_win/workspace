@@ -4,9 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "95c6758a3ab54a6c",
+        "id": "9e24ac82da3914cc",
         "type": "leaf",
-        "dimension": 35.301924353019245,
         "state": {
           "type": "markdown",
           "state": {
@@ -14,12 +13,11 @@
             "mode": "source"
           }
         },
-        "group": "5ec67e81a17d5fca"
+        "group": "bc6c337a396afbbf"
       },
       {
-        "id": "ea3ddf7728e6091e",
+        "id": "16ad68dafd3d8367",
         "type": "leaf",
-        "dimension": 64.69807564698075,
         "state": {
           "type": "markdown",
           "state": {
@@ -27,7 +25,7 @@
             "mode": "preview"
           }
         },
-        "group": "5ec67e81a17d5fca"
+        "group": "bc6c337a396afbbf"
       }
     ],
     "direction": "vertical"
@@ -54,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "951b43",
+                "query": "mermaid",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -92,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337,
+    "width": 250.5,
     "collapsed": true
   },
   "right": {
@@ -161,17 +159,17 @@
     "width": 396,
     "collapsed": true
   },
-  "active": "ea3ddf7728e6091e",
+  "active": "9e24ac82da3914cc",
   "lastOpenFiles": [
     "md/编译原理.md",
+    "resource/编译原理课件.pdf",
+    "md/avaya.md",
+    "md/规则引擎.md",
+    "md/sip.md",
+    "md/自动机理论.md",
     "md/mermaid.md",
     "md/obsidan.md",
     "unlinked files output.md",
-    "kanban.md",
-    "md/markdown_katex.md",
-    "md/hexo.md",
-    "md/规则引擎.md",
-    "md/自动机理论.md",
-    "resource/编译原理课件.pdf"
+    "kanban.md"
   ]
 }

@@ -71,7 +71,7 @@ codec,VP9 Video,CORE_VPX_MODULE
 
 当我们重新加载模块时，可以看到相关音频编码的加载过程
 
-```shell
+```log
 freeswitch@CentOS7> reload mod_g723_1
 +OK Reloading XML
 +OK module unloaded
@@ -116,7 +116,7 @@ freeswitch@CentOS7> /log 7
 
 在 log 中我们可以看到如下的协商过程
 
-```shell
+```log
 Audio Codec Compare [opus:113:48000:20:0:2]/[G722:9:8000:20:64000:1]
 Audio Codec Compare [opus:113:48000:20:0:2]/[PCMU:0:8000:20:64000:1]
 Audio Codec Compare [opus:113:48000:20:0:2]/[PCMA:8:8000:20:64000:1]
@@ -143,7 +143,7 @@ SIP 采用 Off/Anwser（请求／应答）机制来协商。请求发起的一�
 
 我们查看一个 INVITE 请求（删减部分信息）
 
-```shell
+```http
 INVITE sip:5000@10.211.55.6 SIP/2.0
 From: "centos7" <sip:1001@10.211.55.6>;tag=8.AL-QAaB3pR6AtISmelTqJqewW4zcKh
 To: <sip:5000@10.211.55.6>
@@ -174,7 +174,7 @@ a=sendrecv
 
 当 Freeswitch 收到请求后，即启动协商过程。根据前面的 Log 所以，服务器提供 OPUS,G722,PCMU,PCMA 等。因此当比较到 G7222 时协商成功，FreeSwitch 返回如下 SIP 消息
 
-```shell
+```http
 SIP/2.0 200 OK
 From: "centos7" <sip:1001@10.211.55.6>;tag=8.AL-QAaB3pR6AtISmelTqJqewW4zcKh
 To: <sip:5000@10.211.55.6>;tag=F0mU0rHp6gUHS
@@ -369,7 +369,7 @@ a = orient:portrait
 
 4. F4 ACK Alice -> Bob
 
-   ```txt
+   ```text
    ACK sip:bob@client.biloxi.example.com SIP/2.0
    Via: SIP/2.0/TCP client.atlanta.example.com:5060;branch=z9hG4bK74bd5
    Max-Forwards: 70
