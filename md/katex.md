@@ -21,12 +21,9 @@
 | `\lbrace \rbrace`              | $\lbrace \rbrace$                       |
 | `\langle\rangle`               | $\langle\rangle$                        |
 | `\vert`                        | $\vert$                                 |
-| `\emptyset`                    | $\emptyset$                             |
 | `\varrho`                      | $\varrho$                               |
 | `\varrho`                      | $\vartheta$                             |
 | `\delta`                       | $\delta$                                |
-| `\in`                          | $\in$                                   |
-| `\notin`                       | $\notin$                                |
 | `\cap`                         | $\cap$                                  |
 | `\cup`                         | $\cup$                                  |
 | `\displaystyle\bigcup_{i=1}^k` | $\displaystyle\bigcup_{i=1}^k$          |
@@ -38,25 +35,51 @@
 | `\rightarrow`                  | $\rightarrow$                           |
 | `\leftarrow`                   | $\leftarrow$                            |
 
+
+### 逻辑与集合
+|             |             |
+| ----------- | ----------- |
+| `\forall`   | $\forall$   |
+| `\to`       | $\to$       |
+| `\gets`     | $\gets$     |
+| `\in`       | $\in$       |
+| `\notin`    | $\notin$    |
+| `\emptyset` | $\emptyset$ |
+
+```ad-warning
+title:
 块状使用`$$`包含
+```
+
+```latex
+\begin{cases}
+   a &\text{if } b \\
+   c &\text{if } d
+\end{cases}
+```
+
+$
+ \begin{cases}
+   a &\text{if } b \\
+   c &\text{if } d
+\end{cases}
+$
 
 换行
 
-```katex
-$$
+```latex
 \begin{align}
 1 == 1 \\
 2 == 2
 \end{align}
-$$
 ```
 
-$$
+$
 \begin{align}
 1 == 1 \\
 2 == 2
 \end{align}
-$$
+$
 
 ```ad-fail
 不支持中文

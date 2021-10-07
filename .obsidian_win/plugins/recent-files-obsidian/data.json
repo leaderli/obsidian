@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
       "basename": "语言及文法",
       "path": "md/语言及文法.md"
     },
     {
       "basename": "katex",
       "path": "md/katex.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
     },
     {
       "basename": "编译原理",
@@ -19,10 +27,6 @@
     {
       "basename": "自动机理论",
       "path": "md/自动机理论.md"
-    },
-    {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
     },
     {
       "basename": "AST",
@@ -55,10 +59,6 @@
     {
       "basename": "kanban",
       "path": "kanban.md"
-    },
-    {
-      "basename": "hexo",
-      "path": "md/hexo.md"
     }
   ],
   "omittedPaths": [],

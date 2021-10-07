@@ -6,48 +6,28 @@
       {
         "id": "5480f45cf4cf27ee",
         "type": "leaf",
-        "dimension": 53.97215397215397,
+        "dimension": 53.97215397215396,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/语言及文法.md",
+            "file": "md/linux常用命令.md",
             "mode": "source"
           }
         },
         "group": "7fbf1ebddb728c62"
       },
       {
-        "id": "cbd8a708d35bce56",
-        "type": "split",
+        "id": "65a365389dea9119",
+        "type": "leaf",
         "dimension": 46.027846027846024,
-        "children": [
-          {
-            "id": "65a365389dea9119",
-            "type": "leaf",
-            "dimension": 69.41896024464832,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "md/语言及文法.md",
-                "mode": "preview"
-              }
-            },
-            "group": "7fbf1ebddb728c62"
-          },
-          {
-            "id": "2e03fc14b7c80eb5",
-            "type": "leaf",
-            "dimension": 30.58103975535168,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "md/katex.md",
-                "mode": "preview"
-              }
-            }
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/linux常用命令.md",
+            "mode": "preview"
           }
-        ],
-        "direction": "horizontal"
+        },
+        "group": "7fbf1ebddb728c62"
       }
     ],
     "direction": "vertical"
@@ -74,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "字母表",
+                "query": "netstat",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -108,12 +88,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 270,
-    "collapsed": true
+    "width": 270
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -129,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/语言及文法.md",
+                "file": "md/linux常用命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/语言及文法.md"
+                "file": "md/linux常用命令.md"
               }
             }
           },
@@ -167,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/语言及文法.md",
+                "file": "md/linux常用命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,15 +162,15 @@
   },
   "active": "5480f45cf4cf27ee",
   "lastOpenFiles": [
+    "md/linux常用命令.md",
     "md/语言及文法.md",
     "md/katex.md",
+    "md/obsidan.md",
     "md/编译原理.md",
     "md/markdown_katex.md",
     "md/Untitled.md",
     "md/自动机理论.md",
-    "md/obsidan.md",
     "md/AST.md",
-    "resource/编译原理课件.pdf",
-    "md/avaya.md"
+    "resource/编译原理课件.pdf"
   ]
 }
