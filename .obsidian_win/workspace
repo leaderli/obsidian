@@ -159,17 +159,17 @@
     "width": 396,
     "collapsed": true
   },
-  "active": "f8c46a45a26344d8",
+  "active": "f8b53ba78929a7c6",
   "lastOpenFiles": [
     "md/语言及文法.md",
+    "template/ad_template.md",
+    "template/katex.md",
+    "template/ad.md",
     "md/katex.md",
     "template/Untitled.md",
     "md/mermaid.md",
     "md/自动机理论.md",
     "md/obsidan.md",
-    "md/linux常用命令.md",
-    "md/编译原理.md",
-    "md/markdown_katex.md",
-    "md/Untitled.md"
+    "md/linux常用命令.md"
   ]
 }

@@ -206,6 +206,9 @@ Disabled features */
 
 }
 
+em {
+  color: var(--purple);
+}
 /* Desktop font sizes */
 body {
   --font-adaptive-normal:var(--font-normal);
