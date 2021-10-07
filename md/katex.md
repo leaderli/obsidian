@@ -45,6 +45,7 @@
 | `\in`       | $\in$       |
 | `\notin`    | $\notin$    |
 | `\emptyset` | $\emptyset$ |
+| `\alpha \Rightarrow^n\alpha_n` |  $\alpha \Rightarrow^n\alpha_n$ |
 
 ```ad-warning
 title:
