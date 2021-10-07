@@ -6,6 +6,7 @@
       {
         "id": "f8c46a45a26344d8",
         "type": "leaf",
+        "dimension": 43.79802414928649,
         "state": {
           "type": "markdown",
           "state": {
@@ -18,6 +19,7 @@
       {
         "id": "f8b53ba78929a7c6",
         "type": "leaf",
+        "dimension": 56.20197585071351,
         "state": {
           "type": "markdown",
           "state": {
@@ -89,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 100,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -157,7 +160,7 @@
     "width": 396,
     "collapsed": true
   },
-  "active": "f8c46a45a26344d8",
+  "active": "f8b53ba78929a7c6",
   "lastOpenFiles": [
     "md/语言及文法.md",
     "md/katex.md",
