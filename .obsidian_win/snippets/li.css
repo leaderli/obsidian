@@ -3,11 +3,11 @@
     color:#ff8000
 }
 
-
+/* 
 a {
    color:#569ff7;
-}
-.minimal-theme.links-int-on .markdown-preview-view .internal-link, .markdown-preview-view .internal-link {
+} */
+/* .minimal-theme.links-int-on .markdown-preview-view .internal-link, .markdown-preview-view .internal-link {
     text-decoration: none;
 }
 .minimal-theme.links-ext-on .external-link, .external-link {
@@ -16,24 +16,24 @@ a {
 
 /* preview */
 
-.markdown-preview-view h4, .HyperMD-header-4, .cm-s-obsidian .cm-header-4{
+/* .markdown-preview-view h4, .HyperMD-header-4, .cm-s-obsidian .cm-header-4{
 
   
   font-variant: none;
-}
-
+} */ */
+/* 
 .markdown-preview-view h3, .HyperMD-header-3, .cm-header-3 {
   letter-spacing: -0em;
   line-height: 1.4;
   font-size: var(--h3);
   color: var(--h3-color);
   font-weight: var(--bold-weight);
-}
+} */
 
 .kanban-plugin__item-tags .kanban-plugin__item-tag{
     color: #569ff7;
 }
-.frontmatter-container .tag, a.tag {
+/* .frontmatter-container .tag, a.tag {
   color: #569ff7;
 
-}
+} */

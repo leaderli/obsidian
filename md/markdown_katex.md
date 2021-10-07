@@ -98,7 +98,7 @@ tags:
 
 
 ## katex
-![[katex]]
+![[md/katex]]
 
 ## 其他
 
