@@ -164,14 +164,14 @@ Disabled features */
   --font-smaller:11px;
   --font-smallest:10px;
 
-  --h1:1.125em;
-  --h2:1em;
+  --h1:2.5em;
+  --h2:1.7em;
   --h3:1em;
   --h4:0.90em;
   --h5:0.85em;
   --h6:0.85em;
 
-  --h1-weight:600;
+  --h1-weight:900;
   --h2-weight:600;
   --h3-weight:500;
   --h4-weight:500;

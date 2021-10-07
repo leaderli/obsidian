@@ -102,6 +102,12 @@ This is in the original admonition.
 
 ```ad-li
 ```
+
+可以使标题为空
+```ad-info
+title:
+11
+```
 ### obsidian-timeline
 
 使用3个`+`作为一个时间段

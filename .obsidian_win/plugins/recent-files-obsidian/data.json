@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
-    },
-    {
       "basename": "语言及文法",
       "path": "md/语言及文法.md"
+    },
+    {
+      "basename": "mermaid",
+      "path": "md/mermaid.md"
+    },
+    {
+      "basename": "自动机理论",
+      "path": "md/自动机理论.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
     },
     {
       "basename": "katex",
       "path": "md/katex.md"
     },
     {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
+      "basename": "ad",
+      "path": "template/ad.md"
+    },
+    {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
     },
     {
       "basename": "编译原理",
@@ -23,10 +35,6 @@
     {
       "basename": "markdown_katex",
       "path": "md/markdown_katex.md"
-    },
-    {
-      "basename": "自动机理论",
-      "path": "md/自动机理论.md"
     },
     {
       "basename": "AST",
@@ -51,14 +59,6 @@
     {
       "basename": "sip",
       "path": "md/sip.md"
-    },
-    {
-      "basename": "mermaid",
-      "path": "md/mermaid.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     }
   ],
   "omittedPaths": [],
