@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "2b90",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -87,12 +87,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 100,
-    "collapsed": true
+    "width": 229
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -163,14 +163,14 @@
   "active": "f8c46a45a26344d8",
   "lastOpenFiles": [
     "md/语言及文法.md",
-    "md/自动机理论.md",
+    "md/编译原理.md",
     "md/katex.md",
+    "md/自动机理论.md",
     "template/ad_template.md",
     "template/katex.md",
     "template/ad.md",
     "template/Untitled.md",
     "md/mermaid.md",
-    "md/obsidan.md",
-    "md/linux常用命令.md"
+    "md/obsidan.md"
   ]
 }
