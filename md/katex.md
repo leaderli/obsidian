@@ -37,15 +37,16 @@
 
 
 ### 逻辑与集合
-|             |             |
-| ----------- | ----------- |
-| `\forall`   | $\forall$   |
-| `\to`       | $\to$       |
-| `\gets`     | $\gets$     |
-| `\in`       | $\in$       |
-| `\notin`    | $\notin$    |
-| `\emptyset` | $\emptyset$ |
-| `\alpha \Rightarrow^n\alpha_n` |  $\alpha \Rightarrow^n\alpha_n$ |
+|                                |                                |
+| ------------------------------ | ------------------------------ |
+| `\forall`                      | $\forall$                      |
+| `\to`                          | $\to$                          |
+| `\gets`                        | $\gets$                        |
+| `\in`                          | $\in$                          |
+| `\notin`                       | $\notin$                       |
+| `\emptyset`                    | $\emptyset$                    |
+| `\alpha \Rightarrow^n\alpha_n` | $\alpha \Rightarrow^n\alpha_n$ |
+| `\displaystyle\sum_{i=1}^n`    | $\displaystyle\sum_{i=1}^n$                               |
 
 ```ad-warning
 title:
