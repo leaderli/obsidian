@@ -13,8 +13,8 @@
   "syntaxHighlight": false,
   "copyButton": true,
   "version": "6.3.0",
-  "autoCollapse": false,
+  "autoCollapse": true,
   "defaultCollapseType": "open",
-  "syncLinks": true,
+  "syncLinks": false,
   "enableMarkdownProcessor": false
 }

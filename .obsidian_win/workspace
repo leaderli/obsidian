@@ -4,15 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "3707095591c9eeb2",
+        "id": "f8c46a45a26344d8",
         "type": "leaf",
+        "dimension": 43.79802414928649,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/规则引擎.md",
+            "file": "md/语言及文法.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "ae8ee3480abed5ab"
+      },
+      {
+        "id": "f8b53ba78929a7c6",
+        "type": "leaf",
+        "dimension": 56.20197585071351,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/语言及文法.md",
+            "mode": "preview"
+          }
+        },
+        "group": "ae8ee3480abed5ab"
       }
     ],
     "direction": "vertical"
@@ -39,9 +54,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jax",
+                "query": "2b90",
                 "matchingCase": true,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -77,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 715,
-    "collapsed": true
+    "width": 229
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/规则引擎.md",
+                "file": "md/语言及文法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/规则引擎.md"
+                "file": "md/语言及文法.md"
               }
             }
           },
@@ -132,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/规则引擎.md",
+                "file": "md/语言及文法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,19 +157,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481
+    "width": 396,
+    "collapsed": true
   },
-  "active": "3707095591c9eeb2",
+  "active": "f8c46a45a26344d8",
   "lastOpenFiles": [
-    "md/规则引擎.md",
-    "md/maven.md",
-    "md/maven相关.md",
-    "md/dom4j.md",
-    "md/common-configuration.md",
-    "md/obsidan.md",
-    "kanban.md",
-    "md/分布式锁实现.md",
-    "md/java-utils.md",
-    "md/idea.md"
+    "md/语言及文法.md",
+    "md/编译原理.md",
+    "md/katex.md",
+    "md/自动机理论.md",
+    "template/ad_template.md",
+    "template/katex.md",
+    "template/ad.md",
+    "template/Untitled.md",
+    "md/mermaid.md",
+    "md/obsidan.md"
   ]
 }

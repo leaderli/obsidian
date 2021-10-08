@@ -53,7 +53,8 @@ tags:
   | Division 1     |   Division 2   |     Division 3 |
   | Division 1     |   Division 2   |     Division 3 |
   | Division 1     |   Division 2   |     Division 3 |
-
+	
+  可以通过[网站](https://www.convertcsv.com/csv-to-markdown.htm)，将纯文本转换为table格式。
 - 文本换行可在上一段文本后追加至少两个空格
 
 - 水平线 `---`
@@ -94,48 +95,10 @@ tags:
 
 详细语法可参考[markdown 参考](https://www.markdownguide.org/basic-syntax/)
 
-## KaTex
 
-[参考文档](https://katex.org/docs/supported.html)
 
-基本 KaTex 首尾需要`$`包含,例如`$X_y$`表示$X_y$
-
-常用
-
-| 表达式                         | 示例                           |
-| :----------------------------- | :----------------------------- |
-| `\{\}`                         | $\{\}$                         |
-| `\ge`                          | $\ge$                          |
-| `\le`                          | $\le$                          |
-| `\ne`                          | $\ne$                          |
-| `\cdots`                       | $\cdots$                       |
-| `X_y`                          | $X_y$                          |
-| `X^{y}`                        | $x^{y}$                        |
-| `\hat{\delta}`                 | $\hat{\delta}$                 |
-| `\theta`                       | $\theta$                       |
-| `\varepsilon`                  | $\varepsilon$                  |
-| `\Sigma`                       | $\Sigma$                       |
-| `\omega`                       | $\omega$                       |
-| `\lbrace \rbrace`              | $\lbrace \rbrace$              |
-| `\vert`                        | $\vert$                        |
-| `\emptyset`                    | $\emptyset$                    |
-| `\varrho`                      | $\varrho$                      |
-| `\varrho`                      | $\vartheta$                    |
-| `\delta`                       | $\delta$                       |
-| `\in`                          | $\in$                          |
-| `\notin`                       | $\notin$                       |
-| `\cap`                         | $\cap$                         |
-| `\cup`                         | $\cup$                         |
-| `\displaystyle\bigcup_{i=1}^k` | $\displaystyle\bigcup_{i=1}^k$ |
-| `\subset`                      | $\subset$                      |
-| `\subseteq`                    | $\subseteq$                    |
-| `\supset`                      | $\supset$                      |
-| `\supseteq`                    | $\supseteq$                    |
-| `\varepsilon\text{-}NFA`       | $\varepsilon\text{-}NFA$       |
-
-块状使用`$$`包含
-
-不支持中文
+## katex
+![[md/katex]]
 
 ## 其他
 

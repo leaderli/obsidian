@@ -1,8 +1,7 @@
 ---
-title: mermaid
-date: 2020-08-13 09:28:37
-categories: hexo
 tags:
+ - markdown
+cssclass:
 ---
 
 mermaid 是一个流程图插件的语法，可定义多种类型的流程图，详细文档参考[官方文档](https://mermaid-js.github.io/mermaid)
@@ -10,11 +9,21 @@ mermaid 是一个流程图插件的语法，可定义多种类型的流程图，
 ## 流程图
 
 基本的语法
-![mermaid_基本的语法.png](mermaid_基本的语法.png)
-不要使用`;`结尾，否则 hexo 可能会渲染会失败，有些关键词不能作为 id，比如`end`
+
+> 不要使用 `;` 结尾，否则 hexo 可能会渲染会失败，有些关键词不能作为 id，比如 `end` 
+
+
+
+```txt
+	```mermaid
+	graph LR
+		Start --> Stop
+	```
+```
+
 
 ```mermaid
-graph LR;
+graph LR
     Start --> Stop
 ```
 
@@ -22,11 +31,11 @@ graph 标明当前为流程图，LR 标明方向
 
 ### 方向
 
-－ TB - top to bottom
-－ TD - top-down/ same as top to bottom
-－ BT - bottom to top
-－ RL - right to left
-－ LR - left to right
+-  TB - top to bottom
+-  TD - top-down/ same as top to bottom
+-  BT - bottom to top
+-  RL - right to left
+-  LR - left to right
 
 ### 节点形状
 
