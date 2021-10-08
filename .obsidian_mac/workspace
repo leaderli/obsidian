@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/AntV_X6.md",
-            "mode": "preview"
+            "file": "md/javaassist.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "字节码 生成",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207
+    "width": 207,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/AntV_X6.md",
+                "file": "md/javaassist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/AntV_X6.md"
+                "file": "md/javaassist.md"
               }
             }
           }
@@ -127,6 +128,8 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/javaassist.md",
+    "md/ASM.md",
     "md/AntV_X6.md",
     "md/git.md",
     "md/visitor_访问者模式.md",
@@ -134,8 +137,6 @@
     "md/java-tips.md",
     "md/java-SPI.md",
     "md/maven.md",
-    "md/java-stream.md",
-    "md/java-函数式编程库.md",
-    "md/dom4j.md"
+    "md/java-stream.md"
   ]
 }

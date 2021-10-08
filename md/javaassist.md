@@ -1,5 +1,7 @@
 # javassist
 
+[tutorial](http://www.javassist.org/tutorial/tutorial.html)
+
 javassist是一个生成java字节码的框架，他相对来说比较简单。
 ```maven
 <dependency>
@@ -115,7 +117,7 @@ annot.addMemberValue("propagation", enumMemberValue);
 annot.addMemberValue("confirmMethod", new StringMemberValue(ctMethod.getName(), constpool));
 
 ```
-需要特别注意的是,注解的值，需要使用特殊的方法赋值，不能直接赋值
+需要特别注意的是，注解的值，需要使用特殊的方法赋值，不能直接赋值
 
 ```java
 ConstPool constPool = ct.getClassFile().getConstPool();
