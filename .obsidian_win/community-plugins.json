@@ -9,5 +9,6 @@
   "obsidian-timeline",
   "obsidian-kanban",
   "obsidian-embedded-code-title",
-  "find-unlinked-files"
+  "find-unlinked-files",
+  "obsidian-sample-plugin"
 ]

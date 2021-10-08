@@ -5,6 +5,10 @@
       "path": "md/语言及文法.md"
     },
     {
+      "basename": "restTemplate使用",
+      "path": "md/restTemplate使用.md"
+    },
+    {
       "basename": "编译原理",
       "path": "md/编译原理.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "规则引擎",
       "path": "md/规则引擎.md"
-    },
-    {
-      "basename": "visitor_访问者模式",
-      "path": "md/visitor_访问者模式.md"
     }
   ],
   "omittedPaths": [],

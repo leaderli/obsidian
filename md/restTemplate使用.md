@@ -112,13 +112,25 @@ RestTemplate rest = restTemplate();
 ```java
 public interface ClientHttpRequestInterceptor {
 
-    ClientHttpResponse intercept(HttpRequest request, byte[] body, ClientHttpRequestExecution execution)
-            throws IOException;
+    ClientHttpResponse intercept(HttpRequest request, byte[] reqeustBody, ClientHttpRequestExecution execution)  throws IOException;
 }
 
- ClientHttpRequestInterceptor interceptor = (request, body, execution) -> {
-            return execution.execute(request, body);
-        };
+
+//通过如下方法添加
+public RestTemplate restTemplate() {
+	ClientHttpRequestInterceptor interceptor = (request, body, execution) -> {
+		return execution.execute(request, body);
+	};
+	
+	RestTemplate restTemplate = new RestTemplate();
+	List<ClientHttpRequestInterceptor> interceptors = restTemplate.getInterceptors();
+	if (CollectionUtils.isEmpty(interceptors)) {
+		interceptors = new ArrayList<>();
+	}
+	interceptors.add(interceptor);
+	restTemplate.setInterceptors(interceptors);
+	return restTemplate;
+}
 ```
 
 ## messageConverters
