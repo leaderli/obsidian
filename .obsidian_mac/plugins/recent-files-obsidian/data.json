@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "AntV_X6",
+      "path": "md/AntV_X6.md"
+    },
+    {
       "basename": "git",
       "path": "md/git.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "java_app_一些常用的应用",
       "path": "md/java_app_一些常用的应用.md"
-    },
-    {
-      "basename": "common_常用",
-      "path": "md/common_常用.md"
     }
   ],
   "omittedPaths": [],
