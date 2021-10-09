@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
       "basename": "javaassist",
       "path": "md/javaassist.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "编译原理课件",
       "path": "resource/编译原理课件.pdf"
-    },
-    {
-      "basename": "avaya",
-      "path": "md/avaya.md"
     }
   ],
   "omittedPaths": [],

@@ -6,11 +6,11 @@
       {
         "id": "f8c46a45a26344d8",
         "type": "leaf",
-        "dimension": 68.38046272493573,
+        "dimension": 15.987210231814547,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/语言及文法.md",
+            "file": "md/java-tips.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "f8b53ba78929a7c6",
         "type": "leaf",
-        "dimension": 31.619537275064268,
+        "dimension": 84.01278976818544,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/语言及文法.md",
+            "file": "md/java-tips.md",
             "mode": "preview"
           }
         },
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100,
-    "collapsed": true
+    "width": 255
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/语言及文法.md",
+                "file": "md/java-tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/语言及文法.md"
+                "file": "md/java-tips.md"
               }
             }
           },
@@ -147,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/语言及文法.md",
+                "file": "md/java-tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,6 +162,8 @@
   },
   "active": "f8c46a45a26344d8",
   "lastOpenFiles": [
+    "md/java-tips.md",
+    "md/javaassist.md",
     "md/语言及文法.md",
     "md/obsidan.md",
     "md/restTemplate使用.md",
@@ -170,8 +171,6 @@
     "md/katex.md",
     "md/自动机理论.md",
     "template/ad_template.md",
-    "template/katex.md",
-    "template/ad.md",
-    "template/Untitled.md"
+    "template/katex.md"
   ]
 }

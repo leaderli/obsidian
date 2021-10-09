@@ -306,3 +306,53 @@ modifier.set(value, value.getModifiers() | Modifier.FINAL);}
 
 ##  HttpServletRequest
 HttpServletRequest.getRequestURL()中获取的是请求地址，不是实际的IP地址，当通过nginx转发时，有可能返回nginx地址，想要获取真实IP，使用 [[java-config#3 InetAddress getLocalHost java net UnknownHostException 异常|InetAddress getLocalHost]]
+
+
+## 动态编译源代码
+
+
+```java
+package com.leaderli.litest;
+
+import org.junit.Test;
+
+import javax.tools.JavaCompiler;
+import javax.tools.ToolProvider;
+import java.io.File;
+import java.io.IOException;
+import java.net.URL;
+import java.net.URLClassLoader;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+
+public class TestCompile {
+    @Test
+    public void test() throws IOException, ClassNotFoundException, InstantiationException, IllegalAccessException {
+        String source = "package test;     " +
+                "public class Test implements Runnable{\n" +
+                "        @Override\n" +
+                "        public void run() {\n" +
+                "            System.out.println(\"test compile\");\n" +
+                "        }\n" +
+                " }";
+
+		//将源码保存到目录下
+        File root = new File("/java"); // On Windows running on C:\, this is C:\java.
+        File sourceFile = new File(root, "test/Test.java");
+        sourceFile.getParentFile().mkdirs();
+        Files.write(sourceFile.toPath(), source.getBytes(StandardCharsets.UTF_8));
+
+		// 将源码进行编译到指定根目录下，编译失败会抛出相关异常
+        JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
+        compiler.run(null, null, null, sourceFile.getPath());
+
+		//通过定义一个新的类加载器去加载编译后的class
+        URLClassLoader classLoader = URLClassLoader.newInstance(new URL[]{root.toURI().toURL()});
+		//加载以及实例化类
+        Class<?> cls = Class.forName("test.Test", true, classLoader);
+        Runnable runnable = (Runnable) cls.newInstance(); 
+        runnable.run();
+    }
+}
+
+```
