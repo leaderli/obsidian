@@ -136,3 +136,77 @@ title:
 ### find-unlinked-files
 
 查找未被引用的笔记，文件，可用来删除无用的图片等
+
+
+### 自定义插件
+
+参考官方插件和其他插件编写的
+ [obsidian-sample-plugin](https://github.com/obsidianmd/obsidian-sample-plugin) 
+ [obsidian-admonition](https://github.com/valentine195/obsidian-admonition)
+ 
+```ts
+import { App, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
+
+function startsWithAny(str: string, needles: string[]) {
+	for (let i = 0; i < needles.length; i++) {
+		if (str.startsWith(needles[i])) {
+			return i;
+		}
+	}
+	return false;
+}
+
+function getParametersFromSource(src: string) {
+
+	const keywordTokens = ["color:", "size:"];
+	const keywords = ["color", "size"];
+	let lines = src.split("\n");
+	let skipLines = 0;
+	let params: { [k: string]: string } = {};
+
+	for (let i = 0; i < lines.length; i++) {
+		let keywordIndex = startsWithAny(lines[i], keywordTokens);
+
+		if (keywordIndex === false) {
+			break;
+		}
+
+		let foundKeyword = keywords[keywordIndex];
+
+		if (params[foundKeyword] !== undefined) {
+			break;
+		}
+
+		params[foundKeyword] = lines[i]
+			.substr(keywordTokens[keywordIndex].length)
+			.trim();
+		++skipLines;
+	}
+
+	let { color, size } = params;
+	let content = lines.slice(skipLines).join("\n");
+
+	if (color === undefined || color.trim() === "") {
+		color = 'coral'
+	}
+	if (size === undefined || size.trim() === '') {
+		size = 'medium'
+	}
+
+	return { color, size, content };
+}
+export default class MyPlugin extends Plugin {
+
+	async onload() {
+
+		this.registerMarkdownCodeBlockProcessor('li-color', (source, el, ctx) => {
+			const params = getParametersFromSource(source);
+			el.innerText = params.content
+			el.removeAttribute('class')
+			el.setAttribute('style', 'color:' + params.color + ';font-size:' + params.size)
+		})
+	}
+
+}
+
+```

@@ -6,7 +6,7 @@
       {
         "id": "f8c46a45a26344d8",
         "type": "leaf",
-        "dimension": 49.86449864498645,
+        "dimension": 68.38046272493573,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,7 +19,7 @@
       {
         "id": "f8b53ba78929a7c6",
         "type": "leaf",
-        "dimension": 50.135501355013545,
+        "dimension": 31.619537275064268,
         "state": {
           "type": "markdown",
           "state": {
@@ -164,6 +164,7 @@
   "active": "f8c46a45a26344d8",
   "lastOpenFiles": [
     "md/语言及文法.md",
+    "md/obsidan.md",
     "md/restTemplate使用.md",
     "md/编译原理.md",
     "md/katex.md",
@@ -171,7 +172,6 @@
     "template/ad_template.md",
     "template/katex.md",
     "template/ad.md",
-    "template/Untitled.md",
-    "md/mermaid.md"
+    "template/Untitled.md"
   ]
 }
