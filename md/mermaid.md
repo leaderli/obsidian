@@ -148,3 +148,16 @@ graph LR
     A:::someclass --> B
     classDef someclass fill:#f96;
 ```
+
+
+## 状态图
+
+
+```mermaid
+stateDiagram-v2
+direction LR
+S-->S:b
+S-->A:b
+A-->A:a
+```
+

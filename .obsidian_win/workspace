@@ -6,7 +6,7 @@
       {
         "id": "f8c46a45a26344d8",
         "type": "leaf",
-        "dimension": 56.004250797024454,
+        "dimension": 51.633986928104584,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,7 +19,7 @@
       {
         "id": "f8b53ba78929a7c6",
         "type": "leaf",
-        "dimension": 43.99574920297556,
+        "dimension": 48.36601307189542,
         "state": {
           "type": "markdown",
           "state": {
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2b90",
+                "query": "stateDiagram-v2",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,6 +164,7 @@
   "active": "f8c46a45a26344d8",
   "lastOpenFiles": [
     "md/自动机理论.md",
+    "md/mermaid.md",
     "md/语言及文法.md",
     "md/common_常用.md",
     "md/java-tips.md",
@@ -171,7 +172,6 @@
     "md/obsidan.md",
     "md/restTemplate使用.md",
     "md/编译原理.md",
-    "md/katex.md",
-    "template/ad_template.md"
+    "md/katex.md"
   ]
 }
