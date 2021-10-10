@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "语言及文法",
+      "path": "md/语言及文法.md"
+    },
+    {
       "basename": "common_常用",
       "path": "md/common_常用.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "javaassist",
       "path": "md/javaassist.md"
-    },
-    {
-      "basename": "语言及文法",
-      "path": "md/语言及文法.md"
     },
     {
       "basename": "obsidan",

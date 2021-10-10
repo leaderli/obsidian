@@ -6,11 +6,11 @@
       {
         "id": "f8c46a45a26344d8",
         "type": "leaf",
-        "dimension": 79.36016511867905,
+        "dimension": 56.00425079702445,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/common_常用.md",
+            "file": "md/语言及文法.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "f8b53ba78929a7c6",
         "type": "leaf",
-        "dimension": 20.639834881320947,
+        "dimension": 43.99574920297556,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/common_常用.md",
+            "file": "md/语言及文法.md",
             "mode": "preview"
           }
         },
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255
+    "width": 255,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/common_常用.md",
+                "file": "md/语言及文法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/common_常用.md"
+                "file": "md/语言及文法.md"
               }
             }
           },
@@ -146,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/common_常用.md",
+                "file": "md/语言及文法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,10 +163,10 @@
   },
   "active": "f8c46a45a26344d8",
   "lastOpenFiles": [
+    "md/语言及文法.md",
     "md/common_常用.md",
     "md/java-tips.md",
     "md/javaassist.md",
-    "md/语言及文法.md",
     "md/obsidan.md",
     "md/restTemplate使用.md",
     "md/编译原理.md",
