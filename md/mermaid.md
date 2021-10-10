@@ -161,3 +161,15 @@ S-->A:b
 A-->A:a
 ```
 
+
+
+```mermaid
+graph LR
+  start((start ))-->0((0))
+  0-- < -->1((1))
+  0-- + -->3((3))
+  1-- = -->2((2)):::terminal
+  3-- + -->4((4 "")):::terminal
+  style start fill:#fff ,stroke:#fff;
+  classDef terminal fill:#f96;
+```
