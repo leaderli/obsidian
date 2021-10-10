@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/语言及文法.md",
+            "file": "md/自动机理论.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/语言及文法.md",
+            "file": "md/自动机理论.md",
             "mode": "preview"
           }
         },
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/语言及文法.md",
+                "file": "md/自动机理论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/语言及文法.md"
+                "file": "md/自动机理论.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/语言及文法.md",
+                "file": "md/自动机理论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,6 +163,7 @@
   },
   "active": "f8c46a45a26344d8",
   "lastOpenFiles": [
+    "md/自动机理论.md",
     "md/语言及文法.md",
     "md/common_常用.md",
     "md/java-tips.md",
@@ -171,7 +172,6 @@
     "md/restTemplate使用.md",
     "md/编译原理.md",
     "md/katex.md",
-    "md/自动机理论.md",
     "template/ad_template.md"
   ]
 }

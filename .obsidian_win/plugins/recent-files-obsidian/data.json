@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "自动机理论",
+      "path": "md/自动机理论.md"
+    },
+    {
       "basename": "语言及文法",
       "path": "md/语言及文法.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "katex",
       "path": "md/katex.md"
-    },
-    {
-      "basename": "自动机理论",
-      "path": "md/自动机理论.md"
     },
     {
       "basename": "ad_template",
