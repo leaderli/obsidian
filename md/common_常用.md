@@ -60,6 +60,10 @@ Working Copy git客户端
 
 [在线生成表情包](https://sorry.xuty.tk/)
 
+[创造狮（互联网工具）](http://chuangzaoshi.com/index)
+[书享家-电子书下载导航 (shuxiangjia.cn)](http://shuxiangjia.cn/)
+[爱达杂货铺 | 收集那些有用的东西|爱达导航 (adzhp.cn)](https://adzhp.cn/)
+[程序员在线工具 - 你的工具箱 (tool.lu)](https://tool.lu/)
 ## 前缀
 
 `mis` 坏，错误，否定
