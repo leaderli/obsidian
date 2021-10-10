@@ -6,11 +6,11 @@
       {
         "id": "f8c46a45a26344d8",
         "type": "leaf",
-        "dimension": 15.987210231814547,
+        "dimension": 15.987210231814549,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-tips.md",
+            "file": "md/common_常用.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "f8b53ba78929a7c6",
         "type": "leaf",
-        "dimension": 84.01278976818544,
+        "dimension": 84.01278976818546,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-tips.md",
+            "file": "md/common_常用.md",
             "mode": "preview"
           }
         },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-tips.md",
+                "file": "md/common_常用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java-tips.md"
+                "file": "md/common_常用.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/java-tips.md",
+                "file": "md/common_常用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,6 +162,7 @@
   },
   "active": "f8c46a45a26344d8",
   "lastOpenFiles": [
+    "md/common_常用.md",
     "md/java-tips.md",
     "md/javaassist.md",
     "md/语言及文法.md",
@@ -170,7 +171,6 @@
     "md/编译原理.md",
     "md/katex.md",
     "md/自动机理论.md",
-    "template/ad_template.md",
-    "template/katex.md"
+    "template/ad_template.md"
   ]
 }
