@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "either",
+                "query": "output",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
