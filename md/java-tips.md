@@ -344,7 +344,8 @@ public class TestCompile {
 
 		// 将源码进行编译到指定根目录下，编译失败会抛出相关异常
         JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
-        compiler.run(null, null, null, sourceFile.getPath());
+		//0表示编译成功
+        int status = compiler.run(null, null, null, sourceFile.getPath());
 
 		//通过定义一个新的类加载器去加载编译后的class
         URLClassLoader classLoader = URLClassLoader.newInstance(new URL[]{root.toURI().toURL()});

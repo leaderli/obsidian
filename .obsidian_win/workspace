@@ -6,10 +6,11 @@
       {
         "id": "f8c46a45a26344d8",
         "type": "leaf",
+        "dimension": 38.354346383543465,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/自动机理论.md",
+            "file": "md/JavaPoet.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "d1710439b7812b6b",
         "type": "leaf",
+        "dimension": 61.64565361645654,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/自动机理论.md",
+            "file": "md/JavaPoet.md",
             "mode": "preview"
           }
         },
@@ -52,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stateDiagram-v2",
+                "query": "占位符",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -86,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -107,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/自动机理论.md",
+                "file": "md/JavaPoet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/自动机理论.md"
+                "file": "md/JavaPoet.md"
               }
             }
           },
@@ -145,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/自动机理论.md",
+                "file": "md/JavaPoet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,15 +163,15 @@
   },
   "active": "f8c46a45a26344d8",
   "lastOpenFiles": [
-    "md/自动机理论.md",
-    "md/编译原理.md",
-    "md/语言及文法.md",
-    "md/mermaid.md",
-    "template/katex_template.md",
-    "template/Untitled.md",
-    "md/common_常用.md",
+    "md/JavaPoet.md",
+    "md/java-utils.md",
+    "md/java-string.md",
+    "md/visitor_访问者模式.md",
+    "md/设计模式.md",
+    "md/有限状态机.md",
+    "md/静态内部类的泛型与建造者模式.md",
     "md/java-tips.md",
-    "md/javaassist.md",
-    "md/obsidan.md"
+    "md/自动机理论.md",
+    "md/编译原理.md"
   ]
 }

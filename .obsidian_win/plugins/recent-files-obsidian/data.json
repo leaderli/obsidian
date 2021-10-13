@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "JavaPoet",
+      "path": "md/JavaPoet.md"
+    },
+    {
+      "basename": "java-utils",
+      "path": "md/java-utils.md"
+    },
+    {
+      "basename": "java-string",
+      "path": "md/java-string.md"
+    },
+    {
+      "basename": "visitor_访问者模式",
+      "path": "md/visitor_访问者模式.md"
+    },
+    {
+      "basename": "设计模式",
+      "path": "md/设计模式.md"
+    },
+    {
+      "basename": "有限状态机",
+      "path": "md/有限状态机.md"
+    },
+    {
+      "basename": "静态内部类的泛型与建造者模式",
+      "path": "md/静态内部类的泛型与建造者模式.md"
+    },
+    {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
       "basename": "自动机理论",
       "path": "md/自动机理论.md"
     },
@@ -27,38 +59,6 @@
     {
       "basename": "common_常用",
       "path": "md/common_常用.md"
-    },
-    {
-      "basename": "java-tips",
-      "path": "md/java-tips.md"
-    },
-    {
-      "basename": "javaassist",
-      "path": "md/javaassist.md"
-    },
-    {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
-    },
-    {
-      "basename": "restTemplate使用",
-      "path": "md/restTemplate使用.md"
-    },
-    {
-      "basename": "katex",
-      "path": "md/katex.md"
-    },
-    {
-      "basename": "ad_template",
-      "path": "template/ad_template.md"
-    },
-    {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
-    },
-    {
-      "basename": "markdown_katex",
-      "path": "md/markdown_katex.md"
     }
   ],
   "omittedPaths": [],
