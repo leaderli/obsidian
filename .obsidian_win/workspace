@@ -6,7 +6,6 @@
       {
         "id": "f8c46a45a26344d8",
         "type": "leaf",
-        "dimension": 58.54456255110384,
         "state": {
           "type": "markdown",
           "state": {
@@ -14,12 +13,11 @@
             "mode": "source"
           }
         },
-        "group": "ae8ee3480abed5ab"
+        "group": "7adc37b11a055f1c"
       },
       {
-        "id": "f8b53ba78929a7c6",
+        "id": "d1710439b7812b6b",
         "type": "leaf",
-        "dimension": 41.45543744889616,
         "state": {
           "type": "markdown",
           "state": {
@@ -27,7 +25,7 @@
             "mode": "preview"
           }
         },
-        "group": "ae8ee3480abed5ab"
+        "group": "7adc37b11a055f1c"
       }
     ],
     "direction": "vertical"
@@ -88,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -164,14 +162,14 @@
   "active": "f8c46a45a26344d8",
   "lastOpenFiles": [
     "md/自动机理论.md",
-    "md/mermaid.md",
+    "md/编译原理.md",
     "md/语言及文法.md",
+    "md/mermaid.md",
+    "template/katex_template.md",
+    "template/Untitled.md",
     "md/common_常用.md",
     "md/java-tips.md",
     "md/javaassist.md",
-    "md/obsidan.md",
-    "md/restTemplate使用.md",
-    "md/编译原理.md",
-    "md/katex.md"
+    "md/obsidan.md"
   ]
 }
