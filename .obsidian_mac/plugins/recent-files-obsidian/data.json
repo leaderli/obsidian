@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
       "basename": "javaassist",
       "path": "md/javaassist.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "java-utils",
       "path": "md/java-utils.md"
-    },
-    {
-      "basename": "java-tips",
-      "path": "md/java-tips.md"
     },
     {
       "basename": "java-SPI",

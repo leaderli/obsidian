@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/javaassist.md",
+            "file": "md/java-tips.md",
             "mode": "preview"
           }
         }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/javaassist.md",
+                "file": "md/java-tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/javaassist.md"
+                "file": "md/java-tips.md"
               }
             }
           }
@@ -128,13 +128,13 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/java-tips.md",
     "md/javaassist.md",
     "md/ASM.md",
     "md/AntV_X6.md",
     "md/git.md",
     "md/visitor_访问者模式.md",
     "md/java-utils.md",
-    "md/java-tips.md",
     "md/java-SPI.md",
     "md/maven.md",
     "md/java-stream.md"
