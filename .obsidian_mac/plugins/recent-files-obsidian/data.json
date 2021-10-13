@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "java-函数式编程库",
+      "path": "md/java-函数式编程库.md"
+    },
+    {
       "basename": "java-tips",
       "path": "md/java-tips.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "java-stream",
       "path": "md/java-stream.md"
-    },
-    {
-      "basename": "java-函数式编程库",
-      "path": "md/java-函数式编程库.md"
     },
     {
       "basename": "dom4j",
