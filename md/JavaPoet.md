@@ -610,3 +610,13 @@ MethodSpec dismiss = MethodSpec.methodBuilder("dismiss")
   void dismiss(Message message);
 
 ```
+
+
+### 继承
+```java
+TypeSpec typeSpec = TypeSpec.classBuilder("Dummy")
+  .addSuperinterface(Serializable.class) 
+  .superclass(Exception.class) 
+  .build();
+
+```

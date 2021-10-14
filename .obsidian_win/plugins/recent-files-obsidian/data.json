@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "AST",
+      "path": "md/AST.md"
+    },
+    {
+      "basename": "common_常用",
+      "path": "md/common_常用.md"
+    },
+    {
       "basename": "JavaPoet",
       "path": "md/JavaPoet.md"
+    },
+    {
+      "basename": "temp",
+      "path": "md/temp.md"
     },
     {
       "basename": "java-utils",
@@ -47,18 +59,6 @@
     {
       "basename": "mermaid",
       "path": "md/mermaid.md"
-    },
-    {
-      "basename": "katex_template",
-      "path": "template/katex_template.md"
-    },
-    {
-      "basename": "mermaid_state",
-      "path": "template/mermaid_state.md"
-    },
-    {
-      "basename": "common_常用",
-      "path": "md/common_常用.md"
     }
   ],
   "omittedPaths": [],

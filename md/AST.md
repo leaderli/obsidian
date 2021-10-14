@@ -1,10 +1,11 @@
 #java #树 #设计模式
 
 
-## 概述
+# 概述
 
 抽象语法树（Abstract Syntax Tree, AST）是源代码语法结构的一种抽象表示。它以树状的形式表现编程语言的结构，树的每个节点ASTNode都表示源码中的一个结构。AST把java中的各种元素比如类、属性、方法、代码块、注解、注释等等定义成相应的对象，在编译器编译代码的过程中，语法分析器首先通过AST将源码分析成一个语法树。
 
+# javaparser
 ## 示例
 
 ```xml
@@ -291,7 +292,7 @@ public class TestJavaParser {
 - `AssignExpr` 赋值语句，例如`a=2`，其中包含子语法树类型`NameExpr`,即为`a`
 
 
-## 在eclipse中使用
+# 在eclipse中使用
 
 ### 概述
 
@@ -1005,4 +1006,15 @@ compileUnit.commitWorkingCopy(true, null);
 
 compileUnit.discardWorkingCopy();
 
+```
+
+# spoon
+[官方文档](https://spoon.gforge.inria.fr/)
+
+```xml
+<dependency>
+  <groupId>fr.inria.gforge.spoon</groupId>
+  <artifactId>spoon-core</artifactId>
+  <version>9.1.0</version>
+</dependency>
 ```
