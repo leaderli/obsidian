@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/mybatis入门.md",
+            "file": "md/bitOperation.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "myba",
+                "query": "位运算",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207,
-    "collapsed": true
+    "width": 207
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/mybatis入门.md",
+                "file": "md/bitOperation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/mybatis入门.md"
+                "file": "md/bitOperation.md"
               }
             }
           }
@@ -128,6 +127,7 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/bitOperation.md",
     "md/mybatis入门.md",
     "md/Untitled.md",
     "md/java-函数式编程库.md",
@@ -136,7 +136,6 @@
     "md/ASM.md",
     "md/AntV_X6.md",
     "md/git.md",
-    "md/visitor_访问者模式.md",
-    "md/java-utils.md"
+    "md/visitor_访问者模式.md"
   ]
 }

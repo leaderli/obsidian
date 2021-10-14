@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "bitOperation",
+      "path": "md/bitOperation.md"
+    },
+    {
       "basename": "mybatis入门",
       "path": "md/mybatis入门.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "dom4j",
       "path": "md/dom4j.md"
-    },
-    {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
     }
   ],
   "omittedPaths": [],
