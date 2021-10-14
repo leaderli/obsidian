@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "temp",
+      "path": "md/temp.md"
+    },
+    {
       "basename": "java-函数式编程库",
       "path": "md/java-函数式编程库.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "common-configuration",
       "path": "md/common-configuration.md"
-    },
-    {
-      "basename": "java-string",
-      "path": "md/java-string.md"
     }
   ],
   "omittedPaths": [],
