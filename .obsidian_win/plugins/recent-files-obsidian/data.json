@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "spoon",
+      "path": "md/spoon.md"
+    },
+    {
       "basename": "AST",
       "path": "md/AST.md"
+    },
+    {
+      "basename": "spring-ioc-源码_BeanDefinition",
+      "path": "resource/spring-ioc-源码_BeanDefinition.png"
     },
     {
       "basename": "common_常用",
@@ -51,14 +59,6 @@
     {
       "basename": "编译原理",
       "path": "md/编译原理.md"
-    },
-    {
-      "basename": "语言及文法",
-      "path": "md/语言及文法.md"
-    },
-    {
-      "basename": "mermaid",
-      "path": "md/mermaid.md"
     }
   ],
   "omittedPaths": [],

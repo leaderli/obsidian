@@ -1008,13 +1008,3 @@ compileUnit.discardWorkingCopy();
 
 ```
 
-# spoon
-[官方文档](https://spoon.gforge.inria.fr/)
-
-```xml
-<dependency>
-  <groupId>fr.inria.gforge.spoon</groupId>
-  <artifactId>spoon-core</artifactId>
-  <version>9.1.0</version>
-</dependency>
-```
