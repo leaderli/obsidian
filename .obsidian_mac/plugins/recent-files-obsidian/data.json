@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "mybatis入门",
+      "path": "md/mybatis入门.md"
+    },
+    {
       "basename": "temp",
       "path": "md/temp.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
-    },
-    {
-      "basename": "common-configuration",
-      "path": "md/common-configuration.md"
     }
   ],
   "omittedPaths": [],

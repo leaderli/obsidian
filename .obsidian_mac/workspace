@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/temp.md",
+            "file": "md/mybatis入门.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "myba",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -64,11 +64,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 207
+    "width": 207,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/temp.md",
+                "file": "md/mybatis入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/temp.md"
+                "file": "md/mybatis入门.md"
               }
             }
           }
@@ -126,6 +128,7 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/mybatis入门.md",
     "md/Untitled.md",
     "md/java-函数式编程库.md",
     "md/java-tips.md",
@@ -134,7 +137,6 @@
     "md/AntV_X6.md",
     "md/git.md",
     "md/visitor_访问者模式.md",
-    "md/java-utils.md",
-    "md/java-SPI.md"
+    "md/java-utils.md"
   ]
 }
