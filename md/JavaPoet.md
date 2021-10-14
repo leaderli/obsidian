@@ -311,3 +311,302 @@ class HelloWorld {
   }
 }
 ```
+
+
+#### `$N`
+`$N`可引入其他声明的名称
+```java
+MethodSpec hexDigit = MethodSpec.methodBuilder("hexDigit")
+    .addParameter(int.class, "i")
+    .returns(char.class)
+    .addStatement("return (char) (i < 10 ? i + '0' : i - 10 + 'a')")
+    .build();
+
+MethodSpec byteToHex = MethodSpec.methodBuilder("byteToHex")
+    .addParameter(int.class, "b")
+    .returns(String.class)
+    .addStatement("char[] result = new char[2]")
+    .addStatement("result[0] = $N((b >>> 4) & 0xf)", hexDigit)
+    .addStatement("result[1] = $N(b & 0xf)", hexDigit)
+    .addStatement("return new String(result)")
+    .build();
+
+```
+
+### 代码块中的占位符
+
+> I ate 3 tacos
+
+相对位置的占位符
+```java
+CodeBlock.builder().add("I ate $L $L", 3, "tacos")
+```
+带位置参数的占位符
+```java
+CodeBlock.builder().add("I ate $2L $1L", "tacos", 3)
+```
+使用命令参数的占位符
+
+```java
+Map<String, Object> map = new LinkedHashMap<>();
+map.put("food", "tacos");
+map.put("count", 3);
+CodeBlock.builder().addNamed("I ate $count:L $food:L", map)
+
+```
+
+### 抽象方法
+
+```java
+MethodSpec flux = MethodSpec.methodBuilder("flux")
+    .addModifiers(Modifier.ABSTRACT, Modifier.PROTECTED)
+    .build();
+
+TypeSpec helloWorld = TypeSpec.classBuilder("HelloWorld")
+    .addModifiers(Modifier.PUBLIC, Modifier.ABSTRACT)
+    .addMethod(flux)
+    .build();
+```
+
+```java
+public abstract class HelloWorld {
+  protected abstract void flux();
+}
+```
+
+### 构造器
+
+```java
+MethodSpec flux = MethodSpec.constructorBuilder()
+    .addModifiers(Modifier.PUBLIC)
+    .addParameter(String.class, "greeting")
+    .addStatement("this.$N = $N", "greeting", "greeting")
+    .build();
+
+TypeSpec helloWorld = TypeSpec.classBuilder("HelloWorld")
+    .addModifiers(Modifier.PUBLIC)
+    .addField(String.class, "greeting", Modifier.PRIVATE, Modifier.FINAL)
+    .addMethod(flux)
+    .build();
+```
+
+```java
+public class HelloWorld {
+  private final String greeting;
+
+  public HelloWorld(String greeting) {
+    this.greeting = greeting;
+  }
+}
+```
+
+### 方法参数
+
+可以通过两种方式
+
+```java
+ParameterSpec android = ParameterSpec.builder(String.class, "android")
+    .addModifiers(Modifier.FINAL)
+    .build();
+
+MethodSpec welcomeOverlords = MethodSpec.methodBuilder("welcomeOverlords")
+    .addParameter(android)
+    .addParameter(String.class, "robot", Modifier.FINAL)
+    .build();
+```
+
+```java
+void welcomeOverlords(final String android, final String robot) {
+}
+```
+
+###  成员变量
+
+也有两种方式创建
+
+```java
+FieldSpec android = FieldSpec.builder(String.class, "android")
+    .addModifiers(Modifier.PRIVATE, Modifier.FINAL)
+    .build();
+
+TypeSpec helloWorld = TypeSpec.classBuilder("HelloWorld")
+    .addModifiers(Modifier.PUBLIC)
+    .addField(android)
+    .addField(String.class, "robot", Modifier.PRIVATE, Modifier.FINAL)
+    .build();
+```
+
+```
+public class HelloWorld {
+  private final String android;
+
+  private final String robot;
+}
+```
+
+成员变量初始化赋值，可和[[#代码块中的占位符]]一样使用
+
+```java
+FieldSpec android = FieldSpec.builder(String.class, "android")
+    .addModifiers(Modifier.PRIVATE, Modifier.FINAL)
+    .initializer("$S + $L", "Lollipop v.", 5.0d)
+    .build();
+```
+
+```java
+private final String android = "Lollipop v." + 5.0;
+```
+
+### 接口
+
+接口中的方法必须恒为`PUBLIC ABSTRACT`
+接口中的成员变量恒为`PUBLIC STATIC FINAL`
+
+
+```java
+TypeSpec helloWorld = TypeSpec.interfaceBuilder("HelloWorld")
+    .addModifiers(Modifier.PUBLIC)
+    .addField(FieldSpec.builder(String.class, "ONLY_THING_THAT_IS_CONSTANT")
+        .addModifiers(Modifier.PUBLIC, Modifier.STATIC, Modifier.FINAL)
+        .initializer("$S", "change")
+        .build())
+    .addMethod(MethodSpec.methodBuilder("beep")
+        .addModifiers(Modifier.PUBLIC, Modifier.ABSTRACT)
+        .build())
+    .build();
+```
+
+```java
+public interface HelloWorld {
+  String ONLY_THING_THAT_IS_CONSTANT = "change";
+
+  void beep();
+}
+```
+
+### 枚举
+
+```java
+TypeSpec helloWorld = TypeSpec.enumBuilder("Roshambo")
+    .addModifiers(Modifier.PUBLIC)
+    .addEnumConstant("ROCK")
+    .addEnumConstant("SCISSORS")
+    .addEnumConstant("PAPER")
+    .build();
+```
+
+```java
+public enum Roshambo {
+  ROCK,
+  SCISSORS,
+  PAPER
+}
+```
+
+### 匿名内部类
+
+
+```java
+TypeSpec comparator = TypeSpec.anonymousClassBuilder("")
+    .addSuperinterface(ParameterizedTypeName.get(Comparator.class, String.class))
+    .addMethod(MethodSpec.methodBuilder("compare")
+        .addAnnotation(Override.class)
+        .addModifiers(Modifier.PUBLIC)
+        .addParameter(String.class, "a")
+        .addParameter(String.class, "b")
+        .returns(int.class)
+        .addStatement("return $N.length() - $N.length()", "a", "b")
+        .build())
+    .build();
+
+TypeSpec helloWorld = TypeSpec.classBuilder("HelloWorld")
+    .addMethod(MethodSpec.methodBuilder("sortByLength")
+        .addParameter(ParameterizedTypeName.get(List.class, String.class), "strings")
+        .addStatement("$T.sort($N, $L)", Collections.class, "strings", comparator)
+        .build())
+    .build();
+
+```
+
+```java
+void sortByLength(List<String> strings) {
+  Collections.sort(strings, new Comparator<String>() {
+    @Override
+    public int compare(String a, String b) {
+      return a.length() - b.length();
+    }
+  });
+}
+
+```
+
+### 注解
+
+```java
+MethodSpec toString = MethodSpec.methodBuilder("toString")
+    .addAnnotation(Override.class)
+    .returns(String.class)
+    .addModifiers(Modifier.PUBLIC)
+    .addStatement("return $S", "Hoverboard")
+    .build();
+```
+
+```java
+  @Override
+  public String toString() {
+    return "Hoverboard";
+  }
+```
+
+带参数的注解
+
+```java
+MethodSpec logRecord = MethodSpec.methodBuilder("recordEvent")
+    .addModifiers(Modifier.PUBLIC, Modifier.ABSTRACT)
+    .addAnnotation(AnnotationSpec.builder(Headers.class)
+        .addMember("accept", "$S", "application/json; charset=utf-8")
+        .addMember("userAgent", "$S", "Square Cash")
+        .build())
+    .addParameter(LogRecord.class, "logRecord")
+    .returns(LogReceipt.class)
+    .build();
+```
+
+```java
+@Headers(
+    accept = "application/json; charset=utf-8",
+    userAgent = "Square Cash"
+)
+LogReceipt recordEvent(LogRecord logRecord);
+```
+
+
+多次调用`addMember`方法，注解值则会变成list
+
+### 可添加注释
+
+```java
+MethodSpec dismiss = MethodSpec.methodBuilder("dismiss")
+    .addJavadoc("Hides {@code message} from the caller's history. Other\n"
+        + "participants in the conversation will continue to see the\n"
+        + "message in their own history unless they also delete it.\n")
+    .addJavadoc("\n")
+    .addJavadoc("<p>Use {@link #delete($T)} to delete the entire\n"
+        + "conversation for all participants.\n", Conversation.class)
+    .addModifiers(Modifier.PUBLIC, Modifier.ABSTRACT)
+    .addParameter(Message.class, "message")
+    .build();
+```
+
+```java
+  /**
+   * Hides {@code message} from the caller's history. Other
+   * participants in the conversation will continue to see the
+   * message in their own history unless they also delete it.
+   *
+   * <p>Use {@link #delete(Conversation)} to delete the entire
+   * conversation for all participants.
+   */
+  void dismiss(Message message);
+
+```

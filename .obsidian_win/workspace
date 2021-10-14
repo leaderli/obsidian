@@ -6,7 +6,7 @@
       {
         "id": "f8c46a45a26344d8",
         "type": "leaf",
-        "dimension": 38.354346383543465,
+        "dimension": 41.10225763612218,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,7 +19,7 @@
       {
         "id": "d1710439b7812b6b",
         "type": "leaf",
-        "dimension": 61.64565361645654,
+        "dimension": 58.897742363877825,
         "state": {
           "type": "markdown",
           "state": {
@@ -161,7 +161,7 @@
     "width": 396,
     "collapsed": true
   },
-  "active": "f8c46a45a26344d8",
+  "active": "d1710439b7812b6b",
   "lastOpenFiles": [
     "md/JavaPoet.md",
     "md/java-utils.md",
