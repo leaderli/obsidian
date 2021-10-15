@@ -927,3 +927,8 @@ public class MyBatisConfig {
   }
 }
 ```
+
+
+## 其他
+
+- parameterType 可如果需要定义静态内部类，直接使用外部类即可
