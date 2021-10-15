@@ -22,7 +22,7 @@
 8. Snipaste 截图软件，可用来拷贝颜色
 9. PotPlayer 播放器
 10. Calibre Portable 电子书格式转换
-11. 
+11.  [chrome翻译插件](https://chrome.google.com/webstore/detail/google-dictionary-by-goog/mgijmajocgfcbeboacabfgobmjgjcoja/related?hl=en)
 
 #### IOS
 

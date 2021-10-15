@@ -6,10 +6,11 @@
       {
         "id": "f8c46a45a26344d8",
         "type": "leaf",
+        "dimension": 58.74183006535948,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/自动机理论.md",
+            "file": "md/spoon.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "d1710439b7812b6b",
         "type": "leaf",
+        "dimension": 41.25816993464052,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/自动机理论.md",
+            "file": "md/spoon.md",
             "mode": "preview"
           }
         },
@@ -52,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stateDiagram-v2",
+                "query": "占位符",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -85,12 +87,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 255,
+    "width": 119,
     "collapsed": true
   },
   "right": {
@@ -107,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/自动机理论.md",
+                "file": "md/spoon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/自动机理论.md"
+                "file": "md/spoon.md"
               }
             }
           },
@@ -145,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/自动机理论.md",
+                "file": "md/spoon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,15 +162,15 @@
   },
   "active": "f8c46a45a26344d8",
   "lastOpenFiles": [
-    "md/自动机理论.md",
-    "md/编译原理.md",
-    "md/语言及文法.md",
-    "md/mermaid.md",
-    "template/katex_template.md",
-    "template/Untitled.md",
+    "md/spoon.md",
+    "md/Untitled.md",
+    "md/AST.md",
+    "resource/spring-ioc-源码_BeanDefinition.png",
     "md/common_常用.md",
-    "md/java-tips.md",
-    "md/javaassist.md",
-    "md/obsidan.md"
+    "md/JavaPoet.md",
+    "md/temp.md",
+    "md/java-utils.md",
+    "md/java-string.md",
+    "md/visitor_访问者模式.md"
   ]
 }
