@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "spoon",
+      "path": "md/spoon.md"
+    },
+    {
       "basename": "AST",
       "path": "md/AST.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "mermaid_state",
       "path": "template/mermaid_state.md"
-    },
-    {
-      "basename": "spoon",
-      "path": "md/spoon.md"
     },
     {
       "basename": "common_常用",

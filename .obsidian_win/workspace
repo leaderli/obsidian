@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/AST.md",
+            "file": "md/spoon.md",
             "mode": "source"
           }
         },
@@ -21,8 +21,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/AST.md",
-            "mode": "source"
+            "file": "md/spoon.md",
+            "mode": "preview"
           }
         },
         "group": "8ee402d4fa865262"
@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 168
+    "width": 168,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/AST.md",
+                "file": "md/spoon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/AST.md"
+                "file": "md/spoon.md"
               }
             }
           },
@@ -144,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/AST.md",
+                "file": "md/spoon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +161,7 @@
   },
   "active": "d1710439b7812b6b",
   "lastOpenFiles": [
+    "md/spoon.md",
     "md/AST.md",
     "md/visitor_访问者模式.md",
     "resource/spring-ioc-源码_BeanDefinition.png",
@@ -168,7 +170,6 @@
     "md/JavaPoet.md",
     "md/订阅发布模式.md",
     "template/ad_template.md",
-    "template/katex_template.md",
-    "template/mermaid_state.md"
+    "template/katex_template.md"
   ]
 }

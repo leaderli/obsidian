@@ -140,4 +140,56 @@ System.out.println(ctType.toStringWithImports());
 
 
 
-## #TODO
+## 查找指定元素
+
+查找某个类的所有方法
+```java
+methods = ctClass.getMethods();
+```
+
+可以通过[`CtRole`](https://spoon.gforge.inria.fr/mvnsites/spoon-core/apidocs/spoon/reflect/path/CtRole.html)来查找指定角色的子元素
+
+```java
+methods = ctClass.getValueByRole(CtRole.METHOD);
+```
+
+或者查找所有子元素
+```java
+allDescendants = ctElement.getDirectChildren();
+```
+
+
+也可以通过过滤器来查找满足条件的元素
+
+例如：
+```java
+//查找所有赋值语句
+list1 = methodBody.getElements(new TypeFilter(CtAssignment.class));
+
+//所有被deprecated注解的类
+list2 = rootPackage.getElements(new AnnotationFilter(Deprecated.class));
+
+
+//也可以指定过滤的具体条件
+list3 = rootPackage.filterChildren(
+  new AbstractFilter<CtField>(CtField.class) {
+    @Override
+    public boolean matches(CtField field) {
+      return field.getModifiers.contains(ModifierKind.PUBLIC);
+    }
+  }
+).list();
+
+```
+
+通过迭代器的方式遍历子元素
+
+```java
+CtIterator iterator = new CtIterator(root);
+while (iterator.hasNext()) {
+	CtElement el = iterator.next();
+	//do something on each child of root
+}
+```
+
+`CtBFSIterator`和`CtIterator`相似，但是广度优先
