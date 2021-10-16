@@ -1,24 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "spoon",
-      "path": "md/spoon.md"
-    },
-    {
       "basename": "AST",
       "path": "md/AST.md"
+    },
+    {
+      "basename": "visitor_访问者模式",
+      "path": "md/visitor_访问者模式.md"
     },
     {
       "basename": "spring-ioc-源码_BeanDefinition",
       "path": "resource/spring-ioc-源码_BeanDefinition.png"
     },
     {
-      "basename": "common_常用",
-      "path": "md/common_常用.md"
+      "basename": "有限状态机",
+      "path": "md/有限状态机.md"
+    },
+    {
+      "basename": "设计模式",
+      "path": "md/设计模式.md"
     },
     {
       "basename": "JavaPoet",
       "path": "md/JavaPoet.md"
+    },
+    {
+      "basename": "订阅发布模式",
+      "path": "md/订阅发布模式.md"
+    },
+    {
+      "basename": "ad_template",
+      "path": "template/ad_template.md"
+    },
+    {
+      "basename": "katex_template",
+      "path": "template/katex_template.md"
+    },
+    {
+      "basename": "mermaid_state",
+      "path": "template/mermaid_state.md"
+    },
+    {
+      "basename": "spoon",
+      "path": "md/spoon.md"
+    },
+    {
+      "basename": "common_常用",
+      "path": "md/common_常用.md"
     },
     {
       "basename": "temp",
@@ -31,34 +59,6 @@
     {
       "basename": "java-string",
       "path": "md/java-string.md"
-    },
-    {
-      "basename": "visitor_访问者模式",
-      "path": "md/visitor_访问者模式.md"
-    },
-    {
-      "basename": "设计模式",
-      "path": "md/设计模式.md"
-    },
-    {
-      "basename": "有限状态机",
-      "path": "md/有限状态机.md"
-    },
-    {
-      "basename": "静态内部类的泛型与建造者模式",
-      "path": "md/静态内部类的泛型与建造者模式.md"
-    },
-    {
-      "basename": "java-tips",
-      "path": "md/java-tips.md"
-    },
-    {
-      "basename": "自动机理论",
-      "path": "md/自动机理论.md"
-    },
-    {
-      "basename": "编译原理",
-      "path": "md/编译原理.md"
     }
   ],
   "omittedPaths": [],

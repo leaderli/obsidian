@@ -120,4 +120,24 @@ launcher.getEnvironment().setAutoImports(true);
 
 
 ```java
+SpoonAPI spoon = new Launcher();  
+spoon.getEnvironment().setAutoImports(true);  
+spoon.addInputResource("src/test/java/");  
+CtModel model = spoon.buildModel();  
+CtType<?> ctType = model.getElements(new TypeFilter<CtType<?>>(CtType.class) {  
+    @Override  
+ public boolean matches(CtType<?> element) {  
+  
+        return super.matches(element);  
+    }  
+}).get(0);  
+System.out.println(ctType.toString());  
+//使用全限定名打印
+System.out.println(ctType.toStringDebug());  
+//会将package和import同时打印出来
+System.out.println(ctType.toStringWithImports());
 ```
+
+
+
+## #TODO
