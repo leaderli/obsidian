@@ -25,6 +25,12 @@ Method m = o.getClass().getDeclaredMethod("m");
 m.invoke(o);
 ```
 
+
+输出到文件里
+```java
+launcher.setSourceOutputDirectory("fuck123123");  
+launcher.prettyprint();
+```
 ## 用于代码校验
 
 例如，我们不允许使用`new TreeSet()`
@@ -197,6 +203,7 @@ while (iterator.hasNext()) {
 
 ## 创建AST
 
+使用AST元素生成一段代码
 ```java
 Launcher launcher = new Launcher();  
 launcher.getEnvironment().setAutoImports(true);  
