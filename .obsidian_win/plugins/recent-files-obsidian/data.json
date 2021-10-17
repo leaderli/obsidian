@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "spoon",
-      "path": "md/spoon.md"
-    },
-    {
       "basename": "AST",
       "path": "md/AST.md"
+    },
+    {
+      "basename": "spoon",
+      "path": "md/spoon.md"
     },
     {
       "basename": "visitor_访问者模式",
