@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "javaparser",
+      "path": "md/javaparser.md"
+    },
+    {
       "basename": "AST",
       "path": "md/AST.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "java-utils",
       "path": "md/java-utils.md"
-    },
-    {
-      "basename": "java-string",
-      "path": "md/java-string.md"
     }
   ],
   "omittedPaths": [],

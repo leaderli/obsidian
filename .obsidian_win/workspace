@@ -6,10 +6,11 @@
       {
         "id": "d1710439b7812b6b",
         "type": "leaf",
+        "dimension": 34.57199734571997,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/AST.md",
+            "file": "md/javaparser.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "00ba51e004d9bdba",
         "type": "leaf",
+        "dimension": 65.42800265428002,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/AST.md",
+            "file": "md/javaparser.md",
             "mode": "preview"
           }
         },
@@ -90,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 168
+    "width": 168,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -106,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/AST.md",
+                "file": "md/javaparser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/AST.md"
+                "file": "md/javaparser.md"
               }
             }
           },
@@ -144,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/AST.md",
+                "file": "md/javaparser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,6 +163,7 @@
   },
   "active": "d1710439b7812b6b",
   "lastOpenFiles": [
+    "md/javaparser.md",
     "md/AST.md",
     "md/spoon.md",
     "md/visitor_访问者模式.md",
@@ -168,7 +172,6 @@
     "md/设计模式.md",
     "md/JavaPoet.md",
     "md/订阅发布模式.md",
-    "template/ad_template.md",
-    "template/katex_template.md"
+    "template/ad_template.md"
   ]
 }
