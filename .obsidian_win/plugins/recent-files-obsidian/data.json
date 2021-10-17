@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "AST",
+      "path": "md/AST.md"
+    },
+    {
+      "basename": "JavaParser_ Visited",
+      "path": "resource/JavaParser_ Visited.pdf"
+    },
+    {
       "basename": "javaparser",
       "path": "md/javaparser.md"
     },
     {
-      "basename": "AST",
-      "path": "md/AST.md"
+      "basename": "markdown_katex",
+      "path": "md/markdown_katex.md"
     },
     {
       "basename": "spoon",
@@ -51,14 +59,6 @@
     {
       "basename": "common_常用",
       "path": "md/common_常用.md"
-    },
-    {
-      "basename": "temp",
-      "path": "md/temp.md"
-    },
-    {
-      "basename": "java-utils",
-      "path": "md/java-utils.md"
     }
   ],
   "omittedPaths": [],

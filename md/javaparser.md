@@ -281,7 +281,53 @@ public class TestJavaParser {
 
 ### 替换方法内容的示例
 
+待替换的源代码
+```java
+package com.leaderli.litest;
 
+
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
+
+class MyTest {
+    @Test
+    public void test() {
+        String a = "123";
+        assertEquals("123", a);
+    }
+}
+
+```
+
+```java
+
+URI uri = Objects.requireNonNull(TestJavaParser.class.getResource("/")).toURI();
+Path path = Paths.get(uri).getParent().getParent();
+SourceRoot sourceRoot = new SourceRoot(path);
+CompilationUnit cu = sourceRoot.parse("src/test/java/com/leaderli/litest", "MyTest.java");
+//删除import
+cu.walk(ImportDeclaration.class, e -> {
+	if (e.isStatic() && "org.junit.Assert.assertEquals".equals(e.getNameAsString())) {
+		e.remove();
+	}
+});
+
+
+//删除方法调用
+cu.walk(MethodCallExpr.class, e -> {
+	e.getParentNode().get().remove();
+});
+Statement statement = StaticJavaParser.parseStatement("assert a.equals(\"123\");");
+cu.walk(MethodDeclaration.class, e -> {
+	e.getBody().get().addStatement(statement);
+
+});
+System.out.println(cu);
+//将改动写回文件
+sourceRoot.saveAll();
+```
 ## API说明
 `javaparser`使用访问者模式对语法树进行遍历访问，下面是一些常用的`visitor`
 
@@ -289,3 +335,8 @@ public class TestJavaParser {
 - `IntegerLiteralExpr`   int字面量，例如`int a = 1`中`1`即为`IntegerLiteralExpr`
 - `VariableDeclarator` 变量声明，例如`int a = 1`，其中包含子语法树类型`SimpleName`，即为`a`
 - `AssignExpr` 赋值语句，例如`a=2`，其中包含子语法树类型`NameExpr`,即为`a`
+
+
+[[JavaParser_ Visited.pdf]]
+
+

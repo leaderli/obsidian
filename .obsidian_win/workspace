@@ -4,30 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d1710439b7812b6b",
+        "id": "6c6390487441e245",
         "type": "leaf",
-        "dimension": 34.57199734571997,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/javaparser.md",
+            "file": "md/AST.md",
             "mode": "source"
           }
-        },
-        "group": "8ee402d4fa865262"
-      },
-      {
-        "id": "00ba51e004d9bdba",
-        "type": "leaf",
-        "dimension": 65.42800265428002,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/javaparser.md",
-            "mode": "preview"
-          }
-        },
-        "group": "8ee402d4fa865262"
+        }
       }
     ],
     "direction": "vertical"
@@ -54,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TODO",
+                "query": "table",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -92,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 168,
-    "collapsed": true
+    "width": 168
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -109,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/javaparser.md",
+                "file": "md/AST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/javaparser.md"
+                "file": "md/AST.md"
               }
             }
           },
@@ -147,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/javaparser.md",
+                "file": "md/AST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,17 +145,17 @@
     "width": 396,
     "collapsed": true
   },
-  "active": "d1710439b7812b6b",
+  "active": "6c6390487441e245",
   "lastOpenFiles": [
-    "md/javaparser.md",
     "md/AST.md",
+    "resource/JavaParser_ Visited.pdf",
+    "md/javaparser.md",
+    "md/markdown_katex.md",
     "md/spoon.md",
     "md/visitor_访问者模式.md",
     "resource/spring-ioc-源码_BeanDefinition.png",
     "md/有限状态机.md",
     "md/设计模式.md",
-    "md/JavaPoet.md",
-    "md/订阅发布模式.md",
-    "template/ad_template.md"
+    "md/JavaPoet.md"
   ]
 }
