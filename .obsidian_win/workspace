@@ -4,30 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f8c46a45a26344d8",
+        "id": "6c6390487441e245",
         "type": "leaf",
-        "dimension": 58.74183006535948,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/spoon.md",
+            "file": "md/AST.md",
             "mode": "source"
           }
-        },
-        "group": "7adc37b11a055f1c"
-      },
-      {
-        "id": "d1710439b7812b6b",
-        "type": "leaf",
-        "dimension": 41.25816993464052,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/spoon.md",
-            "mode": "preview"
-          }
-        },
-        "group": "7adc37b11a055f1c"
+        }
       }
     ],
     "direction": "vertical"
@@ -54,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "占位符",
+                "query": "table",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -87,12 +72,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 119,
-    "collapsed": true
+    "width": 168
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -108,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/spoon.md",
+                "file": "md/AST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/spoon.md"
+                "file": "md/AST.md"
               }
             }
           },
@@ -146,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/spoon.md",
+                "file": "md/AST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,17 +145,17 @@
     "width": 396,
     "collapsed": true
   },
-  "active": "f8c46a45a26344d8",
+  "active": "6c6390487441e245",
   "lastOpenFiles": [
-    "md/spoon.md",
-    "md/Untitled.md",
     "md/AST.md",
+    "resource/JavaParser_ Visited.pdf",
+    "md/javaparser.md",
+    "md/markdown_katex.md",
+    "md/spoon.md",
+    "md/visitor_访问者模式.md",
     "resource/spring-ioc-源码_BeanDefinition.png",
-    "md/common_常用.md",
-    "md/JavaPoet.md",
-    "md/temp.md",
-    "md/java-utils.md",
-    "md/java-string.md",
-    "md/visitor_访问者模式.md"
+    "md/有限状态机.md",
+    "md/设计模式.md",
+    "md/JavaPoet.md"
   ]
 }

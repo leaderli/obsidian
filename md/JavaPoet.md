@@ -436,7 +436,7 @@ TypeSpec helloWorld = TypeSpec.classBuilder("HelloWorld")
     .build();
 ```
 
-```
+```java
 public class HelloWorld {
   private final String android;
 
