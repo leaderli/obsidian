@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "JavaPoet",
+      "path": "md/JavaPoet.md"
+    },
+    {
+      "basename": "spoon",
+      "path": "md/spoon.md"
+    },
+    {
       "basename": "mybatis入门",
       "path": "md/mybatis入门.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "maven",
       "path": "md/maven.md"
-    },
-    {
-      "basename": "java-stream",
-      "path": "md/java-stream.md"
-    },
-    {
-      "basename": "dom4j",
-      "path": "md/dom4j.md"
     }
   ],
   "omittedPaths": [],
