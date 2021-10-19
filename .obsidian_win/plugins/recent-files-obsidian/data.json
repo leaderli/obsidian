@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "有限状态机",
+      "path": "md/有限状态机.md"
+    },
+    {
       "basename": "AST",
       "path": "md/AST.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "spring-ioc-源码_BeanDefinition",
       "path": "resource/spring-ioc-源码_BeanDefinition.png"
-    },
-    {
-      "basename": "有限状态机",
-      "path": "md/有限状态机.md"
     },
     {
       "basename": "设计模式",
