@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/有限状态机.md",
+            "file": "md/visitor_访问者模式.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "2d29ba47f8087f65"
+      },
+      {
+        "id": "6cde7080b1594389",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/visitor_访问者模式.md",
+            "mode": "preview"
+          }
+        },
+        "group": "2d29ba47f8087f65"
       }
     ],
     "direction": "vertical"
@@ -39,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "table",
+                "query": "todo",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -73,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/有限状态机.md",
+                "file": "md/visitor_访问者模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/有限状态机.md"
+                "file": "md/visitor_访问者模式.md"
               }
             }
           },
@@ -131,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/有限状态机.md",
+                "file": "md/visitor_访问者模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,15 +160,15 @@
   },
   "active": "6c6390487441e245",
   "lastOpenFiles": [
-    "md/有限状态机.md",
-    "md/AST.md",
-    "resource/JavaParser_ Visited.pdf",
-    "md/javaparser.md",
-    "md/markdown_katex.md",
-    "md/spoon.md",
     "md/visitor_访问者模式.md",
-    "resource/spring-ioc-源码_BeanDefinition.png",
-    "md/设计模式.md",
-    "md/JavaPoet.md"
+    "md/obsidan.md",
+    "md/common-configuration.md",
+    "md/分布式锁实现.md",
+    "md/订阅发布模式.md",
+    "md/自动机理论.md",
+    "md/有限状态机.md",
+    "md/语言及文法.md",
+    "md/编译原理.md",
+    "md/AST.md"
   ]
 }
