@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "JavaPoet",
+      "path": "md/JavaPoet.md"
+    },
+    {
       "basename": "java-string",
       "path": "md/java-string.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "mybatis入门",
       "path": "md/mybatis入门.md"
-    },
-    {
-      "basename": "JavaPoet",
-      "path": "md/JavaPoet.md"
     },
     {
       "basename": "spoon",
