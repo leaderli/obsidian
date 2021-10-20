@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "java-string",
+      "path": "md/java-string.md"
+    },
+    {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
       "basename": "mybatis入门",
       "path": "md/mybatis入门.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "java-函数式编程库",
       "path": "md/java-函数式编程库.md"
-    },
-    {
-      "basename": "java-tips",
-      "path": "md/java-tips.md"
     },
     {
       "basename": "javaassist",
@@ -55,10 +59,6 @@
     {
       "basename": "java-SPI",
       "path": "md/java-SPI.md"
-    },
-    {
-      "basename": "maven",
-      "path": "md/maven.md"
     }
   ],
   "omittedPaths": [],
