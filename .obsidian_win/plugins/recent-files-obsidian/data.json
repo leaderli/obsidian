@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "自动机理论",
+      "path": "md/自动机理论.md"
+    },
+    {
+      "basename": "编译原理",
+      "path": "md/编译原理.md"
+    },
+    {
+      "basename": "语言及文法",
+      "path": "md/语言及文法.md"
+    },
+    {
+      "basename": "Pasted image 20211007170523",
+      "path": "resource/Pasted image 20211007170523.png"
+    },
+    {
+      "basename": "动态规划",
+      "path": "md/动态规划.md"
+    },
+    {
+      "basename": "visitor_访问者模式",
+      "path": "md/visitor_访问者模式.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
+    },
+    {
+      "basename": "common-configuration",
+      "path": "md/common-configuration.md"
+    },
+    {
+      "basename": "分布式锁实现",
+      "path": "md/分布式锁实现.md"
+    },
+    {
+      "basename": "订阅发布模式",
+      "path": "md/订阅发布模式.md"
+    },
+    {
       "basename": "有限状态机",
       "path": "md/有限状态机.md"
     },
@@ -19,46 +59,6 @@
     {
       "basename": "markdown_katex",
       "path": "md/markdown_katex.md"
-    },
-    {
-      "basename": "spoon",
-      "path": "md/spoon.md"
-    },
-    {
-      "basename": "visitor_访问者模式",
-      "path": "md/visitor_访问者模式.md"
-    },
-    {
-      "basename": "spring-ioc-源码_BeanDefinition",
-      "path": "resource/spring-ioc-源码_BeanDefinition.png"
-    },
-    {
-      "basename": "设计模式",
-      "path": "md/设计模式.md"
-    },
-    {
-      "basename": "JavaPoet",
-      "path": "md/JavaPoet.md"
-    },
-    {
-      "basename": "订阅发布模式",
-      "path": "md/订阅发布模式.md"
-    },
-    {
-      "basename": "ad_template",
-      "path": "template/ad_template.md"
-    },
-    {
-      "basename": "katex_template",
-      "path": "template/katex_template.md"
-    },
-    {
-      "basename": "mermaid_state",
-      "path": "template/mermaid_state.md"
-    },
-    {
-      "basename": "common_常用",
-      "path": "md/common_常用.md"
     }
   ],
   "omittedPaths": [],
