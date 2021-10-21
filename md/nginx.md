@@ -171,7 +171,7 @@ from os import path
 import sys
 from urllib.parse import urlparse
 
-port = 8081
+port = 8083
 class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
@@ -181,8 +181,7 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header('port', port)
         self.end_headers()
         self.wfile.write(b'')
-        print(port,self.headers.get('Host'), self.path,flus
-h=True)
+        print(port,self.headers.get('Host'), self.path,flush=True)
 
     def do_POST(self):
         self.do_Get()

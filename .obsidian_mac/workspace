@@ -6,10 +6,11 @@
       {
         "id": "00eccafe1fe4b1d9",
         "type": "leaf",
+        "dimension": 57.3208722741433,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/maven.md",
+            "file": "md/nginx.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "aeb6c7dbfb6ac293",
         "type": "leaf",
+        "dimension": 42.679127725856695,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/maven.md",
+            "file": "md/nginx.md",
             "mode": "preview"
           }
         },
@@ -52,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xpath",
+                "query": "HTTPServer",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -98,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/maven.md",
+                "file": "md/nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/maven.md"
+                "file": "md/nginx.md"
               }
             }
           }
@@ -140,15 +142,15 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/nginx.md",
+    "md/python入门.md",
+    "md/vim.md",
+    "md/java-函数式编程库.md",
     "md/maven.md",
     "md/dom4j.md",
     "md/JavaPoet.md",
     "md/java-string.md",
     "md/java-tips.md",
-    "md/mybatis入门.md",
-    "md/spoon.md",
-    "md/bitOperation.md",
-    "md/Untitled.md",
-    "md/java-函数式编程库.md"
+    "md/mybatis入门.md"
   ]
 }

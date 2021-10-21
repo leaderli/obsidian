@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "nginx",
+      "path": "md/nginx.md"
+    },
+    {
+      "basename": "python入门",
+      "path": "md/python入门.md"
+    },
+    {
+      "basename": "vim",
+      "path": "md/vim.md"
+    },
+    {
+      "basename": "java-函数式编程库",
+      "path": "md/java-函数式编程库.md"
+    },
+    {
       "basename": "maven",
       "path": "md/maven.md"
     },
@@ -37,28 +53,12 @@
       "path": "md/temp.md"
     },
     {
-      "basename": "java-函数式编程库",
-      "path": "md/java-函数式编程库.md"
-    },
-    {
       "basename": "javaassist",
       "path": "md/javaassist.md"
     },
     {
       "basename": "ASM",
       "path": "md/ASM.md"
-    },
-    {
-      "basename": "AntV_X6",
-      "path": "md/AntV_X6.md"
-    },
-    {
-      "basename": "git",
-      "path": "md/git.md"
-    },
-    {
-      "basename": "visitor_访问者模式",
-      "path": "md/visitor_访问者模式.md"
     }
   ],
   "omittedPaths": [],
