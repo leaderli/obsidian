@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/dom4j.md",
+            "file": "md/maven.md",
+            "mode": "source"
+          }
+        },
+        "group": "4b8f838a1209759e"
+      },
+      {
+        "id": "aeb6c7dbfb6ac293",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/maven.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "4b8f838a1209759e"
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/dom4j.md",
+                "file": "md/maven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/dom4j.md"
+                "file": "md/maven.md"
               }
             }
           }
@@ -127,6 +140,7 @@
   },
   "active": "00eccafe1fe4b1d9",
   "lastOpenFiles": [
+    "md/maven.md",
     "md/dom4j.md",
     "md/JavaPoet.md",
     "md/java-string.md",
@@ -135,7 +149,6 @@
     "md/spoon.md",
     "md/bitOperation.md",
     "md/Untitled.md",
-    "md/java-函数式编程库.md",
-    "md/javaassist.md"
+    "md/java-函数式编程库.md"
   ]
 }

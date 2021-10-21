@@ -1099,6 +1099,10 @@ maven 的模块是在父类 pom 中定义聚合关系，其本质仅仅是一次
 </dependency>
 ```
 
+## 快照snapshot
+
+快照是一种特殊的版本，标识了当前的jar根据updatePolicy（默认是always），每次构建时都会从远程仓库拉取最新的这个jar包的版本
+
 ## 常用命令
 - 强制刷新本地缓存`mvn dependency:purge-local-repository`
 - `mvn clean install -U`
