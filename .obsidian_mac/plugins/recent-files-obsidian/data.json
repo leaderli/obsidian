@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "java-函数式编程库",
+      "path": "md/java-函数式编程库.md"
+    },
+    {
+      "basename": "java-stream",
+      "path": "md/java-stream.md"
+    },
+    {
       "basename": "nginx",
       "path": "md/nginx.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "vim",
       "path": "md/vim.md"
-    },
-    {
-      "basename": "java-函数式编程库",
-      "path": "md/java-函数式编程库.md"
     },
     {
       "basename": "maven",
@@ -55,10 +59,6 @@
     {
       "basename": "javaassist",
       "path": "md/javaassist.md"
-    },
-    {
-      "basename": "ASM",
-      "path": "md/ASM.md"
     }
   ],
   "omittedPaths": [],

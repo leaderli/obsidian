@@ -20,6 +20,9 @@ Java 的集合库本身是可变的，显然违背了函数式编程的基本特
 io.vavr.collection.List.of(1, 2, 3, 4, 5)
     .filter(i -> i > 3)
     .map(i -> i * 2);
+
+//快速生成一个集合
+List.range(0,10)
 ```
 
 往集合追加数据会产生新的集合，从而保证不可变
@@ -328,6 +331,3 @@ public String bmiFormat(double height, double weight) {
 }
 ```
 
-```java
-
-```
