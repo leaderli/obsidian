@@ -4,30 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "00eccafe1fe4b1d9",
-        "type": "leaf",
-        "dimension": 57.3208722741433,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/java-函数式编程库.md",
-            "mode": "source"
-          }
-        },
-        "group": "4b8f838a1209759e"
-      },
-      {
         "id": "aeb6c7dbfb6ac293",
         "type": "leaf",
-        "dimension": 42.679127725856695,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-函数式编程库.md",
+            "file": "md/git.md",
             "mode": "preview"
           }
-        },
-        "group": "4b8f838a1209759e"
+        }
       }
     ],
     "direction": "vertical"
@@ -54,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vavr",
+                "query": "游离",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -100,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-函数式编程库.md",
+                "file": "md/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java-函数式编程库.md"
+                "file": "md/git.md"
               }
             }
           }
@@ -140,8 +125,10 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "00eccafe1fe4b1d9",
+  "active": "aeb6c7dbfb6ac293",
   "lastOpenFiles": [
+    "md/git.md",
+    "md/深入git.md",
     "md/java-函数式编程库.md",
     "md/java-stream.md",
     "md/nginx.md",
@@ -149,8 +136,6 @@
     "md/vim.md",
     "md/maven.md",
     "md/dom4j.md",
-    "md/JavaPoet.md",
-    "md/java-string.md",
-    "md/java-tips.md"
+    "md/JavaPoet.md"
   ]
 }
