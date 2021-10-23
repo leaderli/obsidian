@@ -5,10 +5,11 @@
   "foldHeading": true,
   "foldIndent": true,
   "showLineNumber": true,
-  "showUnsupportedFiles": true,
+  "showUnsupportedFiles": false,
   "attachmentFolderPath": "resource",
   "showFrontmatter": true,
   "readableLineLength": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "md"
+  "newFileFolderPath": "md",
+  "promptDelete": false
 }

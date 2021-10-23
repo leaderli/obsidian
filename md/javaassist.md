@@ -110,7 +110,10 @@ public class TestAssist {
 ## 概述
 javassist是一个生成或修改java字节码的框架，他相对与[[ASM]]来说较轻量，使用起来较简洁，但有局限性
 
-java[[java字节码|字节码]]
+java[[java字节码|字节码]]以二进制的形式存储在class文件中，在javassist中，类`CtClass`表示class文件，一个CtClass对象可以处理一个class文件。
+
+
+11啊啊啊啊啊啊啊啊啊啊啊
 
 ## 冻结修改
 

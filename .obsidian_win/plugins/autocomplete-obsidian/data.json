@@ -1,12 +1,12 @@
 {
   "enabled": true,
   "autoSelect": false,
-  "autoTrigger": false,
+  "autoTrigger": true,
   "autoTriggerMinSize": 3,
-  "triggerLikeVim": true,
-  "latexProvider": true,
-  "flowProvider": false,
-  "flowProviderScanCurrent": false,
+  "triggerLikeVim": false,
+  "latexProvider": false,
+  "flowProvider": true,
+  "flowProviderScanCurrent": true,
   "flowProviderTokenizeStrategy": "default",
   "flowWordSeparators": {
     "default": "~?!@#$%^&*()-=+[{]}|;:' \",.<>/",

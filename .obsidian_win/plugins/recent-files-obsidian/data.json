@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "vscode相关",
+      "path": "md/vscode相关.md"
+    },
+    {
+      "basename": "vim",
+      "path": "md/vim.md"
+    },
+    {
       "basename": "javaassist",
       "path": "md/javaassist.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "动态规划",
       "path": "md/动态规划.md"
-    },
-    {
-      "basename": "visitor_访问者模式",
-      "path": "md/visitor_访问者模式.md"
-    },
-    {
-      "basename": "common-configuration",
-      "path": "md/common-configuration.md"
     }
   ],
   "omittedPaths": [],
