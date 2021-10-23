@@ -1,8 +1,7 @@
 # javassist
 
 [tutorial](http://www.javassist.org/tutorial/tutorial.html)
-
-javassist是一个生成或修改java字节码的框架，他相对与[[ASM]]来说较轻量，使用起来较简洁，但有局限性
+[tutorial-wiki](https://github.com/jboss-javassist/javassist/wiki/Tutorial-1)
 
 ## 快速入门
 ```maven
@@ -106,6 +105,12 @@ public class TestAssist {
 ```
 
 
+
+
+## 概述
+javassist是一个生成或修改java字节码的框架，他相对与[[ASM]]来说较轻量，使用起来较简洁，但有局限性
+
+java[[java字节码|字节码]]
 
 ## 冻结修改
 

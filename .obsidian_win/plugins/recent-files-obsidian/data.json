@@ -5,8 +5,32 @@
       "path": "md/javaassist.md"
     },
     {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
+    },
+    {
+      "basename": "java字节码",
+      "path": "md/java字节码.md"
+    },
+    {
+      "basename": "AST",
+      "path": "md/AST.md"
+    },
+    {
+      "basename": "aop",
+      "path": "md/aop.md"
+    },
+    {
       "basename": "ASM",
       "path": "md/ASM.md"
+    },
+    {
+      "basename": "axios",
+      "path": "md/axios.md"
+    },
+    {
+      "basename": "avaya",
+      "path": "md/avaya.md"
     },
     {
       "basename": "自动机理论",
@@ -33,32 +57,8 @@
       "path": "md/visitor_访问者模式.md"
     },
     {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
-    },
-    {
       "basename": "common-configuration",
       "path": "md/common-configuration.md"
-    },
-    {
-      "basename": "分布式锁实现",
-      "path": "md/分布式锁实现.md"
-    },
-    {
-      "basename": "订阅发布模式",
-      "path": "md/订阅发布模式.md"
-    },
-    {
-      "basename": "有限状态机",
-      "path": "md/有限状态机.md"
-    },
-    {
-      "basename": "AST",
-      "path": "md/AST.md"
-    },
-    {
-      "basename": "JavaParser_ Visited",
-      "path": "resource/JavaParser_ Visited.pdf"
     }
   ],
   "omittedPaths": [],
