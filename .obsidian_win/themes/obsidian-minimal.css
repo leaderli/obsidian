@@ -166,16 +166,17 @@ Disabled features */
   --font-smaller:11px;
   --font-smallest:10px;
 
-  --h1:1.125em;
-  --h2:1em;
+  --h1:2.5em;
+  --h2:1.7em;
+  
   --h3:1em;
   --h4:0.90em;
   --h5:0.85em;
   --h6:0.85em;
 
-  --h1-weight:600;
-  --h2-weight:600;
-  --h3-weight:500;
+  --h1-weight:900;
+  --h2-weight:700;
+  --h3-weight:600;
   --h4-weight:500;
   --h5-weight:500;
   --h6-weight:400;
@@ -1210,6 +1211,7 @@ body, input, button,
 .cm-s-obsidian .cm-formatting-header.cm-header-5,
 .cm-s-obsidian .cm-formatting-header.cm-header-6 {
   color:var(--text-faint);
+  font-weight:var(--bold-weight);
 }
 .view-header-title,
 .file-embed-title,
@@ -1250,7 +1252,8 @@ body, input, button,
 .markdown-preview-view h4,
 .HyperMD-header-4,
 .cm-s-obsidian .cm-header-4 {
-  font-variant:small-caps;
+  /* font-variant:small-caps; */
+  font-variant: none;
   letter-spacing:0.02em;
   font-size:var(--h4);
   color:var(--h4-color);
@@ -1417,6 +1420,8 @@ a.tag {
   display:inline-block;
   margin:2px 0 0 0;
   border-radius:14px;
+  color: #569ff7;
+
 }
 a.tag:hover {
   color:var(--text-normal);
@@ -6418,3 +6423,8 @@ settings:
         collapsed: true
 
 */
+
+
+em {
+  color: var(--purple);
+}

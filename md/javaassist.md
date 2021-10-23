@@ -112,8 +112,15 @@ javassist是一个生成或修改java字节码的框架，他相对与[[ASM]]来
 
 java[[java字节码|字节码]]以二进制的形式存储在class文件中，在javassist中，类`CtClass`表示class文件，一个CtClass对象可以处理一个class文件。
 
+```java
+ClassPool pool = ClassPool.getDefault();
+CtClass cc = pool.get("test.Rectangle");
+cc.setSuperclass(pool.get("test.Point"));
+cc.writeFile();
+```
 
-11啊啊啊啊啊啊啊啊啊啊啊
+### ClassPool
+ClassPool是CtClass对象的容器。它按需要读取类文件来构造CtClass对象，并且保存CtClass对象以便以后使用
 
 ## 冻结修改
 

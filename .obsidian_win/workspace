@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vscode相关.md",
+            "file": "md/javaassist.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "c813a1528ae66f98"
+      },
+      {
+        "id": "b12a887a0f94fd4b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/javaassist.md",
+            "mode": "preview"
+          }
+        },
+        "group": "c813a1528ae66f98"
       }
     ],
     "direction": "vertical"
@@ -65,11 +78,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 295
+    "width": 295,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vscode相关.md",
+                "file": "md/javaassist.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vscode相关.md"
+                "file": "md/javaassist.md"
               }
             }
           },
@@ -123,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/vscode相关.md",
+                "file": "md/javaassist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,13 +148,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360
+    "width": 360,
+    "collapsed": true
   },
   "active": "f33d66930711b488",
   "lastOpenFiles": [
+    "md/javaassist.md",
     "md/vscode相关.md",
     "md/vim.md",
-    "md/javaassist.md",
     "md/obsidan.md",
     "md/java字节码.md",
     "md/AST.md",
