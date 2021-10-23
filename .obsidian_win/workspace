@@ -6,7 +6,7 @@
       {
         "id": "a058747f943e533e",
         "type": "leaf",
-        "dimension": 66.09157266091573,
+        "dimension": 50.836120401337794,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,7 +19,7 @@
       {
         "id": "6752d277f1f622e2",
         "type": "leaf",
-        "dimension": 33.90842733908428,
+        "dimension": 49.163879598662206,
         "state": {
           "type": "markdown",
           "state": {
@@ -163,6 +163,7 @@
   "active": "a058747f943e533e",
   "lastOpenFiles": [
     "md/javaassist.md",
+    "md/ASM.md",
     "md/自动机理论.md",
     "md/编译原理.md",
     "md/语言及文法.md",
@@ -170,7 +171,6 @@
     "md/动态规划.md",
     "md/visitor_访问者模式.md",
     "md/obsidan.md",
-    "md/common-configuration.md",
-    "md/分布式锁实现.md"
+    "md/common-configuration.md"
   ]
 }

@@ -5,6 +5,10 @@
       "path": "md/javaassist.md"
     },
     {
+      "basename": "ASM",
+      "path": "md/ASM.md"
+    },
+    {
       "basename": "自动机理论",
       "path": "md/自动机理论.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "JavaParser_ Visited",
       "path": "resource/JavaParser_ Visited.pdf"
-    },
-    {
-      "basename": "javaparser",
-      "path": "md/javaparser.md"
     }
   ],
   "omittedPaths": [],

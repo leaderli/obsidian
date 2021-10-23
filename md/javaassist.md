@@ -2,8 +2,9 @@
 
 [tutorial](http://www.javassist.org/tutorial/tutorial.html)
 
-javassist是一个生成或修改java字节码的框架，他相对来说比较简单。
+javassist是一个生成或修改java字节码的框架，他相对与[[ASM]]来说较轻量，使用起来较简洁，但有局限性
 
+## 快速入门
 ```maven
 <dependency>
     <groupId>org.javassist</groupId>
@@ -104,57 +105,7 @@ public class TestAssist {
 
 ```
 
-## 添加注解
 
-```java
-//添加枚举类型的注解
-
-AnnotationsAttribute attr = new AnnotationsAttribute(constpool, AnnotationsAttribute.visibleTag);
-
-Annotation annot = new Annotation("org.mengyun.tcctransaction.api.Compensable", constpool);
-EnumMemberValue enumMemberValue = new EnumMemberValue(constpool);
-enumMemberValue.setType("org.mengyun.tcctransaction.api.Propagation");
-enumMemberValue.setValue("SUPPORTS");
-annot.addMemberValue("propagation", enumMemberValue);
-annot.addMemberValue("confirmMethod", new StringMemberValue(ctMethod.getName(), constpool));
-
-```
-需要特别注意的是，注解的值，需要使用特殊的方法赋值，不能直接赋值
-
-```java
-ConstPool constPool = ct.getClassFile().getConstPool();
-
-//方法增加注解
-AnnotationsAttribute annotationsAttribute = new AnnotationsAttribute(constPool, AnnotationsAttribute.visibleTag);
-
-Annotation requestMapping = new Annotation(RequestMapping.class.getName(), constPool);
-StringMemberValue url = new StringMemberValue(constPool);
-url.setValue("/6666");
-
-EnumMemberValue type = new EnumMemberValue(constPool);
-type.setType(PackageType.class.getName());
-type.setValue(PackageType.TOUDA_JSON_OUT.name());
-requestMapping.addMemberValue("url", url);
-requestMapping.addMemberValue("type", type);
-
-annotationsAttribute.addAnnotation(requestMapping);
-
-helloM.getMethodInfo().addAttribute(annotationsAttribute);
-
-```
-
-## 加入当前classloader
-
-```java
-try {
-    Class.forName("MyClass");
-} catch(ClassNotFoundException e) {
-    ClassPool pool = ClassPool.getDefault();
-    CtClass cc = pool.makeClass("MyClass");
-    cc.toClass(this.getClass().getClassLoader(), this.getClass().getProtectionDomain());
-    Class.forName("MyClass");
-}
-```
 
 ## 冻结修改
 
@@ -224,4 +175,58 @@ cc.writeFile();
 
 //回收
 cc.detach();
+```
+
+
+## 常用示例
+### 添加注解
+
+```java
+//添加枚举类型的注解
+
+AnnotationsAttribute attr = new AnnotationsAttribute(constpool, AnnotationsAttribute.visibleTag);
+
+Annotation annot = new Annotation("org.mengyun.tcctransaction.api.Compensable", constpool);
+EnumMemberValue enumMemberValue = new EnumMemberValue(constpool);
+enumMemberValue.setType("org.mengyun.tcctransaction.api.Propagation");
+enumMemberValue.setValue("SUPPORTS");
+annot.addMemberValue("propagation", enumMemberValue);
+annot.addMemberValue("confirmMethod", new StringMemberValue(ctMethod.getName(), constpool));
+
+```
+需要特别注意的是，注解的值，需要使用特殊的方法赋值，不能直接赋值
+
+```java
+ConstPool constPool = ct.getClassFile().getConstPool();
+
+//方法增加注解
+AnnotationsAttribute annotationsAttribute = new AnnotationsAttribute(constPool, AnnotationsAttribute.visibleTag);
+
+Annotation requestMapping = new Annotation(RequestMapping.class.getName(), constPool);
+StringMemberValue url = new StringMemberValue(constPool);
+url.setValue("/6666");
+
+EnumMemberValue type = new EnumMemberValue(constPool);
+type.setType(PackageType.class.getName());
+type.setValue(PackageType.TOUDA_JSON_OUT.name());
+requestMapping.addMemberValue("url", url);
+requestMapping.addMemberValue("type", type);
+
+annotationsAttribute.addAnnotation(requestMapping);
+
+helloM.getMethodInfo().addAttribute(annotationsAttribute);
+
+```
+
+### 加入当前classloader
+
+```java
+try {
+    Class.forName("MyClass");
+} catch(ClassNotFoundException e) {
+    ClassPool pool = ClassPool.getDefault();
+    CtClass cc = pool.makeClass("MyClass");
+    cc.toClass(this.getClass().getClassLoader(), this.getClass().getProtectionDomain());
+    Class.forName("MyClass");
+}
 ```
