@@ -2,7 +2,8 @@
 
 [tutorial](http://www.javassist.org/tutorial/tutorial.html)
 
-javassist是一个生成java字节码的框架，他相对来说比较简单。
+javassist是一个生成或修改java字节码的框架，他相对来说比较简单。
+
 ```maven
 <dependency>
     <groupId>org.javassist</groupId>
@@ -10,6 +11,7 @@ javassist是一个生成java字节码的框架，他相对来说比较简单。
     <version>3.21.0-GA</version>
 </dependency>
 ```
+
 ```java
 package com.leaderli.liutil;
 
@@ -152,4 +154,74 @@ try {
     cc.toClass(this.getClass().getClassLoader(), this.getClass().getProtectionDomain());
     Class.forName("MyClass");
 }
+```
+
+## 冻结修改
+
+如果一个CtClass对象通过writeFile()，toClass()，toBytecode()被转换称一个类文件，此CtClass对象会被冻结起来，不允许再修改。因为一个类只能被JVM加载一次。
+
+但是，一个被冻结的CtClass也可以解冻
+
+```java
+
+CtClass cc = ...;
+
+cc.writeFile();
+cc.defrost();
+cc.setSuperClass(...)
+
+```
+
+
+## 类搜索路径
+
+如果程序运行在tomcat等web服务器上，ClassPool可能无法找到用户的类，因为web服务器使用多个类加载器作为系统类加载器，在这种情况下，ClassPool必须添加额外的类搜索路径。
+```java
+//获取使用JVM的类搜索路径
+ClassPool classPool = ClassPool.getDefault();  
+//将this指向的类的classloader的类加载路径添加到pool的类加载路径
+classPool.insertClassPath(new ClassClassPath(this.getClass()));
+
+```
+
+也可以注册一个目录作为类搜索路径
+
+```java
+ClassPool classPool = ClassPool.getDefault();  
+classPool.insertClassPath("/user/local/javalib");
+```
+
+也可以直接传递byte数组
+
+```java
+ClassPool cp = ClassPool.getDefault();
+//java byte ;
+byte[] b;
+//className
+String name;
+cp.insertClassPath(new ByteArrayClassPath(name, b));
+CtClass cc = cp.get(name);
+```
+
+或者使用输入流
+
+```java
+ClassPool cp = ClassPool.getDefault();
+//字节码文件流
+InputStream ins;
+CtClass cc = cp.makeClass(ins);
+```
+
+
+##   ClassPool
+
+ClassPool在执行期间，必须包含所有使用到的CtClass实例，当不需要使用CtClass对象时，可以使用`detach()`方法，及时清理`ClassPool`，或者直接回收`ClassPool`
+
+```java
+CtClass cc;
+
+cc.writeFile();
+
+//回收
+cc.detach();
 ```

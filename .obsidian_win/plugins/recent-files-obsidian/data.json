@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "javaassist",
+      "path": "md/javaassist.md"
+    },
+    {
       "basename": "自动机理论",
       "path": "md/自动机理论.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "javaparser",
       "path": "md/javaparser.md"
-    },
-    {
-      "basename": "markdown_katex",
-      "path": "md/markdown_katex.md"
     }
   ],
   "omittedPaths": [],

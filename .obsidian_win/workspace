@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/自动机理论.md",
+            "file": "md/javaassist.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/自动机理论.md",
+            "file": "md/javaassist.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "转移",
+                "query": "javaas",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/自动机理论.md",
+                "file": "md/javaassist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/自动机理论.md"
+                "file": "md/javaassist.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/自动机理论.md",
+                "file": "md/javaassist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,6 +162,7 @@
   },
   "active": "a058747f943e533e",
   "lastOpenFiles": [
+    "md/javaassist.md",
     "md/自动机理论.md",
     "md/编译原理.md",
     "md/语言及文法.md",
@@ -170,7 +171,6 @@
     "md/visitor_访问者模式.md",
     "md/obsidan.md",
     "md/common-configuration.md",
-    "md/分布式锁实现.md",
-    "md/订阅发布模式.md"
+    "md/分布式锁实现.md"
   ]
 }
