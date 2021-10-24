@@ -312,6 +312,72 @@ System.out.println(aClass + "@" + aClass.hashCode()+" "+aClass.getClassLoader())
 //class com.AssistDemo@1100439041 sun.misc.Launcher$AppClassLoader@18b4aac2
 ```
 
+
+如果希望在加载时按需修改类，则可以向javassist.Loader添加一个监听器
+
+```java
+public interface Translator {
+    public void start(ClassPool pool) throws NotFoundException, CannotCompileException;
+    public void onLoad(ClassPool pool, String classname) throws NotFoundException, CannotCompileException;
+}
+```
+
+注意，onLoad() 不必调用 toBytecode() 或 writeFile()，因为 javassist.Loader 会调用这些方法来获取类文件。
+
+使用示例
+
+```java
+class MyTranslator implements Translator {  
+  
+    @Override  
+ public void start(ClassPool classPool) throws NotFoundException, CannotCompileException {  
+  
+        System.out.println("start:" + classPool);  
+    }  
+  
+    @Override  
+ public void onLoad(ClassPool classPool, String name) throws NotFoundException, CannotCompileException {  
+        System.out.println("onload:" + classPool + " " + name);  
+  
+        CtClass ctClass = classPool.get(name);  
+        System.out.println(Arrays.toString(ctClass.toClass().getDeclaredFields()));  
+  
+        ctClass.defrost();  
+        ctClass.getField("id").setName("fuck");  
+  
+    }  
+}
+
+```
+
+```java
+public void test4() throws Throwable {  
+  
+    ClassPool pool = ClassPool.getDefault();  
+    Loader cl = new Loader(pool);  
+    String name = "com.AssistDemo";  
+    cl.addTranslator(pool, new MyTranslator());  
+    System.out.println(Arrays.toString(cl.loadClass(name).getDeclaredFields()));  
+  
+}
+```
+>start:[class path: java.lang.Object.class;]
+onload:[class path: java.lang.Object.class;] com.AssistDemo
+[private int com.AssistDemo.id]
+[private int com.AssistDemo.fuck]
+
+
+
+## 注意事项
+
+Java 中的装箱和拆箱是语法糖。没有用于装箱或拆箱的字节码。所以 Javassist 的编译器不支持它们
+
+```java
+//无法通过编译
+CtField id = CtField.make("public Integer id = 1;", ct);
+
+//
+```
 ## 常用API
 ### 定义新类
 
@@ -363,3 +429,19 @@ helloM.getMethodInfo().addAttribute(annotationsAttribute);
 
 ```
 
+
+
+### 修改成员变量名称
+
+```java
+ClassPool pool = ClassPool.getDefault();  
+CtClass ctClass = pool.get("com.AssistDemo");  
+CtField id = ctClass.getField("id");  
+CodeConverter codeConverter = new CodeConverter();  
+codeConverter.redirectFieldAccess(id,ctClass,"id2");  
+id.setName("id2");  
+ctClass.instrument(codeConverter);  
+ctClass.toClass().newInstance();
+```
+
+上述方法不会将成员变量id删除，而是新生成一个成员变量id2，以及替换所有使用到成员变量id的地方。
