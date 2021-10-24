@@ -204,6 +204,18 @@ System.out.println(Arrays.toString(AssistDemo.class.getDeclaredFields()));
 >[private int com.AssistDemo.newName]
 
 
+如果事先知道需要修改哪些类，修改类的最简方法如下
+
+1. 调用ClassPool.get() 获取CtClass对象
+2. 修改CtClass
+3. 调用CtClass对象的writeFile()或者toBytecode()获取修改过的类
+
+```li-color
+如果在加载时，可以确定是否需要修改某个类，用户必须使jvassist和类加载器协作，以便在类加载过程中先修改字节码。用户可以定义自己的类加载器，也可以使用javassist提供的类加载器
+```
+
+![[#类加载器]]
+
 如果一个CtClass对象通过writeFile()，toClass()，toBytecode()被转换成一个类文件，此CtClass对象会被冻结起来，不允许再修改。因为一个类只能被JVM加载一次。
 
 但是，一个被冻结的CtClass也可以解冻，解冻后则可以继续修改了。
@@ -259,6 +271,47 @@ CtClass cc = cp.makeClass(ins);
 ```
 
 
+##  类加载器
+
+注入当前线程的上下文类加载器
+```java
+try {
+    Class.forName("MyClass");
+} catch(ClassNotFoundException e) {
+    ClassPool pool = ClassPool.getDefault();
+    CtClass cc = pool.makeClass("MyClass");
+    cc.toClass(this.getClass().getClassLoader(), this.getClass().getProtectionDomain());
+    Class.forName("MyClass");
+}
+```
+
+当在tomcat等容器上运行时，toClass() 使用的上下文类加载器可能是不合适的，
+
+```java
+//需要操作的类对象
+CtClass cc;
+//传递合适的类加载器
+Class c = cc.toClass(bean.getClass().getClassLoader());
+```
+
+javaassist提供一个类加载器javassist.Loader。它使用javaassist.ClassPool对象来读取类文件。
+
+例如
+```java
+ClassPool pool = ClassPool.getDefault();  
+CtClass cc = pool.get("com.AssistDemo");  
+  
+Loader cl = new Loader(pool);  
+Class<?> aClass = cl.loadClass("com.AssistDemo");  
+Object o = aClass.newInstance();  
+System.out.println(aClass + "@" + aClass.hashCode()+" "+aClass.getClassLoader());  
+aClass = AssistDemo.class;  
+System.out.println(aClass + "@" + aClass.hashCode()+" "+aClass.getClassLoader());
+
+//class com.AssistDemo@425918570 javassist.Loader@368102c8
+//class com.AssistDemo@1100439041 sun.misc.Launcher$AppClassLoader@18b4aac2
+```
+
 ## 常用API
 ### 定义新类
 
@@ -310,15 +363,3 @@ helloM.getMethodInfo().addAttribute(annotationsAttribute);
 
 ```
 
-### 加入当前classloader
-
-```java
-try {
-    Class.forName("MyClass");
-} catch(ClassNotFoundException e) {
-    ClassPool pool = ClassPool.getDefault();
-    CtClass cc = pool.makeClass("MyClass");
-    cc.toClass(this.getClass().getClassLoader(), this.getClass().getProtectionDomain());
-    Class.forName("MyClass");
-}
-```

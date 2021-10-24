@@ -209,3 +209,46 @@ private static File[] getExtDirs() {
 
   上述 4 个方法是`ClassLoader`类中的比较重要的方法，也是我们可能会经常用到的方法。接着看`SercureClassLoader`扩展了`ClassLoader`，新增了几个与使用相关的代码源(对代码源的位置及证书的验证)和权限定义类验证(主要是指对 class 源码的访问权限)的方法，一般我们不会直接跟这个类打交道，更多是与它的子类`URLClassLoader`有所关联，前面说过，`ClassLoader`是一个抽象类，很多方法是空的没有实现，并新增了`URLClassPath`类协助取得 Class 字节码流等功能，在编写自定义类加载器时，如果没有太过于复杂的需求，可以直接集成`URLClassLoader`类，这样就可以避免自己去编写`findClass()`方法及获取字节码流的方式，使自定义类加载器编写更加简洁，下面是`URLClassLoader`的类图
   ![[java类加载机制_2020-04-23-10-54-38.png]]
+
+
+
+## 自定义类加载器
+
+```java
+  
+class MyClassLoader extends ClassLoader {  
+  
+  
+    @Override  
+ protected Class<?> findClass(String name) throws ClassNotFoundException {  
+  
+        try {  
+            ClassPool pool = ClassPool.getDefault();  
+            CtClass cc = pool.get(name);  
+            byte[] bytes = cc.toBytecode();  
+            Class<?> c = this.defineClass(name, bytes, 0, bytes.length);  
+            return c;  
+        } catch (NotFoundException | CannotCompileException | IOException e) {  
+            e.printStackTrace();  
+        }  
+        return super.findClass(name);  
+    }  
+}
+
+
+
+public void test() throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+	MyClassLoader myClassLoader = new MyClassLoader();  
+	Class<?> clazz = myClassLoader.findClass("com.AssistDemo");  
+	Object o = clazz.newInstance();
+}
+```
+
+```java
+MyClassLoader myLoader = new MyClassLoader();
+Class clazz = myLoader.loadClass("Box");
+Object obj = clazz.newInstance();
+Box b = (Box)obj;    // this always throws ClassCastException.
+```
+
+Box类由两个类加载器加载。变量b的类型是当前线程的上下文类加载器加载，而myloader也加载了Box class（除非它委托给上下文类加载进行加载的）。对象obj是由myLoader加载的Box类的一个实例。因此最后一个语句总是抛出ClassCastException，因为obj的类是一个不同的类加载器加载的Box类。

@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "auto vim",
+                "query": "findClass",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -154,14 +154,14 @@
   "active": "f33d66930711b488",
   "lastOpenFiles": [
     "md/javaassist.md",
+    "md/java类加载机制.md",
+    "md/ASM.md",
+    "md/tomcat.md",
+    "md/java反射.md",
     "md/vscode相关.md",
     "md/vim.md",
     "md/obsidan.md",
     "md/java字节码.md",
-    "md/AST.md",
-    "md/aop.md",
-    "md/ASM.md",
-    "md/axios.md",
-    "md/avaya.md"
+    "md/AST.md"
   ]
 }
