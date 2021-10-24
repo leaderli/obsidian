@@ -106,7 +106,7 @@ public class TestAssist {
 
 
 ## 概述
-javassist是一个生成或修改java字节码的框架，他相对与[[ASM]]来说较轻量，使用起来较简洁，但有局限性
+javassist是一个生成或修改java字节码的框架，他相对与[[ASM]]来说较轻量，使用起来较简洁，但有局限性。javassist不允许删除方法或字段，但允许更改名称。不允许修改方法的参数
 
 
 ### CtClass
@@ -376,8 +376,12 @@ Java 中的装箱和拆箱是语法糖。没有用于装箱或拆箱的字节码
 //无法通过编译
 CtField id = CtField.make("public Integer id = 1;", ct);
 
-//
+//需要显式的装箱拆箱
+CtField id = CtField.make("public Integer id = new Integer(1);", ct);
 ```
+
+
+可变参数，泛型，类型转换等语法糖，都会遇到类似问题
 ## 常用API
 ### 定义新类
 
