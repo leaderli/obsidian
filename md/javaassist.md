@@ -1,5 +1,3 @@
-# javassist
-
 [tutorial](http://www.javassist.org/tutorial/tutorial.html)
 [tutorial-wiki](https://github.com/jboss-javassist/javassist/wiki/Tutorial-1)
 
@@ -119,28 +117,96 @@ ClassPool pool = ClassPool.getDefault();
 CtClass cc = pool.get("test.Rectangle");
 cc.setSuperclass(pool.get("test.Point"));
 cc.writeFile();
+
+//直接获取字节码文件
+byte[] bytes = cc.toBytecode();
+//使用当前线程的ClassLoader加载以CtClass对象转换的Class对象
+Class clazz = cc.toClass();
 ```
-在上面的例子中，修改了类的字节码对象，这项修改通过writeFile()将CtClass对象转换为[[java字节码]]
+在上面的例子中，修改了类的字节码对象，这项修改通过writeFile()将CtClass对象转换为[[java字节码|字节码]]文件并写到磁盘中。
+
+```li-color
+需要注意的是，CtClass做的修改是不会同步到已经被类加载器加载的类对象上的
+```
 
 CtClass对象代表的class的文件中涉及到的其他class的引用，也需要在[[#ClassPool]]的[[#classpath]]中，
 
-当不需要使用CtClass对象时，可以使用`detach()`方法，及时清理`ClassPool`，或者直接回收`ClassPool`
+当不需要使用CtClass对象时，可以使用`detach()`方法，或者直接回收`ClassPool`，以避免加载过多Ctclass对象而造成巨大的内存消耗。调用detach之后，就不能调用这个CtClass对象的任何方法了，但可以调用[[#ClassPool]]的get方法，重新读取这个类文件，创建一个新的CtClass对象。
 
+也可以直接回收[[#ClassPool]]，或者创建一个新的[[#ClassPool]]
 ```java
 CtClass cc;
 //回收
 cc.detach();
 ```
+
 ### ClassPool
 ClassPool是CtClass对象的容器。它按需要读取类文件来构造CtClass对象，并且保存CtClass对象以便以后使用。
 
 ClassPool是一个存储CtClass的Hash表，ClassPool的get()函数用于从Hash表中查找指定Key的CtClass对象，如果没有找到，get()函数会在其[[#classpath]]下查找指定名称的[[java字节码|字节码]]文件，创建并返回一个新的CtClass对象，这个新对象会保存在Hash表中。
 
-## 冻结修改
+如果程序在web应用服务器上运行，则可能需要创建多个ClassPool实例。正确的做法应该为每一个ClassLoader创建一个ClassPool实例，ClassPool应当通过构造函数来生成，而不是调用getDefault()来创建。
 
-如果一个CtClass对象通过writeFile()，toClass()，toBytecode()被转换称一个类文件，此CtClass对象会被冻结起来，不允许再修改。因为一个类只能被JVM加载一次。
+```li-color
+ClassPool的层级关系应当保持和ClassLoader一致
+```
 
-但是，一个被冻结的CtClass也可以解冻
+```java
+//parent classloader
+ClassPool parent = ClassPool.getDefault();
+
+//child classloader
+ClassPool child = new ClassPool(parent);
+
+
+```
+## 修改与加载类
+
+对于已经被ClassLoader加载的类，CtClass对其[[java字节码|字节码]]做的修改是无法及时生效的。
+
+```java
+//com.AssistDemo.java
+package com;  
+public class AssistDemo {  
+  
+    private int id = 1;  
+}
+```
+
+```java
+ClassPool pool = ClassPool.getDefault();  
+CtClass cc = pool.get(AssistDemo.class.getName());  
+cc.toClass();
+```
+上述代码会抛出如下异常
+
+```java
+javassist.CannotCompileException: by java.lang.LinkageError:
+loader (instance of  sun/misc/Launcher$AppClassLoader):
+attempted  duplicate class definition for name: "com/AssistDemo"
+```
+
+当我们使用如下方式去修改时，则可以生效
+
+```java
+CtClass cc = pool.get("com.AssistDemo");  
+  
+CtField id = cc.getField("id");  
+id.setName("newName");  
+  
+Class<?> aClass = cc.toClass();  
+  
+System.out.println(Arrays.toString(aClass.getDeclaredFields()));  
+System.out.println(Arrays.toString(AssistDemo.class.getDeclaredFields()));
+
+```
+>[private int com.AssistDemo.newName]
+>[private int com.AssistDemo.newName]
+
+
+如果一个CtClass对象通过writeFile()，toClass()，toBytecode()被转换成一个类文件，此CtClass对象会被冻结起来，不允许再修改。因为一个类只能被JVM加载一次。
+
+但是，一个被冻结的CtClass也可以解冻，解冻后则可以继续修改了。
 
 ```java
 
@@ -183,7 +249,7 @@ cp.insertClassPath(new ByteArrayClassPath(name, b));
 CtClass cc = cp.get(name);
 ```
 
-或者使用输入流
+当不知道类名的时候可以使用输入流
 
 ```java
 ClassPool cp = ClassPool.getDefault();
@@ -193,7 +259,18 @@ CtClass cc = cp.makeClass(ins);
 ```
 
 
-## 常用示例
+## 常用API
+### 定义新类
+
+```java
+ClassPool pool = ClassPool.getDefault();
+CtClass cc = pool.makeClass("Point");
+
+//定义接口
+pool.makeInterface("IPoint");
+```
+
+
 ### 添加注解
 
 ```java

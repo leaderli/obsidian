@@ -1,5 +1,5 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 22,
   "theme": "moonstone",
   "translucency": false,
   "enabledCssSnippets": [
@@ -8,5 +8,5 @@
     "li"
   ],
   "cssTheme": "obsidian-minimal",
-  "baseFontSizeAction": false
+  "baseFontSizeAction": true
 }
