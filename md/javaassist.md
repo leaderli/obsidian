@@ -110,7 +110,9 @@ public class TestAssist {
 ## 概述
 javassist是一个生成或修改java字节码的框架，他相对与[[ASM]]来说较轻量，使用起来较简洁，但有局限性
 
-java[[java字节码|字节码]]以二进制的形式存储在class文件中，在javassist中，类`CtClass`表示class文件，一个CtClass对象可以处理一个class文件。
+
+### CtClass
+java[[java字节码|字节码]]以二进制的形式存储在class文件中，在javassist中，类`CtClass`表示class的字节码对象，一个CtClass对象可以处理一个class字节码对象。
 
 ```java
 ClassPool pool = ClassPool.getDefault();
@@ -118,9 +120,21 @@ CtClass cc = pool.get("test.Rectangle");
 cc.setSuperclass(pool.get("test.Point"));
 cc.writeFile();
 ```
+在上面的例子中，修改了类的字节码对象，这项修改通过writeFile()将CtClass对象转换为[[java字节码]]
 
+CtClass对象代表的class的文件中涉及到的其他class的引用，也需要在[[#ClassPool]]的[[#classpath]]中，
+
+当不需要使用CtClass对象时，可以使用`detach()`方法，及时清理`ClassPool`，或者直接回收`ClassPool`
+
+```java
+CtClass cc;
+//回收
+cc.detach();
+```
 ### ClassPool
-ClassPool是CtClass对象的容器。它按需要读取类文件来构造CtClass对象，并且保存CtClass对象以便以后使用
+ClassPool是CtClass对象的容器。它按需要读取类文件来构造CtClass对象，并且保存CtClass对象以便以后使用。
+
+ClassPool是一个存储CtClass的Hash表，ClassPool的get()函数用于从Hash表中查找指定Key的CtClass对象，如果没有找到，get()函数会在其[[#classpath]]下查找指定名称的[[java字节码|字节码]]文件，创建并返回一个新的CtClass对象，这个新对象会保存在Hash表中。
 
 ## 冻结修改
 
@@ -139,7 +153,7 @@ cc.setSuperClass(...)
 ```
 
 
-## 类搜索路径
+## classpath
 
 如果程序运行在tomcat等web服务器上，ClassPool可能无法找到用户的类，因为web服务器使用多个类加载器作为系统类加载器，在这种情况下，ClassPool必须添加额外的类搜索路径。
 ```java
@@ -176,20 +190,6 @@ ClassPool cp = ClassPool.getDefault();
 //字节码文件流
 InputStream ins;
 CtClass cc = cp.makeClass(ins);
-```
-
-
-##   ClassPool
-
-ClassPool在执行期间，必须包含所有使用到的CtClass实例，当不需要使用CtClass对象时，可以使用`detach()`方法，及时清理`ClassPool`，或者直接回收`ClassPool`
-
-```java
-CtClass cc;
-
-cc.writeFile();
-
-//回收
-cc.detach();
 ```
 
 
