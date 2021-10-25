@@ -25,7 +25,7 @@ axios({
   url: "http://localhost:5000",
   method: "post",
   data: "{}",
-  headers: { "Content-tyle": "application/json" },
+  headers: { "Content-type": "application/json" },
 }).then((res) => {
   console.log(res);
 });
@@ -36,6 +36,13 @@ axios({
 - data 请求数据
 - method 请求访问
 - url 请求地址
+- headers 请求头
+
+```li-color
+当请求一直pending时，尝试添加   headers: { "Content-type": "json" },
+
+```
+    
 
 post 请求
 
