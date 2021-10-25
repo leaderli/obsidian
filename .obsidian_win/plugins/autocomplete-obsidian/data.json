@@ -1,10 +1,10 @@
 {
-  "enabled": true,
+  "enabled": false,
   "autoSelect": false,
   "autoTrigger": false,
   "autoTriggerMinSize": 3,
-  "triggerLikeVim": true,
-  "latexProvider": true,
+  "triggerLikeVim": false,
+  "latexProvider": false,
   "flowProvider": false,
   "flowProviderScanCurrent": false,
   "flowProviderTokenizeStrategy": "default",
