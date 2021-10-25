@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/git.md",
+            "file": "md/linux搜索.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "游离",
+                "query": "grep regex",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/git.md",
+                "file": "md/linux搜索.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/git.md"
+                "file": "md/linux搜索.md"
               }
             }
           }
@@ -127,6 +127,8 @@
   },
   "active": "aeb6c7dbfb6ac293",
   "lastOpenFiles": [
+    "md/linux搜索.md",
+    "md/linux常用命令.md",
     "md/git.md",
     "md/深入git.md",
     "md/java-函数式编程库.md",
@@ -134,8 +136,6 @@
     "md/nginx.md",
     "md/python入门.md",
     "md/vim.md",
-    "md/maven.md",
-    "md/dom4j.md",
-    "md/JavaPoet.md"
+    "md/maven.md"
   ]
 }
