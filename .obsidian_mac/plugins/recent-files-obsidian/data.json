@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "linux搜索",
-      "path": "md/linux搜索.md"
+      "basename": "shell-tips",
+      "path": "md/shell-tips.md"
     },
     {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
+    },
+    {
+      "basename": "linux搜索",
+      "path": "md/linux搜索.md"
     },
     {
       "basename": "git",
@@ -55,10 +59,6 @@
     {
       "basename": "java-tips",
       "path": "md/java-tips.md"
-    },
-    {
-      "basename": "mybatis入门",
-      "path": "md/mybatis入门.md"
     }
   ],
   "omittedPaths": [],

@@ -11,6 +11,7 @@
 - `-X` 请求方法 `-X POST`
 - `-d` 请求报文 `-d '{"name":"li"}'`
 - `-H` 请求头 `-H "Content-type:application/json"`
+- `-m` 设置最大处理的时间（秒钟），超时则直接结束
 
 ### 显示请求详情
 
@@ -72,6 +73,59 @@ echo $response
 
 ```
 
+
+### 超时
+
+```python
+# --coding:utf-8--
+# python3
+from http.server import BaseHTTPRequestHandler, HTTPServer
+from os import path
+import sys
+import time
+from urllib.parse import urlparse
+
+port = 8083
+class Handler(BaseHTTPRequestHandler):
+
+    def do_GET(self):
+        global port
+        print('begin sleep')
+        time.sleep(10)
+        print('wake up')
+        self.send_response(200)
+        self.send_header('Content-type', 'text/plain')
+        self.send_header('port', port)
+        self.end_headers()
+        self.wfile.write(b'fuck\r\n')
+        print(port,self.headers.get('Host'), self.path,flush=True)
+
+    def do_POST(self):
+        self.do_Get()
+
+
+def run():
+    if len(sys.argv) > 1:
+        global port
+        port = int(sys.argv[1])
+        print('port',port)
+    server_address = ('', port)
+    httpd = HTTPServer(server_address, Handler)
+    print('running server...', port)
+    httpd.serve_forever()
+
+
+if __name__ == '__main__':
+    run()
+```
+
+使用超时参数请求
+
+```shell
+$ curl localhost:8083 -m 5
+curl: (28) Operation timed out after 5002 milliseconds with 0 out of -1 bytes received
+
+```
 ## 死循环
 
 无线循环并睡眠 1 秒
