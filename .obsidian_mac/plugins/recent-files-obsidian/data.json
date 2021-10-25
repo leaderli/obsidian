@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "shell-tips",
-      "path": "md/shell-tips.md"
-    },
-    {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
+    },
+    {
+      "basename": "bash",
+      "path": "md/bash.md"
+    },
+    {
+      "basename": "shell-tips",
+      "path": "md/shell-tips.md"
     },
     {
       "basename": "linux搜索",
@@ -55,10 +59,6 @@
     {
       "basename": "java-string",
       "path": "md/java-string.md"
-    },
-    {
-      "basename": "java-tips",
-      "path": "md/java-tips.md"
     }
   ],
   "omittedPaths": [],
