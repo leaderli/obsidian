@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vue",
+      "path": "md/vue.md"
+    },
+    {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "JavaPoet",
       "path": "md/JavaPoet.md"
-    },
-    {
-      "basename": "java-string",
-      "path": "md/java-string.md"
     }
   ],
   "omittedPaths": [],

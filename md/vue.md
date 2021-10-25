@@ -1568,23 +1568,23 @@ module.exports = {
    }
     ```
     这会告诉开发服务器将任何未知请求 (没有匹配到静态文件的请求) 代理到`http://localhost:4000`,如果你想要更多的代理控制行为，也可以使用一个 path: options 成对的对象。完整的选项可以查阅 [http-proxy-middleware ](https://github.com/chimurai/http-proxy-middleware#proxycontext-config)。
-    ```js
-    module.exports = {
-  devServer: {
-    proxy: {
-      '/api': {
-        target: '<url>',
-        ws: true,
-        changeOrigin: true
-      },
-      '/foo': {
-        target: '<other_url>'
-      }
-    }
-  }
-}
-    
-    ```
+	```js
+		module.exports = {
+	  devServer: {
+		proxy: {
+		  '/api': {
+			target: '<url>',
+			ws: true,
+			changeOrigin: true
+		  },
+		  '/foo': {
+			target: '<other_url>'
+		  }
+		}
+	  }
+	}
+	```
+
 ## 静态资源
 
 默认情况下，static 目录下或通过绝对路径被引用。这类资源将会直接被拷贝，而不会经过 webpack 的处理。
