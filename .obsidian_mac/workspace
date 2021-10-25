@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue.md",
+            "file": "md/axios.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "node ws",
+                "query": "axios",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue.md",
+                "file": "md/axios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue.md"
+                "file": "md/axios.md"
               }
             }
           }
@@ -127,6 +127,7 @@
   },
   "active": "aeb6c7dbfb6ac293",
   "lastOpenFiles": [
+    "md/axios.md",
     "md/vue.md",
     "md/linux常用命令.md",
     "md/bash.md",
@@ -135,7 +136,6 @@
     "md/git.md",
     "md/深入git.md",
     "md/java-函数式编程库.md",
-    "md/java-stream.md",
-    "md/nginx.md"
+    "md/java-stream.md"
   ]
 }

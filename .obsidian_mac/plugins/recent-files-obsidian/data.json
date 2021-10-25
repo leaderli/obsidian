@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "axios",
+      "path": "md/axios.md"
+    },
+    {
       "basename": "vue",
       "path": "md/vue.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "dom4j",
       "path": "md/dom4j.md"
-    },
-    {
-      "basename": "JavaPoet",
-      "path": "md/JavaPoet.md"
     }
   ],
   "omittedPaths": [],
