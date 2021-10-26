@@ -277,6 +277,14 @@ num=$(( 1 + 1))
 num=$[ 1 + 1 ]
 
 
+# 自减
+((i-=1))
+let "i-=1" 
+
+# 自增
+((i+=1))
+let "i+=1" 
+
 
 ```
 
@@ -509,6 +517,28 @@ do
 done
 
 
+
+```
+
+
+###  hash map
+
+```shell
+# 声明变量
+declare -A animals
+
+animals=( ["moo"]="cow" ["woof"]="dog")
+
+animals['key']='value'
+
+# 打印所有值
+echo "${animals[@]}"
+
+# 遍历 key
+for sound in "${!animals[@]}"; 
+do 
+	echo "$sound - ${animals[$sound]}"; 
+done
 
 ```
 

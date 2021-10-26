@@ -10,5 +10,7 @@
   "showFrontmatter": true,
   "readableLineLength": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "md"
+  "newFileFolderPath": "md",
+  "promptDelete": false,
+  "defaultViewMode": "preview"
 }
