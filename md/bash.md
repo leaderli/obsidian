@@ -531,6 +531,7 @@ animals=( ["moo"]="cow" ["woof"]="dog")
 
 animals['key']='value'
 
+echo ${ainimals['key']}
 # 打印所有值
 echo "${animals[@]}"
 
