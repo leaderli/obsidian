@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/编译原理.md",
+            "file": "md/aop.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/编译原理.md",
+            "file": "md/aop.md",
             "mode": "preview"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "前缀",
+                "query": "动态代理",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295
+    "width": 195
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/编译原理.md",
+                "file": "md/aop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/编译原理.md"
+                "file": "md/aop.md"
               }
             }
           }
@@ -140,15 +140,15 @@
   },
   "active": "aeb6c7dbfb6ac293",
   "lastOpenFiles": [
+    "md/aop.md",
+    "md/动态规划.md",
+    "md/背包问题.md",
+    "md/common_常用.md",
     "md/编译原理.md",
     "md/java字节码.md",
     "md/java-数组.md",
     "md/java-stream.md",
     "md/JavaPoet.md",
-    "md/bash.md",
-    "md/linux常用命令.md",
-    "md/axios.md",
-    "md/vue.md",
-    "md/shell-tips.md"
+    "md/bash.md"
   ]
 }

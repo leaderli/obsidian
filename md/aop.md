@@ -903,3 +903,38 @@ public class AOPBeanPostProcessor implements BeanPostProcessor {
     }
 }
 ```
+
+
+## 示例
+
+```xml
+<dependency>  
+  <groupId>cglib</groupId>  
+  <artifactId>cglib</artifactId>  
+  <version>3.3.0</version>  
+</dependency>
+```
+
+```java
+public class PersonService {  
+  
+    public String sayHello(){  
+  
+        return "hello";  
+    }  
+}
+```
+
+```java
+Enhancer enhancer = new Enhancer();  
+enhancer.setSuperclass(PersonService.class);  
+enhancer.setCallback((MethodInterceptor) (obj, method, args, proxy) -> {  
+    if (method.getDeclaringClass() != Object.class && method.getReturnType() == String.class) {  
+        return "Hello Tom!";  
+    } else {  
+        return proxy.invokeSuper(obj, args);  
+    }  
+});  
+PersonService proxy = (PersonService) enhancer.create();  
+System.out.println(proxy.sayHello());
+```
