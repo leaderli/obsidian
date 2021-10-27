@@ -113,6 +113,14 @@ void main() {
 ### try catch
 
 ```java
+MethodSpec main = MethodSpec.methodBuilder("main")
+    .addStatement("int total = 0")
+    .beginControlFlow("try")
+    .addStatement("total += 1")
+	.nextControlFlow("catch($T e)",Throwable.class)
+	.addStatement("e.printStackTrance()")
+    .endControlFlow()
+    .build();
 ```
 
 ### 占位符

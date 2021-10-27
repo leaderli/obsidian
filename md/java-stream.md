@@ -120,3 +120,23 @@ arr = list.stream().toArray(String[]::new);
 
 System.out.println(Arrays.toString(arr));
 ```
+
+
+### flatMap
+
+平铺mapping
+
+```java
+Map<String, List<String>> map = new HashMap<>();  
+  
+List<String> l1 = new ArrayList<>();  
+l1.add("l1");  
+l1.add("l2");  
+map.put("1", l1);  
+  
+List<String> l2 = new ArrayList<>();  
+l1.add("ll3");  
+l1.add("ll2");  
+  
+List<String> collect = map.values().stream().flatMap(l -> l.stream()).collect(Collectors.toList());
+```

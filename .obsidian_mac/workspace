@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/JavaPoet.md",
+            "file": "md/java-stream.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/JavaPoet.md",
+            "file": "md/java-stream.md",
             "mode": "preview"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(line read)",
+                "query": "flatmap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295,
-    "collapsed": true
+    "width": 295
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/JavaPoet.md",
+                "file": "md/java-stream.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/JavaPoet.md"
+                "file": "md/java-stream.md"
               }
             }
           }
@@ -141,6 +140,7 @@
   },
   "active": "aeb6c7dbfb6ac293",
   "lastOpenFiles": [
+    "md/java-stream.md",
     "md/JavaPoet.md",
     "md/bash.md",
     "md/linux常用命令.md",
@@ -149,7 +149,6 @@
     "md/shell-tips.md",
     "md/linux搜索.md",
     "md/git.md",
-    "md/深入git.md",
-    "md/java-函数式编程库.md"
+    "md/深入git.md"
   ]
 }

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "java-stream",
+      "path": "md/java-stream.md"
+    },
+    {
       "basename": "JavaPoet",
       "path": "md/JavaPoet.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "java-函数式编程库",
       "path": "md/java-函数式编程库.md"
-    },
-    {
-      "basename": "java-stream",
-      "path": "md/java-stream.md"
     },
     {
       "basename": "nginx",
