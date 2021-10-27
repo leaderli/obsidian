@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "编译原理",
+      "path": "md/编译原理.md"
+    },
+    {
+      "basename": "java字节码",
+      "path": "md/java字节码.md"
+    },
+    {
+      "basename": "java-数组",
+      "path": "md/java-数组.md"
+    },
+    {
       "basename": "java-stream",
       "path": "md/java-stream.md"
     },
@@ -47,18 +59,6 @@
     {
       "basename": "nginx",
       "path": "md/nginx.md"
-    },
-    {
-      "basename": "python入门",
-      "path": "md/python入门.md"
-    },
-    {
-      "basename": "vim",
-      "path": "md/vim.md"
-    },
-    {
-      "basename": "maven",
-      "path": "md/maven.md"
     }
   ],
   "omittedPaths": [],

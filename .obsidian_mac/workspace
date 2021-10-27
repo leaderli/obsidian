@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-stream.md",
+            "file": "md/编译原理.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-stream.md",
+            "file": "md/编译原理.md",
             "mode": "preview"
           }
         },
@@ -52,10 +52,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "flatmap",
+                "query": "前缀",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-stream.md",
+                "file": "md/编译原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java-stream.md"
+                "file": "md/编译原理.md"
               }
             }
           }
@@ -140,15 +140,15 @@
   },
   "active": "aeb6c7dbfb6ac293",
   "lastOpenFiles": [
+    "md/编译原理.md",
+    "md/java字节码.md",
+    "md/java-数组.md",
     "md/java-stream.md",
     "md/JavaPoet.md",
     "md/bash.md",
     "md/linux常用命令.md",
     "md/axios.md",
     "md/vue.md",
-    "md/shell-tips.md",
-    "md/linux搜索.md",
-    "md/git.md",
-    "md/深入git.md"
+    "md/shell-tips.md"
   ]
 }
