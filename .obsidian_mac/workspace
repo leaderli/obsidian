@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/aop.md",
+            "file": "md/visitor_访问者模式.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/aop.md",
+            "file": "md/visitor_访问者模式.md",
             "mode": "preview"
           }
         },
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 195
+    "width": 195,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/aop.md",
+                "file": "md/visitor_访问者模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/aop.md"
+                "file": "md/visitor_访问者模式.md"
               }
             }
           }
@@ -140,6 +141,7 @@
   },
   "active": "aeb6c7dbfb6ac293",
   "lastOpenFiles": [
+    "md/visitor_访问者模式.md",
     "md/aop.md",
     "md/动态规划.md",
     "md/背包问题.md",
@@ -148,7 +150,6 @@
     "md/java字节码.md",
     "md/java-数组.md",
     "md/java-stream.md",
-    "md/JavaPoet.md",
-    "md/bash.md"
+    "md/JavaPoet.md"
   ]
 }

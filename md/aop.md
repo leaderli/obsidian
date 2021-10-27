@@ -932,6 +932,7 @@ enhancer.setCallback((MethodInterceptor) (obj, method, args, proxy) -> {
     if (method.getDeclaringClass() != Object.class && method.getReturnType() == String.class) {  
         return "Hello Tom!";  
     } else {  
+		//调用原有方法
         return proxy.invokeSuper(obj, args);  
     }  
 });  
