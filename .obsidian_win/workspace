@@ -6,6 +6,7 @@
       {
         "id": "f7fcc98ea0835836",
         "type": "leaf",
+        "dimension": 31.195566112430722,
         "state": {
           "type": "markdown",
           "state": {
@@ -18,11 +19,12 @@
       {
         "id": "7033c721be6cc521",
         "type": "leaf",
+        "dimension": 68.80443388756929,
         "state": {
           "type": "markdown",
           "state": {
             "file": "md/mockito.md",
-            "mode": "preview"
+            "mode": "source"
           }
         },
         "group": "c4da6e46f3e2c502"
@@ -52,10 +54,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "findClass",
+                "query": "cglib",
                 "matchingCase": true,
                 "explainSearch": true,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -77,12 +79,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 295,
-    "collapsed": true
+    "width": 295
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -150,17 +152,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "f7fcc98ea0835836",
+  "active": "7033c721be6cc521",
   "lastOpenFiles": [
     "md/mockito.md",
+    "md/aop.md",
+    "md/java-tips.md",
+    "md/java-数组.md",
+    "md/vavr.md",
     "md/joor.md",
     "md/javaassist.md",
     "md/java类加载机制.md",
     "md/ASM.md",
-    "md/tomcat.md",
-    "md/java反射.md",
-    "md/vscode相关.md",
-    "md/vim.md",
-    "md/obsidan.md"
+    "md/tomcat.md"
   ]
 }
