@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/Untitled.md",
+            "file": "md/mockito.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "c4da6e46f3e2c502"
+      },
+      {
+        "id": "7033c721be6cc521",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/mockito.md",
+            "mode": "preview"
+          }
+        },
+        "group": "c4da6e46f3e2c502"
       }
     ],
     "direction": "vertical"
@@ -68,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295
+    "width": 295,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -84,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/Untitled.md",
+                "file": "md/mockito.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/Untitled.md"
+                "file": "md/mockito.md"
               }
             }
           },
@@ -122,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/Untitled.md",
+                "file": "md/mockito.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +152,8 @@
   },
   "active": "f7fcc98ea0835836",
   "lastOpenFiles": [
-    "md/Untitled.md",
+    "md/mockito.md",
+    "md/joor.md",
     "md/javaassist.md",
     "md/java类加载机制.md",
     "md/ASM.md",
@@ -146,7 +161,6 @@
     "md/java反射.md",
     "md/vscode相关.md",
     "md/vim.md",
-    "md/obsidan.md",
-    "md/java字节码.md"
+    "md/obsidan.md"
   ]
 }

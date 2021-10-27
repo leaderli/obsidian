@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled",
-      "path": "md/Untitled.md"
+      "basename": "mockito",
+      "path": "md/mockito.md"
+    },
+    {
+      "basename": "joor",
+      "path": "md/joor.md"
     },
     {
       "basename": "javaassist",
@@ -55,10 +59,6 @@
     {
       "basename": "avaya",
       "path": "md/avaya.md"
-    },
-    {
-      "basename": "自动机理论",
-      "path": "md/自动机理论.md"
     }
   ],
   "omittedPaths": [],
