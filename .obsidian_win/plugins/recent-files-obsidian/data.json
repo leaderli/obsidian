@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "md/Untitled.md"
+    },
+    {
       "basename": "javaassist",
       "path": "md/javaassist.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "自动机理论",
       "path": "md/自动机理论.md"
-    },
-    {
-      "basename": "编译原理",
-      "path": "md/编译原理.md"
     }
   ],
   "omittedPaths": [],

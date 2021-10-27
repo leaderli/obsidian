@@ -1,31 +1,18 @@
 {
   "main": {
-    "id": "0de266d25322a6de",
+    "id": "004e780789c126ee",
     "type": "split",
     "children": [
       {
-        "id": "f33d66930711b488",
+        "id": "f7fcc98ea0835836",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/javaassist.md",
+            "file": "md/Untitled.md",
             "mode": "source"
           }
-        },
-        "group": "c813a1528ae66f98"
-      },
-      {
-        "id": "b12a887a0f94fd4b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/javaassist.md",
-            "mode": "preview"
-          }
-        },
-        "group": "c813a1528ae66f98"
+        }
       }
     ],
     "direction": "vertical"
@@ -77,13 +64,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 295,
-    "collapsed": true
+    "width": 295
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -99,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/javaassist.md",
+                "file": "md/Untitled.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/javaassist.md"
+                "file": "md/Untitled.md"
               }
             }
           },
@@ -137,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/javaassist.md",
+                "file": "md/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,8 +136,9 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "f33d66930711b488",
+  "active": "f7fcc98ea0835836",
   "lastOpenFiles": [
+    "md/Untitled.md",
     "md/javaassist.md",
     "md/java类加载机制.md",
     "md/ASM.md",
@@ -161,7 +147,6 @@
     "md/vscode相关.md",
     "md/vim.md",
     "md/obsidan.md",
-    "md/java字节码.md",
-    "md/AST.md"
+    "md/java字节码.md"
   ]
 }
