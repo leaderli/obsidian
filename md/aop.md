@@ -5,6 +5,7 @@ categories: java
 tags:
   - spring
   - aop
+  - cglib
 ---
 
 ## 术语
@@ -938,4 +939,26 @@ enhancer.setCallback((MethodInterceptor) (obj, method, args, proxy) -> {
 });  
 PersonService proxy = (PersonService) enhancer.create();  
 System.out.println(proxy.sayHello());
+```
+
+## MethodInterceptor
+
+
+所有的代理的方法都调用该方法，而不是原被拦截的方法，原方法可通过方法去反射调用，或者使用`MethodProxy`来调用
+
+
+```java
+public interface MethodInterceptor  
+extends Callback  
+{  
+    /**  
+ * @param obj "this", 被cglib增强的示例对象
+ * @param method  被拦截的方法
+ * @param args 参数列表，原始类型会被替换为包装类型
+ * @param proxy 用于调用原方法（未被代理的原method）,可能会被递归调用
+ */      
+public Object intercept(Object obj, java.lang.reflect.Method method, Object[] args,  
+                               MethodProxy proxy) throws Throwable;  
+  
+}
 ```

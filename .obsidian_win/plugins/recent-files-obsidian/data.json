@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "java-string",
-      "path": "md/java-string.md"
+      "basename": "aop",
+      "path": "md/aop.md"
     },
     {
       "basename": "javaassist",
       "path": "md/javaassist.md"
     },
     {
-      "basename": "java反射",
-      "path": "md/java反射.md"
+      "basename": "java-string",
+      "path": "md/java-string.md"
     },
     {
-      "basename": "aop",
-      "path": "md/aop.md"
+      "basename": "eclipse-plugin-develop-tutorial-setup",
+      "path": "md/eclipse-plugin-develop-tutorial-setup.md"
+    },
+    {
+      "basename": "java反射",
+      "path": "md/java反射.md"
     },
     {
       "basename": "mockito",
@@ -55,10 +59,6 @@
     {
       "basename": "vim",
       "path": "md/vim.md"
-    },
-    {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
     }
   ],
   "omittedPaths": [],

@@ -6,13 +6,28 @@
       {
         "id": "9b18dea19b672341",
         "type": "leaf",
+        "dimension": 63.642857142857146,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-string.md",
+            "file": "md/aop.md",
+            "mode": "source"
+          }
+        },
+        "group": "c10834cc924542ec"
+      },
+      {
+        "id": "78e50b8add21731f",
+        "type": "leaf",
+        "dimension": 36.357142857142854,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/aop.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "c10834cc924542ec"
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inputstream",
+                "query": "cglib",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295
+    "width": 295,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-string.md",
+                "file": "md/aop.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java-string.md"
+                "file": "md/aop.md"
               }
             }
           },
@@ -123,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/java-string.md",
+                "file": "md/aop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,15 +155,15 @@
   },
   "active": "9b18dea19b672341",
   "lastOpenFiles": [
-    "md/java-string.md",
-    "md/javaassist.md",
-    "md/java反射.md",
     "md/aop.md",
+    "md/javaassist.md",
+    "md/java-string.md",
+    "md/eclipse-plugin-develop-tutorial-setup.md",
+    "md/java反射.md",
     "md/mockito.md",
     "md/java-tips.md",
     "md/java-数组.md",
     "md/vavr.md",
-    "md/joor.md",
-    "md/java类加载机制.md"
+    "md/joor.md"
   ]
 }
