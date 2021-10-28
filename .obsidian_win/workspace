@@ -1,33 +1,18 @@
 {
   "main": {
-    "id": "004e780789c126ee",
+    "id": "d0944e044ed1313c",
     "type": "split",
     "children": [
       {
-        "id": "f7fcc98ea0835836",
+        "id": "9b18dea19b672341",
         "type": "leaf",
-        "dimension": 31.195566112430722,
         "state": {
           "type": "markdown",
           "state": {
             "file": "md/mockito.md",
             "mode": "source"
           }
-        },
-        "group": "c4da6e46f3e2c502"
-      },
-      {
-        "id": "7033c721be6cc521",
-        "type": "leaf",
-        "dimension": 68.80443388756929,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/mockito.md",
-            "mode": "source"
-          }
-        },
-        "group": "c4da6e46f3e2c502"
+        }
       }
     ],
     "direction": "vertical"
@@ -152,7 +137,7 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "7033c721be6cc521",
+  "active": "9b18dea19b672341",
   "lastOpenFiles": [
     "md/mockito.md",
     "md/aop.md",
