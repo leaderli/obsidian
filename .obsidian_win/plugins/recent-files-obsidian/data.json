@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "mockito",
-      "path": "md/mockito.md"
+      "basename": "java-string",
+      "path": "md/java-string.md"
+    },
+    {
+      "basename": "javaassist",
+      "path": "md/javaassist.md"
+    },
+    {
+      "basename": "java反射",
+      "path": "md/java反射.md"
     },
     {
       "basename": "aop",
       "path": "md/aop.md"
+    },
+    {
+      "basename": "mockito",
+      "path": "md/mockito.md"
     },
     {
       "basename": "java-tips",
@@ -25,10 +37,6 @@
       "path": "md/joor.md"
     },
     {
-      "basename": "javaassist",
-      "path": "md/javaassist.md"
-    },
-    {
       "basename": "java类加载机制",
       "path": "md/java类加载机制.md"
     },
@@ -41,10 +49,6 @@
       "path": "md/tomcat.md"
     },
     {
-      "basename": "java反射",
-      "path": "md/java反射.md"
-    },
-    {
       "basename": "vscode相关",
       "path": "md/vscode相关.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "obsidan",
       "path": "md/obsidan.md"
-    },
-    {
-      "basename": "java字节码",
-      "path": "md/java字节码.md"
     }
   ],
   "omittedPaths": [],

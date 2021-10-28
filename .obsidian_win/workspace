@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/mockito.md",
-            "mode": "source"
+            "file": "md/java-string.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,10 +39,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cglib",
+                "query": "inputstream",
                 "matchingCase": true,
-                "explainSearch": true,
-                "collapseAll": true,
+                "explainSearch": false,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -65,7 +65,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/mockito.md",
+                "file": "md/java-string.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/mockito.md"
+                "file": "md/java-string.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/mockito.md",
+                "file": "md/java-string.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,15 +139,15 @@
   },
   "active": "9b18dea19b672341",
   "lastOpenFiles": [
-    "md/mockito.md",
+    "md/java-string.md",
+    "md/javaassist.md",
+    "md/java反射.md",
     "md/aop.md",
+    "md/mockito.md",
     "md/java-tips.md",
     "md/java-数组.md",
     "md/vavr.md",
     "md/joor.md",
-    "md/javaassist.md",
-    "md/java类加载机制.md",
-    "md/ASM.md",
-    "md/tomcat.md"
+    "md/java类加载机制.md"
   ]
 }
