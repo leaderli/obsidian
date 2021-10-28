@@ -1,31 +1,33 @@
 {
   "main": {
-    "id": "0de266d25322a6de",
+    "id": "004e780789c126ee",
     "type": "split",
     "children": [
       {
-        "id": "f33d66930711b488",
+        "id": "f7fcc98ea0835836",
         "type": "leaf",
+        "dimension": 31.195566112430722,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/javaassist.md",
+            "file": "md/mockito.md",
             "mode": "source"
           }
         },
-        "group": "c813a1528ae66f98"
+        "group": "c4da6e46f3e2c502"
       },
       {
-        "id": "b12a887a0f94fd4b",
+        "id": "7033c721be6cc521",
         "type": "leaf",
+        "dimension": 68.80443388756929,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/javaassist.md",
-            "mode": "preview"
+            "file": "md/mockito.md",
+            "mode": "source"
           }
         },
-        "group": "c813a1528ae66f98"
+        "group": "c4da6e46f3e2c502"
       }
     ],
     "direction": "vertical"
@@ -52,10 +54,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "findClass",
+                "query": "cglib",
                 "matchingCase": true,
                 "explainSearch": true,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -82,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295,
-    "collapsed": true
+    "width": 295
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/javaassist.md",
+                "file": "md/mockito.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/javaassist.md"
+                "file": "md/mockito.md"
               }
             }
           },
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/javaassist.md",
+                "file": "md/mockito.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,17 +152,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "f33d66930711b488",
+  "active": "7033c721be6cc521",
   "lastOpenFiles": [
+    "md/mockito.md",
+    "md/aop.md",
+    "md/java-tips.md",
+    "md/java-数组.md",
+    "md/vavr.md",
+    "md/joor.md",
     "md/javaassist.md",
     "md/java类加载机制.md",
     "md/ASM.md",
-    "md/tomcat.md",
-    "md/java反射.md",
-    "md/vscode相关.md",
-    "md/vim.md",
-    "md/obsidan.md",
-    "md/java字节码.md",
-    "md/AST.md"
+    "md/tomcat.md"
   ]
 }

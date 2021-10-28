@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "mockito",
+      "path": "md/mockito.md"
+    },
+    {
+      "basename": "aop",
+      "path": "md/aop.md"
+    },
+    {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
+      "basename": "java-数组",
+      "path": "md/java-数组.md"
+    },
+    {
+      "basename": "vavr",
+      "path": "md/vavr.md"
+    },
+    {
+      "basename": "joor",
+      "path": "md/joor.md"
+    },
+    {
       "basename": "javaassist",
       "path": "md/javaassist.md"
     },
@@ -35,30 +59,6 @@
     {
       "basename": "java字节码",
       "path": "md/java字节码.md"
-    },
-    {
-      "basename": "AST",
-      "path": "md/AST.md"
-    },
-    {
-      "basename": "aop",
-      "path": "md/aop.md"
-    },
-    {
-      "basename": "axios",
-      "path": "md/axios.md"
-    },
-    {
-      "basename": "avaya",
-      "path": "md/avaya.md"
-    },
-    {
-      "basename": "自动机理论",
-      "path": "md/自动机理论.md"
-    },
-    {
-      "basename": "编译原理",
-      "path": "md/编译原理.md"
     }
   ],
   "omittedPaths": [],

@@ -63,6 +63,11 @@ properties.load(new InputStreamReader(AutoConfig.class.getResourceAsStream("/app
 klass.isArray();
 ```
 
+### 判断数组是否相等
+
+```java
+Arrays.deepEquals(new String[]{"1","2"},new String[]{"1","2"});
+```
 ### 判断类是否继承自
 
 ```java
