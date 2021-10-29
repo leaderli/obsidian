@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "aop",
+      "path": "md/aop.md"
+    },
+    {
       "basename": "java-stream",
       "path": "md/java-stream.md"
     },
     {
       "basename": "visitor_访问者模式",
       "path": "md/visitor_访问者模式.md"
-    },
-    {
-      "basename": "aop",
-      "path": "md/aop.md"
     },
     {
       "basename": "动态规划",

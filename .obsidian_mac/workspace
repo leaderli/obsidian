@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-stream.md",
+            "file": "md/aop.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-stream.md",
+            "file": "md/aop.md",
             "mode": "preview"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "动态代理",
+                "query": "cglib",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 195,
-    "collapsed": true
+    "width": 195
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-stream.md",
+                "file": "md/aop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java-stream.md"
+                "file": "md/aop.md"
               }
             }
           }
@@ -139,11 +138,11 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "aeb6c7dbfb6ac293",
+  "active": "10a8c7bf1d9237e2",
   "lastOpenFiles": [
+    "md/aop.md",
     "md/java-stream.md",
     "md/visitor_访问者模式.md",
-    "md/aop.md",
     "md/动态规划.md",
     "md/背包问题.md",
     "md/common_常用.md",
