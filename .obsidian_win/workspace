@@ -4,30 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9b18dea19b672341",
+        "id": "1e472198cf2b31b4",
         "type": "leaf",
-        "dimension": 63.642857142857146,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/aop.md",
-            "mode": "source"
-          }
-        },
-        "group": "c10834cc924542ec"
-      },
-      {
-        "id": "78e50b8add21731f",
-        "type": "leaf",
-        "dimension": 36.357142857142854,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/aop.md",
-            "mode": "preview"
-          }
-        },
-        "group": "c10834cc924542ec"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -54,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cglib",
+                "query": "awk",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/aop.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,9 +109,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "md/aop.md"
-              }
+              "state": {}
             }
           },
           {
@@ -139,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/aop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,8 +131,9 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "9b18dea19b672341",
+  "active": "1e472198cf2b31b4",
   "lastOpenFiles": [
+    "md/linux常用命令.md",
     "md/aop.md",
     "md/javaassist.md",
     "md/java-string.md",
@@ -163,7 +142,6 @@
     "md/mockito.md",
     "md/java-tips.md",
     "md/java-数组.md",
-    "md/vavr.md",
-    "md/joor.md"
+    "md/vavr.md"
   ]
 }

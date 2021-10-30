@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
       "basename": "aop",
       "path": "md/aop.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "vscode相关",
       "path": "md/vscode相关.md"
-    },
-    {
-      "basename": "vim",
-      "path": "md/vim.md"
     }
   ],
   "omittedPaths": [],
