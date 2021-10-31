@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "node入门",
+      "path": "md/node入门.md"
+    },
+    {
+      "basename": "node模块",
+      "path": "md/node模块.md"
+    },
+    {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "ASM",
       "path": "md/ASM.md"
-    },
-    {
-      "basename": "tomcat",
-      "path": "md/tomcat.md"
-    },
-    {
-      "basename": "vscode相关",
-      "path": "md/vscode相关.md"
     }
   ],
   "omittedPaths": [],

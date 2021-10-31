@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "d0944e044ed1313c",
+    "id": "e05b0f111ae37f8e",
     "type": "split",
     "children": [
       {
-        "id": "1e472198cf2b31b4",
+        "id": "74234136e4c0080e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "md/node入门.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "awk",
+                "query": "nodejs",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295,
-    "collapsed": true
+    "width": 295
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -83,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "md/node入门.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -109,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "md/node入门.md"
+              }
             }
           },
           {
@@ -118,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "md/node入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,11 +134,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360,
-    "collapsed": true
+    "width": 360
   },
-  "active": "1e472198cf2b31b4",
+  "active": "74234136e4c0080e",
   "lastOpenFiles": [
+    "md/node入门.md",
+    "md/node模块.md",
     "md/linux常用命令.md",
     "md/aop.md",
     "md/javaassist.md",
@@ -140,8 +147,6 @@
     "md/eclipse-plugin-develop-tutorial-setup.md",
     "md/java反射.md",
     "md/mockito.md",
-    "md/java-tips.md",
-    "md/java-数组.md",
-    "md/vavr.md"
+    "md/java-tips.md"
   ]
 }
