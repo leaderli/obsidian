@@ -6,7 +6,7 @@
       {
         "id": "74234136e4c0080e",
         "type": "leaf",
-        "dimension": 42.647856755290285,
+        "dimension": 54.281767955801094,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,7 +19,7 @@
       {
         "id": "8f7f96afb8aeeafc",
         "type": "leaf",
-        "dimension": 35.919696147585455,
+        "dimension": 45.71823204419889,
         "state": {
           "type": "markdown",
           "state": {
@@ -28,18 +28,6 @@
           }
         },
         "group": "92ac3701cd7718fb"
-      },
-      {
-        "id": "266462205ee4e6c9",
-        "type": "leaf",
-        "dimension": 21.432447097124253,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/语言及文法.md",
-            "mode": "preview"
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -66,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "分析树",
+                "query": "回溯",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295,
-    "collapsed": true
+    "width": 295
   },
   "right": {
     "id": "4b761e4e5ad66709",
