@@ -6,7 +6,7 @@
       {
         "id": "74234136e4c0080e",
         "type": "leaf",
-        "dimension": 54.281767955801094,
+        "dimension": 37.251184834123215,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,7 +19,7 @@
       {
         "id": "8f7f96afb8aeeafc",
         "type": "leaf",
-        "dimension": 45.71823204419889,
+        "dimension": 31.37440758293839,
         "state": {
           "type": "markdown",
           "state": {
@@ -28,6 +28,18 @@
           }
         },
         "group": "92ac3701cd7718fb"
+      },
+      {
+        "id": "0e2b924900d615ca",
+        "type": "leaf",
+        "dimension": 31.37440758293839,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/语言及文法.md",
+            "mode": "preview"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -84,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295
+    "width": 295,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -155,6 +168,7 @@
   "active": "74234136e4c0080e",
   "lastOpenFiles": [
     "md/编译原理.md",
+    "md/katex.md",
     "md/语言及文法.md",
     "md/自动机理论.md",
     "template/mermaid_state.md",
@@ -162,7 +176,6 @@
     "md/node入门.md",
     "md/node模块.md",
     "md/linux常用命令.md",
-    "md/aop.md",
-    "md/javaassist.md"
+    "md/aop.md"
   ]
 }
