@@ -5,12 +5,12 @@
       "path": "md/编译原理.md"
     },
     {
-      "basename": "自动机理论",
-      "path": "md/自动机理论.md"
-    },
-    {
       "basename": "语言及文法",
       "path": "md/语言及文法.md"
+    },
+    {
+      "basename": "自动机理论",
+      "path": "md/自动机理论.md"
     },
     {
       "basename": "mermaid_state",

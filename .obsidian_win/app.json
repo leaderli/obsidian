@@ -11,5 +11,8 @@
   "readableLineLength": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "md",
-  "promptDelete": false
+  "promptDelete": false,
+  "autoPairBrackets": true,
+  "defaultViewMode": "preview",
+  "useMarkdownLinks": false
 }

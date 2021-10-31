@@ -6,10 +6,37 @@
       {
         "id": "74234136e4c0080e",
         "type": "leaf",
+        "dimension": 33.894230769230774,
         "state": {
           "type": "markdown",
           "state": {
             "file": "md/编译原理.md",
+            "mode": "source"
+          }
+        },
+        "group": "92ac3701cd7718fb"
+      },
+      {
+        "id": "8f7f96afb8aeeafc",
+        "type": "leaf",
+        "dimension": 33.894230769230774,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/编译原理.md",
+            "mode": "preview"
+          }
+        },
+        "group": "92ac3701cd7718fb"
+      },
+      {
+        "id": "1a052d9fbe611ae9",
+        "type": "leaf",
+        "dimension": 32.21153846153845,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/语言及文法.md",
             "mode": "source"
           }
         }
@@ -140,8 +167,8 @@
   "active": "74234136e4c0080e",
   "lastOpenFiles": [
     "md/编译原理.md",
-    "md/自动机理论.md",
     "md/语言及文法.md",
+    "md/自动机理论.md",
     "template/mermaid_state.md",
     "md/mermaid.md",
     "md/node入门.md",
