@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/编译原理.md",
+            "file": "md/LL(1).md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/编译原理.md",
+            "file": "md/LL(1).md",
             "mode": "preview"
           }
         },
@@ -36,8 +36,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/语言及文法.md",
-            "mode": "preview"
+            "file": "md/编译原理.md",
+            "mode": "source"
           }
         }
       }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/编译原理.md",
+                "file": "md/LL(1).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/编译原理.md"
+                "file": "md/LL(1).md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/编译原理.md",
+                "file": "md/LL(1).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,15 +167,15 @@
   },
   "active": "74234136e4c0080e",
   "lastOpenFiles": [
+    "md/LL(1).md",
     "md/编译原理.md",
-    "md/katex.md",
     "md/语言及文法.md",
+    "md/katex.md",
     "md/自动机理论.md",
     "template/mermaid_state.md",
     "md/mermaid.md",
     "md/node入门.md",
     "md/node模块.md",
-    "md/linux常用命令.md",
-    "md/aop.md"
+    "md/linux常用命令.md"
   ]
 }
