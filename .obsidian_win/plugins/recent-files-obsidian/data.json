@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "编译原理",
+      "path": "md/编译原理.md"
+    },
+    {
+      "basename": "自动机理论",
+      "path": "md/自动机理论.md"
+    },
+    {
+      "basename": "语言及文法",
+      "path": "md/语言及文法.md"
+    },
+    {
+      "basename": "mermaid_state",
+      "path": "template/mermaid_state.md"
+    },
+    {
+      "basename": "mermaid",
+      "path": "md/mermaid.md"
+    },
+    {
       "basename": "node入门",
       "path": "md/node入门.md"
     },
@@ -39,26 +59,6 @@
     {
       "basename": "java-tips",
       "path": "md/java-tips.md"
-    },
-    {
-      "basename": "java-数组",
-      "path": "md/java-数组.md"
-    },
-    {
-      "basename": "vavr",
-      "path": "md/vavr.md"
-    },
-    {
-      "basename": "joor",
-      "path": "md/joor.md"
-    },
-    {
-      "basename": "java类加载机制",
-      "path": "md/java类加载机制.md"
-    },
-    {
-      "basename": "ASM",
-      "path": "md/ASM.md"
     }
   ],
   "omittedPaths": [],

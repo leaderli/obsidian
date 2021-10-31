@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/node入门.md",
+            "file": "md/编译原理.md",
             "mode": "source"
           }
         }
@@ -64,12 +64,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 295
+    "width": 295,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/node入门.md",
+                "file": "md/编译原理.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/node入门.md"
+                "file": "md/编译原理.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/node入门.md",
+                "file": "md/编译原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,19 +134,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360
+    "width": 360,
+    "collapsed": true
   },
   "active": "74234136e4c0080e",
   "lastOpenFiles": [
+    "md/编译原理.md",
+    "md/自动机理论.md",
+    "md/语言及文法.md",
+    "template/mermaid_state.md",
+    "md/mermaid.md",
     "md/node入门.md",
     "md/node模块.md",
     "md/linux常用命令.md",
     "md/aop.md",
-    "md/javaassist.md",
-    "md/java-string.md",
-    "md/eclipse-plugin-develop-tutorial-setup.md",
-    "md/java反射.md",
-    "md/mockito.md",
-    "md/java-tips.md"
+    "md/javaassist.md"
   ]
 }
