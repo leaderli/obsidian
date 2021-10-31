@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "vimMode": true,
+  "vimMode": false,
   "fileSortOrder": "alphabetical",
   "foldHeading": true,
   "foldIndent": true,
@@ -14,5 +14,6 @@
   "promptDelete": false,
   "autoPairBrackets": true,
   "defaultViewMode": "preview",
-  "useMarkdownLinks": false
+  "useMarkdownLinks": false,
+  "autoPairMarkdown": false
 }
