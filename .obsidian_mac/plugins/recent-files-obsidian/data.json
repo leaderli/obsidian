@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "JavaPoet",
-      "path": "md/JavaPoet.md"
-    },
-    {
       "basename": "dom4j",
       "path": "md/dom4j.md"
+    },
+    {
+      "basename": "JavaPoet",
+      "path": "md/JavaPoet.md"
     },
     {
       "basename": "aop",
