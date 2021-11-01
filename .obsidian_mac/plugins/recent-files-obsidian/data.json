@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "JavaPoet",
+      "path": "md/JavaPoet.md"
+    },
+    {
+      "basename": "dom4j",
+      "path": "md/dom4j.md"
+    },
+    {
       "basename": "aop",
       "path": "md/aop.md"
     },
@@ -37,10 +45,6 @@
       "path": "md/java-数组.md"
     },
     {
-      "basename": "JavaPoet",
-      "path": "md/JavaPoet.md"
-    },
-    {
       "basename": "bash",
       "path": "md/bash.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "vue",
       "path": "md/vue.md"
-    },
-    {
-      "basename": "shell-tips",
-      "path": "md/shell-tips.md"
     }
   ],
   "omittedPaths": [],

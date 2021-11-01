@@ -328,6 +328,14 @@ class HelloWorld {
 ```
 
 
+嵌套泛型
+
+```java
+ParameterizedTypeName.get(ClassName.get(Map.String),ClassName.get(String.class),ParameterizedTypeName.get(Map.class,String.class,String.class))
+	
+//Map<String,Map<String,String>>	
+```
+
 #### `$N`
 `$N`可引入其他声明的名称
 ```java

@@ -144,3 +144,14 @@ port = result != null && result.length() > 0 ? Integer.valueOf(result) : null;
 ## 命令空间
 
 当 xml 报文中，含有`xmlns='xxx'`的命名空间时，会造成 xpath 查找不到指定的节点。可以将所有命令空间的属性替换掉。
+
+
+### 示例代码
+
+```java
+DOMElement doc;
+
+doc.attributeValue("id"); //不存在时值为null
+doc.attributeValue("id","1"); //不存在时使用默认值1
+doc.getAttribute("id"); //不存在时值为空字符串
+```

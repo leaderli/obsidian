@@ -6,10 +6,11 @@
       {
         "id": "aeb6c7dbfb6ac293",
         "type": "leaf",
+        "dimension": 55.319148936170215,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/aop.md",
+            "file": "md/JavaPoet.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "10a8c7bf1d9237e2",
         "type": "leaf",
+        "dimension": 44.680851063829785,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/aop.md",
+            "file": "md/JavaPoet.md",
             "mode": "preview"
           }
         },
@@ -82,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 195
+    "width": 195,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -98,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/aop.md",
+                "file": "md/JavaPoet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/aop.md"
+                "file": "md/JavaPoet.md"
               }
             }
           }
@@ -138,8 +141,10 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "10a8c7bf1d9237e2",
+  "active": "aeb6c7dbfb6ac293",
   "lastOpenFiles": [
+    "md/JavaPoet.md",
+    "md/dom4j.md",
     "md/aop.md",
     "md/java-stream.md",
     "md/visitor_访问者模式.md",
@@ -147,8 +152,6 @@
     "md/背包问题.md",
     "md/common_常用.md",
     "md/编译原理.md",
-    "md/java字节码.md",
-    "md/java-数组.md",
-    "md/JavaPoet.md"
+    "md/java字节码.md"
   ]
 }
