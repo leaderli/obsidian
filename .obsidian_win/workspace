@@ -6,11 +6,11 @@
       {
         "id": "74234136e4c0080e",
         "type": "leaf",
-        "dimension": 37.25118483412322,
+        "dimension": 59.57620211898941,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/LL(1).md",
+            "file": "md/axios.md",
             "mode": "source"
           }
         },
@@ -19,27 +19,15 @@
       {
         "id": "8f7f96afb8aeeafc",
         "type": "leaf",
-        "dimension": 31.374407582938392,
+        "dimension": 40.42379788101059,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/LL(1).md",
+            "file": "md/axios.md",
             "mode": "preview"
           }
         },
         "group": "92ac3701cd7718fb"
-      },
-      {
-        "id": "0e2b924900d615ca",
-        "type": "leaf",
-        "dimension": 31.374407582938392,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/编译原理.md",
-            "mode": "source"
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -66,10 +54,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "proxy",
+                "query": "springboot",
                 "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -112,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/LL(1).md",
+                "file": "md/axios.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/LL(1).md"
+                "file": "md/axios.md"
               }
             }
           },
@@ -150,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/LL(1).md",
+                "file": "md/axios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,15 +154,15 @@
   },
   "active": "74234136e4c0080e",
   "lastOpenFiles": [
+    "md/axios.md",
+    "md/idea.md",
+    "md/springboot自定义加载配置文件.md",
     "md/LL(1).md",
     "md/编译原理.md",
     "md/katex.md",
     "md/语言及文法.md",
     "md/自动机理论.md",
     "template/mermaid_state.md",
-    "md/mermaid.md",
-    "md/node入门.md",
-    "md/node模块.md",
-    "md/linux常用命令.md"
+    "md/mermaid.md"
   ]
 }

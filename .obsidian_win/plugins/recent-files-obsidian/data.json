@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "axios",
+      "path": "md/axios.md"
+    },
+    {
+      "basename": "idea",
+      "path": "md/idea.md"
+    },
+    {
+      "basename": "springboot自定义加载配置文件",
+      "path": "md/springboot自定义加载配置文件.md"
+    },
+    {
       "basename": "LL(1)",
       "path": "md/LL(1).md"
     },
@@ -47,18 +59,6 @@
     {
       "basename": "javaassist",
       "path": "md/javaassist.md"
-    },
-    {
-      "basename": "java-string",
-      "path": "md/java-string.md"
-    },
-    {
-      "basename": "eclipse-plugin-develop-tutorial-setup",
-      "path": "md/eclipse-plugin-develop-tutorial-setup.md"
-    },
-    {
-      "basename": "java反射",
-      "path": "md/java反射.md"
     }
   ],
   "omittedPaths": [],

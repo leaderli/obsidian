@@ -141,7 +141,7 @@ Vue.use(VueAxios, axios);
 
 ## Webpack-dev-server 的 proxy 用法
 
-在开发环境中，可以将 axios 的请求通过 proxy 进行转发
+在开发环境中，可以将 axios 的请求通过 proxy 进行转发，编辑`vue.config.js`
 
 - 最简单的用法示例
 

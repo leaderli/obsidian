@@ -196,3 +196,7 @@ idea 若使用某种方式打开文件后，`file type`中的编辑器类型下�
 ## 标记当前段落不格式化
 
 code style|enable formatter markers in comments
+
+
+##  springboot yml 无自动提示
+项目右键点 Modules，然后点 + 号看是否无 spring 选项
