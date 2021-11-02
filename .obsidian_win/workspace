@@ -6,7 +6,7 @@
       {
         "id": "74234136e4c0080e",
         "type": "leaf",
-        "dimension": 37.251184834123215,
+        "dimension": 37.25118483412322,
         "state": {
           "type": "markdown",
           "state": {
@@ -19,7 +19,7 @@
       {
         "id": "8f7f96afb8aeeafc",
         "type": "leaf",
-        "dimension": 31.37440758293839,
+        "dimension": 31.374407582938392,
         "state": {
           "type": "markdown",
           "state": {
@@ -32,7 +32,7 @@
       {
         "id": "0e2b924900d615ca",
         "type": "leaf",
-        "dimension": 31.37440758293839,
+        "dimension": 31.374407582938392,
         "state": {
           "type": "markdown",
           "state": {
@@ -66,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "回溯",
+                "query": "proxy",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295,
-    "collapsed": true
+    "width": 295
   },
   "right": {
     "id": "4b761e4e5ad66709",
