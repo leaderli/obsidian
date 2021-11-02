@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "mockjs",
+      "path": "md/mockjs.md"
+    },
+    {
       "basename": "axios",
       "path": "md/axios.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "aop",
       "path": "md/aop.md"
-    },
-    {
-      "basename": "javaassist",
-      "path": "md/javaassist.md"
     }
   ],
   "omittedPaths": [],

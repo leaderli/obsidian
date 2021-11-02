@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/axios.md",
+            "file": "md/mockjs.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/axios.md",
+            "file": "md/mockjs.md",
             "mode": "preview"
           }
         },
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/axios.md",
+                "file": "md/mockjs.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/axios.md"
+                "file": "md/mockjs.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/axios.md",
+                "file": "md/mockjs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,6 +154,7 @@
   },
   "active": "74234136e4c0080e",
   "lastOpenFiles": [
+    "md/mockjs.md",
     "md/axios.md",
     "md/idea.md",
     "md/springboot自定义加载配置文件.md",
@@ -162,7 +163,6 @@
     "md/katex.md",
     "md/语言及文法.md",
     "md/自动机理论.md",
-    "template/mermaid_state.md",
-    "md/mermaid.md"
+    "template/mermaid_state.md"
   ]
 }
