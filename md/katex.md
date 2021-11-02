@@ -46,7 +46,8 @@
 | `\notin`                       | $\notin$                       |
 | `\emptyset`                    | $\emptyset$                    |
 | `\alpha \Rightarrow^n\alpha_n` | $\alpha \Rightarrow^n\alpha_n$ |
-| `\displaystyle\sum_{i=1}^n`    | $\displaystyle\sum_{i=1}^n$                               |
+| `\displaystyle\sum_{i=1}^n`    | $\displaystyle\sum_{i=1}^n$    |
+| `\Rightarrow`                  | $\Rightarrow$                               |
 
 ```ad-warning
 title:

@@ -214,7 +214,7 @@ System.out.println(Arrays.toString(AssistDemo.class.getDeclaredFields()));
 如果在加载时，可以确定是否需要修改某个类，用户必须使jvassist和类加载器协作，以便在类加载过程中先修改字节码。用户可以定义自己的类加载器，也可以使用javassist提供的类加载器
 ```
 
-![[#类加载器]]
+[[#类加载器]]
 
 如果一个CtClass对象通过writeFile()，toClass()，toBytecode()被转换成一个类文件，此CtClass对象会被冻结起来，不允许再修改。因为一个类只能被JVM加载一次。
 

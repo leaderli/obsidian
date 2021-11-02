@@ -4,7 +4,7 @@
   "hideStatus": true,
   "hideScroll": false,
   "hideTooltips": false,
-  "hideSearchSuggestions": true,
+  "hideSearchSuggestions": false,
   "hideInstructions": true,
   "hideMeta": true
 }

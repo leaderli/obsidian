@@ -83,3 +83,10 @@ String text = new BufferedReader( new InputStreamReader(inputStream, StandardCha
 ```java
 String text = IOUtils.toString(inputStream, StandardCharsets.UTF_8.name());
 ```
+
+
+### string 转 inputstream
+
+```java
+  InputStream stream = new ByteArrayInputStream("".getBytes());
+```

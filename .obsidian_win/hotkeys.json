@@ -41,7 +41,6 @@
   ],
   "app:open-help": [],
   "app:open-settings": [],
-  "editor:open-link-in-new-leaf": [],
   "switcher:open": [
     {
       "modifiers": [
@@ -117,6 +116,14 @@
         "Alt"
       ],
       "key": "1"
+    }
+  ],
+  "editor:open-link-in-new-leaf": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
     }
   ]
 }

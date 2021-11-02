@@ -1,33 +1,45 @@
 {
   "main": {
-    "id": "004e780789c126ee",
+    "id": "e05b0f111ae37f8e",
     "type": "split",
     "children": [
       {
-        "id": "f7fcc98ea0835836",
+        "id": "74234136e4c0080e",
         "type": "leaf",
-        "dimension": 31.195566112430722,
+        "dimension": 37.251184834123215,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/mockito.md",
+            "file": "md/LL(1).md",
             "mode": "source"
           }
         },
-        "group": "c4da6e46f3e2c502"
+        "group": "92ac3701cd7718fb"
       },
       {
-        "id": "7033c721be6cc521",
+        "id": "8f7f96afb8aeeafc",
         "type": "leaf",
-        "dimension": 68.80443388756929,
+        "dimension": 31.37440758293839,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/mockito.md",
-            "mode": "source"
+            "file": "md/LL(1).md",
+            "mode": "preview"
           }
         },
-        "group": "c4da6e46f3e2c502"
+        "group": "92ac3701cd7718fb"
+      },
+      {
+        "id": "0e2b924900d615ca",
+        "type": "leaf",
+        "dimension": 31.37440758293839,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/编译原理.md",
+            "mode": "source"
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -54,10 +66,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cglib",
+                "query": "回溯",
                 "matchingCase": true,
-                "explainSearch": true,
-                "collapseAll": true,
+                "explainSearch": false,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -80,11 +92,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 295
+    "width": 295,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/mockito.md",
+                "file": "md/LL(1).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/mockito.md"
+                "file": "md/LL(1).md"
               }
             }
           },
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/mockito.md",
+                "file": "md/LL(1).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,17 +165,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "7033c721be6cc521",
+  "active": "74234136e4c0080e",
   "lastOpenFiles": [
-    "md/mockito.md",
-    "md/aop.md",
-    "md/java-tips.md",
-    "md/java-数组.md",
-    "md/vavr.md",
-    "md/joor.md",
-    "md/javaassist.md",
-    "md/java类加载机制.md",
-    "md/ASM.md",
-    "md/tomcat.md"
+    "md/LL(1).md",
+    "md/编译原理.md",
+    "md/katex.md",
+    "md/语言及文法.md",
+    "md/自动机理论.md",
+    "template/mermaid_state.md",
+    "md/mermaid.md",
+    "md/node入门.md",
+    "md/node模块.md",
+    "md/linux常用命令.md"
   ]
 }
