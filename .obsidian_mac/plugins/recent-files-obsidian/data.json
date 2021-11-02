@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "node模块",
+      "path": "md/node模块.md"
+    },
+    {
       "basename": "mockjs",
       "path": "md/mockjs.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "bash",
       "path": "md/bash.md"
-    },
-    {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
     }
   ],
   "omittedPaths": [],
