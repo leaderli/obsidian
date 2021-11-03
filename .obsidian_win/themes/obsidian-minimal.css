@@ -165,57 +165,18 @@ Disabled features */
   --font-small:13px;
   --font-smaller:11px;
   --font-smallest:10px;
-/* 
-  --h1:2.5em;
-  --h2:1.7em;
-  --h3:1em;
-  --h4:0.90em;
-  --h5:0.85em;
-  --h6:0.85em;
-
-  --h1-weight:900;
-  --h2-weight:700;
-  --h3-weight:600;
-  --h4-weight:500;
-  --h5-weight:500;
-  --h6-weight:400;
-
-  --h1-color:var(--text-normal);
-  --h2-color:var(--text-normal);
-  --h3-color:var(--text-normal);
-  --h4-color:var(--text-normal);
-  --h5-color:var(--text-normal);
-  --h6-color:var(--text-muted); 
-  --h1-color:var(--text-normal);
-  --h2-color:var(--text-normal);
-  --h3-color:var(--yellow);
-  --h4-color:var(--green);
-  --h5-color:var(--blue);
-  --h6-color:var(--purple); */
 
 
- 
-  --h1:3.0em;
-  --h2:2.6em;
-  --h3:1.6em;
-  --h4:1.4em;
-  --h5:1.2em;
-  --h6:1em;
+--h1:1.5em;
+--h2:1.2em;
 
-   --h1-weight:900;
-  --h2-weight:900;
-  --h3-weight:900;
-  --h4-weight:900;
-  --h5-weight:900;
-  --h6-weight:900; 
+--h1-weight:var(--bold-weight);
+--h2-weight:var(--bold-weight);
+--h3-weight:var(--bold-weight);
+--h4-weight:var(--bold-weight);
+--h5-weight:var(--bold-weight);
+--h6-weight:var(--bold-weight);
 
-
-  --h1-color: var(--text-normal);
-  --h2-color:var(--text-normal);
-  --h3-color:var(--yellow);
-  --h4-color:var(--green);
-  --h5-color:var(--blue);
-  --h6-color:var(--purple); 
 
   --normal-weight:400;   /* Switch to 300 if you want thinner default text */
   --bold-weight:600;     /* Switch to 700 if you want thicker bold text */

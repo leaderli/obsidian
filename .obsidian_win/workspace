@@ -1,33 +1,18 @@
 {
   "main": {
-    "id": "e05b0f111ae37f8e",
+    "id": "5b66689599524f7c",
     "type": "split",
     "children": [
       {
-        "id": "74234136e4c0080e",
+        "id": "ad10006f9311813b",
         "type": "leaf",
-        "dimension": 47.05056179775281,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/test.md",
-            "mode": "source"
-          }
-        },
-        "group": "92ac3701cd7718fb"
-      },
-      {
-        "id": "8f7f96afb8aeeafc",
-        "type": "leaf",
-        "dimension": 52.94943820224719,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/test.md",
+            "file": "template/mermaid_state.md",
             "mode": "preview"
           }
-        },
-        "group": "92ac3701cd7718fb"
+        }
       }
     ],
     "direction": "vertical"
@@ -72,7 +57,7 @@
             }
           },
           {
-            "id": "02e74d89ba966a63",
+            "id": "c164b5719180d134",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -99,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/test.md",
+                "file": "template/mermaid_state.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/test.md"
+                "file": "template/mermaid_state.md"
               }
             }
           },
@@ -137,31 +122,30 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/test.md",
+                "file": "template/mermaid_state.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 360,
-    "collapsed": true
+    "width": 360
   },
-  "active": "74234136e4c0080e",
+  "active": "ad10006f9311813b",
   "lastOpenFiles": [
-    "md/test.md",
+    "template/mermaid_state.md",
+    "kanban.md",
+    "template/ad_template.md",
+    "resource/5238116129180.png",
+    "unlinked files output.md",
     "md/webpack.md",
+    "md/test.md",
     "md/linux常用命令.md",
     "md/自动机理论.md",
-    "md/idea.md",
-    "md/mockjs.md",
-    "md/vue-element-admin.md",
-    "md/axios.md",
-    "md/springboot自定义加载配置文件.md",
-    "md/LL(1).md"
+    "md/idea.md"
   ]
 }
