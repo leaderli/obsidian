@@ -127,7 +127,7 @@ output属性告诉webpack在哪里输出它所创建的bundle，以及如何命�
 
 loader用于对模块的源代码进行转换，即在`import`或者`load`模块时预处理文件。
 
-![[#webpack config js#loader]]
+![[#module#loader]]
 
 [更多细节](https://webpack.docschina.org/concepts/loaders/)
 
@@ -177,7 +177,8 @@ module.exports = {
 };
 ```
 
-### loader
+### module
+#### loader
 
 loader有两个属性
 - test 识别哪些文件需要被转换
@@ -191,6 +192,90 @@ module.exports = {
   mode: 'production',
 };
 ```
+
+### resolve
+设置模块如何被解析，[细节参考](https://webpack.docschina.org/configuration/resolve/)
+
+#### alias
+
+创建import或require的别名，来确保模块引入变得更简单，例如一些位于src文件夹下的常用模块
+
+```javascript
+const path = require('path');
+
+module.exports = {
+  //...
+  resolve: {
+    alias: {
+      Utilities: path.resolve(__dirname, 'src/utilities/'),
+      Templates: path.resolve(__dirname, 'src/templates/'),
+    },
+  },
+};
+```
+
+那么当我们在导入使用相对路径时
+
+```javascript
+import Utility from '../../utilities/utility';
+```
+
+可以使用别名的方式
+
+```javascript
+import Utility from 'Utilities/utility';
+```
+
+可以给key的末尾加上`$`表示完全匹配
+
+```javascript
+const path = require('path');
+
+module.exports = {
+  //...
+  resolve: {
+    alias: {
+      xyz$: path.resolve(__dirname, 'path/to/file.js'),
+    },
+  },
+};
+```
+
+```javascript
+import Test1 from 'xyz'; // 精确匹配，所以 path/to/file.js 被解析和导入
+import Test2 from 'xyz/file.js'; // 非精确匹配，触发普通解析
+```
+## 模块解析
+
+[细节参考](https://webpack.docschina.org/concepts/module-resolution/)
+
+resolver是一个帮助寻找模块绝对路径的库，一个模块可以作为另一个模块的依赖模块，然后被后者引用
+
+如
+```javascript
+import foo from 'path/to/module';
+// 或者
+require('path/to/module');
+```
+
+
+resolver帮助webpack从`require/import`语句中，找到需要引入到bundle中的模块代码。当打包模块时，webpack使用enhanced-resolve来解析文件路径。
+
+- 绝对路径
+	```javascript
+	import '/home/me/file';
+	```
+- 相对路径
+	```javascript
+	import '../src/file1';
+	import './file2';
+	```
+- 模块路径 在 [`resolve.modules`] 中指定的所有目录检索模块。
+	```javascript
+	import 'module';
+	import 'module/lib/file';
+	```
+
 ## 示例
 ###  加载其他资源文件
 
