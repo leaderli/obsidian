@@ -137,8 +137,6 @@ loader用于对模块的源代码进行转换，即在`import`或者`load`模块
 [参考](https://webpack.docschina.org/concepts/plugins/)
 [内置插件](https://webpack.docschina.org/plugins/)
 
-### 模式
-
 
 ## 配置
 webpack可以开箱即用，可以无需指定任何配置文件。你可以在项目根目录下创建一个 webpack.config.js 文件，然后 webpack 会自动使用它，也可以指定不同的配置文件
@@ -183,21 +181,9 @@ module.exports = {
 
 loader有两个属性
 - test 识别哪些文件需要被转换
-- use 使用哪个loader进行转换
+- use 使用哪个loader进行转换，其值可以是数组，其转换顺序是从后向前的
 
-```javascript
-const path = require('path');
-
-module.exports = {
-  output: {
-    filename: 'my-first-webpack.bundle.js',
-  },
-  module: {
-    rules: [{ test: /\.txt$/, use: 'raw-loader' }],
-  },
-};
-```
-
+![[#导入 css 文件]]
 ### mode
 默认值为 `production`，通过选择 `development`, `production` 或 `none` 之中的一个
 ```javascript
@@ -205,11 +191,9 @@ module.exports = {
   mode: 'production',
 };
 ```
-## 加载其他资源文件
+## 示例
+###  加载其他资源文件
 
-webpack.config.js 中的配置，在 module 对象的 rules 属性中可以指定一系列的 loaders，每一个 loader 都必须包含 test 和 use 两个选项，这段配置的意思是说，当 webpack 编译过程中遇到 require()或 import 语句导入一个后缀名为.css 的文件是，先将它通过 css-loader 转换，在通过 style-loader 转换，然后继续打包。use 选项的值可以是数组或字符串，如果是数组，它的编译顺序是从后往前
-
-修改一下项目结构
 
 修改`dist/index.html`
 
@@ -302,9 +286,6 @@ npm install --save-dev style-loader css-loader
 
 ```
 
-```shell
-npx webpack serve --config webpack.config.js
-```
 
 ### 导入图片
 
@@ -530,7 +511,7 @@ Likes tater tots and beer.",
 npm install toml yamljs json5 --save-dev
 ```
 
-## 输出管理
+### 输出管理
 
 通过 `html-webpack-plugin`自动生成 index.html，并引入相关资源
 通过 `clean-webpack-plugin` 自动清理 dist 目录
