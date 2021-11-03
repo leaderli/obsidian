@@ -104,9 +104,107 @@ npm run dev
 
 ## 基础概念
 
+本质上来说，webpack是一个用于现代javascript应用程序的静态模块打包工具
 
-## `webpack.config.js`
-`webpack`配置文件`webpack.config.js`，可以使用`--config webpack.config.js`指定其他配置文件
+###   依赖(dependency graph)
+
+每当一个文件依赖另外一个文件时，webpack都会将文件视为直接存在依赖关系。这使得webpack可以获取非代码资源，如images或web字体等，并将它们作为依赖提供给应用程序。
+
+### 入口（entry）
+
+入口指示webpack应使用哪个模块，作为构建其内部[[#依赖 dependency graph|依赖]]的开始。webpack会找出有哪些模块和库是入口起点（直接或间接）依赖的。
+
+![[#entry]]
+
+### 输出（output）
+
+output属性告诉webpack在哪里输出它所创建的bundle，以及如何命名这些文件。
+
+![[#output]]
+
+
+### loader
+
+loader用于对模块的源代码进行转换，即在`import`或者`load`模块时预处理文件。
+
+![[#webpack config js#loader]]
+
+[更多细节](https://webpack.docschina.org/concepts/loaders/)
+
+
+### 插件
+
+[参考](https://webpack.docschina.org/concepts/plugins/)
+[内置插件](https://webpack.docschina.org/plugins/)
+
+### 模式
+
+
+## 配置
+webpack可以开箱即用，可以无需指定任何配置文件。你可以在项目根目录下创建一个 webpack.config.js 文件，然后 webpack 会自动使用它，也可以指定不同的配置文件
+
+`package.json`
+```json
+"scripts": {
+  "build": "webpack --config prod.config.js"
+}
+```
+
+可通过如下命令生成一个标准规范的配置文件。
+```
+npx webpack-cli init
+```
+
+### entry
+默认值是`./src/index.js`，指定一个或多个不同的[[#入口（entry）|入口]]，更多[细节参考](https://webpack.docschina.org/concepts/entry-points/)
+```javascript
+module.exports = {
+  entry: './path/to/my/entry/file.js',
+};
+```
+
+### output
+
+默认值是`./dist/main.js`，其他生成文件默认方法`./dist/`文件夹中。
+
+```javascript
+const path = require('path');
+
+module.exports = {
+  entry: './path/to/my/entry/file.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'my-first-webpack.bundle.js',
+  },
+};
+```
+
+### loader
+
+loader有两个属性
+- test 识别哪些文件需要被转换
+- use 使用哪个loader进行转换
+
+```javascript
+const path = require('path');
+
+module.exports = {
+  output: {
+    filename: 'my-first-webpack.bundle.js',
+  },
+  module: {
+    rules: [{ test: /\.txt$/, use: 'raw-loader' }],
+  },
+};
+```
+
+### mode
+默认值为 `production`，通过选择 `development`, `production` 或 `none` 之中的一个
+```javascript
+module.exports = {
+  mode: 'production',
+};
+```
 ## 加载其他资源文件
 
 webpack.config.js 中的配置，在 module 对象的 rules 属性中可以指定一系列的 loaders，每一个 loader 都必须包含 test 和 use 两个选项，这段配置的意思是说，当 webpack 编译过程中遇到 require()或 import 语句导入一个后缀名为.css 的文件是，先将它通过 css-loader 转换，在通过 style-loader 转换，然后继续打包。use 选项的值可以是数组或字符串，如果是数组，它的编译顺序是从后往前
