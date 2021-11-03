@@ -1,10 +1,3 @@
----
-title: mockjs
-date: 2020-11-05 10:03:58
-categories: front-end
-tags:
----
-
 使用 mockjs 来模拟 api 接口返回报文
 
 ```shell

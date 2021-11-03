@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "vue-element-admin",
-      "path": "md/vue-element-admin.md"
+      "basename": "test",
+      "path": "md/test.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "md/webpack.md"
+    },
+    {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
+      "basename": "自动机理论",
+      "path": "md/自动机理论.md"
+    },
+    {
+      "basename": "idea",
+      "path": "md/idea.md"
     },
     {
       "basename": "mockjs",
       "path": "md/mockjs.md"
     },
     {
-      "basename": "axios",
-      "path": "md/axios.md"
+      "basename": "vue-element-admin",
+      "path": "md/vue-element-admin.md"
     },
     {
-      "basename": "idea",
-      "path": "md/idea.md"
+      "basename": "axios",
+      "path": "md/axios.md"
     },
     {
       "basename": "springboot自定义加载配置文件",
@@ -37,28 +53,12 @@
       "path": "md/语言及文法.md"
     },
     {
-      "basename": "自动机理论",
-      "path": "md/自动机理论.md"
-    },
-    {
       "basename": "mermaid_state",
       "path": "template/mermaid_state.md"
     },
     {
       "basename": "mermaid",
       "path": "md/mermaid.md"
-    },
-    {
-      "basename": "node入门",
-      "path": "md/node入门.md"
-    },
-    {
-      "basename": "node模块",
-      "path": "md/node模块.md"
-    },
-    {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
     }
   ],
   "omittedPaths": [],

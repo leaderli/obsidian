@@ -1,5 +1,5 @@
 
-## 快速入门
+# 快速入门
 
 [官方入门文档](https://webpack.js.org/guides/getting-started/)
 
@@ -102,7 +102,7 @@ module.exports = {
 npm run dev
 ```
 
-## 基础概念
+# 基础概念
 
 本质上来说，webpack是一个用于现代javascript应用程序的静态模块打包工具
 
@@ -138,7 +138,7 @@ loader用于对模块的源代码进行转换，即在`import`或者`load`模块
 [内置插件](https://webpack.docschina.org/plugins/)
 
 
-## 配置
+# 配置
 webpack可以开箱即用，可以无需指定任何配置文件。你可以在项目根目录下创建一个 webpack.config.js 文件，然后 webpack 会自动使用它，也可以指定不同的配置文件
 
 `package.json`
@@ -153,7 +153,7 @@ webpack可以开箱即用，可以无需指定任何配置文件。你可以在�
 npx webpack-cli init
 ```
 
-### entry
+## entry
 默认值是`./src/index.js`，指定一个或多个不同的[[#入口（entry）|入口]]，更多[细节参考](https://webpack.docschina.org/concepts/entry-points/)
 ```javascript
 module.exports = {
@@ -161,7 +161,7 @@ module.exports = {
 };
 ```
 
-### output
+## output
 
 默认值是`./dist/main.js`，其他生成文件默认方法`./dist/`文件夹中。
 
@@ -177,7 +177,7 @@ module.exports = {
 };
 ```
 
-### module
+## module
 #### loader
 
 loader有两个属性
@@ -185,7 +185,7 @@ loader有两个属性
 - use 使用哪个loader进行转换，其值可以是数组，其转换顺序是从后向前的
 
 ![[#导入 css 文件]]
-### mode
+## mode
 默认值为 `production`，通过选择 `development`, `production` 或 `none` 之中的一个
 ```javascript
 module.exports = {
@@ -193,7 +193,7 @@ module.exports = {
 };
 ```
 
-### resolve
+## resolve
 设置模块如何被解析，[细节参考](https://webpack.docschina.org/configuration/resolve/)
 
 #### alias
@@ -245,7 +245,91 @@ module.exports = {
 import Test1 from 'xyz'; // 精确匹配，所以 path/to/file.js 被解析和导入
 import Test2 from 'xyz/file.js'; // 非精确匹配，触发普通解析
 ```
-## 模块解析
+## devServer
+
+作为[webpack-dev-server](https://webpack.js.org/api/webpack-dev-server/)的[配置](https://www.webpackjs.com/configuration/dev-server/#devserver)
+
+### before 
+前置网关
+
+### proxy
+使用[http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware)，请查阅其[文档](https://github.com/chimurai/http-proxy-middleware#options)。
+
+- 最简单的用法示例
+
+  ```javascript
+  mmodule.exports = {
+    devServer: {
+		proxy: {
+		  "/api": {
+			target: "http://localhost:3000",
+		  }
+		}
+    },
+  };
+  ```
+
+  请求到`/api/xxx`现在会被代理到请求`http://localhost:3000/api/xxx`
+
+- 如果想要代理多个路径到同一个地址，可以使用一个或多个具有 context 属性的对象构成的数组
+
+  ```javascript
+  mmodule.exports = {
+    devServer: {
+      proxy: [
+        {
+          context: ["/api", "/auth"],
+          target: "http://localhost:3000",
+        },
+      ],
+    },
+  };
+  ```
+
+- 如果你不想传递`/api`，可以重写路径
+
+  ```javascript
+  mmodule.exports = {
+  devServer: {
+      proxy: [
+      '/api':{
+          target: "http://localhost:3000",
+          pathRewrite:{'^/api',''},//原请求路径将被正则替换后加入到target地址后
+          secure:false,//默认情况下，不接受https，设置为false即可
+      },
+      ],
+  },
+  };
+  ```
+
+  请求到`/api/xxx`现在会被代理到请求`http://localhost:3000/xxx`
+
+- 使用 bypass 选项通过函数判断是否需要绕过代理，返回 false 或路径来跳过代理。
+
+  ```javascript
+  mmodule.exports = {
+  devServer: {
+      proxy: [
+      '/api':{
+          target: "http://localhost:3000",
+          bypass:function(req,res,proxyOptions){
+
+            if(req.header.accept.indexOfI('html')!== -1){
+                console.log('skipping proxy from browser request.')
+                return '/index.html';//return false
+            }
+          }
+      },
+      ],
+  },
+  };
+  ```
+
+代理过程可能遇到的一些问题，对于有些 target 地址，可能需要登录，从而将页面重定向（302）到登录页面，那么我们就需要保证请求时带上对应的 token
+### after
+后置网关
+
+# 模块解析
 
 [细节参考](https://webpack.docschina.org/concepts/module-resolution/)
 
@@ -276,8 +360,8 @@ resolver帮助webpack从`require/import`语句中，找到需要引入到bundle�
 	import 'module/lib/file';
 	```
 
-## 示例
-###  加载其他资源文件
+# 示例
+##  加载其他资源文件
 
 
 修改`dist/index.html`
@@ -311,7 +395,7 @@ resolver帮助webpack从`require/import`语句中，找到需要引入到bundle�
   };
 ```
 
-### 导入 css 文件
+## 导入 css 文件
 
 ```shell
 npm install --save-dev style-loader css-loader
@@ -372,7 +456,7 @@ npm install --save-dev style-loader css-loader
 ```
 
 
-### 导入图片
+## 导入图片
 
 ```shell
 npm install --save-dev file-loader
@@ -444,7 +528,7 @@ module.exports = {
   }
 ```
 
-### 导入数据
+## 导入数据
 
 ```shell
 npm install --save-dev csv-loader xml-loader
@@ -596,7 +680,7 @@ Likes tater tots and beer.",
 npm install toml yamljs json5 --save-dev
 ```
 
-### 输出管理
+## 输出管理
 
 通过 `html-webpack-plugin`自动生成 index.html，并引入相关资源
 通过 `clean-webpack-plugin` 自动清理 dist 目录
@@ -669,7 +753,7 @@ export default function printMe() {
 
 ```
 
-### 统一输出 css 文件
+## 统一输出 css 文件
 
 使用插件[mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin)
 

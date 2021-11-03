@@ -6,11 +6,11 @@
       {
         "id": "74234136e4c0080e",
         "type": "leaf",
-        "dimension": 59.57620211898941,
+        "dimension": 47.05056179775281,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue-element-admin.md",
+            "file": "md/test.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "8f7f96afb8aeeafc",
         "type": "leaf",
-        "dimension": 40.42379788101059,
+        "dimension": 52.94943820224719,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue-element-admin.md",
+            "file": "md/test.md",
             "mode": "preview"
           }
         },
@@ -54,10 +54,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "springboot",
-                "matchingCase": true,
+                "query": "pathRewrite",
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -79,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue-element-admin.md",
+                "file": "md/test.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue-element-admin.md"
+                "file": "md/test.md"
               }
             }
           },
@@ -138,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/vue-element-admin.md",
+                "file": "md/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,15 +153,15 @@
   },
   "active": "74234136e4c0080e",
   "lastOpenFiles": [
-    "md/vue-element-admin.md",
-    "md/mockjs.md",
-    "md/axios.md",
+    "md/test.md",
+    "md/webpack.md",
+    "md/linux常用命令.md",
+    "md/自动机理论.md",
     "md/idea.md",
+    "md/mockjs.md",
+    "md/vue-element-admin.md",
+    "md/axios.md",
     "md/springboot自定义加载配置文件.md",
-    "md/LL(1).md",
-    "md/编译原理.md",
-    "md/katex.md",
-    "md/语言及文法.md",
-    "md/自动机理论.md"
+    "md/LL(1).md"
   ]
 }
