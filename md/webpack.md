@@ -1,9 +1,3 @@
----
-title: webpack
-date: 2020-10-29 15:17:47
-categories:
-tags:
----
 
 ## 快速入门
 
@@ -15,19 +9,11 @@ cd webpack-demo
 npm init -y
 npm install webpack webpack-cli --save-dev
 npm install --save lodash
+npm i webpack-dev-server -S -D
+
 ```
 
-新增两个文件
-
-```diff
-webpack-demo
-  |- package.json
-+ |- /dist
-+ 	|- index.html
-+ |- /src
-+   |- index.js
-```
-
+`dist/index.html`
 ```html
 <!DOCTYPE html>
 <html>
@@ -41,6 +27,7 @@ webpack-demo
 </html>
 ```
 
+`src/index.js`
 ```javascript
 import _ from "lodash";
 
@@ -55,35 +42,31 @@ function component() {
 document.body.appendChild(component());
 ```
 
-执行打包命令，打包后会将`index.js`打包为`/dist/main.js`，打包后我们就可以打开`dist`目录下的index.html，就可以看到
 
-```shell
-# npx 类似package.json中的scripts，可直接运行
-npx webpack
-```
-
-也可以在 package.json 中新增 script，
+`package.json`
 
 ```json
-{
-  "name": "webpack-demo",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "webpack": "^5.3.0",
-    "webpack-cli": "^4.1.0"
-  },
-  "dependencies": {
-    "lodash": "^4.17.20"
-  }
+{  
+  "name": "webpack-demo",  
+  "version": "1.0.0",  
+  "description": "",  
+  "private": true,  
+  "scripts": {  
+    "test": "echo \"Error: no test specified\" && exit 1",  
+    "build": "webpack",  
+    "dev": "webpack serve"  
+ },  
+  "keywords": [],  
+  "author": "",  
+  "license": "ISC",  
+  "devDependencies": {  
+    "webpack": "^5.61.0",  
+    "webpack-cli": "^4.9.1",  
+    "webpack-dev-server": "^4.4.0"  
+ },  
+  "dependencies": {  
+    "lodash": "^4.17.21"  
+ }  
 }
 ```
 
@@ -92,32 +75,38 @@ npx webpack
 ```shell
 npm run build
 ```
+执行打包命令，打包后会将`index.js`打包为`/dist/main.js`，我们打开 index.html，如果一切正常的话，我们可以在浏览器上看到`Hello webpack`字样
 
-当不指定配置文件时，就使用了默认的配置(`npx webpack --config webpack.config.js`)
-
+`webpack.config.js`
 ```javascript
-const path = require("path");
-
-module.exports = {
-  entry: "./src/index.js",
-  output: {
-    filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
-  },
+const path = require("path");  
+  
+module.exports = {  
+  devServer: {  
+      static:'./dist'  
+ },  
+  mode: 'none',  
+  entry: "./src/index.js",  
+  
+  output: {  
+    filename: "main.js",  
+    path: path.resolve(__dirname, "dist"),  
+  },  
+  
 };
 ```
 
-如需要指定配置文件，可在 package.json 中指定相关配置文件
-
-命令成功执行后，就会将所有文件打包到 dist 目录，我们打开 index.html，如果一切正常的话，我们可以在浏览器上看到`Hello webpack`字样
-
-我们可以使用`npx webpack serve`启动 web 服务，默认会在 8080 端口上启动
+我们可以使用`npx webpack serve`启动 web 服务，默认会在 8080 端口上启动，根据webpack.config.js中的devServer配置的路径，默认会打开dist目录下的index.html页面
 
 ```shell
-npm i webpack-dev-server -S -D
-npx webpack serve
+npm run dev
 ```
 
+## 基础概念
+
+
+## `webpack.config.js`
+`webpack`配置文件`webpack.config.js`，可以使用`--config webpack.config.js`指定其他配置文件
 ## 加载其他资源文件
 
 webpack.config.js 中的配置，在 module 对象的 rules 属性中可以指定一系列的 loaders，每一个 loader 都必须包含 test 和 use 两个选项，这段配置的意思是说，当 webpack 编译过程中遇到 require()或 import 语句导入一个后缀名为.css 的文件是，先将它通过 css-loader 转换，在通过 style-loader 转换，然后继续打包。use 选项的值可以是数组或字符串，如果是数组，它的编译顺序是从后往前
