@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "webpack",
+      "path": "md/webpack.md"
+    },
+    {
+      "basename": "node",
+      "path": "md/node.md"
+    },
+    {
+      "basename": "npm-module",
+      "path": "md/npm-module.md"
+    },
+    {
       "basename": "JavaParser_ Visited",
       "path": "resource/JavaParser_ Visited.pdf"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "vue-element-admin",
       "path": "md/vue-element-admin.md"
-    },
-    {
-      "basename": "node模块",
-      "path": "md/node模块.md"
     },
     {
       "basename": "mockjs",
@@ -51,14 +59,6 @@
     {
       "basename": "背包问题",
       "path": "md/背包问题.md"
-    },
-    {
-      "basename": "common_常用",
-      "path": "md/common_常用.md"
-    },
-    {
-      "basename": "编译原理",
-      "path": "md/编译原理.md"
     }
   ],
   "omittedPaths": [],

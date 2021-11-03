@@ -76,17 +76,19 @@ package.json 位于模块的目录下，用于定义包的属性
 
 #### Package.json 属性说明
 
-> name - 包名。
-> version - 包的版本号。
-> description - 包的描述。
-> scripts 使用`npm run command`实际执行其配置的值。例如`{"dev": "node build/dev-server.js"}`
-> homepage - 包的官网 url 。
-> author - 包的作者姓名。
-> contributors - 包的其他贡献者姓名。
-> dependencies - 依赖包列表。如果依赖包没有安装，npm 会自动将依赖包安装在 node_module 目录下。
-> repository - 包代码存放的地方的类型，可以是 git 或 svn，git 可在 Github 上。
-> main - main 字段指定了程序的主入口文件，require('moduleName') 就会加载这个文件。这个字段的默认值是模块根目录下面的 index.js。
-> keywords - 关键字
+[官方文档](https://docs.npmjs.com/cli/v7/configuring-npm/package-json/)
+- name  包名。
+- version  包的版本号。
+- description  包的描述。
+- scripts 使用`npm run command`实际执行其配置的值。例如`{"dev": "node build/dev-server.js"}`
+- homepage  包的官网 url 。
+- author  包的作者姓名。
+- contributors  包的其他贡献者姓名。
+- dependencies  依赖包列表。如果依赖包没有安装，npm 会自动将依赖包安装在 node_module 目录下。
+- repository  包代码存放的地方的类型，可以是 git 或 svn，git 可在 Github 上。
+- main  指定了程序的主入口文件，require('moduleName') 就会加载这个文件。这个字段的默认值是模块根目录下面的 index.js。
+- keywords  关键字
+- private 声明包为私有的
 
 安装软件时可以将模块的依赖写入`package.json`的节点下
 

@@ -22,10 +22,10 @@ npm install --save lodash
 ```diff
 webpack-demo
   |- package.json
-  |- /dist
-   |- index.html
-  |- /src
-    |- index.js
++ |- /dist
++ 	|- index.html
++ |- /src
++   |- index.js
 ```
 
 ```html
@@ -55,7 +55,7 @@ function component() {
 document.body.appendChild(component());
 ```
 
-执行打包命令
+执行打包命令，打包后会将`index.js`打包为`/dist/main.js`，打包后我们就可以打开`dist`目录下的index.html，就可以看到
 
 ```shell
 # npx 类似package.json中的scripts，可直接运行

@@ -4,14 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "0266ccad8dce226a",
+        "id": "d0d687ad109505bf",
         "type": "leaf",
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "resource/JavaParser_ Visited.pdf"
+            "file": "md/webpack.md",
+            "mode": "source"
           }
-        }
+        },
+        "group": "c02e5b8d6cd69d4d"
+      },
+      {
+        "id": "9a13fe338be851b3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/webpack.md",
+            "mode": "preview"
+          }
+        },
+        "group": "c02e5b8d6cd69d4d"
       }
     ],
     "direction": "vertical"
@@ -38,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mock",
+                "query": "package.json",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -63,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -83,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "resource/JavaParser_ Visited.pdf",
+                "file": "md/webpack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "resource/JavaParser_ Visited.pdf"
+                "file": "md/webpack.md"
               }
             }
           }
@@ -123,17 +138,17 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "0266ccad8dce226a",
+  "active": "d0d687ad109505bf",
   "lastOpenFiles": [
+    "md/webpack.md",
+    "md/node.md",
+    "md/npm-module.md",
     "resource/JavaParser_ Visited.pdf",
     "md/javaparser.md",
     "md/vue-element-admin.md",
-    "md/node模块.md",
     "md/mockjs.md",
     "md/vue.md",
     "md/dom4j.md",
-    "md/JavaPoet.md",
-    "md/aop.md",
-    "md/java-stream.md"
+    "md/JavaPoet.md"
   ]
 }
