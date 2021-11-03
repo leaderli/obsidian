@@ -4,30 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "aeb6c7dbfb6ac293",
+        "id": "0266ccad8dce226a",
         "type": "leaf",
-        "dimension": 55.319148936170215,
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "md/node模块.md",
-            "mode": "source"
+            "file": "resource/JavaParser_ Visited.pdf"
           }
-        },
-        "group": "89bfa4b24a93a0f6"
-      },
-      {
-        "id": "10a8c7bf1d9237e2",
-        "type": "leaf",
-        "dimension": 44.680851063829785,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/node模块.md",
-            "mode": "preview"
-          }
-        },
-        "group": "89bfa4b24a93a0f6"
+        }
       }
     ],
     "direction": "vertical"
@@ -79,8 +63,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/node模块.md",
+                "file": "resource/JavaParser_ Visited.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/node模块.md"
+                "file": "resource/JavaParser_ Visited.pdf"
               }
             }
           }
@@ -140,17 +123,17 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "aeb6c7dbfb6ac293",
+  "active": "0266ccad8dce226a",
   "lastOpenFiles": [
+    "resource/JavaParser_ Visited.pdf",
+    "md/javaparser.md",
+    "md/vue-element-admin.md",
     "md/node模块.md",
     "md/mockjs.md",
     "md/vue.md",
     "md/dom4j.md",
     "md/JavaPoet.md",
     "md/aop.md",
-    "md/java-stream.md",
-    "md/visitor_访问者模式.md",
-    "md/动态规划.md",
-    "md/背包问题.md"
+    "md/java-stream.md"
   ]
 }

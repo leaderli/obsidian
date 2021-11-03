@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "JavaParser_ Visited",
+      "path": "resource/JavaParser_ Visited.pdf"
+    },
+    {
+      "basename": "javaparser",
+      "path": "md/javaparser.md"
+    },
+    {
+      "basename": "vue-element-admin",
+      "path": "md/vue-element-admin.md"
+    },
+    {
       "basename": "node模块",
       "path": "md/node模块.md"
     },
@@ -47,18 +59,6 @@
     {
       "basename": "编译原理",
       "path": "md/编译原理.md"
-    },
-    {
-      "basename": "java字节码",
-      "path": "md/java字节码.md"
-    },
-    {
-      "basename": "java-数组",
-      "path": "md/java-数组.md"
-    },
-    {
-      "basename": "bash",
-      "path": "md/bash.md"
     }
   ],
   "omittedPaths": [],
