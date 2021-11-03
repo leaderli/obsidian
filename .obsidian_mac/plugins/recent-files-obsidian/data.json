@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "webpack",
-      "path": "md/webpack.md"
+      "basename": "vue",
+      "path": "md/vue.md"
     },
     {
       "basename": "vue-element-admin",
       "path": "md/vue-element-admin.md"
+    },
+    {
+      "basename": "webpack",
+      "path": "md/webpack.md"
     },
     {
       "basename": "node",
@@ -27,10 +31,6 @@
     {
       "basename": "mockjs",
       "path": "md/mockjs.md"
-    },
-    {
-      "basename": "vue",
-      "path": "md/vue.md"
     },
     {
       "basename": "dom4j",
