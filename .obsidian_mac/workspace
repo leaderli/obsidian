@@ -6,11 +6,11 @@
       {
         "id": "d0d687ad109505bf",
         "type": "leaf",
-        "dimension": 54.855195911413965,
+        "dimension": 42.28855721393035,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue-element-admin.md",
+            "file": "md/vue.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "9a13fe338be851b3",
         "type": "leaf",
-        "dimension": 45.144804088586035,
+        "dimension": 57.711442786069654,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue-element-admin.md",
+            "file": "md/vue.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "package.json",
+                "query": "map javas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 195,
-    "collapsed": true
+    "width": 195
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue-element-admin.md",
+                "file": "md/vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue-element-admin.md"
+                "file": "md/vue.md"
               }
             }
           }
@@ -143,8 +142,8 @@
   },
   "active": "9a13fe338be851b3",
   "lastOpenFiles": [
-    "md/vue-element-admin.md",
     "md/vue.md",
+    "md/vue-element-admin.md",
     "md/webpack.md",
     "md/node.md",
     "md/npm-module.md",
