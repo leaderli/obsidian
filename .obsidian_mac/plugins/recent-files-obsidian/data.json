@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "java-SPI",
+      "path": "md/java-SPI.md"
+    },
+    {
       "basename": "vue",
       "path": "md/vue.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "动态规划",
       "path": "md/动态规划.md"
-    },
-    {
-      "basename": "背包问题",
-      "path": "md/背包问题.md"
     }
   ],
   "omittedPaths": [],
