@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue.md",
+            "file": "md/vue-element-admin.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue.md",
+            "file": "md/vue-element-admin.md",
             "mode": "preview"
           }
         },
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue.md",
+                "file": "md/vue-element-admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue.md"
+                "file": "md/vue-element-admin.md"
               }
             }
           }
@@ -141,10 +141,10 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "d0d687ad109505bf",
+  "active": "9a13fe338be851b3",
   "lastOpenFiles": [
-    "md/vue.md",
     "md/vue-element-admin.md",
+    "md/vue.md",
     "md/webpack.md",
     "md/node.md",
     "md/npm-module.md",
