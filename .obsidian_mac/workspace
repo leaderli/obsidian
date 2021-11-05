@@ -6,11 +6,11 @@
       {
         "id": "d0d687ad109505bf",
         "type": "leaf",
-        "dimension": 56.490727532097004,
+        "dimension": 72.75204359673025,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-SPI.md",
+            "file": "md/java-string.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "9a13fe338be851b3",
         "type": "leaf",
-        "dimension": 43.509272467902996,
+        "dimension": 27.247956403269757,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-SPI.md",
+            "file": "md/java-string.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "spi",
+                "query": "conditiononp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 195,
-    "collapsed": true
+    "width": 517.5
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-SPI.md",
+                "file": "md/java-string.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java-SPI.md"
+                "file": "md/java-string.md"
               }
             }
           }
@@ -143,6 +142,8 @@
   },
   "active": "d0d687ad109505bf",
   "lastOpenFiles": [
+    "md/java-string.md",
+    "md/eclipse-plugin-develop-tutorial-setup.md",
     "md/java-SPI.md",
     "md/vue.md",
     "md/vue-element-admin.md",
@@ -150,8 +151,6 @@
     "md/node.md",
     "md/npm-module.md",
     "resource/JavaParser_ Visited.pdf",
-    "md/javaparser.md",
-    "md/mockjs.md",
-    "md/dom4j.md"
+    "md/javaparser.md"
   ]
 }
