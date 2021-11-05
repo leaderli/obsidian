@@ -19,7 +19,7 @@
       {
         "id": "f89adb8756814c12",
         "type": "leaf",
-        "dimension": 45.11986301369863,
+        "dimension": 45.11986301369862,
         "state": {
           "type": "markdown",
           "state": {
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295,
-    "collapsed": true
+    "width": 295
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -153,7 +152,7 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "ad10006f9311813b",
+  "active": "f89adb8756814c12",
   "lastOpenFiles": [
     "md/mysql.md",
     "md/centos.md",

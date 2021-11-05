@@ -23,7 +23,7 @@ yum localinstall mysql57-community-release-el7-11.noarch.rpm
 yum search mysql
 
 # 安装
-yum install mysql-community-server.x86_64
+yum install -y mysql-community-server.x86_64
 
 
 # 启动

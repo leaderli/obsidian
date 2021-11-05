@@ -40,6 +40,9 @@ $ dhclient -v
 
 ## yum
 
+```ad-tip
+yum -y 自动确认
+```
 ### 常用命令
 
 ```shell
