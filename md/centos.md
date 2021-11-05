@@ -40,6 +40,16 @@ $ dhclient -v
 
 ## yum
 
+### 常用命令
+
+```shell
+
+# 查找已安装
+yum list installed
+
+# 从源中搜索可安装
+yum search
+```
 ### yum 禁用 fastestmirror
 
 ```shell
