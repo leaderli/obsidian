@@ -1,11 +1,12 @@
----
-title: mysql
-date: 2020-04-23 11:02:55
-categories: db
-tags:
-  - mysql
-  - tips
----
+## 安装
+
+ 使用[[docker#mysql|docker]]安装
+ 
+ 
+ 客户端软件推荐[DBeaver](https://dbeaver.io/)
+
+
+
 
 ## 设定字段为一个枚举
 

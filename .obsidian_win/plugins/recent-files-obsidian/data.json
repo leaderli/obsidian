@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "docker基础",
-      "path": "md/docker基础.md"
+      "basename": "mysql",
+      "path": "md/mysql.md"
+    },
+    {
+      "basename": "docker",
+      "path": "md/docker.md"
+    },
+    {
+      "basename": "docker-compose",
+      "path": "md/docker-compose.md"
     },
     {
       "basename": "kanban",

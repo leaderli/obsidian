@@ -1,24 +1,37 @@
----
-title: docker基础
-date: 2019-07-22 21:22:57
-categories: docker
-tags:
-  - docker
-  - 基础教程
----
-
-## 指南
-
-### 安装
+## 安装
 
 [官方安装文档](https://docs.docker.com/install/)
 
 `docker --version` 查看版本号
 `docker info` 查看 docker 详细信息
 
-### 概述
 
-#### image
+centos7上安装的步骤
+
+```shell
+
+# yum工具，用来管理源的
+yum install -y yum-utils
+
+# 添加docker源
+yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+
+# 安装docker
+
+yum install docker-ce docker-ce-cli containerd.io
+
+
+# 启动
+systemctl start docker
+
+# 运行校验镜像
+docker run hello-world
+```
+
+## 概述
+### image
 
 容器是由镜像文件加载启动的。镜像是一个可执行文件，包含运行应用程序所需要的所有资源，包括
 代码，运行环境，环境变量，配置文件等。
@@ -32,7 +45,7 @@ registry.cn-hangzhou.aliyuncs.com/helowin/oracle_11g   latest              3fa11
 
 可通过`docker pull <image:TAG>`下载镜像，不显示指定`TAG`则下载`latest`版本的，当使用`docker run <image>`时若本地镜像没有则会自动下载远程镜像
 
-#### container
+### container
 
 容器是镜像的运行实例，容器共享宿主机的`kernel`内核，独立进程运行，不占用其他任何可执行文件的内存。
 
@@ -170,6 +183,9 @@ docker run -p   4001:8080  friendlyhello
 docker run -d -p  4001:8080  friendlyhello
 ```
 
+
+当不布置的tag时，默认就是为`latest`
+
 ### 进入容器
 
 进入容器，并以`bash`作为`shell`
@@ -300,3 +316,13 @@ docker run -d -p 8002:8080 -v ~/jenkins:/var/jenkins_home -v /Library/Java/JavaV
 1. 安装服务端`apt-get install openssh-server`
 2. 启动`ssh`服务,使用命令`service ssh start`或者`/ect/init.d/ssh start`
 3. 关闭`ssh`服务，`service ssh stop`
+
+
+## 一些镜像
+
+### mysql
+
+```shell
+docker pull mysql:5.7.36
+docker run -itd --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql:5.7.36
+```
