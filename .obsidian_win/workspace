@@ -6,11 +6,11 @@
       {
         "id": "ad10006f9311813b",
         "type": "leaf",
-        "dimension": 54.880136986301366,
+        "dimension": 54.88013698630137,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/mysql.md",
+            "file": "md/nginx.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "f89adb8756814c12",
         "type": "leaf",
-        "dimension": 45.11986301369862,
+        "dimension": 45.11986301369863,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/mysql.md",
+            "file": "md/nginx.md",
             "mode": "preview"
           }
         },
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/mysql.md",
+                "file": "md/nginx.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/mysql.md"
+                "file": "md/nginx.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/mysql.md",
+                "file": "md/nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,6 +154,7 @@
   },
   "active": "f89adb8756814c12",
   "lastOpenFiles": [
+    "md/nginx.md",
     "md/mysql.md",
     "md/centos.md",
     "md/win10.md",
@@ -162,7 +163,6 @@
     "md/obsidan.md",
     "md/docker.md",
     "md/docker-compose.md",
-    "template/mermaid_state.md",
-    "kanban.md"
+    "template/mermaid_state.md"
   ]
 }

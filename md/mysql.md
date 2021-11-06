@@ -43,6 +43,12 @@ mysql -uroot -p
 use mysql;
 update user set password = password('123456') where user ='root';
 flush privileges;
+
+
+
+# 开启外网访问
+update user set host="%" where Host='localhost' and user = "root";
+flush privileges;
 ```
 
 
@@ -50,6 +56,7 @@ flush privileges;
 
 
 ## 常用sql语句
+
 
 ```sql
 show databases;

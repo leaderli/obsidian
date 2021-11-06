@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "nginx",
+      "path": "md/nginx.md"
+    },
+    {
       "basename": "mysql",
       "path": "md/mysql.md"
     },
