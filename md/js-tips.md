@@ -291,6 +291,12 @@ func(); //100
 func(5); //5
 ```
 
+## 字符串
+
+```javascript
+const replacements = {name:'name',age:12}
+const str = `My name is ${replacements.name} and my age is ${replacements.age}.`
+```
 ## console 格式
 
 `%c`标记 css 样式的位置

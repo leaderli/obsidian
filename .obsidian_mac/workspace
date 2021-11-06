@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/springboot-jpa.md",
+            "file": "md/vue.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/springboot-jpa.md",
+            "file": "md/vue.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/springboot-jpa.md",
+                "file": "md/vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/springboot-jpa.md"
+                "file": "md/vue.md"
               }
             }
           }
@@ -142,15 +143,15 @@
   },
   "active": "d0d687ad109505bf",
   "lastOpenFiles": [
+    "md/vue.md",
+    "md/js-tips.md",
     "md/springboot-jpa.md",
     "md/java-string.md",
     "md/eclipse-plugin-develop-tutorial-setup.md",
     "md/java-SPI.md",
-    "md/vue.md",
     "md/vue-element-admin.md",
     "md/webpack.md",
     "md/node.md",
-    "md/npm-module.md",
-    "resource/JavaParser_ Visited.pdf"
+    "md/npm-module.md"
   ]
 }
