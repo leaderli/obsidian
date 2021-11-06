@@ -38,6 +38,23 @@ $ ./media/iso/install
 $ dhclient -v
 ```
 
+
+### 防火墙
+
+```shell
+# 启动
+systemctl start firewalld
+
+# 查看状态
+systemctl status firewalld
+
+# 停止
+systemctl stop firewalld
+
+# 禁用
+systemctl disable firewalld
+```
+
 ## yum
 
 ```ad-tip

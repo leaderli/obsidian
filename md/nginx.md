@@ -5,7 +5,7 @@
 基于 centos
 
 1. 安装依赖工具
-   `sudo yum install yum-utils`
+   `sudo yum install -y yum-utils `
 2. 配置 yum 的源
    新建文件`/etc/yum.repos.d/nginx.repo`，并写入以下内容
 
@@ -306,4 +306,13 @@ server {
     add_header Cache-Control no-cache;
     ...
 }
+```
+
+
+## 常见问题
+
+### 403 Forbidden
+修改user
+```nginx
+user  root;
 ```

@@ -2,8 +2,11 @@
 
 使用[[docker#mysql|docker]]安装
  
-客户端软件推荐[DBeaver](https://dbeaver.io/)
 
+使用 [[python#pip|pip]]安装一个方便mycli，方便操作数据库
+```shell
+
+```
 
 centos7上安装mysql5.7步骤
 

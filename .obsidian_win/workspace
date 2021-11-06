@@ -6,11 +6,11 @@
       {
         "id": "ad10006f9311813b",
         "type": "leaf",
-        "dimension": 54.88013698630137,
+        "dimension": 51.85185185185185,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/nginx.md",
+            "file": "md/mysql.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "f89adb8756814c12",
         "type": "leaf",
-        "dimension": 45.11986301369863,
+        "dimension": 48.148148148148145,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/nginx.md",
+            "file": "md/mysql.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "yum",
+                "query": "pip python",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/nginx.md",
+                "file": "md/mysql.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/nginx.md"
+                "file": "md/mysql.md"
               }
             }
           },
@@ -138,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/nginx.md",
+                "file": "md/mysql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,17 +151,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "f89adb8756814c12",
+  "active": "ad10006f9311813b",
   "lastOpenFiles": [
-    "md/nginx.md",
     "md/mysql.md",
+    "md/python.md",
+    "md/nginx.md",
     "md/centos.md",
     "md/win10.md",
     "md/linux环境变量.md",
     "md/linux查看.md",
     "md/obsidan.md",
     "md/docker.md",
-    "md/docker-compose.md",
-    "template/mermaid_state.md"
+    "md/docker-compose.md"
   ]
 }
