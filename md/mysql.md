@@ -7,6 +7,10 @@
 
 ```shell
 pip3 install mycli
+
+# 登录
+mycli -u root -p 123456 
+
 ```
 
 centos7上安装mysql5.7步骤
@@ -47,7 +51,6 @@ mysql -uroot -p
 use mysql;
 update user set password = password('123456') where user ='root';
 flush privileges;
-
 
 
 # 开启外网访问
