@@ -74,6 +74,8 @@ This is in the original admonition.
 ```
 ```ad-failure
 ```
+```ad-error
+```
 ```ad-bug
 ```
 ```ad-example

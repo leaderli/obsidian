@@ -1,11 +1,62 @@
----
-title: mysql
-date: 2020-04-23 11:02:55
-categories: db
-tags:
-  - mysql
-  - tips
----
+## 安装
+
+使用[[docker#mysql|docker]]安装
+ 
+客户端软件推荐[DBeaver](https://dbeaver.io/)
+
+
+centos7上安装mysql5.7步骤
+
+```shell
+
+# 卸载默认安装的mariadb
+yum remove mariadb.x86_64
+
+
+# 下载源
+wget https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
+
+# 本地安装yum源
+yum localinstall mysql57-community-release-el7-11.noarch.rpm
+
+# 搜索mysql安装包
+yum search mysql
+
+# 安装
+yum install -y mysql-community-server.x86_64
+
+
+# 启动
+service mysqld start
+service mysqld restart
+service mysqld stop
+
+# 查找默认登录密码，可能为空
+cat /var/log/mysqld.log | grep password
+
+
+# 输入登录密码登录
+mysql -uroot -p
+
+
+# 修改登录密码
+use mysql;
+update user set password = password('123456') where user ='root';
+flush privileges;
+```
+
+
+
+
+
+## 常用sql语句
+
+```sql
+show databases;
+
+show tables
+```
+
 
 ## 设定字段为一个枚举
 
@@ -56,9 +107,13 @@ status;#查看编码
 alter database db_name CHARACTER SET utf8;
 ```
 
-==数据库直接操作时养成习惯不管干啥都先敲个 begin; 确认没问题了再 commit;==
+
+```ad-tip
+数据库直接操作时养成习惯不管干啥都先敲个 begin; 确认没问题了再 commit;
+```
 
 ## 查看数据库信息
+
 
 ```sql
 show variables;

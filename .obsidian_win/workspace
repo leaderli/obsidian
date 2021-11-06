@@ -6,13 +6,28 @@
       {
         "id": "ad10006f9311813b",
         "type": "leaf",
+        "dimension": 54.880136986301366,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "template/mermaid_state.md",
+            "file": "md/mysql.md",
+            "mode": "source"
+          }
+        },
+        "group": "a99005111ae58650"
+      },
+      {
+        "id": "f89adb8756814c12",
+        "type": "leaf",
+        "dimension": 45.11986301369862,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/mysql.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "a99005111ae58650"
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pathRewrite",
+                "query": "yum",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +79,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -84,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "template/mermaid_state.md",
+                "file": "md/mysql.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "template/mermaid_state.md"
+                "file": "md/mysql.md"
               }
             }
           },
@@ -122,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "template/mermaid_state.md",
+                "file": "md/mysql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,19 +149,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360
+    "width": 360,
+    "collapsed": true
   },
-  "active": "ad10006f9311813b",
+  "active": "f89adb8756814c12",
   "lastOpenFiles": [
+    "md/mysql.md",
+    "md/centos.md",
+    "md/win10.md",
+    "md/linux环境变量.md",
+    "md/linux查看.md",
+    "md/obsidan.md",
+    "md/docker.md",
+    "md/docker-compose.md",
     "template/mermaid_state.md",
-    "kanban.md",
-    "template/ad_template.md",
-    "resource/5238116129180.png",
-    "unlinked files output.md",
-    "md/webpack.md",
-    "md/test.md",
-    "md/linux常用命令.md",
-    "md/自动机理论.md",
-    "md/idea.md"
+    "kanban.md"
   ]
 }
