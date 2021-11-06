@@ -161,7 +161,13 @@ python3 -m pip
 python3 -m pip install packageName
 python3 -m pip uninstall packageName
 python3 -m pip search packageName
+
+
+# 临时指定镜像
+pip3 install xxx -i https://mirrors.163.com/pypi/simple/
 ```
+
+
 
 
 ## `XML`解析
