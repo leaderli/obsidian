@@ -4,30 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ad10006f9311813b",
-        "type": "leaf",
-        "dimension": 37.12574850299401,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/vue.md",
-            "mode": "source"
-          }
-        },
-        "group": "a99005111ae58650"
-      },
-      {
         "id": "f89adb8756814c12",
         "type": "leaf",
-        "dimension": 62.874251497005986,
         "state": {
           "type": "markdown",
           "state": {
             "file": "md/vue.md",
             "mode": "preview"
           }
-        },
-        "group": "a99005111ae58650"
+        }
       }
     ],
     "direction": "vertical"
@@ -54,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pip python",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,11 +64,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 295
+    "width": 295,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -151,7 +138,7 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "ad10006f9311813b",
+  "active": "f89adb8756814c12",
   "lastOpenFiles": [
     "md/vue.md",
     "md/mysql.md",
