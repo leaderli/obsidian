@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "md/vue.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -64,8 +64,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",

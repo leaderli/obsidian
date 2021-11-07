@@ -653,7 +653,7 @@ keyCode
 
 ### `$emit`
 
-使用`$emit`在当前实例上抛出一个事件，可以使用`$on`来监听抛出的事件。
+使用`$emit`在当前实例上抛出一个事件，可以使用`$on`来监听抛出的事件。根据示例可以看出`$emit`和`$on`是作用在同一个vue示例对象上的。
 
 例如
 
@@ -708,7 +708,7 @@ keyCode
 `v-model`语法糖，`v-model`绑定的是一个数据，接收一个 value 属性，，在其有新的 value 时会触发 input 事件。反之亦然。
 等价于`<input :value='someVariable' @input='someHandle'>`
 
-所以上述事例也可以写成如下
+所以上述示例也可以写成如下
 
 ```html
 <div id="app">
@@ -760,7 +760,7 @@ keyCode
 
 ### 不同组件互相通信
 
-建议通过一个空的 vue 实例作为中央事件总线来实现。
+建议通过一个空的 vue 实例作为中央事件总线来实现。现在一般情况下实际使用[[#vuex]]
 
 ```html
 <div id="app">
@@ -2243,7 +2243,7 @@ export default new Router({
 this.#router.push({ name: "Home", params: { index: x } });
 ```
 
-## Vuex
+## vuex
 
 ```shell
 npm install --save-dev vuex
