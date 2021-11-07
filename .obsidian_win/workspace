@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/mysql.md",
+            "file": "md/vue.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/mysql.md",
+            "file": "md/vue.md",
             "mode": "preview"
           }
         },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/mysql.md",
+                "file": "md/vue.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/mysql.md"
+                "file": "md/vue.md"
               }
             }
           },
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/mysql.md",
+                "file": "md/vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,6 +153,7 @@
   },
   "active": "ad10006f9311813b",
   "lastOpenFiles": [
+    "md/vue.md",
     "md/mysql.md",
     "md/python.md",
     "md/nginx.md",
@@ -161,7 +162,6 @@
     "md/linux环境变量.md",
     "md/linux查看.md",
     "md/obsidan.md",
-    "md/docker.md",
-    "md/docker-compose.md"
+    "md/docker.md"
   ]
 }
