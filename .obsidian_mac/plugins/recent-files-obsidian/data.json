@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "js-tips",
+      "path": "md/js-tips.md"
+    },
+    {
+      "basename": "chrome-debug",
+      "path": "md/chrome-debug.md"
+    },
+    {
       "basename": "vue",
       "path": "md/vue.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "自动机理论",
       "path": "md/自动机理论.md"
-    },
-    {
-      "basename": "js-tips",
-      "path": "md/js-tips.md"
     },
     {
       "basename": "springboot-jpa",
@@ -55,10 +59,6 @@
     {
       "basename": "javaparser",
       "path": "md/javaparser.md"
-    },
-    {
-      "basename": "mockjs",
-      "path": "md/mockjs.md"
     }
   ],
   "omittedPaths": [],

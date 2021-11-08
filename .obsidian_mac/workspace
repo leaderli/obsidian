@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue.md",
+            "file": "md/js-tips.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue.md",
+            "file": "md/js-tips.md",
             "mode": "preview"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "controller mock",
+                "query": "css 事件",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,11 +77,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 115.5
+    "width": 141.5
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue.md",
+                "file": "md/js-tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue.md"
+                "file": "md/js-tips.md"
               }
             }
           }
@@ -139,15 +140,15 @@
   },
   "active": "9a13fe338be851b3",
   "lastOpenFiles": [
+    "md/js-tips.md",
+    "md/chrome-debug.md",
     "md/vue.md",
     "md/一些思路.md",
     "md/自动机理论.md",
-    "md/js-tips.md",
     "md/springboot-jpa.md",
     "md/java-string.md",
     "md/eclipse-plugin-develop-tutorial-setup.md",
     "md/java-SPI.md",
-    "md/vue-element-admin.md",
-    "md/webpack.md"
+    "md/vue-element-admin.md"
   ]
 }
