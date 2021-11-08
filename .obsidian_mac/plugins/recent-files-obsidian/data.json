@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "一些思路",
+      "path": "md/一些思路.md"
+    },
+    {
+      "basename": "自动机理论",
+      "path": "md/自动机理论.md"
+    },
+    {
       "basename": "vue",
       "path": "md/vue.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "mockjs",
       "path": "md/mockjs.md"
-    },
-    {
-      "basename": "dom4j",
-      "path": "md/dom4j.md"
-    },
-    {
-      "basename": "JavaPoet",
-      "path": "md/JavaPoet.md"
     }
   ],
   "omittedPaths": [],

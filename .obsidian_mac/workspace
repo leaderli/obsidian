@@ -4,30 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d0d687ad109505bf",
-        "type": "leaf",
-        "dimension": 72.75204359673025,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/vue.md",
-            "mode": "source"
-          }
-        },
-        "group": "c02e5b8d6cd69d4d"
-      },
-      {
         "id": "9a13fe338be851b3",
         "type": "leaf",
-        "dimension": 27.247956403269757,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue.md",
-            "mode": "preview"
+            "file": "md/一些思路.md",
+            "mode": "source"
           }
-        },
-        "group": "c02e5b8d6cd69d4d"
+        }
       }
     ],
     "direction": "vertical"
@@ -79,13 +64,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -101,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue.md",
+                "file": "md/一些思路.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue.md"
+                "file": "md/一些思路.md"
               }
             }
           }
@@ -141,8 +124,10 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "d0d687ad109505bf",
+  "active": "9a13fe338be851b3",
   "lastOpenFiles": [
+    "md/一些思路.md",
+    "md/自动机理论.md",
     "md/vue.md",
     "md/js-tips.md",
     "md/springboot-jpa.md",
@@ -150,8 +135,6 @@
     "md/eclipse-plugin-develop-tutorial-setup.md",
     "md/java-SPI.md",
     "md/vue-element-admin.md",
-    "md/webpack.md",
-    "md/node.md",
-    "md/npm-module.md"
+    "md/webpack.md"
   ]
 }
