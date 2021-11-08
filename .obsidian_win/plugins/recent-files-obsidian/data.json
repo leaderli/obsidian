@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
       "basename": "vue",
       "path": "md/vue.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "docker-compose",
       "path": "md/docker-compose.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     }
   ],
   "omittedPaths": [
