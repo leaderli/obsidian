@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/js-tips.md",
+            "file": "md/vue.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/js-tips.md",
+            "file": "md/vue.md",
             "mode": "preview"
           }
         },
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/js-tips.md",
+                "file": "md/vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/js-tips.md"
+                "file": "md/vue.md"
               }
             }
           }
@@ -140,9 +140,9 @@
   },
   "active": "9a13fe338be851b3",
   "lastOpenFiles": [
-    "md/js-tips.md",
-    "md/chrome-debug.md",
     "md/vue.md",
+    "md/chrome-debug.md",
+    "md/js-tips.md",
     "md/一些思路.md",
     "md/自动机理论.md",
     "md/springboot-jpa.md",
