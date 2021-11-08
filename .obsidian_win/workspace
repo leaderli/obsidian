@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "f89adb8756814c12",
+        "id": "40f77bf124be240e",
         "type": "leaf",
         "state": {
           "type": "kanban",
@@ -136,7 +136,7 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "f89adb8756814c12",
+  "active": "40f77bf124be240e",
   "lastOpenFiles": [
     "kanban.md",
     "md/vue.md",
