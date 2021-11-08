@@ -34,7 +34,7 @@
 </html>
 ```
 
-上述 Vue 实例的构造器中的成员变量可以通过`app.$el`，`app.$data`的方式去访问，对于 data 数据，可以直接使用`app.message`去访问。在 dom 上以 <span>{</span><span>{</span><span>}</span><span>}</span> 包含的内容与 app 进行双向绑定。当我们在 console 控制台修改`app.messege`的值时，页面也随着刷新 message 的内容
+上述 Vue 实例的构造器中的成员变量可以通过`app.$el`，`app.$data`的方式去访问，对于 data 数据，可以直接使用`app.message`去访问。在 dom 上以`{{}}`包含的内容与 app 进行双向绑定。当我们在 console 控制台修改`app.messege`的值时，页面也随着刷新 message 的内容
 
 [双向绑定实现原理](https://www.cnblogs.com/zhuzhenwei918/p/7309604.html)
 
@@ -132,7 +132,7 @@ Vue 提供了 Vue.extend 和$mount 两个方法将 vue 实例挂载到一个 dom
 
 ## 插值与表达式
 
-1. <span>{</span><span>{</span><span>}</span><span>}</span> 使用双大括号（Mustache 语法），双向绑定的数据，<span>{</span><span>{</span><span>}</span><span>}</span> 内部可以使用 js 运算
+1.`{{}}` 使用双大括号（Mustache 语法），双向绑定的数据，`{{}}` 内部可以使用 js 运算
 
    ```html
    <div id="app">
@@ -151,7 +151,7 @@ Vue 提供了 Vue.extend 和$mount 两个方法将 vue 实例挂载到一个 dom
      });
    ```
 
-2. <span>{</span><span>{</span><span>}</span><span>}</span> 支持使用管道符`|`来对数据进行过滤，过滤的规则是自定义了，通过选项`filters`来设置，过滤器可以接受参数，过滤器可以串联
+2.`{{}}` 支持使用管道符`|`来对数据进行过滤，过滤的规则是自定义了，通过选项`filters`来设置，过滤器可以接受参数，过滤器可以串联
 
    ```html
    <div id="app">
@@ -653,7 +653,7 @@ keyCode
 
 ### `$emit`
 
-使用`$emit`来触发自定义事件，使用`$on`来监听子组件的事件。
+使用`$emit`在当前实例上抛出一个事件，可以使用`$on`来监听抛出的事件。根据示例可以看出`$emit`和`$on`是作用在同一个vue示例对象上的。
 
 例如
 
@@ -708,7 +708,7 @@ keyCode
 `v-model`语法糖，`v-model`绑定的是一个数据，接收一个 value 属性，，在其有新的 value 时会触发 input 事件。反之亦然。
 等价于`<input :value='someVariable' @input='someHandle'>`
 
-所以上述事例也可以写成如下
+所以上述示例也可以写成如下
 
 ```html
 <div id="app">
@@ -760,7 +760,7 @@ keyCode
 
 ### 不同组件互相通信
 
-建议通过一个空的 vue 实例作为中央事件总线来实现。
+建议通过一个空的 vue 实例作为中央事件总线来实现。现在一般情况下实际使用[[#vuex]]
 
 ```html
 <div id="app">
@@ -2243,7 +2243,7 @@ export default new Router({
 this.#router.push({ name: "Home", params: { index: x } });
 ```
 
-## Vuex
+## vuex
 
 ```shell
 npm install --save-dev vuex

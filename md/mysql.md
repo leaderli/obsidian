@@ -2,8 +2,16 @@
 
 使用[[docker#mysql|docker]]安装
  
-客户端软件推荐[DBeaver](https://dbeaver.io/)
 
+使用 [[python#pip|pip]]安装一个方便mycli，方便操作数据库
+
+```shell
+pip3 install mycli
+
+# 登录
+mycli -u root -p 123456 
+
+```
 
 centos7上安装mysql5.7步骤
 
@@ -43,6 +51,15 @@ mysql -uroot -p
 use mysql;
 update user set password = password('123456') where user ='root';
 flush privileges;
+
+
+# 开启外网访问
+update user set host="%" where Host='localhost' and user = "root";
+flush privileges;
+
+# 修改后只能通过IP去方法
+
+mysql -h 127.0.01 -u root -p
 ```
 
 
@@ -50,6 +67,7 @@ flush privileges;
 
 
 ## 常用sql语句
+
 
 ```sql
 show databases;
@@ -131,3 +149,19 @@ select substring(job,1,3) from emp;
 
 
 ```
+
+
+## 常见问题
+
+
+>fatal error: Please read "Security" section of the manual to find out how to run mysqld as root!
+
+[参考](https://www.cnblogs.com/xushuyi/articles/9082512.html)
+
+不建议使用root用户来操作，而应该使用mysql用户，可通过mysqld --user=root 指定用户来强制执行
+
+
+>Access denied for user 'root'@'localhost' (using password: YES)
+
+
+[参考](https://stackoverflow.com/questions/10299148/mysql-error-1045-28000-access-denied-for-user-billlocalhost-using-passw)

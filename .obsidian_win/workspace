@@ -4,30 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ad10006f9311813b",
-        "type": "leaf",
-        "dimension": 54.880136986301366,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/mysql.md",
-            "mode": "source"
-          }
-        },
-        "group": "a99005111ae58650"
-      },
-      {
         "id": "f89adb8756814c12",
         "type": "leaf",
-        "dimension": 45.11986301369862,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/mysql.md",
-            "mode": "preview"
+            "file": "md/vue.md",
+            "mode": "source"
           }
-        },
-        "group": "a99005111ae58650"
+        }
       }
     ],
     "direction": "vertical"
@@ -54,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "yum",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,12 +64,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 295
+    "width": 295,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -100,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/mysql.md",
+                "file": "md/vue.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/mysql.md"
+                "file": "md/vue.md"
               }
             }
           },
@@ -138,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/mysql.md",
+                "file": "md/vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,15 +139,15 @@
   },
   "active": "f89adb8756814c12",
   "lastOpenFiles": [
+    "md/vue.md",
     "md/mysql.md",
+    "md/python.md",
+    "md/nginx.md",
     "md/centos.md",
     "md/win10.md",
     "md/linux环境变量.md",
     "md/linux查看.md",
     "md/obsidan.md",
-    "md/docker.md",
-    "md/docker-compose.md",
-    "template/mermaid_state.md",
-    "kanban.md"
+    "md/docker.md"
   ]
 }

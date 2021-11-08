@@ -1,5 +1,11 @@
 #python #tutorial  
 
+## 安装
+
+```shell
+# centos7
+yum install -y python3
+```
 ## class 实例的方法，第一个参数自动转换为实例的索引
 
 第一个参数不一定非要是`self`
@@ -144,9 +150,25 @@ class SongBird(Bird):
 assert x >= 0, 'x is less than zero'
 ```
 
-## 更新`PIP`
+## pip
 
-`python -m pip install -U pip`
+python3现在内置pip
+
+```shell
+python3 -m pip 
+
+# 常用命令
+python3 -m pip install packageName
+python3 -m pip uninstall packageName
+python3 -m pip search packageName
+
+
+# 临时指定镜像
+pip3 install xxx -i https://mirrors.163.com/pypi/simple/
+```
+
+
+
 
 ## `XML`解析
 

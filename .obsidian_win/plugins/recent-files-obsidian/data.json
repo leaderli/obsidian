@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "vue",
+      "path": "md/vue.md"
+    },
+    {
       "basename": "mysql",
       "path": "md/mysql.md"
+    },
+    {
+      "basename": "python",
+      "path": "md/python.md"
+    },
+    {
+      "basename": "nginx",
+      "path": "md/nginx.md"
     },
     {
       "basename": "centos",
