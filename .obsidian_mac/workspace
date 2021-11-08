@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/一些思路.md",
+            "file": "md/vue.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "5cf155d22c145f71"
+      },
+      {
+        "id": "753624aa27df0a55",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/vue.md",
+            "mode": "preview"
+          }
+        },
+        "group": "5cf155d22c145f71"
       }
     ],
     "direction": "vertical"
@@ -68,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 115.5
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -84,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/一些思路.md",
+                "file": "md/vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/一些思路.md"
+                "file": "md/vue.md"
               }
             }
           }
@@ -126,9 +139,9 @@
   },
   "active": "9a13fe338be851b3",
   "lastOpenFiles": [
+    "md/vue.md",
     "md/一些思路.md",
     "md/自动机理论.md",
-    "md/vue.md",
     "md/js-tips.md",
     "md/springboot-jpa.md",
     "md/java-string.md",
