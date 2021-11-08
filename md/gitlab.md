@@ -1,5 +1,40 @@
 #git #gitlab 
 
+## 安装
+
+[官方文档](https://about.gitlab.com/install/#centos-7)
+
+1. 安装必要的依赖
+	```shell
+	sudo yum install -y curl policycoreutils-python openssh-server perl
+	# Enable OpenSSH server daemon if not enabled: sudo systemctl status sshd
+	sudo systemctl enable sshd
+	sudo systemctl start sshd
+
+	# Check if opening the firewall is needed with: sudo systemctl status firewalld
+	sudo firewall-cmd --permanent --add-service=http
+	sudo firewall-cmd --permanent --add-service=https
+	sudo systemctl reload firewalld
+
+	```
+
+	```shell
+	# 邮件服务
+	sudo yum install postfix
+	sudo systemctl enable postfix
+	sudo systemctl start postfix
+	```
+
+2. 安装gitlab
+	```shell
+	curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
+	```
+
+	```shell
+	# 设置你的gitlab的访问域名
+	sudo EXTERNAL_URL="https://centos7:20001" yum install -y gitlab-ee
+	```
+
 ```ad-info
 
 测试环境初始密码:qwer1234

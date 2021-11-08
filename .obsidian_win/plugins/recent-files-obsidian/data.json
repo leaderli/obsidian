@@ -5,6 +5,10 @@
       "path": "kanban.md"
     },
     {
+      "basename": "gitlab",
+      "path": "md/gitlab.md"
+    },
+    {
       "basename": "vue",
       "path": "md/vue.md"
     },
