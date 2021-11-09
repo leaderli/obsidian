@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "centos",
+      "path": "md/centos.md"
+    },
+    {
+      "basename": "node",
+      "path": "md/node.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "nginx",
       "path": "md/nginx.md"
-    },
-    {
-      "basename": "centos",
-      "path": "md/centos.md"
     },
     {
       "basename": "win10",

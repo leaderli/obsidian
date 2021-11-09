@@ -6,6 +6,23 @@ tags:
   - node
 ---
 
+## 安装
+
+```shell
+# centos7
+
+# 卸载之前安装的
+yum remove -y nodejs npm
+
+# 安装14的源
+curl --silent --location https://rpm.nodesource.com/setup_14.x | sudo bash
+
+yum install -y nodejs
+
+# 清理之前的缓存
+yum clean all
+```
+
 ## `npm`
 
 NPM 是随同 NodeJS 一起安装的包管理工具, `nodejs`的包管理器，用于 node 插件管理，包括安装，卸载，管理依赖等
@@ -31,7 +48,10 @@ npm install express -g   # 全局安装
 #需要将global的目录配置到环境变量中
 npm config set prefix "D:\resouce\node\node_modules\node_global"
 npm config set cache "D:\resouce\node\node_modules\node_cache"
-npm install -g cnpm --registry=https://registry.npm.taobao.org
+npm config set registry https://registry.npm.taobao.org
+
+# 清除缓存
+npm cache clean -f
 ```
 
 ### yarn配置

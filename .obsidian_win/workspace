@@ -7,11 +7,25 @@
         "id": "40f77bf124be240e",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/centos.md",
+            "mode": "source"
           }
-        }
+        },
+        "group": "b6f1d71037bc6102"
+      },
+      {
+        "id": "695e7eb3a2af0d3b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/centos.md",
+            "mode": "preview"
+          }
+        },
+        "group": "b6f1d71037bc6102"
       }
     ],
     "direction": "vertical"
@@ -38,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "j",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,11 +77,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 295
+    "width": 295,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -83,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/centos.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/centos.md"
               }
             }
           },
@@ -121,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/centos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,17 +151,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "40f77bf124be240e",
+  "active": "695e7eb3a2af0d3b",
   "lastOpenFiles": [
+    "md/centos.md",
+    "md/node.md",
     "kanban.md",
     "md/gitlab.md",
     "md/vue.md",
     "md/mysql.md",
     "md/python.md",
     "md/nginx.md",
-    "md/centos.md",
     "md/win10.md",
-    "md/linux环境变量.md",
-    "md/linux查看.md"
+    "md/linux环境变量.md"
   ]
 }
