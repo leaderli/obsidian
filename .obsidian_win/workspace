@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/centos.md",
+            "file": "md/linux.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/centos.md",
+            "file": "md/linux.md",
             "mode": "preview"
           }
         },
@@ -52,10 +52,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "j",
+                "query": "vmware",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295,
-    "collapsed": true
+    "width": 295
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/centos.md",
+                "file": "md/linux.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/centos.md"
+                "file": "md/linux.md"
               }
             }
           },
@@ -137,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/centos.md",
+                "file": "md/linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,17 +150,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "695e7eb3a2af0d3b",
+  "active": "40f77bf124be240e",
   "lastOpenFiles": [
+    "md/linux.md",
+    "md/linux常用命令.md",
+    "md/nginx.md",
+    "md/linux搜索.md",
+    "md/linux文件系统.md",
+    "md/深入git.md",
     "md/centos.md",
     "md/node.md",
     "kanban.md",
-    "md/gitlab.md",
-    "md/vue.md",
-    "md/mysql.md",
-    "md/python.md",
-    "md/nginx.md",
-    "md/win10.md",
-    "md/linux环境变量.md"
+    "md/gitlab.md"
   ]
 }
