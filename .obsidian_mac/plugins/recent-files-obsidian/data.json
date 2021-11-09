@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "AST",
+      "path": "md/AST.md"
+    },
+    {
+      "basename": "tcpdump",
+      "path": "md/tcpdump.md"
+    },
+    {
       "basename": "vue",
       "path": "md/vue.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "npm-module",
       "path": "md/npm-module.md"
-    },
-    {
-      "basename": "JavaParser_ Visited",
-      "path": "resource/JavaParser_ Visited.pdf"
-    },
-    {
-      "basename": "javaparser",
-      "path": "md/javaparser.md"
     }
   ],
   "omittedPaths": [],
