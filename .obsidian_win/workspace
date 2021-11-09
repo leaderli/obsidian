@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/linux.md",
+            "file": "md/linux文件系统.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/linux.md",
+            "file": "md/linux文件系统.md",
             "mode": "preview"
           }
         },
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vmware",
+                "query": "软链接",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/linux.md",
+                "file": "md/linux文件系统.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/linux.md"
+                "file": "md/linux文件系统.md"
               }
             }
           },
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/linux.md",
+                "file": "md/linux文件系统.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,15 +152,15 @@
   },
   "active": "40f77bf124be240e",
   "lastOpenFiles": [
+    "md/linux文件系统.md",
+    "md/vmware.md",
     "md/linux.md",
     "md/linux常用命令.md",
     "md/nginx.md",
     "md/linux搜索.md",
-    "md/linux文件系统.md",
     "md/深入git.md",
     "md/centos.md",
     "md/node.md",
-    "kanban.md",
-    "md/gitlab.md"
+    "kanban.md"
   ]
 }
