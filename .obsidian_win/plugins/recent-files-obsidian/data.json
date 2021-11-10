@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "linux搜索",
+      "path": "md/linux搜索.md"
+    },
+    {
       "basename": "node",
       "path": "md/node.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "nginx",
       "path": "md/nginx.md"
-    },
-    {
-      "basename": "linux搜索",
-      "path": "md/linux搜索.md"
     },
     {
       "basename": "深入git",

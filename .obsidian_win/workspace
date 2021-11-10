@@ -6,10 +6,11 @@
       {
         "id": "40f77bf124be240e",
         "type": "leaf",
+        "dimension": 22.624434389140273,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/node.md",
+            "file": "md/linux搜索.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "695e7eb3a2af0d3b",
         "type": "leaf",
+        "dimension": 77.37556561085974,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/node.md",
+            "file": "md/linux搜索.md",
             "mode": "preview"
           }
         },
@@ -52,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "软链接",
+                "query": "grep",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/node.md",
+                "file": "md/linux搜索.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -126,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/node.md"
+                "file": "md/linux搜索.md"
               }
             }
           },
@@ -136,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/node.md",
+                "file": "md/linux搜索.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,15 +152,15 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "40f77bf124be240e",
+  "active": "695e7eb3a2af0d3b",
   "lastOpenFiles": [
+    "md/linux搜索.md",
     "md/node.md",
     "md/linux文件系统.md",
     "md/vmware.md",
     "md/linux.md",
     "md/linux常用命令.md",
     "md/nginx.md",
-    "md/linux搜索.md",
     "md/深入git.md",
     "md/centos.md",
     "kanban.md"
