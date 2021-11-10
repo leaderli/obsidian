@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
+      "basename": "java反射",
+      "path": "md/java反射.md"
+    },
+    {
       "basename": "AST",
       "path": "md/AST.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "webpack",
       "path": "md/webpack.md"
-    },
-    {
-      "basename": "node",
-      "path": "md/node.md"
-    },
-    {
-      "basename": "npm-module",
-      "path": "md/npm-module.md"
     }
   ],
   "omittedPaths": [],

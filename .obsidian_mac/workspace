@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/AST.md",
+            "file": "md/java-tips.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/AST.md",
+            "file": "md/java-tips.md",
             "mode": "preview"
           }
         },
@@ -52,10 +52,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "javap",
+                "query": "classpath",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 539.5
+    "width": 125.5
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/AST.md",
+                "file": "md/java-tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/AST.md"
+                "file": "md/java-tips.md"
               }
             }
           }
@@ -140,6 +140,8 @@
   },
   "active": "9a13fe338be851b3",
   "lastOpenFiles": [
+    "md/java-tips.md",
+    "md/java反射.md",
     "md/AST.md",
     "md/tcpdump.md",
     "md/vue.md",
@@ -147,8 +149,6 @@
     "md/js-tips.md",
     "md/一些思路.md",
     "md/自动机理论.md",
-    "md/springboot-jpa.md",
-    "md/java-string.md",
-    "md/eclipse-plugin-develop-tutorial-setup.md"
+    "md/springboot-jpa.md"
   ]
 }
