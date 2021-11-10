@@ -6,10 +6,11 @@
       {
         "id": "9a13fe338be851b3",
         "type": "leaf",
+        "dimension": 53.839590443686006,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-tips.md",
+            "file": "md/node.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "753624aa27df0a55",
         "type": "leaf",
+        "dimension": 46.160409556313994,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-tips.md",
+            "file": "md/node.md",
             "mode": "preview"
           }
         },
@@ -52,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "isas",
+                "query": "brew",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 580.5
+    "width": 228
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -98,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-tips.md",
+                "file": "md/node.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java-tips.md"
+                "file": "md/node.md"
               }
             }
           }
@@ -138,8 +140,9 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "9a13fe338be851b3",
+  "active": "753624aa27df0a55",
   "lastOpenFiles": [
+    "md/node.md",
     "md/java-tips.md",
     "md/java反射.md",
     "md/AST.md",
@@ -148,7 +151,6 @@
     "md/chrome-debug.md",
     "md/js-tips.md",
     "md/一些思路.md",
-    "md/自动机理论.md",
-    "md/springboot-jpa.md"
+    "md/自动机理论.md"
   ]
 }

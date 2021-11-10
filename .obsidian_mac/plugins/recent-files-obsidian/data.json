@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "node",
+      "path": "md/node.md"
+    },
+    {
       "basename": "java-tips",
       "path": "md/java-tips.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "vue-element-admin",
       "path": "md/vue-element-admin.md"
-    },
-    {
-      "basename": "webpack",
-      "path": "md/webpack.md"
     }
   ],
   "omittedPaths": [],

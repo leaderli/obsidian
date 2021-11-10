@@ -217,6 +217,34 @@ public class Test
 //file:/C:/Users/Jon/Test/foo/Test.class
 ```
 
+### 扫描所有类
+
+```java
+public void test() throws IOException, URISyntaxException {  
+  
+  
+    Enumeration<URL> resources = this.getClass().getClassLoader().getResources("");
+  
+    while (resources.hasMoreElements()){  
+  
+        scan(new File(resources.nextElement().toURI()));  
+    }  
+}  
+  
+private void scan(File file) {  
+    if(file==null||!file.exists()){  
+       return;  
+    }  
+  
+    System.out.println(file);  
+  
+    if(file.isDirectory()){  
+        for (File f: Objects.requireNonNull(file.listFiles())) {  
+            scan(f);  
+        }  
+    }  
+}
+```
 ### 获取项目中所有jar
 
 可查找classpath目录下所有的[[maven#META-INF|META-INF]]，从而找到所有jar包
