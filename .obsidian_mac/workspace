@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "classpath",
+                "query": "isas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 125.5
+    "width": 580.5
   },
   "right": {
     "id": "4b761e4e5ad66709",
