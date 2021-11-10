@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "linux文件系统",
+      "path": "md/linux文件系统.md"
+    },
+    {
+      "basename": "vmware",
+      "path": "md/vmware.md"
+    },
+    {
+      "basename": "linux",
+      "path": "md/linux.md"
+    },
+    {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
+      "basename": "nginx",
+      "path": "md/nginx.md"
+    },
+    {
+      "basename": "linux搜索",
+      "path": "md/linux搜索.md"
+    },
+    {
+      "basename": "深入git",
+      "path": "md/深入git.md"
+    },
+    {
+      "basename": "centos",
+      "path": "md/centos.md"
+    },
+    {
+      "basename": "node",
+      "path": "md/node.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "gitlab",
+      "path": "md/gitlab.md"
+    },
+    {
       "basename": "vue",
       "path": "md/vue.md"
     },
@@ -11,14 +55,6 @@
     {
       "basename": "python",
       "path": "md/python.md"
-    },
-    {
-      "basename": "nginx",
-      "path": "md/nginx.md"
-    },
-    {
-      "basename": "centos",
-      "path": "md/centos.md"
     },
     {
       "basename": "win10",
@@ -43,10 +79,6 @@
     {
       "basename": "docker-compose",
       "path": "md/docker-compose.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     }
   ],
   "omittedPaths": [

@@ -52,6 +52,26 @@ worker_processes 1;
 当更改配置文件后，可以使用`nginx -s reload`，使配置文件生效。
 当 master 进程接收到 reload 的信号后，它首先会校验配置文件语法是否正确然后才会接收新的配置文件，若配置文件修改成功，master 进程会启动新的 worker 进程，并向旧的 worker 进程发送停止命令，旧的 worker 进程会以旧的配置处理请求，在处理完旧的请求后便会退出。
 
+
+配置开机启动
+
+`vi /usr/lib/systemd/system/nginx.service`
+
+```bash
+[Unit]
+Description=nginx
+After=network.target
+  
+[Service]
+Type=forking
+ExecStart=/usr/sbin/nginx
+ExecReload=/usr/sbin/nginx -s reload
+ExecStop=/usr/sbin/nginx -s quit
+PrivateTmp=true
+  
+[Install]
+WantedBy=multi-user.target
+```
 ## 配置
 
 ### 可用变量
