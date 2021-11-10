@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "node",
+      "path": "md/node.md"
+    },
+    {
       "basename": "linux文件系统",
       "path": "md/linux文件系统.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "centos",
       "path": "md/centos.md"
-    },
-    {
-      "basename": "node",
-      "path": "md/node.md"
     },
     {
       "basename": "kanban",

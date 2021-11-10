@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/linux文件系统.md",
+            "file": "md/node.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/linux文件系统.md",
+            "file": "md/node.md",
             "mode": "preview"
           }
         },
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/linux文件系统.md",
+                "file": "md/node.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/linux文件系统.md"
+                "file": "md/node.md"
               }
             }
           },
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/linux文件系统.md",
+                "file": "md/node.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,6 +152,7 @@
   },
   "active": "40f77bf124be240e",
   "lastOpenFiles": [
+    "md/node.md",
     "md/linux文件系统.md",
     "md/vmware.md",
     "md/linux.md",
@@ -160,7 +161,6 @@
     "md/linux搜索.md",
     "md/深入git.md",
     "md/centos.md",
-    "md/node.md",
     "kanban.md"
   ]
 }
