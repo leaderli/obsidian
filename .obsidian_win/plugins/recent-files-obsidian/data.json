@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "nginx",
+      "path": "md/nginx.md"
+    },
+    {
       "basename": "linux搜索",
       "path": "md/linux搜索.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
-    },
-    {
-      "basename": "nginx",
-      "path": "md/nginx.md"
     },
     {
       "basename": "深入git",

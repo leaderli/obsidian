@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/linux搜索.md",
+            "file": "md/nginx.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/linux搜索.md",
+            "file": "md/nginx.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295
+    "width": 295,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/linux搜索.md",
+                "file": "md/nginx.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/linux搜索.md"
+                "file": "md/nginx.md"
               }
             }
           },
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/linux搜索.md",
+                "file": "md/nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,13 +155,13 @@
   },
   "active": "695e7eb3a2af0d3b",
   "lastOpenFiles": [
+    "md/nginx.md",
     "md/linux搜索.md",
     "md/node.md",
     "md/linux文件系统.md",
     "md/vmware.md",
     "md/linux.md",
     "md/linux常用命令.md",
-    "md/nginx.md",
     "md/深入git.md",
     "md/centos.md",
     "kanban.md"
