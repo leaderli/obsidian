@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "brew",
+                "query": "zip",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
