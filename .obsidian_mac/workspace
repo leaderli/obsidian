@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "brew",
+                "query": "firewall",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
