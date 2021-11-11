@@ -39,4 +39,23 @@ $$
 
 ### 首终结符
 
-串首第一个符号，并且式终结符，也叫做串首终结符集
+串首第一个符号，并且是[[语言及文法#终结符|终结符]]，也叫做串首终结符集
+
+### 串首终结符集
+
+给定一个文法符号串 $\alpha$ ，$\alpha$ 的串首终结符集 $FIRST(\alpha)$ 被定义为可以从 $\alpha$ 推导出的所有串首终结符构成的集合。如果 $\alpha \Rightarrow^* \varepsilon$  那么 $\varepsilon$ 也在 $FIRST(\alpha)$ 中
+
+$$
+\forall_\alpha \in (V_T \cup V_N)^+ , FIRST(\alpha) = \lbrace \alpha\mid\alpha \Rightarrow^* \alpha\beta,\alpha \in V_T,\beta \in (V_T \cup V_N)^* \rbrace;
+
+$$
+
+$$
+\alpha \Rightarrow ^* \varepsilon , \varepsilon \in FIRST(\alpha)
+$$
+
+
+[[语言及文法#产生式|产生式]] $A \to \alpha$ 的可选集 $SELECT$
+
+如果 $\varepsilon \notin FIRST(\alpha)$ ，那么 $SELECT(A\to\alpha)=FIRST(\alpha)$
+如果 $\varepsilon \in FIRST(\alpha)$ ，那么 $SELECT(A\to\alpha)=(FIRST(\alpha)-\varepsilon) \cup FOLLOW(A)$

@@ -6,11 +6,11 @@
       {
         "id": "40f77bf124be240e",
         "type": "leaf",
-        "dimension": 22.624434389140273,
+        "dimension": 50.551314673452076,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/nginx.md",
+            "file": "md/LL(1).md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "695e7eb3a2af0d3b",
         "type": "leaf",
-        "dimension": 77.37556561085974,
+        "dimension": 49.44868532654792,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/nginx.md",
+            "file": "md/LL(1).md",
             "mode": "preview"
           }
         },
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/nginx.md",
+                "file": "md/LL(1).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/nginx.md"
+                "file": "md/LL(1).md"
               }
             }
           },
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/nginx.md",
+                "file": "md/LL(1).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,17 +153,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "695e7eb3a2af0d3b",
+  "active": "40f77bf124be240e",
   "lastOpenFiles": [
+    "md/LL(1).md",
+    "md/katex.md",
+    "md/语言及文法.md",
+    "md/编译原理.md",
+    "md/vim.md",
     "md/nginx.md",
     "md/linux搜索.md",
     "md/node.md",
     "md/linux文件系统.md",
-    "md/vmware.md",
-    "md/linux.md",
-    "md/linux常用命令.md",
-    "md/深入git.md",
-    "md/centos.md",
-    "kanban.md"
+    "md/vmware.md"
   ]
 }

@@ -193,6 +193,7 @@ g 前缀字符，用于更改其后面的按键行为，可将其视为一整个
 
 ## 配置文件
 
+可使用[推荐](https://github.com/amix/vimrc)
 vim 的配置在`~/.vimrc`中。
 
 ```conf
@@ -218,6 +219,9 @@ hi Search term=reverse ctermfg=white ctermbg=red "高亮搜索
 
 ```shell
 :hi
+
+# 关闭当前搜索高亮，直到下一次
+:noh 
 ```
 
 例如
