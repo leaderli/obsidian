@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "tcpdump",
+      "path": "md/tcpdump.md"
+    },
+    {
       "basename": "node",
       "path": "md/node.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "AST",
       "path": "md/AST.md"
-    },
-    {
-      "basename": "tcpdump",
-      "path": "md/tcpdump.md"
     },
     {
       "basename": "vue",
