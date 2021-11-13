@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "vue",
+      "path": "md/vue.md"
+    },
+    {
+      "basename": "node",
+      "path": "md/node.md"
+    },
+    {
       "basename": "typescript",
       "path": "md/typescript.md"
     },
@@ -49,10 +61,6 @@
       "path": "md/linux搜索.md"
     },
     {
-      "basename": "node",
-      "path": "md/node.md"
-    },
-    {
       "basename": "linux文件系统",
       "path": "md/linux文件系统.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "深入git",
       "path": "md/深入git.md"
-    },
-    {
-      "basename": "centos",
-      "path": "md/centos.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     }
   ],
   "omittedPaths": [
