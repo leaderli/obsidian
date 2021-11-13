@@ -4,41 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "40f77bf124be240e",
+        "id": "b8d3f32e23503c1f",
         "type": "leaf",
-        "dimension": 24.509803921568626,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/vue3.md",
-            "mode": "source"
-          }
-        },
-        "group": "b6f1d71037bc6102"
-      },
-      {
-        "id": "695e7eb3a2af0d3b",
-        "type": "leaf",
-        "dimension": 24.509803921568626,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/vue3.md",
-            "mode": "preview"
-          }
-        },
-        "group": "b6f1d71037bc6102"
-      },
-      {
-        "id": "efcebf462f9abe58",
-        "type": "leaf",
-        "dimension": 50.98039215686274,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/vue.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -91,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -112,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue3.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "md/vue3.md"
-              }
+              "state": {}
             }
           },
           {
@@ -150,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/vue3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,8 +129,9 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "695e7eb3a2af0d3b",
+  "active": "b8d3f32e23503c1f",
   "lastOpenFiles": [
+    "kanban.md",
     "md/vue3.md",
     "md/vue.md",
     "md/node.md",
@@ -174,7 +140,6 @@
     "md/vim.md",
     "md/vite.md",
     "md/git.md",
-    "md/shell-tips.md",
-    "md/LL(1).md"
+    "md/shell-tips.md"
   ]
 }

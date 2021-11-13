@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
       "basename": "vue3",
       "path": "md/vue3.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
-    },
-    {
-      "basename": "深入git",
-      "path": "md/深入git.md"
     }
   ],
   "omittedPaths": [
