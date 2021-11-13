@@ -60,6 +60,13 @@ com.apple.keylayout.ABC
 ]
 ```
 
+
+3. 自动情况output的console
+
+```json
+"code-runner.clearPreviousOutput": true
+```
+
 具体详情配置可参考插件的文档
 
 ## 最近打开文件

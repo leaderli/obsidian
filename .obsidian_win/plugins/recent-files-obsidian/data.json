@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "vscode相关",
+      "path": "md/vscode相关.md"
+    },
+    {
+      "basename": "typescript",
+      "path": "md/typescript.md"
+    },
+    {
+      "basename": "vim",
+      "path": "md/vim.md"
+    },
+    {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
+      "basename": "git",
+      "path": "md/git.md"
+    },
+    {
+      "basename": "shell-tips",
+      "path": "md/shell-tips.md"
+    },
+    {
       "basename": "LL(1)",
       "path": "md/LL(1).md"
     },
@@ -15,10 +39,6 @@
     {
       "basename": "编译原理",
       "path": "md/编译原理.md"
-    },
-    {
-      "basename": "vim",
-      "path": "md/vim.md"
     },
     {
       "basename": "nginx",
@@ -59,26 +79,6 @@
     {
       "basename": "kanban",
       "path": "kanban.md"
-    },
-    {
-      "basename": "gitlab",
-      "path": "md/gitlab.md"
-    },
-    {
-      "basename": "vue",
-      "path": "md/vue.md"
-    },
-    {
-      "basename": "mysql",
-      "path": "md/mysql.md"
-    },
-    {
-      "basename": "python",
-      "path": "md/python.md"
-    },
-    {
-      "basename": "win10",
-      "path": "md/win10.md"
     }
   ],
   "omittedPaths": [

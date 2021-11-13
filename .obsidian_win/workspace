@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/LL(1).md",
+            "file": "md/vscode相关.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/LL(1).md",
+            "file": "md/vscode相关.md",
             "mode": "preview"
           }
         },
@@ -54,9 +54,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "grep",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295,
-    "collapsed": true
+    "width": 295
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/LL(1).md",
+                "file": "md/vscode相关.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/LL(1).md"
+                "file": "md/vscode相关.md"
               }
             }
           },
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/LL(1).md",
+                "file": "md/vscode相关.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,15 +154,15 @@
   },
   "active": "40f77bf124be240e",
   "lastOpenFiles": [
+    "md/vscode相关.md",
+    "md/typescript.md",
+    "md/vim.md",
+    "md/vite.md",
+    "md/git.md",
+    "md/shell-tips.md",
     "md/LL(1).md",
     "md/katex.md",
     "md/语言及文法.md",
-    "md/编译原理.md",
-    "md/vim.md",
-    "md/nginx.md",
-    "md/linux搜索.md",
-    "md/node.md",
-    "md/linux文件系统.md",
-    "md/vmware.md"
+    "md/编译原理.md"
   ]
 }
