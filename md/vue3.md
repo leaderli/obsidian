@@ -115,7 +115,52 @@ watch(
 
 ## setup钩子
 
+| 选项式API       | setup中使用       | 说明 |
+| --------------- | ----------------- | ---- |
+| beforeCreate    | Not needed*       |      |
+| created         | Not needed*       |      |
+| beforeMount     | onBeforeMount     |      |
+| mounted         | onMounted         |      |
+| beforeUpdate    | onBeforeUpdate    |      |
+| updated         | onUpdated         |      |
+| beforeUnmount   | onBeforeUnmount   |      |
+| unmounted       | onUnmounted       |      |
+| errorCaptured   | onErrorCaptured   |      |
+| renderTracked   | onRenderTracked   |      |
+| renderTriggered | onRenderTriggered |      |
+| activated       | onActivated       |      |
+| deactivated     | onDeactivated     |      |
+|                |                   |      |
 
+
+例如
+
+```html
+<script setup lang="ts">
+
+import { onMounted, onUnmounted } from 'vue';
+
+onMounted(() => {
+  console.log('onMounted');
+})
+
+onUnmounted(() => {
+
+  console.log('onUnmounted');
+})
+	
+function created
+</script>
+
+<template>
+  <p>test</p>
+</template>
+
+<style>
+</style>
+
+
+```
 ## ref
 
 我们可以通过一个新的 `ref` 函数使任何响应式变量在任何地方起作用
@@ -145,4 +190,28 @@ console.log(counter.value) // 0
 
 counter.value++
 console.log(counter.value) // 1
+```
+
+## withDefaults
+
+
+一种写法方便的写法，替代defineProps默认写法
+```js
+
+// 定义使用父组件的变量
+// const props = defineProps({
+//   msg: {
+//     type: String,
+//     default: () => '默认值'
+//   }
+// })
+
+
+withDefaults(defineProps<{
+  msg?: string,
+  title?: string
+}>(), {
+  msg: 'hello',
+  title: 'title'
+})
 ```

@@ -5,6 +5,18 @@
       "path": "md/vue3.md"
     },
     {
+      "basename": "markdown_katex",
+      "path": "md/markdown_katex.md"
+    },
+    {
+      "basename": "common_常用",
+      "path": "md/common_常用.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
+    },
+    {
       "basename": "vite",
       "path": "md/vite.md"
     },
@@ -47,18 +59,6 @@
     {
       "basename": "一些思路",
       "path": "md/一些思路.md"
-    },
-    {
-      "basename": "自动机理论",
-      "path": "md/自动机理论.md"
-    },
-    {
-      "basename": "springboot-jpa",
-      "path": "md/springboot-jpa.md"
-    },
-    {
-      "basename": "java-string",
-      "path": "md/java-string.md"
     }
   ],
   "omittedPaths": [],
