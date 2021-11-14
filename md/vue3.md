@@ -284,6 +284,151 @@ console.log(store.state.username)
 
 ## 使用router
 
+参考[[vue#vue-route|router]]
+
 ```shell
 npm install vue-router@4
+```
+
+准备相关页面
+
+`pages/about/index.vue`
+```html
+<template>
+    <h2>about页面</h2>
+</template>
+```
+
+`pages/home/index.vue`
+```html
+<template>
+    <h2>home页面</h2>
+</template>
+```
+
+`components/layout/header/index.vue`
+```html
+<template>
+    <div class="action">
+        <h2 @click="handleClick(1)">首页</h2>
+        <h2 @click="handleClick(0)">关于</h2>
+    </div>
+</template>
+
+<script setup lang="ts">
+import { useRouter } from "vue-router";
+
+const router = useRouter();
+
+//切换路由
+const handleClick = (num: number) => {
+
+    if (num) {
+        router.push({
+            name: "home",
+        });
+    } else {
+        router.push({
+            name: "about",
+        });
+    }
+};
+</script>
+
+<style>
+.action {
+    display: flex;
+}
+
+h2 {
+    padding: 0px 10px;
+    cursor: pointer;
+}
+h2:hover {
+    color: red;
+}
+</style>
+
+```
+
+`components/layout/index.vue`
+
+```html
+<template>
+    <Header/>
+    <router-view></router-view>
+</template>
+<script setup lang="ts">
+import Header from './header/index.vue'
+</script>
+```
+
+`main.ts`
+
+```js
+import { createApp } from "vue";
+import App from "./App.vue";
+
+import router from "./router";
+
+const app = createApp(App);
+//引入router
+app.use(router);
+app.mount("#app");
+
+```
+
+
+编辑路由规则页面
+
+`router/index.ts`
+```js
+import { createRouter, createMemoryHistory } from "vue-router";
+
+import LayOut from "../components/layout/index.vue";
+const routes = [
+	{
+		path: "/",
+		component: LayOut,
+		redirect: "",
+		children: [
+			{
+				path: "/home",
+				name: "home",
+				component: () => import("../pages/home/index.vue"),
+				meta: {
+					title: "首页",
+					icon: "",
+				},
+			},
+			{
+				path: "/about",
+				name: "about",
+				component: () => import("../pages/about/index.vue"),
+				meta: {
+					title: "关于",
+					icon: "",
+				},
+			},
+		],
+	},
+];
+
+const router = createRouter({
+	history: createMemoryHistory(),
+	routes,
+});
+
+export default router;
+
+```
+
+## 集成element-plus
+
+[官方文档](https://element-plus.gitee.io/zh-CN/guide/quickstart.html)
+
+```shell
+npm  install element-plus --save
+# 图标库
+npm install @element-plus/icons
 ```
