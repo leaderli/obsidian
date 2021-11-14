@@ -5,6 +5,14 @@
       "path": "md/vue3.md"
     },
     {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
+      "basename": "node",
+      "path": "md/node.md"
+    },
+    {
       "basename": "vue",
       "path": "md/vue.md"
     },
@@ -21,20 +29,12 @@
       "path": "md/obsidan.md"
     },
     {
-      "basename": "vite",
-      "path": "md/vite.md"
-    },
-    {
       "basename": "kanban",
       "path": "kanban.md"
     },
     {
       "basename": "tcpdump",
       "path": "md/tcpdump.md"
-    },
-    {
-      "basename": "node",
-      "path": "md/node.md"
     },
     {
       "basename": "java-tips",

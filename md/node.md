@@ -604,3 +604,9 @@ server.start(router.route);
 > npm 安装软件时 报错 reason: getaddrinfo EAI_AGAIN
 
 关闭代理软件即可
+
+> Cannot find module 'path'
+
+```javascript
+npm i @types/node -D
+```

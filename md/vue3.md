@@ -8,7 +8,9 @@ npm run dev
 
 ## setup
 
+
 语法糖，会被编译为`setup()`方法
+
 ```html
 <script setup lang="ts">
 </script>
@@ -18,6 +20,7 @@ npm run dev
 2. [[vue#emit|emit]]
 3. [[vue#slot|slot]]
 4. expose
+5. 局部变量直接和原有的`data()`类似
 
 
 以一个父子组件示例说明
@@ -431,4 +434,81 @@ export default router;
 npm  install element-plus --save
 # 图标库
 npm install @element-plus/icons
+```
+
+
+`main.ts`
+
+```js
+import { createApp } from "vue";
+import App from "./App.vue";
+import ElementPlus from "element-plus";
+import "element-plus/dist/index.css";
+
+const app = createApp(App);
+app.use(ElementPlus);
+app.mount("#app");
+```
+
+```html
+<template>
+    <h2>home页面</h2>
+    <el-button>I am ElButton</el-button>
+    <div>
+        <el-icon :size="size" :color="color">
+            <edit></edit>
+        </el-icon>
+    </div>
+</template>
+
+<script setup lang="ts">
+import { ElButton } from 'element-plus'
+//局部使用图标,可以全局注册到vue中	
+import { Edit } from '@element-plus/icons'
+
+const size = 20
+const color = 'green'
+</script>
+```
+
+##  安装sass
+
+```shell
+npm install node-sass sass-loader sass
+```
+
+`assests/styles/global.scss`
+
+```sass
+$color-primary:#007aff;
+```
+
+```html
+<template>
+    <h2 class="test-sass-color">home页面</h2>
+</template>
+
+<script setup lang="ts">
+</script>
+
+<style lang="scss" scoped>
+.test-sass-color {
+    color: $color-primary;
+}
+</style>
+```
+
+`vite.config.ts`新增配置
+
+```js
+export default defineConfig({
+	// ...
+	css: {
+		preprocessorOptions: {
+			scss: {
+				additionalData: '@import "@/assets/styles/global.scss";',
+			},
+		},
+	},
+}
 ```
