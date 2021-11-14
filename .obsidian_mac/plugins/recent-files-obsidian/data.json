@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "tcpdump",
-      "path": "md/tcpdump.md"
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "vite",
+      "path": "md/vite.md"
     },
     {
       "basename": "node",
       "path": "md/node.md"
+    },
+    {
+      "basename": "vue",
+      "path": "md/vue.md"
+    },
+    {
+      "basename": "markdown_katex",
+      "path": "md/markdown_katex.md"
+    },
+    {
+      "basename": "common_常用",
+      "path": "md/common_常用.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "tcpdump",
+      "path": "md/tcpdump.md"
     },
     {
       "basename": "java-tips",
@@ -21,10 +49,6 @@
       "path": "md/AST.md"
     },
     {
-      "basename": "vue",
-      "path": "md/vue.md"
-    },
-    {
       "basename": "chrome-debug",
       "path": "md/chrome-debug.md"
     },
@@ -35,30 +59,6 @@
     {
       "basename": "一些思路",
       "path": "md/一些思路.md"
-    },
-    {
-      "basename": "自动机理论",
-      "path": "md/自动机理论.md"
-    },
-    {
-      "basename": "springboot-jpa",
-      "path": "md/springboot-jpa.md"
-    },
-    {
-      "basename": "java-string",
-      "path": "md/java-string.md"
-    },
-    {
-      "basename": "eclipse-plugin-develop-tutorial-setup",
-      "path": "md/eclipse-plugin-develop-tutorial-setup.md"
-    },
-    {
-      "basename": "java-SPI",
-      "path": "md/java-SPI.md"
-    },
-    {
-      "basename": "vue-element-admin",
-      "path": "md/vue-element-admin.md"
     }
   ],
   "omittedPaths": [],
