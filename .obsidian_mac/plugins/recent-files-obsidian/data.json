@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
       "basename": "tcpdump",
       "path": "md/tcpdump.md"
     },
@@ -47,18 +59,6 @@
     {
       "basename": "java-string",
       "path": "md/java-string.md"
-    },
-    {
-      "basename": "eclipse-plugin-develop-tutorial-setup",
-      "path": "md/eclipse-plugin-develop-tutorial-setup.md"
-    },
-    {
-      "basename": "java-SPI",
-      "path": "md/java-SPI.md"
-    },
-    {
-      "basename": "vue-element-admin",
-      "path": "md/vue-element-admin.md"
     }
   ],
   "omittedPaths": [],

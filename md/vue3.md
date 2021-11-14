@@ -88,18 +88,33 @@ defineExpose({
     console.log('我是暴露的子组件方法')
   }
 })
+	
+	
+const counter = ref(0)
+//立即监听变量
+watch(
+  counter,
+  (newValue, oldValue) => {
+    console.log('The new counter value is: ' + counter.value)
+  },
+  { deep: true, immediate: true }
+)
 </script>
 
 <template>
-<p>{{props.msg}}</p>
-<button @click="handleClick">点击调用父组件方法</button>
-
+	<p>{{props.msg}}</p>
+	<button @click="handleClick">点击调用父组件方法</button>
+	<p>{{ counter }}</p>
+	<button @click="counter++">增加</button>
 </template>
 
-<style scoped>
+<style>
 </style>
 
 ```
+
+## setup钩子
+
 
 ## ref
 
@@ -117,9 +132,13 @@ import { ref } from 'vue'
 
 const counter = ref(0)
 
-watch(counter, (newValue, oldValue) => {
-  console.log('The new counter value is: ' + counter.value)
-})
+watch(
+  counter,
+  (newValue, oldValue) => {
+    console.log('The new counter value is: ' + counter.value)
+  },
+  { deep: true, immediate: true }
+)
 
 console.log(counter) // { value: 0 }
 console.log(counter.value) // 0

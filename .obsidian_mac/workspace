@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/tcpdump.md",
+            "file": "md/vue3.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/tcpdump.md",
+            "file": "md/vue3.md",
             "mode": "preview"
           }
         },
@@ -79,13 +79,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 228,
-    "collapsed": true
+    "width": 228
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -101,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/tcpdump.md",
+                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/tcpdump.md"
+                "file": "md/vue3.md"
               }
             }
           }
@@ -143,15 +141,15 @@
   },
   "active": "9a13fe338be851b3",
   "lastOpenFiles": [
+    "md/vue3.md",
+    "md/vite.md",
+    "kanban.md",
     "md/tcpdump.md",
     "md/node.md",
     "md/java-tips.md",
     "md/java反射.md",
     "md/AST.md",
     "md/vue.md",
-    "md/chrome-debug.md",
-    "md/js-tips.md",
-    "md/一些思路.md",
-    "md/自动机理论.md"
+    "md/chrome-debug.md"
   ]
 }
