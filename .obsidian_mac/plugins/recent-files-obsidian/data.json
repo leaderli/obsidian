@@ -5,6 +5,10 @@
       "path": "md/vue3.md"
     },
     {
+      "basename": "vue",
+      "path": "md/vue.md"
+    },
+    {
       "basename": "markdown_katex",
       "path": "md/markdown_katex.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "AST",
       "path": "md/AST.md"
-    },
-    {
-      "basename": "vue",
-      "path": "md/vue.md"
     },
     {
       "basename": "chrome-debug",

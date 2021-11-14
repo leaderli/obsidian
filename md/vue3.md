@@ -215,3 +215,75 @@ withDefaults(defineProps<{
   title: 'title'
 })
 ```
+
+## 使用vuex
+
+可参数vue2中的[[vue#vuex|vuex]]
+
+
+`store/index.ts`
+```js
+import { InjectionKey } from "vue";
+import { useStore as baseUseStore, createStore, Store } from "vuex";
+
+//声明state的类型
+export interface State {
+	username: string;
+}
+
+//定义注入类型
+export const key: InjectionKey<Store<State>> = Symbol();
+
+//定义store
+export const store = createStore<State>({
+	state: {
+		username: "li",
+	},
+	mutations: {},
+	getters: {},
+	actions: {},
+});
+
+export function useStore() {
+	return baseUseStore(key);
+}
+```
+
+`main.ts`引入vuex
+
+```js
+import { createApp } from 'vue'
+import App from './App.vue'
+import { key, store } from './store'
+
+const app = createApp(App)
+//引入vuex
+app.use(store,key)
+app.mount('#app')
+
+```
+
+使用
+
+```html
+<script setup lang="ts">
+	
+import { useStore } from '../store';
+const store = useStore()
+console.log(store.state.username)
+	
+</script>
+
+<template>
+	  <p>{{ store.state.username }}</p>
+</template>
+
+<style>
+</style>
+```
+
+## 使用router
+
+```shell
+npm install vue-router@4
+```
