@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "5b66689599524f7c",
+    "id": "df579fd64194390b",
     "type": "split",
     "children": [
       {
-        "id": "446b551434e79c1f",
+        "id": "94dde1b959a697c3",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "md/win10.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -81,6 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "md/win10.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,7 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "md/win10.md"
+              }
             }
           },
           {
@@ -116,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "md/win10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,8 +136,9 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "446b551434e79c1f",
+  "active": "94dde1b959a697c3",
   "lastOpenFiles": [
+    "md/win10.md",
     "kanban.md",
     "md/vue3.md",
     "md/vue.md",
@@ -139,7 +147,6 @@
     "md/vscode相关.md",
     "md/vim.md",
     "md/vite.md",
-    "md/git.md",
-    "md/shell-tips.md"
+    "md/git.md"
   ]
 }

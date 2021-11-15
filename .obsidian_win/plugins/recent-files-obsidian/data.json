@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "win10",
+      "path": "md/win10.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "linux",
       "path": "md/linux.md"
-    },
-    {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
     }
   ],
   "omittedPaths": [
