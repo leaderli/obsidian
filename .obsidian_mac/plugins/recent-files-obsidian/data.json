@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "java-string",
+      "path": "md/java-string.md"
+    },
+    {
       "basename": "vue3",
       "path": "md/vue3.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "js-tips",
       "path": "md/js-tips.md"
-    },
-    {
-      "basename": "一些思路",
-      "path": "md/一些思路.md"
     }
   ],
   "omittedPaths": [],

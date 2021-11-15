@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
+            "file": "md/java-string.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
+            "file": "md/java-string.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "table",
+                "query": "补 0",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,12 +79,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 228,
-    "collapsed": true
+    "width": 228
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue3.md",
+                "file": "md/java-string.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue3.md"
+                "file": "md/java-string.md"
               }
             }
           }
@@ -142,6 +142,7 @@
   },
   "active": "9a13fe338be851b3",
   "lastOpenFiles": [
+    "md/java-string.md",
     "md/vue3.md",
     "md/vite.md",
     "md/node.md",
@@ -150,7 +151,6 @@
     "md/common_常用.md",
     "md/obsidan.md",
     "kanban.md",
-    "md/tcpdump.md",
-    "md/java-tips.md"
+    "md/tcpdump.md"
   ]
 }
