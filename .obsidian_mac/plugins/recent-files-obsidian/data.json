@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
       "basename": "java-string",
       "path": "md/java-string.md"
     },
     {
       "basename": "vue3",
       "path": "md/vue3.md"
-    },
-    {
-      "basename": "vite",
-      "path": "md/vite.md"
     },
     {
       "basename": "node",

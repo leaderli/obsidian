@@ -55,6 +55,18 @@ export default defineConfig({
 然后启动
 `npm run dev`
 
+
+## 添加mock
+
+[vite-plugin-mock](https://github.com/anncwb/vite-plugin-mock)
+
+```shell
+npm i  mockjs -S
+
+npm i vite-plugin-mock -D
+
+```
+
 ## 一些常见问题
 
 
