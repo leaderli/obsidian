@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/axios.md",
+            "file": "md/vite.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/axios.md",
+            "file": "md/vite.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "netstat",
+                "query": "ipta",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228
+    "width": 228,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/axios.md",
+                "file": "md/vite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/axios.md"
+                "file": "md/vite.md"
               }
             }
           }
@@ -140,17 +141,17 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "753624aa27df0a55",
+  "active": "9a13fe338be851b3",
   "lastOpenFiles": [
-    "md/axios.md",
     "md/vite.md",
+    "md/nginx.md",
+    "md/axios.md",
     "md/java-string.md",
     "md/vue3.md",
     "md/node.md",
     "md/vue.md",
     "md/markdown_katex.md",
     "md/common_常用.md",
-    "md/obsidan.md",
-    "kanban.md"
+    "md/obsidan.md"
   ]
 }

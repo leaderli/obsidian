@@ -67,6 +67,112 @@ npm i vite-plugin-mock -D
 
 ```
 
+
+`vite.config.ts`
+
+```js
+export default defineConfig(({ command, mode }) => {
+	return {
+		plugins: [
+			vue(),
+			viteMockServe({
+				// mock的ts文件的路径
+				mockPath: "mock",
+				localEnabled: command === "serve",
+			}),
+		],
+		server: {
+			//代理配置，
+			proxy: {
+				"/api": {
+					target: "",
+					changeOrigin: true,
+					rewrite: (path) => path.replace(/^\/api/, ""),
+				},
+				"/test": {
+					target: "http://centos7:10001",
+					rewrite: (path) => path.replace(/^\/test/, ""),
+				},
+			},
+		}
+	}
+```
+
+
+`mock/test.ts`
+
+```js
+// test.ts
+
+import { MockMethod } from "vite-plugin-mock";
+export default [
+	{
+		url: "/api/get",
+		method: "get",
+		response: ({ query }) => {
+			return {
+				code: 0,
+				data: {
+					name: "vben",
+				},
+			};
+		},
+	},
+	{
+		url: "/api/post",
+		method: "post",
+		timeout: 2000,
+		response: {
+			code: 0,
+			data: {
+				name: "vben",
+			},
+		},
+	},
+	{
+		url: "/api/text",
+		method: "post",
+		rawResponse: async (req, res) => {
+			let reqbody = "";
+			await new Promise((resolve) => {
+				req.on("data", (chunk) => {
+					reqbody += chunk;
+				});
+				req.on("end", () => resolve(undefined));
+			});
+			res.setHeader("Content-Type", "text/plain");
+			res.statusCode = 200;
+			res.end(`hello, ${reqbody}`);
+		},
+	},
+] as MockMethod[];
+
+```
+
+
+
+通过测试，发现`/api`被mock拦截了，而`/test`没有被拦截
+
+```js
+import axios from 'axios';
+axios({
+	url: "/api/post",
+
+	method: "post",
+	data: "{}",
+	headers: { "Content-type": "application/json" },
+}).then((res: {}) => {
+	console.log(res);
+});
+
+axios({
+	url: "/test",
+	method: "get",
+}).then((res: {}) => {
+	console.log(res);
+});
+```
+
 ## 一些常见问题
 
 

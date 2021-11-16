@@ -336,3 +336,10 @@ server {
 ```nginx
 user  root;
 ```
+
+### 无法访问虚拟机端口
+
+将防火墙打开
+```shell
+iptables -I INPUT -p tcp --dport 80 -j ACCEPT  
+```
