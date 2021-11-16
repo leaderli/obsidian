@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vite.md",
+            "file": "md/vue.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vite.md",
+            "file": "md/vue.md",
             "mode": "preview"
           }
         },
@@ -54,9 +54,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ipta",
-                "matchingCase": false,
-                "explainSearch": false,
+                "query": "router",
+                "matchingCase": true,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228,
-    "collapsed": true
+    "width": 228
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vite.md",
+                "file": "md/vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vite.md"
+                "file": "md/vue.md"
               }
             }
           }
@@ -143,13 +142,13 @@
   },
   "active": "9a13fe338be851b3",
   "lastOpenFiles": [
+    "md/vue.md",
+    "md/node.md",
+    "md/axios.md",
     "md/vite.md",
     "md/nginx.md",
-    "md/axios.md",
     "md/java-string.md",
     "md/vue3.md",
-    "md/node.md",
-    "md/vue.md",
     "md/markdown_katex.md",
     "md/common_常用.md",
     "md/obsidan.md"

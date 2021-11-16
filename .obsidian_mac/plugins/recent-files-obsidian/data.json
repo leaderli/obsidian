@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "vue",
+      "path": "md/vue.md"
+    },
+    {
+      "basename": "node",
+      "path": "md/node.md"
+    },
+    {
+      "basename": "axios",
+      "path": "md/axios.md"
+    },
+    {
       "basename": "vite",
       "path": "md/vite.md"
     },
@@ -9,24 +21,12 @@
       "path": "md/nginx.md"
     },
     {
-      "basename": "axios",
-      "path": "md/axios.md"
-    },
-    {
       "basename": "java-string",
       "path": "md/java-string.md"
     },
     {
       "basename": "vue3",
       "path": "md/vue3.md"
-    },
-    {
-      "basename": "node",
-      "path": "md/node.md"
-    },
-    {
-      "basename": "vue",
-      "path": "md/vue.md"
     },
     {
       "basename": "markdown_katex",
