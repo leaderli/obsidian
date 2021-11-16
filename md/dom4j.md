@@ -155,3 +155,11 @@ doc.attributeValue("id"); //不存在时值为null
 doc.attributeValue("id","1"); //不存在时使用默认值1
 doc.getAttribute("id"); //不存在时值为空字符串
 ```
+
+## 注意
+
+```java
+DOMElement element;
+
+element.getTextTrim();//会将字符串中间的空格合并为一个
+```

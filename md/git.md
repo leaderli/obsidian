@@ -486,6 +486,7 @@ git add .
 git commit -m 'init '
 git push -u origin master
 git push -u origin  --all #推送所有分支
+git remote rm origin # 删除远程仓库的连接
 
 ```
 
