@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "vue",
+      "path": "md/vue.md"
+    },
+    {
       "basename": "git",
       "path": "md/git.md"
     },
     {
       "basename": "dom4j",
       "path": "md/dom4j.md"
-    },
-    {
-      "basename": "vue",
-      "path": "md/vue.md"
     },
     {
       "basename": "node",
@@ -33,10 +41,6 @@
       "path": "md/java-string.md"
     },
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
       "basename": "markdown_katex",
       "path": "md/markdown_katex.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "tcpdump",
       "path": "md/tcpdump.md"
-    },
-    {
-      "basename": "java-tips",
-      "path": "md/java-tips.md"
     }
   ],
   "omittedPaths": [],
