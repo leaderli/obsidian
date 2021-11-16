@@ -18,13 +18,13 @@ hide-date-display: false
 - [ ] apoll配置中心
 - [ ] gitlab ci
 - [ ] 可视化eclipse插件
+- [ ] event-loop
 
 
 ## 任务就绪池
 
 - [ ] 编译原理学习<br>
 - [ ] unix编程艺术阅读
-- [ ] [2021最新最详细的Vite+vue3+Volar+Ts+Element-plus框架学习项目案例_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1QP4y1p748?p=6&spm_id_from=pageDriver)
 
 
 ## 任务执行池
@@ -41,5 +41,6 @@ hide-date-display: false
 
 ## 任务完成池
 
+- [x] [2021最新最详细的Vite+vue3+Volar+Ts+Element-plus框架学习项目案例_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1QP4y1p748?p=6&spm_id_from=pageDriver)
 
 

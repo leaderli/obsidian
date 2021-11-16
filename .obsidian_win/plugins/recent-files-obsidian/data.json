@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "win10",
-      "path": "md/win10.md"
+      "basename": "shell-tips",
+      "path": "md/shell-tips.md"
     },
     {
       "basename": "kanban",
       "path": "kanban.md"
+    },
+    {
+      "basename": "win10",
+      "path": "md/win10.md"
     },
     {
       "basename": "vue3",
@@ -39,10 +43,6 @@
     {
       "basename": "git",
       "path": "md/git.md"
-    },
-    {
-      "basename": "shell-tips",
-      "path": "md/shell-tips.md"
     },
     {
       "basename": "LL(1)",
