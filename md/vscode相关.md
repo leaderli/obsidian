@@ -205,3 +205,28 @@ scope 不是文件扩展名
 ```
 
 感觉像每次保存时，预览窗口重新渲染，然后编辑区同步更新位置，然后就跳一下。关闭这个就不跳动了
+
+
+## alias补全提示错误
+
+
+前端项目，当使用webpack或vite时，配置项目资源的别名路径，vscode出现错误提示，需要在根目录下的`jsconfig.json`或`tsconfig.json`中新增配置
+
+```js
+//设置项目文件路径，以项目根目录文起点
+resolve: {
+	//设置项目文件路径的别名
+	alias: {
+		"@": path.resolve(__dirname, "./src"),
+	},
+},
+```
+
+`tsconfig.json`
+```json
+"baseUrl": ".",
+"paths": {
+	"@": ["src"],
+	"@/*": ["src/*"]
+}
+```
