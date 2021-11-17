@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "jquery",
+      "path": "md/jquery.md"
+    },
+    {
+      "basename": "js-tips",
+      "path": "md/js-tips.md"
+    },
+    {
       "basename": "dom4j",
       "path": "md/dom4j.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "java-string",
       "path": "md/java-string.md"
-    },
-    {
-      "basename": "markdown_katex",
-      "path": "md/markdown_katex.md"
-    },
-    {
-      "basename": "common_常用",
-      "path": "md/common_常用.md"
     }
   ],
   "omittedPaths": [],

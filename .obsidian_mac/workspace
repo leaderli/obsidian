@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/dom4j.md",
+            "file": "md/jquery.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/dom4j.md",
+            "file": "md/jquery.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "jquery",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228,
-    "collapsed": true
+    "width": 461
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/dom4j.md",
+                "file": "md/jquery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/dom4j.md"
+                "file": "md/jquery.md"
               }
             }
           }
@@ -143,6 +142,8 @@
   },
   "active": "9a13fe338be851b3",
   "lastOpenFiles": [
+    "md/jquery.md",
+    "md/js-tips.md",
     "md/dom4j.md",
     "md/vue3.md",
     "md/typescript.md",
@@ -150,8 +151,6 @@
     "md/node.md",
     "md/vscode相关.md",
     "md/vite.md",
-    "md/webpack.md",
-    "md/java-tips.md",
-    "md/git.md"
+    "md/webpack.md"
   ]
 }

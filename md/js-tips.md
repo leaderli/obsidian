@@ -424,3 +424,14 @@ b = a.shift();
 b = a.shift();
 // b = undefiend  a=[]
 ```
+
+
+##  !!
+将所有数据类型转换为boolean类型
+
+```shell
+$ !!1
+true
+$ !!0
+false
+```
