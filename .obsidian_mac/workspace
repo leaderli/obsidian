@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
+            "file": "md/dom4j.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
+            "file": "md/dom4j.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228
+    "width": 228,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue3.md",
+                "file": "md/dom4j.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue3.md"
+                "file": "md/dom4j.md"
               }
             }
           }
@@ -142,6 +143,7 @@
   },
   "active": "9a13fe338be851b3",
   "lastOpenFiles": [
+    "md/dom4j.md",
     "md/vue3.md",
     "md/typescript.md",
     "md/vue.md",
@@ -150,7 +152,6 @@
     "md/vite.md",
     "md/webpack.md",
     "md/java-tips.md",
-    "md/git.md",
-    "md/dom4j.md"
+    "md/git.md"
   ]
 }

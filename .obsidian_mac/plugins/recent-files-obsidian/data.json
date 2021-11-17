@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "dom4j",
+      "path": "md/dom4j.md"
+    },
+    {
       "basename": "vue3",
       "path": "md/vue3.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "git",
       "path": "md/git.md"
-    },
-    {
-      "basename": "dom4j",
-      "path": "md/dom4j.md"
     },
     {
       "basename": "axios",

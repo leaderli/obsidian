@@ -163,3 +163,41 @@ DOMElement element;
 
 element.getTextTrim();//会将字符串中间的空格合并为一个
 ```
+
+
+## xmllint
+
+linux中处理xml文件的类库
+
+-- shell 以目录的方式访问xml节点，可以使用cd，ls等
+-- xpath 以xpath表达式选择节点
+
+
+对于有`xmlns`的xml文件，可以做如下处理
+
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.2.1.RELEASE</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
+  <groupId>com.leaderli</groupId>
+  <artifactId>demo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>demo</name>
+  <description>Demo project for Spring Boot</description>
+</project>
+
+```
+
+这样就可以移除xmlns相关的标签，然后就可以做其他处理
+```shell
+xmllint --format pom.xml|sed 's/xmlns=".*"//g'
+xmllint --format pom.xml|sed 's/xmlns=".*"//g'|xmllint --xpath "//version" - 
+```
