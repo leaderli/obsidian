@@ -234,7 +234,7 @@ export interface State {
 	username: string;
 }
 
-//定义注入类型
+//定义注入类型,类似.d.ts文件，是用于typescript推断类型使用
 export const key: InjectionKey<Store<State>> = Symbol();
 
 //定义store
@@ -285,6 +285,12 @@ console.log(store.state.username)
 </style>
 ```
 
+
+对于使用module的vuex可以做如下定义
+
+```js
+
+```
 ## 使用router
 
 参考[[vue#vue-route|router]]
