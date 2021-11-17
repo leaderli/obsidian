@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/shell-tips.md",
-            "mode": "preview"
+            "file": "md/vue3.md",
+            "mode": "source"
           }
         }
       }
@@ -39,10 +39,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ssh-k",
+                "query": "object.a",
                 "matchingCase": false,
                 "explainSearch": true,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/shell-tips.md",
+                "file": "md/vue3.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/shell-tips.md"
+                "file": "md/vue3.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/shell-tips.md",
+                "file": "md/vue3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,15 +139,15 @@
   },
   "active": "e18f97ff2bcea9b4",
   "lastOpenFiles": [
+    "md/vue3.md",
+    "md/js-tips.md",
+    "md/typescript.md",
     "md/shell-tips.md",
     "kanban.md",
     "md/win10.md",
-    "md/vue3.md",
     "md/vue.md",
     "md/node.md",
-    "md/typescript.md",
     "md/vscode相关.md",
-    "md/vim.md",
-    "md/vite.md"
+    "md/vim.md"
   ]
 }

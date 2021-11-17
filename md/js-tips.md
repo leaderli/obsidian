@@ -131,6 +131,8 @@ Object.values(obj);
 ```javascript
 //浅clone
 Object.assign({}, obj);
+//可叠加多个属性
+Object.assign({}, obj1,obj2);
 
 //深clone
 JSON.parse(JSON.stringify(obj));

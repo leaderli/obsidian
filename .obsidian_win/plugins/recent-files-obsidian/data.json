@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "js-tips",
+      "path": "md/js-tips.md"
+    },
+    {
+      "basename": "typescript",
+      "path": "md/typescript.md"
+    },
+    {
       "basename": "shell-tips",
       "path": "md/shell-tips.md"
     },
@@ -13,20 +25,12 @@
       "path": "md/win10.md"
     },
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
       "basename": "vue",
       "path": "md/vue.md"
     },
     {
       "basename": "node",
       "path": "md/node.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
     },
     {
       "basename": "vscode相关",
@@ -75,10 +79,6 @@
     {
       "basename": "vmware",
       "path": "md/vmware.md"
-    },
-    {
-      "basename": "linux",
-      "path": "md/linux.md"
     }
   ],
   "omittedPaths": [

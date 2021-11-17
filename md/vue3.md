@@ -585,3 +585,10 @@ export default defineConfig({
 ```
 
 
+## 泛型
+
+```js
+import { DefineComponent } from "vue";
+// vue组件的泛型
+type component = DefineComponent<{}, {}, any>
+```
