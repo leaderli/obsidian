@@ -1,16 +1,16 @@
 {
   "main": {
-    "id": "2e19fdca80b0ea68",
+    "id": "b01ed121421eab5c",
     "type": "split",
     "children": [
       {
-        "id": "e18f97ff2bcea9b4",
+        "id": "122ebe7f21bb8361",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "md/vue3.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 148.5
+    "width": 148.5,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -137,7 +138,7 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "e18f97ff2bcea9b4",
+  "active": "122ebe7f21bb8361",
   "lastOpenFiles": [
     "md/vue3.md",
     "md/js-tips.md",
