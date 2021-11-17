@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "jquery",
-      "path": "md/jquery.md"
-    },
-    {
       "basename": "js-tips",
       "path": "md/js-tips.md"
+    },
+    {
+      "basename": "jquery",
+      "path": "md/jquery.md"
     },
     {
       "basename": "dom4j",
