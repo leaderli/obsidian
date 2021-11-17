@@ -2334,6 +2334,54 @@ export default {
 
 actions 类似 mutations，但是是异步执行的
 
+```js
+mutations: {
+    increment (state) {
+      state.count++
+    }
+},
+actions: {
+  increment ({ commit }) {
+    //commit事件上就是调用mutations
+    commit('increment')
+  }
+}
+```
+
+```js
+//调用actions
+store.dispatch('increment')
+```
+
+
+也可以传递obj参数
+```js
+actions: {
+  checkout ({ commit, state }, products) {
+    // save the items currently in the cart
+    const savedCartItems = [...state.cart.added]
+    // send out checkout request, and optimistically
+    // clear the cart
+    commit(types.CHECKOUT_REQUEST)
+    // the shop API accepts a success callback and a failure callback
+    shop.buyProducts(
+      products,
+      // handle success
+      () => commit(types.CHECKOUT_SUCCESS),
+      // handle failure
+      () => commit(types.CHECKOUT_FAILURE, savedCartItems)
+    )
+  }
+}
+```
+
+```js
+// dispatch with an object
+store.dispatch({
+  type: 'incrementAsync',
+  amount: 10
+})
+```
 modules，它用来将 store 分割到不同的模块中。
 
 ```javascript
