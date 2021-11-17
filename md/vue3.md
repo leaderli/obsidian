@@ -288,8 +288,73 @@ console.log(store.state.username)
 
 对于使用module的vuex可以做如下定义
 
-```js
 
+`store/modules/user.ts`
+
+```js
+import { createStore } from "vuex";
+
+//声明state的类型
+interface User {
+	username: string;
+}
+
+//定义store
+export const user = createStore<User>({
+	state: {
+		username: "li",
+	},
+	mutations: {},
+	getters: {},
+	actions: {},
+});
+
+```
+
+`store/index.ts`
+```js
+import { InjectionKey } from "vue";
+import { user } from "./modules/user";
+
+import { useStore as baseUseStore, createStore, Store } from "vuex";
+
+//声明state的类型
+export interface State {
+	// username: string;
+	user: typeof user.state;
+}
+
+//定义注入类型
+export const key: InjectionKey<Store<State>> = Symbol();
+
+//定义store
+export const store = createStore<State>({
+	mutations: {},
+	getters: {},
+	actions: {},
+	modules: {
+		user: user,
+	},
+});
+
+export function useStore() {
+	return baseUseStore(key);
+}
+
+```
+
+在component中使用
+```html
+<script setup lang="ts">
+	
+import { useStore } from '@/store';
+const store = useStore()
+console.log('hello user ', store.state.user)
+	
+</script>
+<template>
+  <p>{{ store.state.user.username }}</p>
+</template>
 ```
 ## 使用router
 

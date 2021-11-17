@@ -143,6 +143,7 @@
   "active": "9a13fe338be851b3",
   "lastOpenFiles": [
     "md/vue3.md",
+    "md/typescript.md",
     "md/vue.md",
     "md/node.md",
     "md/vscode相关.md",
@@ -150,7 +151,6 @@
     "md/webpack.md",
     "md/java-tips.md",
     "md/git.md",
-    "md/dom4j.md",
-    "md/axios.md"
+    "md/dom4j.md"
   ]
 }
