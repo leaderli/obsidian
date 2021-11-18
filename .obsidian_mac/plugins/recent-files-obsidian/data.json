@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "promise",
+      "path": "md/promise.md"
+    },
+    {
       "basename": "js-tips",
       "path": "md/js-tips.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "nginx",
       "path": "md/nginx.md"
-    },
-    {
-      "basename": "java-string",
-      "path": "md/java-string.md"
     }
   ],
   "omittedPaths": [],
