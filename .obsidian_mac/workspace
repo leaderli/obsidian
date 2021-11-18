@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/promise.md",
+            "file": "md/linux常用命令.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/promise.md",
+            "file": "md/linux常用命令.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tcpdump",
+                "query": "tee ",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461,
-    "collapsed": true
+    "width": 461
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/promise.md",
+                "file": "md/linux常用命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/promise.md"
+                "file": "md/linux常用命令.md"
               }
             }
           }
@@ -143,6 +142,7 @@
   },
   "active": "9a13fe338be851b3",
   "lastOpenFiles": [
+    "md/linux常用命令.md",
     "md/promise.md",
     "md/tcpdump.md",
     "md/js-tips.md",
@@ -151,7 +151,6 @@
     "md/vue3.md",
     "md/typescript.md",
     "md/vue.md",
-    "md/node.md",
-    "md/vscode相关.md"
+    "md/node.md"
   ]
 }

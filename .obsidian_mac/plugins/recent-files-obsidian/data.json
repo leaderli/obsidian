@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
       "basename": "promise",
       "path": "md/promise.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "git",
       "path": "md/git.md"
-    },
-    {
-      "basename": "axios",
-      "path": "md/axios.md"
     }
   ],
   "omittedPaths": [],
