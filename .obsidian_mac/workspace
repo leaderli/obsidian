@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/tcpdump.md",
+            "file": "md/promise.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/tcpdump.md",
+            "file": "md/promise.md",
             "mode": "preview"
           }
         },
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461
+    "width": 461,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/tcpdump.md",
+                "file": "md/promise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/tcpdump.md"
+                "file": "md/promise.md"
               }
             }
           }
@@ -142,8 +143,8 @@
   },
   "active": "9a13fe338be851b3",
   "lastOpenFiles": [
-    "md/tcpdump.md",
     "md/promise.md",
+    "md/tcpdump.md",
     "md/js-tips.md",
     "md/jquery.md",
     "md/dom4j.md",

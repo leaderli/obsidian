@@ -12,5 +12,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "md",
   "promptDelete": false,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "emacsyKeys": false
 }

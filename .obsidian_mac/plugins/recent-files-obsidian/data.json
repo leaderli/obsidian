@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "tcpdump",
-      "path": "md/tcpdump.md"
-    },
-    {
       "basename": "promise",
       "path": "md/promise.md"
+    },
+    {
+      "basename": "tcpdump",
+      "path": "md/tcpdump.md"
     },
     {
       "basename": "js-tips",
