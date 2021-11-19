@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
       "basename": "promise",
       "path": "md/promise.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "dom4j",
       "path": "md/dom4j.md"
-    },
-    {
-      "basename": "vue3",
-      "path": "md/vue3.md"
     },
     {
       "basename": "typescript",
@@ -55,10 +59,6 @@
     {
       "basename": "java-tips",
       "path": "md/java-tips.md"
-    },
-    {
-      "basename": "git",
-      "path": "md/git.md"
     }
   ],
   "omittedPaths": [],

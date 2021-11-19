@@ -19,16 +19,18 @@ hide-date-display: false
 - [ ] gitlab ci
 - [ ] 可视化eclipse插件
 - [ ] event-loop
+- [ ] forkjoinpool
 
 
 ## 任务就绪池
 
 - [ ] 编译原理学习<br>
-- [ ] unix编程艺术阅读
 
 
 ## 任务执行池
 
+- [ ] unix编程艺术阅读
+- [ ] 动机心理学阅读
 
 
 ## 任务验收池
@@ -42,5 +44,6 @@ hide-date-display: false
 ## 任务完成池
 
 - [x] [2021最新最详细的Vite+vue3+Volar+Ts+Element-plus框架学习项目案例_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1QP4y1p748?p=6&spm_id_from=pageDriver)
+- [x] promise
 
 

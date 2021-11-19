@@ -4,30 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9a13fe338be851b3",
+        "id": "dfcb5733aa930173",
         "type": "leaf",
-        "dimension": 53.83959044368601,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/promise.md",
-            "mode": "source"
-          }
-        },
-        "group": "5cf155d22c145f71"
-      },
-      {
-        "id": "753624aa27df0a55",
-        "type": "leaf",
-        "dimension": 46.16040955631399,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/promise.md",
-            "mode": "preview"
-          }
-        },
-        "group": "5cf155d22c145f71"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -54,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tee ",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -79,13 +61,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 461,
-    "collapsed": true
+    "width": 585
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -101,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/promise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "md/promise.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -141,17 +118,17 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "9a13fe338be851b3",
+  "active": "dfcb5733aa930173",
   "lastOpenFiles": [
+    "kanban.md",
+    "md/vue3.md",
     "md/promise.md",
     "md/linux常用命令.md",
     "md/tcpdump.md",
     "md/js-tips.md",
     "md/jquery.md",
     "md/dom4j.md",
-    "md/vue3.md",
     "md/typescript.md",
-    "md/vue.md",
-    "md/node.md"
+    "md/vue.md"
   ]
 }
