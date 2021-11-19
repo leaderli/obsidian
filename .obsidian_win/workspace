@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/promise.md",
+            "file": "md/vue.md",
             "mode": "preview"
           }
         }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/promise.md",
+                "file": "md/vue.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/promise.md"
+                "file": "md/vue.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/promise.md",
+                "file": "md/vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,6 +140,7 @@
   },
   "active": "122ebe7f21bb8361",
   "lastOpenFiles": [
+    "md/vue.md",
     "md/promise.md",
     "md/vue3.md",
     "md/js-tips.md",
@@ -147,7 +148,6 @@
     "md/shell-tips.md",
     "kanban.md",
     "md/win10.md",
-    "md/vue.md",
     "md/node.md",
     "md/vscode相关.md"
   ]

@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vue",
+      "path": "md/vue.md"
+    },
+    {
       "basename": "promise",
       "path": "md/promise.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "win10",
       "path": "md/win10.md"
-    },
-    {
-      "basename": "vue",
-      "path": "md/vue.md"
     },
     {
       "basename": "node",
