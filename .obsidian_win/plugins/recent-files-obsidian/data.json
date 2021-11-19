@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "promise",
+      "path": "md/promise.md"
+    },
+    {
       "basename": "vue3",
       "path": "md/vue3.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "linux文件系统",
       "path": "md/linux文件系统.md"
-    },
-    {
-      "basename": "vmware",
-      "path": "md/vmware.md"
     }
   ],
   "omittedPaths": [
