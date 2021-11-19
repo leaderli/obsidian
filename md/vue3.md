@@ -219,6 +219,19 @@ withDefaults(defineProps<{
 })
 ```
 
+defineProps设置复杂的泛型
+
+```js
+import { PropType } from 'vue'
+
+defineProps({
+  menuList: {
+    type: Object as PropType<Array < IMenubarList >>,
+    default: []
+  }
+})
+```
+
 ## 使用vuex
 
 可参数vue2中的[[vue#vuex|vuex]]
