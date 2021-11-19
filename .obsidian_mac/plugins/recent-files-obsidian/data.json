@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
-    },
-    {
       "basename": "promise",
       "path": "md/promise.md"
+    },
+    {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
     },
     {
       "basename": "tcpdump",
