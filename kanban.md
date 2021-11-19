@@ -20,6 +20,7 @@ hide-date-display: false
 - [ ] 可视化eclipse插件
 - [ ] event-loop
 - [ ] forkjoinpool
+- [ ] pinia StoreToRefs
 
 
 ## 任务就绪池

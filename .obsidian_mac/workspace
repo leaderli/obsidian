@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "dfcb5733aa930173",
+        "id": "b71fcf50fa22d08e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "md/vue3.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "defineProps",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -61,11 +64,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 585
+    "width": 146
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +112,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "md/vue3.md"
+              }
             }
           }
         ],
@@ -118,10 +125,10 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "dfcb5733aa930173",
+  "active": "b71fcf50fa22d08e",
   "lastOpenFiles": [
-    "kanban.md",
     "md/vue3.md",
+    "kanban.md",
     "md/promise.md",
     "md/linux常用命令.md",
     "md/tcpdump.md",
