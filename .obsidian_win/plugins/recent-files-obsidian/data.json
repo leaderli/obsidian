@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "vue",
-      "path": "md/vue.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
+      "basename": "bookmark",
+      "path": "bookmark.md"
     },
     {
       "basename": "md",
       "path": "md.md"
     },
     {
-      "basename": "bookmark",
-      "path": "bookmark.md"
+      "basename": "背包问题",
+      "path": "md/背包问题.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "JavaPoet",
+      "path": "md/JavaPoet.md"
+    },
+    {
+      "basename": "vue",
+      "path": "md/vue.md"
     },
     {
       "basename": "javaassist",
@@ -71,10 +79,6 @@
     {
       "basename": "typescript",
       "path": "md/typescript.md"
-    },
-    {
-      "basename": "shell-tips",
-      "path": "md/shell-tips.md"
     }
   ],
   "omittedPaths": [

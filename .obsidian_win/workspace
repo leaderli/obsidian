@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "b45a64a2d22cf5f7",
+        "id": "8bddf5e04a2a55af",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue.md",
-            "mode": "preview"
+            "file": "bookmark.md",
+            "mode": "source"
           }
         }
       }
@@ -68,8 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209,
-    "collapsed": true
+    "width": 209
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue.md",
+                "file": "bookmark.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue.md"
+                "file": "bookmark.md"
               }
             }
           },
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/vue.md",
+                "file": "bookmark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,17 +135,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "b45a64a2d22cf5f7",
+  "active": "8bddf5e04a2a55af",
   "lastOpenFiles": [
-    "md/vue.md",
-    "kanban.md",
-    "md.md",
-    "md/test.md",
     "bookmark.md",
+    "md.md",
+    "md/背包问题.md",
+    "kanban.md",
+    "md/JavaPoet.md",
+    "md/vue.md",
+    "md/test.md",
     "md/javaassist.md",
     "md/axios.md",
-    "md/Untitled.md",
-    "md/计算机组成笔记.md",
-    "md/设计模式.md"
+    "md/Untitled.md"
   ]
 }
