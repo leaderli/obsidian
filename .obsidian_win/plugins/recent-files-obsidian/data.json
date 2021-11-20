@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "axios",
-      "path": "md/axios.md"
-    },
-    {
       "basename": "vue",
       "path": "md/vue.md"
     },
     {
-      "basename": "bookmark",
-      "path": "bookmark.md"
+      "basename": "kanban",
+      "path": "kanban.md"
     },
     {
       "basename": "md",
       "path": "md.md"
     },
     {
-      "basename": "kanban",
-      "path": "kanban.md"
+      "basename": "bookmark",
+      "path": "bookmark.md"
+    },
+    {
+      "basename": "javaassist",
+      "path": "md/javaassist.md"
+    },
+    {
+      "basename": "axios",
+      "path": "md/axios.md"
     },
     {
       "basename": "Untitled",
@@ -71,14 +75,6 @@
     {
       "basename": "shell-tips",
       "path": "md/shell-tips.md"
-    },
-    {
-      "basename": "win10",
-      "path": "md/win10.md"
-    },
-    {
-      "basename": "node",
-      "path": "md/node.md"
     }
   ],
   "omittedPaths": [

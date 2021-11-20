@@ -38,10 +38,10 @@ axios({
 - url 请求地址
 - headers 请求头
 
-```li-color
+
 #htext/red  ==当请求一直pending时，尝试添加   headers: { "Content-type": "json" }==
 
-```
+
     
 
 post 请求

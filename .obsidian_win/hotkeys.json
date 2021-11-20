@@ -41,14 +41,7 @@
   ],
   "app:open-help": [],
   "app:open-settings": [],
-  "switcher:open": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "O"
-    }
-  ],
+  "switcher:open": [],
   "editor:save-file": [],
   "editor:open-search-replace": [],
   "editor:toggle-bold": [],
@@ -124,6 +117,14 @@
         "Alt"
       ],
       "key": "B"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
     }
   ]
 }

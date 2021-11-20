@@ -125,9 +125,7 @@ Class clazz = cc.toClass();
 ```
 在上面的例子中，修改了类的字节码对象，这项修改通过writeFile()将CtClass对象转换为[[java字节码|字节码]]文件并写到磁盘中。
 
-```li-color
-需要注意的是，CtClass做的修改是不会同步到已经被类加载器加载的类对象上的
-```
+#htext/red ==需要注意的是，CtClass做的修改是不会同步到已经被类加载器加载的类对象上的==
 
 CtClass对象代表的class的文件中涉及到的其他class的引用，也需要在[[#ClassPool]]的[[#classpath]]中，
 
@@ -147,9 +145,9 @@ ClassPool是一个存储CtClass的Hash表，ClassPool的get()函数用于从Hash
 
 如果程序在web应用服务器上运行，则可能需要创建多个ClassPool实例。正确的做法应该为每一个ClassLoader创建一个ClassPool实例，ClassPool应当通过构造函数来生成，而不是调用getDefault()来创建。
 
-```li-color
-ClassPool的层级关系应当保持和ClassLoader一致
-```
+
+#htext/red ==ClassPool的层级关系应当保持和ClassLoader一致==
+
 
 ```java
 //parent classloader
@@ -210,9 +208,8 @@ System.out.println(Arrays.toString(AssistDemo.class.getDeclaredFields()));
 2. 修改CtClass
 3. 调用CtClass对象的writeFile()或者toBytecode()获取修改过的类
 
-```li-color
-如果在加载时，可以确定是否需要修改某个类，用户必须使jvassist和类加载器协作，以便在类加载过程中先修改字节码。用户可以定义自己的类加载器，也可以使用javassist提供的类加载器
-```
+#htext/red==如果在加载时，可以确定是否需要修改某个类，用户必须使jvassist和类加载器协作，以便在类加载过程中先修改字节码。用户可以定义自己的类加载器，也可以使用javassist提供的类加载器==
+
 
 [[#类加载器]]
 
