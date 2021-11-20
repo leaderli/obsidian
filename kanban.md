@@ -9,7 +9,6 @@ hide-date-display: false
 
 ## 任务计划池
 
-- [ ] fork
 - [ ] 数据结构
 - [ ] 行为树
 - [ ] 存储过程
@@ -19,7 +18,6 @@ hide-date-display: false
 - [ ] gitlab ci
 - [ ] 可视化eclipse插件
 - [ ] event-loop
-- [ ] lomock原理
 
 
 ## 任务就绪池

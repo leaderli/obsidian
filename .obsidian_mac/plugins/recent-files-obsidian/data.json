@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "ForkJoinPool",
+      "path": "md/ForkJoinPool.md"
+    },
+    {
       "basename": "java-stream",
       "path": "md/java-stream.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "vavr",
       "path": "md/vavr.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     },
     {
       "basename": "vue3",
@@ -55,10 +59,6 @@
     {
       "basename": "node",
       "path": "md/node.md"
-    },
-    {
-      "basename": "vscode相关",
-      "path": "md/vscode相关.md"
     }
   ],
   "omittedPaths": [],
