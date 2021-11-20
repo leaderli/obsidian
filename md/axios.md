@@ -39,7 +39,7 @@ axios({
 - headers 请求头
 
 ```li-color
-当请求一直pending时，尝试添加   headers: { "Content-type": "json" },
+#htext/red  ==当请求一直pending时，尝试添加   headers: { "Content-type": "json" }==
 
 ```
     

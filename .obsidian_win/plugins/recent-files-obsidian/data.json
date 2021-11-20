@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "axios",
+      "path": "md/axios.md"
+    },
+    {
+      "basename": "vue",
+      "path": "md/vue.md"
+    },
+    {
       "basename": "bookmark",
       "path": "bookmark.md"
     },
     {
-      "basename": "kanban",
-      "path": "kanban.md"
-    },
-    {
       "basename": "md",
       "path": "md.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
     },
     {
       "basename": "Untitled",
@@ -45,10 +53,6 @@
       "path": "md/npm-module.md"
     },
     {
-      "basename": "vue",
-      "path": "md/vue.md"
-    },
-    {
       "basename": "promise",
       "path": "md/promise.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "node",
       "path": "md/node.md"
-    },
-    {
-      "basename": "vscode相关",
-      "path": "md/vscode相关.md"
     }
   ],
   "omittedPaths": [

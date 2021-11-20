@@ -1,17 +1,31 @@
 {
   "main": {
-    "id": "b01ed121421eab5c",
+    "id": "3edcf6ea0465b1c1",
     "type": "split",
     "children": [
       {
-        "id": "b46909ff0bd77745",
+        "id": "ad34833947a6932b",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "bookmark.md"
+            "file": "md/axios.md",
+            "mode": "preview"
           }
-        }
+        },
+        "group": "7bcd7d1d1010e194"
+      },
+      {
+        "id": "01ee036cf3a2daf7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/axios.md",
+            "mode": "source"
+          }
+        },
+        "group": "7bcd7d1d1010e194"
       }
     ],
     "direction": "vertical"
@@ -38,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "(tag:#java)  (line:) ()",
+                "query": "li-c",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -63,11 +77,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 426
+    "width": 209
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -83,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bookmark.md",
+                "file": "md/axios.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bookmark.md"
+                "file": "md/axios.md"
               }
             }
           },
@@ -121,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bookmark.md",
+                "file": "md/axios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,17 +150,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "b46909ff0bd77745",
+  "active": "01ee036cf3a2daf7",
   "lastOpenFiles": [
+    "md/axios.md",
+    "md/vue.md",
     "bookmark.md",
-    "kanban.md",
     "md.md",
+    "kanban.md",
     "md/Untitled.md",
     "md/计算机组成笔记.md",
     "md/设计模式.md",
     "md/语言及文法.md",
-    "md/静态内部类的泛型与建造者模式.md",
-    "md/_about_.md",
-    "md/md.md"
+    "md/静态内部类的泛型与建造者模式.md"
   ]
 }
