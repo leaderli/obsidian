@@ -124,19 +124,30 @@ System.out.println(Arrays.toString(arr));
 
 ### flatMap
 
-平铺mapping
+将每一个输入对象输入映射为一个新集合，然后把这些新集合连成一个大集合
 
 ```java
-Map<String, List<String>> map = new HashMap<>();  
-  
 List<String> l1 = new ArrayList<>();  
 l1.add("l1");  
 l1.add("l2");  
-map.put("1", l1);  
   
 List<String> l2 = new ArrayList<>();  
-l1.add("ll3");  
-l1.add("ll2");  
+l2.add("ll1");  
+l2.add("ll2");  
   
-List<String> collect = map.values().stream().flatMap(l -> l.stream()).collect(Collectors.toList());
+  
+List<List<String>> listArr= new ArrayList<>();  
+  
+listArr.add(l1);  
+listArr.add(l2);  
+  
+listArr.stream().map(list->list.toString()).forEach(System.out::println);  
+listArr.stream().flatMap(list->list.stream()).map(element->element.toString()).forEach(System.out::println);
+
+//[l1, l2]
+//[ll1, ll2]
+//l1
+//l2
+//ll1
+//ll2
 ```

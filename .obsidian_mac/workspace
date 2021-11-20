@@ -7,9 +7,10 @@
         "id": "b71fcf50fa22d08e",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/java-stream.md",
+            "mode": "source"
           }
         }
       }
@@ -38,8 +39,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "defineProps",
-                "matchingCase": true,
+                "query": "flatmap",
+                "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": true,
@@ -68,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 146
+    "width": 350
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/java-stream.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/java-stream.md"
               }
             }
           }
@@ -126,15 +127,15 @@
   },
   "active": "b71fcf50fa22d08e",
   "lastOpenFiles": [
+    "md/java-stream.md",
+    "md/stream.md",
+    "md/vavr.md",
     "kanban.md",
     "md/vue3.md",
     "md/promise.md",
     "md/linux常用命令.md",
     "md/tcpdump.md",
     "md/js-tips.md",
-    "md/jquery.md",
-    "md/dom4j.md",
-    "md/typescript.md",
-    "md/vue.md"
+    "md/jquery.md"
   ]
 }

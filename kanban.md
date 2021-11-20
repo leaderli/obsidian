@@ -19,13 +19,13 @@ hide-date-display: false
 - [ ] gitlab ci
 - [ ] 可视化eclipse插件
 - [ ] event-loop
-- [ ] forkjoinpool
-- [ ] pinia StoreToRefs
+- [ ] lomock原理
 
 
 ## 任务就绪池
 
 - [ ] 编译原理学习<br>
+- [ ] forkjoinpool
 
 
 ## 任务执行池
@@ -46,5 +46,6 @@ hide-date-display: false
 
 - [x] [2021最新最详细的Vite+vue3+Volar+Ts+Element-plus框架学习项目案例_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1QP4y1p748?p=6&spm_id_from=pageDriver)
 - [x] promise
+- [x] pinia StoreToRefs
 
 
