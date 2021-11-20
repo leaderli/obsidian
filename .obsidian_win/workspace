@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8bddf5e04a2a55af",
+        "id": "4f52be27f784d1f7",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -68,7 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209
+    "width": 100
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -135,12 +135,12 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "8bddf5e04a2a55af",
+  "active": "4f52be27f784d1f7",
   "lastOpenFiles": [
     "bookmark.md",
+    "kanban.md",
     "md.md",
     "md/背包问题.md",
-    "kanban.md",
     "md/JavaPoet.md",
     "md/vue.md",
     "md/test.md",

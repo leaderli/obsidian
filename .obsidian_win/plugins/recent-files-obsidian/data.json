@@ -5,16 +5,16 @@
       "path": "bookmark.md"
     },
     {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
       "basename": "md",
       "path": "md.md"
     },
     {
       "basename": "背包问题",
       "path": "md/背包问题.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     },
     {
       "basename": "JavaPoet",
