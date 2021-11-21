@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "4f52be27f784d1f7",
+        "id": "dad38e14c5d0bc45",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "bookmark.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -135,7 +135,7 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "4f52be27f784d1f7",
+  "active": "dad38e14c5d0bc45",
   "lastOpenFiles": [
     "bookmark.md",
     "kanban.md",
