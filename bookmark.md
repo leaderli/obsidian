@@ -165,9 +165,13 @@
 [zlibrary2](https://kr1lib.org/)
 
 ## 资源
+
+
 [ByteDance IconPark](https://iconpark.oceanengine.com/officia)  *图标*
 
 [发现导航 - 精选实用导航网站 ](https://www.nav3.cn/#/side?q=&id=1&page=0)  *导航*
+
+[努努影院-在线电影-最新电影-免费电影-电影在线观看](https://www.nunuyy.top/) *电影*
 
 [BT之家-BT电影天堂-影视资源交流社区](https://www.btbtt16.com/) *电影*
 
