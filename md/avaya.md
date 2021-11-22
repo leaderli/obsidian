@@ -88,10 +88,35 @@ private String decodeHex(String hex) {
 
 ## ccxml
 
+一些方便使用的script脚本，因为ccxml中的js引擎版本较低，有些方法是不支持的
+
 ```js
+# 转换json为obj
 function parseJson(String json){
-	return eval("("+json+")")
+	return eval("("+json+")");
 }
+
+function keys(obj){
+	
+	var result = "\n";
+	
+	if(typeof obj === "object"){
+	
+		for(key in obj){
+			result += key + "\n";
+		}
+	}
+}
+
+function objToString(obj){
+	
+	var result = "[\n";
+	result += extractprops("",obj);
+	result += "]";
+	return result;
+}
+
+function extractprops()
 ```
 
 ### redirect
@@ -109,6 +134,43 @@ AAI必须严格按照格式，必须为类型加16进制的表现形式
 
 ###  日志
 
-一般在`/opt/Avaya/ExperienceProtal/MPP/logs/process/CXI`下，通过`tail -f CCXML-SessionSlot-*`追踪
+一般在
+在`/opt/Avaya/ExperienceProtal/MPP/logs/records/2021/09/23`下
+也有可能在`/opt/Avaya/ExperienceProtal/MPP/logs/process/CXI`下，通过`tail -f CCXML-SessionSlot-*`追踪
 
-也可能在`/opt/Avaya/ExperienceProtal/MPP/logs/records/2021/09/23`下
+
+### event$
+
+```yml
+connection:
+	connectionid: 301994428
+	state: CONNECTED 
+	local:  10086 #被叫
+	remote: 123456 # 主叫
+	protocol:
+	aai:
+	originator:
+	input:
+	outputs:
+	avaya:
+		ucid: 01000037351637570087 # callid
+		uui:
+			shared:  #表现形式为 uui.shared.0.id.PD
+				 '0':
+					id: PD
+					value: 00
+				 '1':
+					id: FA # 一般为UCID
+					value: 03E80E97619B5627
+				 '2': 
+					id: C8 # 扩展字段
+					value: 03E80E97619B5627
+connectionid:
+eventid:
+eventsource:
+eventsourcetype:
+info:
+name:
+protocol:
+
+```

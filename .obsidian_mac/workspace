@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/linux搜索.md",
+            "file": "md/avaya.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "6a3056d63f922e24"
+      },
+      {
+        "id": "03c0702f07e8148a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/avaya.md",
+            "mode": "preview"
+          }
+        },
+        "group": "6a3056d63f922e24"
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 627
+    "width": 434.5,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/linux搜索.md",
+                "file": "md/avaya.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/linux搜索.md"
+                "file": "md/avaya.md"
               }
             }
           }
@@ -127,9 +141,9 @@
   },
   "active": "3312318966a3fa53",
   "lastOpenFiles": [
+    "md/avaya.md",
     "md/linux搜索.md",
     "md/linux查看.md",
-    "md/avaya.md",
     "md/java.md",
     "md/java注解.md",
     "md/java基础.md",
