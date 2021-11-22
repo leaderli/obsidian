@@ -80,3 +80,35 @@ private String decodeHex(String hex) {
     return new String(big.toByteArray());
 }
 ```
+
+
+## IVR
+
+在End节点中，增加返回参数`AAI`，向其中赋值参数，avaya平台会自动将其拼接到`C8`后面
+
+## ccxml
+
+```js
+function parseJson(String json){
+	return eval("("+json+")")
+}
+```
+
+### redirect
+
+指定AAI
+
+AAI必须严格按照格式，必须为类型加16进制的表现形式
+#hints
+
+```xml
+<var name="dialog_values" expr="parseJson('{}')"/>  
+<assign name="dialog_values.AAI" expr="event$.connection.aai+'C8,03E80E34619B2A50'"/>  
+<redirect connectionid="main_connectionid" dest="event$.uri" hints="dialog_values"/>
+```
+
+###  日志
+
+一般在`/opt/Avaya/ExperienceProtal/MPP/logs/process/CXI`下，通过`tail -f CCXML-SessionSlot-*`追踪
+
+也可能在`/opt/Avaya/ExperienceProtal/MPP/logs/records/2021/09/23`下

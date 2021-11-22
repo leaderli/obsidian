@@ -4,30 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b71fcf50fa22d08e",
-        "type": "leaf",
-        "dimension": 39.905362776025235,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/avaya.md",
-            "mode": "source"
-          }
-        },
-        "group": "764a68546ef72f1b"
-      },
-      {
         "id": "3312318966a3fa53",
         "type": "leaf",
-        "dimension": 60.094637223974765,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/avaya.md",
-            "mode": "preview"
+            "file": "md/linux搜索.md",
+            "mode": "source"
           }
-        },
-        "group": "764a68546ef72f1b"
+        }
       }
     ],
     "direction": "vertical"
@@ -54,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "avaya",
+                "query": "find linux",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -84,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 159.5,
-    "collapsed": true
+    "width": 627
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/avaya.md",
+                "file": "md/linux搜索.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/avaya.md"
+                "file": "md/linux搜索.md"
               }
             }
           }
@@ -141,8 +125,10 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "b71fcf50fa22d08e",
+  "active": "3312318966a3fa53",
   "lastOpenFiles": [
+    "md/linux搜索.md",
+    "md/linux查看.md",
     "md/avaya.md",
     "md/java.md",
     "md/java注解.md",
@@ -150,8 +136,6 @@
     "md/java基础-数据类型.md",
     "md/java-数组.md",
     "md/common_常用.md",
-    "kanban.md",
-    "md/ForkJoinPool.md",
-    "md/java-stream.md"
+    "kanban.md"
   ]
 }
