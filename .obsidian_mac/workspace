@@ -6,10 +6,11 @@
       {
         "id": "b71fcf50fa22d08e",
         "type": "leaf",
+        "dimension": 39.905362776025235,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java.md",
+            "file": "md/avaya.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "3312318966a3fa53",
         "type": "leaf",
+        "dimension": 60.094637223974765,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java.md",
+            "file": "md/avaya.md",
             "mode": "preview"
           }
         },
@@ -52,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "avaya",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -82,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 159.5,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -98,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java.md",
+                "file": "md/avaya.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java.md"
+                "file": "md/avaya.md"
               }
             }
           }
@@ -140,6 +143,7 @@
   },
   "active": "b71fcf50fa22d08e",
   "lastOpenFiles": [
+    "md/avaya.md",
     "md/java.md",
     "md/java注解.md",
     "md/java基础.md",
@@ -148,7 +152,6 @@
     "md/common_常用.md",
     "kanban.md",
     "md/ForkJoinPool.md",
-    "md/java-stream.md",
-    "md/stream.md"
+    "md/java-stream.md"
   ]
 }

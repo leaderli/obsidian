@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "avaya",
+      "path": "md/avaya.md"
+    },
+    {
       "basename": "java",
       "path": "md/java.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
-    },
-    {
-      "basename": "tcpdump",
-      "path": "md/tcpdump.md"
     }
   ],
   "omittedPaths": [],
