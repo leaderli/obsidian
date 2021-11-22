@@ -1,8 +1,68 @@
 {
   "recentFiles": [
     {
+      "basename": "bookmark",
+      "path": "bookmark.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "md",
+      "path": "md.md"
+    },
+    {
+      "basename": "背包问题",
+      "path": "md/背包问题.md"
+    },
+    {
+      "basename": "JavaPoet",
+      "path": "md/JavaPoet.md"
+    },
+    {
       "basename": "vue",
       "path": "md/vue.md"
+    },
+    {
+      "basename": "javaassist",
+      "path": "md/javaassist.md"
+    },
+    {
+      "basename": "axios",
+      "path": "md/axios.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "md/Untitled.md"
+    },
+    {
+      "basename": "计算机组成笔记",
+      "path": "md/计算机组成笔记.md"
+    },
+    {
+      "basename": "设计模式",
+      "path": "md/设计模式.md"
+    },
+    {
+      "basename": "语言及文法",
+      "path": "md/语言及文法.md"
+    },
+    {
+      "basename": "静态内部类的泛型与建造者模式",
+      "path": "md/静态内部类的泛型与建造者模式.md"
+    },
+    {
+      "basename": "md",
+      "path": "md/md.md"
+    },
+    {
+      "basename": "html",
+      "path": "md/html.md"
+    },
+    {
+      "basename": "npm-module",
+      "path": "md/npm-module.md"
     },
     {
       "basename": "promise",
@@ -19,66 +79,6 @@
     {
       "basename": "typescript",
       "path": "md/typescript.md"
-    },
-    {
-      "basename": "shell-tips",
-      "path": "md/shell-tips.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
-    },
-    {
-      "basename": "win10",
-      "path": "md/win10.md"
-    },
-    {
-      "basename": "node",
-      "path": "md/node.md"
-    },
-    {
-      "basename": "vscode相关",
-      "path": "md/vscode相关.md"
-    },
-    {
-      "basename": "vim",
-      "path": "md/vim.md"
-    },
-    {
-      "basename": "vite",
-      "path": "md/vite.md"
-    },
-    {
-      "basename": "git",
-      "path": "md/git.md"
-    },
-    {
-      "basename": "LL(1)",
-      "path": "md/LL(1).md"
-    },
-    {
-      "basename": "katex",
-      "path": "md/katex.md"
-    },
-    {
-      "basename": "语言及文法",
-      "path": "md/语言及文法.md"
-    },
-    {
-      "basename": "编译原理",
-      "path": "md/编译原理.md"
-    },
-    {
-      "basename": "nginx",
-      "path": "md/nginx.md"
-    },
-    {
-      "basename": "linux搜索",
-      "path": "md/linux搜索.md"
-    },
-    {
-      "basename": "linux文件系统",
-      "path": "md/linux文件系统.md"
     }
   ],
   "omittedPaths": [

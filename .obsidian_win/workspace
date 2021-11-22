@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "b01ed121421eab5c",
+    "id": "3edcf6ea0465b1c1",
     "type": "split",
     "children": [
       {
-        "id": "122ebe7f21bb8361",
+        "id": "dad38e14c5d0bc45",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue.md",
+            "file": "bookmark.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "object.a",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -64,13 +64,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 148.5,
-    "collapsed": true
+    "width": 100
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,8 +84,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue.md",
-                "collapseAll": true,
+                "file": "bookmark.md",
+                "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -103,8 +101,8 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": false
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           },
@@ -114,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue.md"
+                "file": "bookmark.md"
               }
             }
           },
@@ -124,31 +122,30 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/vue.md",
+                "file": "bookmark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 360,
     "collapsed": true
   },
-  "active": "122ebe7f21bb8361",
+  "active": "dad38e14c5d0bc45",
   "lastOpenFiles": [
-    "md/vue.md",
-    "md/promise.md",
-    "md/vue3.md",
-    "md/js-tips.md",
-    "md/typescript.md",
-    "md/shell-tips.md",
+    "bookmark.md",
     "kanban.md",
-    "md/win10.md",
-    "md/node.md",
-    "md/vscode相关.md"
+    "md.md",
+    "md/背包问题.md",
+    "md/JavaPoet.md",
+    "md/vue.md",
+    "md/test.md",
+    "md/javaassist.md",
+    "md/axios.md",
+    "md/Untitled.md"
   ]
 }
