@@ -39,6 +39,8 @@ aaod 开发过程的一些设想
 
 ## 计算UUI
 
+当通过sip传递数据时，sip会默认转为hex格式
+![[Pasted image 20211122180136.png]]
 一般情况想，UUI根据非ASCII标准字符作为分隔符
 例如:
 
@@ -116,7 +118,36 @@ function objToString(obj){
 	return result;
 }
 
-function extractprops()
+
+function extractprops(parent, obj, skip) {
+
+    if (obj === undefined || typeof obj !== 'object') {
+        return obj + ""
+    }
+    var name, result = "";
+
+    var count = 0;
+
+    for (key in obj) {
+
+		//小于号需要使用HTML转义符
+        if (skip &lt; count) {
+            continue
+        }
+        count++;
+        name = parent + key
+        var value = obj[key]
+
+        if (typeof value === "object") {
+
+            result += extractprops(name, value);
+        } else {
+            result += name + ":" + value + "\n"
+        }
+    }
+    return result;
+}
+
 ```
 
 ### redirect
@@ -148,14 +179,34 @@ connection:
 	local:  10086 #被叫
 	remote: 123456 # 主叫
 	protocol:
-	aai:
-	originator:
-	input:
+		name: sip # 下面一般跟着具体协议名的请求报文详情
+		sip: 
+			callid: 
+			contact:
+			extension:
+			from:
+			historyinfo:
+			media:
+			passertedid:
+			request:
+			requestmethod:
+			requesturi:
+			requestversion:
+			requrie:
+			support:
+			unkonwnhdr:
+			useragent:
+			via:
+			
+		version: 1
+	aai: PD,00,FA,03E80E97619B5627,C8,03E80E97619B5627
+	originator: remote
+	input: undeined
 	outputs:
 	avaya:
 		ucid: 01000037351637570087 # callid
 		uui:
-			shared:  #表现形式为 uui.shared.0.id.PD
+			shared:  #表现形式为 uui.shared.0.id.PD，一般等同于aai
 				 '0':
 					id: PD
 					value: 00
@@ -165,12 +216,12 @@ connection:
 				 '2': 
 					id: C8 # 扩展字段
 					value: 03E80E97619B5627
-connectionid:
-eventid:
-eventsource:
-eventsourcetype:
-info:
-name:
-protocol:
+connectionid: 301994428
+eventid: 369103926
+eventsource: shaep-2021326095244-8
+eventsourcetype: AvayaVoicePortal
+info: 
+name: name.connection.connected
+protocol: sip
 
 ```

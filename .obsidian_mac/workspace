@@ -6,6 +6,7 @@
       {
         "id": "3312318966a3fa53",
         "type": "leaf",
+        "dimension": 17.28395061728395,
         "state": {
           "type": "markdown",
           "state": {
@@ -18,6 +19,7 @@
       {
         "id": "03c0702f07e8148a",
         "type": "leaf",
+        "dimension": 82.71604938271605,
         "state": {
           "type": "markdown",
           "state": {
@@ -139,7 +141,7 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "3312318966a3fa53",
+  "active": "03c0702f07e8148a",
   "lastOpenFiles": [
     "md/avaya.md",
     "md/linux搜索.md",
