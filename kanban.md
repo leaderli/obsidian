@@ -17,6 +17,7 @@ hide-date-display: false
 - [ ] gitlab ci
 - [ ] 可视化eclipse插件
 - [ ] netty<br>
+- [ ] safari bookmark
 
 
 ## 任务就绪池

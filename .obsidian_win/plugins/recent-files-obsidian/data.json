@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "common_常用",
+      "path": "md/common_常用.md"
+    },
+    {
+      "basename": "md",
+      "path": "md.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
     {
       "basename": "bookmark",
       "path": "bookmark.md"
-    },
-    {
-      "basename": "md",
-      "path": "md.md"
     },
     {
       "basename": "背包问题",
@@ -75,10 +79,6 @@
     {
       "basename": "js-tips",
       "path": "md/js-tips.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
     }
   ],
   "omittedPaths": [
