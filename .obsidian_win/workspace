@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/common_常用.md",
-            "mode": "preview"
+            "file": "bookmark.md",
+            "mode": "source"
           }
         }
       }
@@ -64,12 +64,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 577
+    "width": 189
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/common_常用.md",
+                "file": "bookmark.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/common_常用.md"
+                "file": "bookmark.md"
               }
             }
           },
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/common_常用.md",
+                "file": "bookmark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,10 +137,10 @@
   },
   "active": "40de8c3b9c13b4c8",
   "lastOpenFiles": [
+    "bookmark.md",
+    "kanban.md",
     "md/common_常用.md",
     "md.md",
-    "kanban.md",
-    "bookmark.md",
     "md/背包问题.md",
     "md/JavaPoet.md",
     "md/vue.md",
