@@ -5,6 +5,10 @@
       "path": "bookmark.md"
     },
     {
+      "basename": "java面试题-1",
+      "path": "md/java面试题-1.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "vue3",
       "path": "md/vue3.md"
-    },
-    {
-      "basename": "js-tips",
-      "path": "md/js-tips.md"
     }
   ],
   "omittedPaths": [

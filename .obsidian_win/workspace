@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "work copy",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -64,7 +64,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -138,6 +139,7 @@
   "active": "40de8c3b9c13b4c8",
   "lastOpenFiles": [
     "bookmark.md",
+    "md/java面试题-1.md",
     "kanban.md",
     "md/common_常用.md",
     "md.md",
@@ -145,7 +147,6 @@
     "md/JavaPoet.md",
     "md/vue.md",
     "md/test.md",
-    "md/javaassist.md",
-    "md/axios.md"
+    "md/javaassist.md"
   ]
 }
