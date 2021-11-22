@@ -12,18 +12,16 @@ hide-date-display: false
 - [ ] 数据结构
 - [ ] 行为树
 - [ ] 存储过程
-- [ ] fork
 - [ ] reactor
 - [ ] apoll配置中心
 - [ ] gitlab ci
 - [ ] 可视化eclipse插件
-- [ ] event-loop
+- [ ] netty<br>
 
 
 ## 任务就绪池
 
 - [ ] 编译原理学习<br>
-- [ ] forkjoinpool
 
 
 ## 任务执行池
@@ -34,6 +32,7 @@ hide-date-display: false
 
 ## 任务验收池
 
+- [ ] forkjoinpool
 
 
 ## 任务阻塞池

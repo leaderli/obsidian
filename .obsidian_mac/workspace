@@ -7,11 +7,25 @@
         "id": "b71fcf50fa22d08e",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/java.md",
+            "mode": "source"
           }
-        }
+        },
+        "group": "764a68546ef72f1b"
+      },
+      {
+        "id": "3312318966a3fa53",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/java.md",
+            "mode": "preview"
+          }
+        },
+        "group": "764a68546ef72f1b"
       }
     ],
     "direction": "vertical"
@@ -63,11 +77,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 350
+    "width": 256.5
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -83,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/java.md"
               }
             }
           }
@@ -125,15 +140,15 @@
   },
   "active": "b71fcf50fa22d08e",
   "lastOpenFiles": [
+    "md/java.md",
+    "md/java注解.md",
+    "md/java基础.md",
+    "md/java基础-数据类型.md",
+    "md/java-数组.md",
+    "md/common_常用.md",
     "kanban.md",
     "md/ForkJoinPool.md",
     "md/java-stream.md",
-    "md/stream.md",
-    "md/vavr.md",
-    "md/vue3.md",
-    "md/promise.md",
-    "md/linux常用命令.md",
-    "md/tcpdump.md",
-    "md/js-tips.md"
+    "md/stream.md"
   ]
 }

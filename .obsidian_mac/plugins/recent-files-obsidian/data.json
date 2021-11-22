@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "java",
+      "path": "md/java.md"
+    },
+    {
+      "basename": "java注解",
+      "path": "md/java注解.md"
+    },
+    {
+      "basename": "java基础",
+      "path": "md/java基础.md"
+    },
+    {
+      "basename": "java基础-数据类型",
+      "path": "md/java基础-数据类型.md"
+    },
+    {
+      "basename": "java-数组",
+      "path": "md/java-数组.md"
+    },
+    {
+      "basename": "common_常用",
+      "path": "md/common_常用.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -35,30 +59,6 @@
     {
       "basename": "tcpdump",
       "path": "md/tcpdump.md"
-    },
-    {
-      "basename": "js-tips",
-      "path": "md/js-tips.md"
-    },
-    {
-      "basename": "jquery",
-      "path": "md/jquery.md"
-    },
-    {
-      "basename": "dom4j",
-      "path": "md/dom4j.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
-    },
-    {
-      "basename": "vue",
-      "path": "md/vue.md"
-    },
-    {
-      "basename": "node",
-      "path": "md/node.md"
     }
   ],
   "omittedPaths": [],
