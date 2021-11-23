@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/AntV_X6.md",
-            "mode": "preview"
+            "file": "md/avaya.md",
+            "mode": "source"
           }
         }
       }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/AntV_X6.md",
+                "file": "md/avaya.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/AntV_X6.md"
+                "file": "md/avaya.md"
               }
             }
           }
@@ -128,10 +128,10 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
+    "md/avaya.md",
     "md/AntV_X6.md",
     "md/vite.md",
     "md/vue3.md",
-    "md/avaya.md",
     "md/linux搜索.md",
     "md/linux查看.md",
     "md/java.md",

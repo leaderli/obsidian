@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "avaya",
+      "path": "md/avaya.md"
+    },
+    {
       "basename": "AntV_X6",
       "path": "md/AntV_X6.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "vue3",
       "path": "md/vue3.md"
-    },
-    {
-      "basename": "avaya",
-      "path": "md/avaya.md"
     },
     {
       "basename": "linux搜索",
