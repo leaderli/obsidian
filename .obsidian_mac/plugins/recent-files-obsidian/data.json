@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "nginx",
+      "path": "md/nginx.md"
+    },
+    {
       "basename": "avaya",
       "path": "md/avaya.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "ForkJoinPool",
       "path": "md/ForkJoinPool.md"
-    },
-    {
-      "basename": "java-stream",
-      "path": "md/java-stream.md"
     }
   ],
   "omittedPaths": [],

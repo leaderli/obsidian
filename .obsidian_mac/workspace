@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/avaya.md",
+            "file": "md/nginx.md",
             "mode": "source"
           }
         }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/avaya.md",
+                "file": "md/nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/avaya.md"
+                "file": "md/nginx.md"
               }
             }
           }
@@ -128,6 +128,7 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
+    "md/nginx.md",
     "md/avaya.md",
     "md/AntV_X6.md",
     "md/vite.md",
@@ -136,7 +137,6 @@
     "md/linux查看.md",
     "md/java.md",
     "md/java注解.md",
-    "md/java基础.md",
-    "md/java基础-数据类型.md"
+    "md/java基础.md"
   ]
 }
