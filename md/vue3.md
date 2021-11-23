@@ -1,7 +1,4 @@
-
-## 快速入门
-
-```shell
+User Guide | eslint-plugin-vue
 npm init vite@latest
 npm run dev
 ```
@@ -699,8 +696,10 @@ export const allowRouter: Array<IMenubarList> = [
 
 ## eslint
 
+[eslint-vue](https://eslint.vuejs.org/user-guide/#usage)
+
 ```shell
-npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-vue
 
 ```
 
@@ -708,7 +707,7 @@ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslin
 
 ```json
 "scripts": {
-	"lint": "eslint . --ext .ts"
+	"lint": "eslint . --ext .ts,vue"
 },
 ```
 
