@@ -18,6 +18,7 @@ hide-date-display: false
 - [ ] 可视化eclipse插件
 - [ ] netty<br>
 - [ ] safari bookmark
+- [ ] inject provide vue
 
 
 ## 任务就绪池
