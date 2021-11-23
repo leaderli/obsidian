@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
       "basename": "AntV_X6",
       "path": "md/AntV_X6.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "stream",
       "path": "md/stream.md"
-    },
-    {
-      "basename": "vavr",
-      "path": "md/vavr.md"
     }
   ],
   "omittedPaths": [],
