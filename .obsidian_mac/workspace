@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
+            "file": "md/AntV_X6.md",
             "mode": "preview"
           }
         }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue3.md",
+                "file": "md/AntV_X6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue3.md"
+                "file": "md/AntV_X6.md"
               }
             }
           }
@@ -128,15 +128,15 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
-    "md/vue3.md",
     "md/AntV_X6.md",
+    "md/vite.md",
+    "md/vue3.md",
     "md/avaya.md",
     "md/linux搜索.md",
     "md/linux查看.md",
     "md/java.md",
     "md/java注解.md",
     "md/java基础.md",
-    "md/java基础-数据类型.md",
-    "md/java-数组.md"
+    "md/java基础-数据类型.md"
   ]
 }

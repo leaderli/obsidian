@@ -695,3 +695,21 @@ export const allowRouter: Array<IMenubarList> = [
 
 
 
+
+
+## vue-tsc
+检测类型的包
+
+##  一些常见问题
+> node_modules/@antv/x6/lib/view/tool.d.ts:76:30 - error TS2503: Cannot find namespace 'JQuery'.
+
+忽略 [[#vue-tsc]] 检测依赖包即可
+
+```json
+{
+  "script": {
+    "build": "vue-tsc --noEmit --skipLibCheck && vite build"
+  }
+}
+
+```
