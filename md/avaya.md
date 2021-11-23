@@ -87,10 +87,10 @@ private String decodeHex(String hex) {
 ```
 
 
-## 更改tts或asr的language
+## TTS ASR
 
 - `/opt/Tomcat/apache-tomcat-6.0.41/lib/config/languages.properties`
-- `/opt/Tomcat/apache-tomcat-6.0.41/lib/messeages/languages.properties`
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - `/opt/Tomcat/apache-tomcat-6.0.41/lib/messeages/languages.properties`
 
 配置文件大小写敏感
 
@@ -107,6 +107,8 @@ title: tts 播报40s超时
 2. ep平台报错`PSESM00070`和`PTTS_00019`
 3. `/opt/Avaya/ExperiencePortal/MPP/config`修改`mppconfig.xml`，将参数`mpp.mrcpsessionrefresh.timer`设置为合适的值
 ```
+
+tts可以使用ssml的语法编写
 
 ## IVR
 

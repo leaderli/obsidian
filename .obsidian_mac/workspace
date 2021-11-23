@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/avaya.md",
+            "file": "md/AntV_X6.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/avaya.md",
+            "file": "md/AntV_X6.md",
             "mode": "preview"
           }
         },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/avaya.md",
+                "file": "md/AntV_X6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/avaya.md"
+                "file": "md/AntV_X6.md"
               }
             }
           }
@@ -139,8 +139,9 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "03c0702f07e8148a",
+  "active": "baeec0d026dcd572",
   "lastOpenFiles": [
+    "md/AntV_X6.md",
     "md/avaya.md",
     "md/linux搜索.md",
     "md/linux查看.md",
@@ -149,7 +150,6 @@
     "md/java基础.md",
     "md/java基础-数据类型.md",
     "md/java-数组.md",
-    "md/common_常用.md",
-    "kanban.md"
+    "md/common_常用.md"
   ]
 }
