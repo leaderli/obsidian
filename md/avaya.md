@@ -36,6 +36,9 @@ aaod 开发过程的一些设想
 - 多模块的开发，在 maven 运行前将非公共流程的代码，通过 shell 脚本合并到一起，然后将所有模块打包成一个应用。涉及到跨模块的流程调用，统一使用一个虚拟的公共流程做跳板，对流程的出口做预设处理。
 - 挂机流程中注册回调流程。指定的流程中触发挂机事件需要跳转到回调流程中。
 
+## epm 官方文档
+可通过[官网](https://support.avaya.com/documents/)下载
+![[ExperiencePortal7.0.1DocumentationLibrary.zip]]
 
 ## 计算UUI
 
@@ -83,6 +86,27 @@ private String decodeHex(String hex) {
 }
 ```
 
+
+## 更改tts或asr的language
+
+- `/opt/Tomcat/apache-tomcat-6.0.41/lib/config/languages.properties`
+- `/opt/Tomcat/apache-tomcat-6.0.41/lib/messeages/languages.properties`
+
+配置文件大小写敏感
+
+```ad-info
+title:只有首通电话首次TTS播报成功，其他都不播报，过一分钟后再次拨打，只有首次成功
+
+长连接问题，avaya平台在一次长连接中进行多次合成操作，在第一次播报tts播报以后会发送一个rtcp的`goodbye`消息。需要将科大`mrs.cfg`文件中的`discard ob bye`的参数设置为`false`
+```
+
+```ad-info
+title: tts 播报40s超时
+
+1. 抓包tts，ep平台在40s后发送`end`命令
+2. ep平台报错`PSESM00070`和`PTTS_00019`
+3. `/opt/Avaya/ExperiencePortal/MPP/config`修改`mppconfig.xml`，将参数`mpp.mrcpsessionrefresh.timer`设置为合适的值
+```
 
 ## IVR
 
