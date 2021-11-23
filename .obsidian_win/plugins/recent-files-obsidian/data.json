@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "typescript",
+      "path": "md/typescript.md"
+    },
+    {
+      "basename": "AntV_X6",
+      "path": "md/AntV_X6.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
       "basename": "java-tips",
       "path": "md/java-tips.md"
     },
@@ -67,18 +79,6 @@
     {
       "basename": "md",
       "path": "md/md.md"
-    },
-    {
-      "basename": "html",
-      "path": "md/html.md"
-    },
-    {
-      "basename": "npm-module",
-      "path": "md/npm-module.md"
-    },
-    {
-      "basename": "promise",
-      "path": "md/promise.md"
     }
   ],
   "omittedPaths": [

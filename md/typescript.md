@@ -92,3 +92,11 @@ ts-node  demo.ts
 npm install -g ts-node
 npm install @types/node  -g
 ```
+
+
+> Type 'HTMLElement | null' is not assignable to type 'HTMLElement | undefined'. .ts(2322)
+
+```js
+// 在申明有null的变量后加 !
+const portalDiv = document.getElementById('#your-element')!;
+```

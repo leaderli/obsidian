@@ -695,3 +695,56 @@ export const allowRouter: Array<IMenubarList> = [
 
 
 
+
+
+## eslint
+
+```shell
+npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+
+```
+
+`package.json`
+
+```json
+"scripts": {
+	"lint": "eslint . --ext .ts"
+},
+```
+
+`.eslintrc`
+```json
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+}
+```
+
+`.eslintignore`
+
+```txt
+build/*.js
+src/assets
+public
+dist
+```
+
+
+部分代码不使用eslint检测
+
+```js
+type define_component = DefineComponent<unknown, unknown, any>; // eslint-disable-line
+
+
+/* eslint-disable no-console, no-control-regex*/
+console.log('JavaScript debug log');
+console.log('eslint is disabled now');
+```
