@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
+      "basename": "vue",
+      "path": "md/vue.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "JavaPoet",
       "path": "md/JavaPoet.md"
-    },
-    {
-      "basename": "vue",
-      "path": "md/vue.md"
     },
     {
       "basename": "javaassist",
@@ -75,10 +79,6 @@
     {
       "basename": "promise",
       "path": "md/promise.md"
-    },
-    {
-      "basename": "vue3",
-      "path": "md/vue3.md"
     }
   ],
   "omittedPaths": [
