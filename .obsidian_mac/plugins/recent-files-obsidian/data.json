@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "一些思路",
+      "path": "md/一些思路.md"
+    },
+    {
       "basename": "nginx",
       "path": "md/nginx.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "kanban",
       "path": "kanban.md"
-    },
-    {
-      "basename": "ForkJoinPool",
-      "path": "md/ForkJoinPool.md"
     }
   ],
   "omittedPaths": [],
