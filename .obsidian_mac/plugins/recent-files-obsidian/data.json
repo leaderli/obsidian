@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
+      "basename": "java-数组",
+      "path": "md/java-数组.md"
+    },
+    {
       "basename": "一些思路",
       "path": "md/一些思路.md"
     },
@@ -49,16 +57,8 @@
       "path": "md/java基础-数据类型.md"
     },
     {
-      "basename": "java-数组",
-      "path": "md/java-数组.md"
-    },
-    {
       "basename": "common_常用",
       "path": "md/common_常用.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     }
   ],
   "omittedPaths": [],

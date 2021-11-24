@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/一些思路.md",
+            "file": "md/java-tips.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "find linux",
+                "query": "section:(java 是否 数组)",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5,
-    "collapsed": true
+    "width": 434.5
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/一些思路.md",
+                "file": "md/java-tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/一些思路.md"
+                "file": "md/java-tips.md"
               }
             }
           }
@@ -128,6 +127,8 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
+    "md/java-tips.md",
+    "md/java-数组.md",
     "md/一些思路.md",
     "md/nginx.md",
     "md/avaya.md",
@@ -135,8 +136,6 @@
     "md/vite.md",
     "md/vue3.md",
     "md/linux搜索.md",
-    "md/linux查看.md",
-    "md/java.md",
-    "md/java注解.md"
+    "md/linux查看.md"
   ]
 }
