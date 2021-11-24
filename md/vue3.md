@@ -697,6 +697,8 @@ export const allowRouter: Array<IMenubarList> = [
 
 ## 动态组件
 
+[官方文档](https://v3.vuejs.org/guide/component-dynamic-async.html#dynamic-async-components)
+
 ```html
  <component :is='menu.meta.icon' class='icons'/>
 ```
