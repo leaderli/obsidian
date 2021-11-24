@@ -82,6 +82,11 @@ new Object(){}.getClass().getEnclosingMethod().getName();
 
 ### 使用 shell
 
+
+```ad-info
+脚本中如果有使用环境变量的地方，需要手动赋值，或者`source ~/.bash_profile`以及一些其他环境脚本
+```
+
 ```java
 //获取当前系统名称，可根据不同系统调用不同的命令
 String os = System.getProperty("os.name");
