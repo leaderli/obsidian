@@ -1,7 +1,4 @@
-
-## 快速入门
-
-```shell
+Dynamic & Async Components | Vue.js
 npm init vite@latest
 npm run dev
 ```
