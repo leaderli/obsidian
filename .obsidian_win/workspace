@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "5548ac159a181606",
+        "id": "77e90a97dcfb0641",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/vue3.md",
+            "mode": "source"
           }
         }
       }
@@ -38,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lodash",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/vue3.md"
               }
             }
           },
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/vue3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,15 +136,15 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "5548ac159a181606",
+  "active": "77e90a97dcfb0641",
   "lastOpenFiles": [
+    "md/vue3.md",
+    "md/vue.md",
     "kanban.md",
     "md/npm-module.md",
-    "md/vue3.md",
     "md/typescript.md",
     "md/AntV_X6.md",
     "md/java-tips.md",
-    "md/vue.md",
     "bookmark.md",
     "md/java面试题-1.md",
     "md/common_常用.md"
