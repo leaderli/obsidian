@@ -17,7 +17,7 @@ hide-date-display: false
 - [ ] gitlab ci
 - [ ] 可视化eclipse插件
 - [ ] netty<br>
-- [ ] fancy cursor
+- [ ] rx java
 
 
 ## 任务就绪池
@@ -27,7 +27,7 @@ hide-date-display: false
 
 ## 任务执行池
 
-- [ ] unix编程艺术阅读
+- [ ] unix编程艺术阅读 @{2022-01-31}
 - [ ] 动机心理学阅读
 
 
@@ -43,6 +43,7 @@ hide-date-display: false
 ## 任务完成池
 
 - [x] [2021最新最详细的Vite+vue3+Volar+Ts+Element-plus框架学习项目案例_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1QP4y1p748?p=6&spm_id_from=pageDriver)
+- [x] fancy cursor
 - [x] promise
 - [x] pinia StoreToRefs
 

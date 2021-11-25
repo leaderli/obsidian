@@ -1,6 +1,4 @@
----
-title: node模块
-date: 2020-07-04 02:06:00
+https://github.com/SortableJS/vue.draggable.next/SortableJS/vue.draggable.nextdate: 2020-07-04 02:06:00
 categories: nodejs
 tags:
 ---
@@ -354,20 +352,52 @@ npm install jszip -s
 npm i @types/nprogress -s
 ```
 
-
-
 ###  types/sortablejs
 
 实现拖拽效果
-
 
 ```shell
 npm i @types/sortablejs -s 
 ```
 
+###  vuedraggable
+
+基于sortable的vue的拖拽，[github](https://github.com/SortableJS/vue.draggable.next)
+
+```shell
+npm i -S vuedraggable@next 
+```
 
 ### vue-splitpane
 
+分割窗口
+
 ```shell
-npm i 
+npm i splitpanes@next -s
+```
+
+### xlsx
+
+```shell
+npm i xlsx -s
+```
+
+
+### animejs
+
+动画效果 [github](https://github.com/juliangarnier/anime/)
+
+
+```shell
+npm install animejs --save
+
+```
+
+
+###  normalize.css
+
+在默认的HTML元素样式上提供了跨浏览器的高度一致性
+
+```shell
+npm install normalize.css -s
 ```

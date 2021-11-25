@@ -141,6 +141,9 @@
 [Develop Plug-ins Using RCP](https://www.programcreek.com/develop-plug-ins-using-rcp/)
 
 [Rich Client Platform - Eclipsepedia](https://wiki.eclipse.org/Rich_Client_Platform)
+
+
+[前端常用插件、工具类库汇总](https://juejin.cn/post/6844903683411410951#heading-8) #js
 ## book
 
 [Jiumo Search 鸠摩搜索 - 文档搜索引擎](https://www.jiumodiary.com/)

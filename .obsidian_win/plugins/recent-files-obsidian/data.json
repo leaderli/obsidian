@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "bookmark",
+      "path": "bookmark.md"
+    },
+    {
       "basename": "npm-module",
       "path": "md/npm-module.md"
     },
@@ -9,20 +17,12 @@
       "path": "md/vue3.md"
     },
     {
-      "basename": "kanban",
-      "path": "kanban.md"
-    },
-    {
       "basename": "conflict-files-obsidian-git",
       "path": "conflict-files-obsidian-git.md"
     },
     {
       "basename": "vue",
       "path": "md/vue.md"
-    },
-    {
-      "basename": "bookmark",
-      "path": "bookmark.md"
     },
     {
       "basename": "typescript",
