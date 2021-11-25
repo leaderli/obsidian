@@ -6,7 +6,6 @@ tags:
 ---
 
 ## 后台运行库
-*1*
 pm2 是一个进程管理工具,可以用它来管理你的 node 进程，并查看 node 进程的状态，当然也支持性能监控，进程守护，负载均衡等功能
 
 ```shell
@@ -295,4 +294,80 @@ var object = require('lodash/fp/object');
 // Cherry-pick methods for smaller browserify/rollup/webpack bundles.
 var at = require('lodash/at');
 var curryN = require('lodash/fp/curryN');
+```
+
+
+
+###  dropzone
+
+上传文件
+
+```shell
+npm i @types/dropzone -s
+```
+
+
+###  clipboard
+复制粘贴
+```shell
+npm i ts-clipboard -s
+```
+
+
+### codemirror
+
+高亮代码块
+
+```shell
+npm i @types/codemirror -s
+```
+
+
+###  file-saver
+保存为文件
+
+```shell
+npm i @types/file-saver -s
+
+```
+
+
+###  fuse
+
+模糊搜索
+
+```shell
+npm install --save fuse.js
+```
+
+
+### jszip
+
+```shell
+npm install jszip -s
+```
+
+
+### nprogress
+
+```shell
+npm i @types/nprogress -s
+```
+
+
+
+###  types/sortablejs
+
+实现拖拽效果
+
+
+```shell
+npm i @types/sortablejs -s 
+```
+
+
+### vue-splitpane
+
+```shell
+npm i 
 ```
