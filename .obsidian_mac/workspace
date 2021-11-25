@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-tips.md",
+            "file": "md/npm-module.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "section:(java 是否 数组)",
+                "query": "lodash",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-tips.md",
+                "file": "md/npm-module.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java-tips.md"
+                "file": "md/npm-module.md"
               }
             }
           }
@@ -127,6 +127,7 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
+    "md/npm-module.md",
     "md/java-tips.md",
     "md/java-数组.md",
     "md/一些思路.md",
@@ -135,7 +136,6 @@
     "md/AntV_X6.md",
     "md/vite.md",
     "md/vue3.md",
-    "md/linux搜索.md",
-    "md/linux查看.md"
+    "md/linux搜索.md"
   ]
 }

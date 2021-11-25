@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "npm-module",
+      "path": "md/npm-module.md"
+    },
+    {
       "basename": "java-tips",
       "path": "md/java-tips.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "java基础-数据类型",
       "path": "md/java基础-数据类型.md"
-    },
-    {
-      "basename": "common_常用",
-      "path": "md/common_常用.md"
     }
   ],
   "omittedPaths": [],
