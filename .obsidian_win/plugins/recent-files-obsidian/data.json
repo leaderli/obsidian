@@ -5,6 +5,14 @@
       "path": "kanban.md"
     },
     {
+      "basename": "axios",
+      "path": "md/axios.md"
+    },
+    {
+      "basename": "ForkJoinPool",
+      "path": "md/ForkJoinPool.md"
+    },
+    {
       "basename": "bookmark",
       "path": "bookmark.md"
     },
@@ -61,10 +69,6 @@
       "path": "md/javaassist.md"
     },
     {
-      "basename": "axios",
-      "path": "md/axios.md"
-    },
-    {
       "basename": "Untitled",
       "path": "md/Untitled.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "设计模式",
       "path": "md/设计模式.md"
-    },
-    {
-      "basename": "语言及文法",
-      "path": "md/语言及文法.md"
     }
   ],
   "omittedPaths": [

@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#htext/red",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -63,11 +63,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 163,
+    "width": 367,
     "collapsed": true
   },
   "right": {
@@ -138,14 +139,14 @@
   "active": "06b46c4503c84f16",
   "lastOpenFiles": [
     "kanban.md",
+    "md/axios.md",
+    "md/ForkJoinPool.md",
     "bookmark.md",
     "md/npm-module.md",
     "md/vue3.md",
     "conflict-files-obsidian-git.md",
     "md/vue.md",
     "md/typescript.md",
-    "md/AntV_X6.md",
-    "md/java-tips.md",
-    "md/java面试题-1.md"
+    "md/AntV_X6.md"
   ]
 }

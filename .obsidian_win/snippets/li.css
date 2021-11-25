@@ -76,7 +76,7 @@ a[href^="#htext/red"]{
 a[href^="#htext/red"] + mark{
 
   background-color:unset;
-  color: rgb(255 71 71);
+  color: #ff4747
 
 
 }

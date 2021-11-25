@@ -12,37 +12,38 @@ hide-date-display: false
 - [ ] 数据结构
 - [ ] 行为树
 - [ ] 存储过程
-- [ ] reactor
 - [ ] apoll配置中心
 - [ ] gitlab ci
 - [ ] 可视化eclipse插件
 - [ ] netty<br>
-- [ ] rx java
 
 
 ## 任务就绪池
 
-- [ ] 编译原理学习<br>
+- [ ] Okhttp
+- [ ] reactor
+- [ ] #htext/red  ==减肥==
 
 
 ## 任务执行池
 
-- [ ] unix编程艺术阅读 @{2022-01-31}
-- [ ] 动机心理学阅读
+- [ ] unix编程艺术阅读 每天2% @{2022-01-31}
+- [ ] 动机心理学阅读 @{2021-12-31}
 
 
 ## 任务验收池
 
-- [ ] forkjoinpool
 
 
 ## 任务阻塞池
 
+- [ ] 编译原理学习<br>
 
 
 ## 任务完成池
 
 - [x] [2021最新最详细的Vite+vue3+Volar+Ts+Element-plus框架学习项目案例_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1QP4y1p748?p=6&spm_id_from=pageDriver)
+- [x] forkjoinpool
 - [x] fancy cursor
 - [x] promise
 - [x] pinia StoreToRefs
