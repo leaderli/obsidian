@@ -92,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "md/vue3.md"
+              }
             }
           },
           {
@@ -127,6 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "md/vue3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,11 +143,11 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "25c2a87787ce8771",
+  "active": "c32ef39cab1223aa",
   "lastOpenFiles": [
+    "md/vue3.md",
     "kanban.md",
     "conflict-files-obsidian-git.md",
-    "md/vue3.md",
     "md/vue.md",
     "bookmark.md",
     "md/npm-module.md",
