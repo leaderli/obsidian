@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/obsidan.md",
+            "file": "md/vite.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/obsidan.md",
+            "file": "md/vite.md",
             "mode": "preview"
           }
         },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/obsidan.md",
+                "file": "md/vite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/obsidan.md"
+                "file": "md/vite.md"
               }
             }
           }
@@ -139,11 +139,11 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "af73f381b0c55336",
+  "active": "baeec0d026dcd572",
   "lastOpenFiles": [
+    "md/vite.md",
     "md/obsidan.md",
     "kanban.md",
-    "md/vite.md",
     "md/java-tips.md",
     "md/npm-module.md",
     "md/java-数组.md",

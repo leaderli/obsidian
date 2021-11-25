@@ -203,8 +203,11 @@ module.exports = {
 ````ad-info
 title:  compilerOptions
 
-runtime-core.esm-bundler.js:6589 [Vue warn]: Failed to resolve component: 
+> runtime-core.esm-bundler.js:6589 [Vue warn]: Failed to resolve component: 
 menubar-item If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement.
+
+
+因为组件`menubar-item`不存在，它可能是一个自定义的动态组件，将其加入编译选项中
 
 ```js
 import vue from '@vitejs/plugin-vue';
@@ -217,7 +220,7 @@ export default defineConfig(({ command }) => {
                 template: {
                     compilerOptions: {
 						//需要精准定义为自己定义的标签
-                         isCustomElement : (tag) => tag.startsWith('menubar-item')
+                         isCustomElement : (tag) => tag === 'menubar-item' 
 
                     }
                 }

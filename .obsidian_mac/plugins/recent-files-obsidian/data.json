@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
       "basename": "obsidan",
       "path": "md/obsidan.md"
     },
     {
       "basename": "kanban",
       "path": "kanban.md"
-    },
-    {
-      "basename": "vite",
-      "path": "md/vite.md"
     },
     {
       "basename": "java-tips",
