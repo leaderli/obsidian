@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "kafka",
+      "path": "md/kafka.md"
+    },
+    {
       "basename": "vite",
       "path": "md/vite.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "java",
       "path": "md/java.md"
-    },
-    {
-      "basename": "java注解",
-      "path": "md/java注解.md"
     }
   ],
   "omittedPaths": [],

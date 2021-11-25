@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vite.md",
-            "mode": "source"
+            "file": "md/kafka.md",
+            "mode": "preview"
           }
         },
         "group": "8ce1ef61845fd0a0"
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vite.md",
+            "file": "md/kafka.md",
             "mode": "preview"
           }
         },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vite.md",
+                "file": "md/kafka.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vite.md"
+                "file": "md/kafka.md"
               }
             }
           }
@@ -141,6 +141,7 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
+    "md/kafka.md",
     "md/vite.md",
     "md/obsidan.md",
     "kanban.md",
@@ -149,7 +150,6 @@
     "md/java-数组.md",
     "md/一些思路.md",
     "md/nginx.md",
-    "md/avaya.md",
-    "md/AntV_X6.md"
+    "md/avaya.md"
   ]
 }
