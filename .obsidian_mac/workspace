@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-tips.md",
+            "file": "md/vite.md",
             "mode": "source"
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-tips.md",
+                "file": "md/vite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java-tips.md"
+                "file": "md/vite.md"
               }
             }
           }
@@ -127,6 +127,7 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
+    "md/vite.md",
     "md/java-tips.md",
     "md/npm-module.md",
     "md/java-数组.md",
@@ -134,7 +135,6 @@
     "md/nginx.md",
     "md/avaya.md",
     "md/AntV_X6.md",
-    "md/vite.md",
     "md/vue3.md",
     "md/linux搜索.md"
   ]

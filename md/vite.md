@@ -55,6 +55,9 @@ export default defineConfig({
 然后启动
 `npm run dev`
 
+##  plugin-vue
+
+[plugin-vue](https://github.com/vitejs/vite/tree/main/packages/plugin-vue#example-for-passing-options-to-vuecompiler-dom)
 
 ## 添加mock
 

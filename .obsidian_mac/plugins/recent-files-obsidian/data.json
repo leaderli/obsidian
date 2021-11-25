@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
       "basename": "java-tips",
       "path": "md/java-tips.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "AntV_X6",
       "path": "md/AntV_X6.md"
-    },
-    {
-      "basename": "vite",
-      "path": "md/vite.md"
     },
     {
       "basename": "vue3",
