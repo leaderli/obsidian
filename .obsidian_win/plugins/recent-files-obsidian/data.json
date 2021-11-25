@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
       "basename": "vue3",
       "path": "md/vue3.md"
     },
     {
       "basename": "vue",
       "path": "md/vue.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     },
     {
       "basename": "bookmark",
@@ -75,10 +75,6 @@
     {
       "basename": "语言及文法",
       "path": "md/语言及文法.md"
-    },
-    {
-      "basename": "静态内部类的泛型与建造者模式",
-      "path": "md/静态内部类的泛型与建造者模式.md"
     }
   ],
   "omittedPaths": [

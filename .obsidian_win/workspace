@@ -13,6 +13,14 @@
             "mode": "source"
           }
         }
+      },
+      {
+        "id": "25c2a87787ce8771",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -84,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "md/vue3.md"
-              }
+              "state": {}
             }
           },
           {
@@ -122,7 +127,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/vue3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,17 +139,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "c32ef39cab1223aa",
+  "active": "25c2a87787ce8771",
   "lastOpenFiles": [
+    "kanban.md",
+    "conflict-files-obsidian-git.md",
     "md/vue3.md",
     "md/vue.md",
-    "kanban.md",
     "bookmark.md",
     "md/npm-module.md",
     "md/typescript.md",
     "md/AntV_X6.md",
     "md/java-tips.md",
-    "md/java面试题-1.md",
-    "md/common_常用.md"
+    "md/java面试题-1.md"
   ]
 }
