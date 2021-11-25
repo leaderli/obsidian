@@ -212,3 +212,11 @@ export default class MyPlugin extends Plugin {
 }
 
 ```
+
+
+## 其他
+
+
+vim下光标位置不对
+
+关闭`minimal theme setting - fancy cursor`

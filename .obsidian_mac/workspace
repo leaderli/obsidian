@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vite.md",
+            "file": "md/obsidan.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "8ce1ef61845fd0a0"
+      },
+      {
+        "id": "af73f381b0c55336",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/obsidan.md",
+            "mode": "preview"
+          }
+        },
+        "group": "8ce1ef61845fd0a0"
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5
+    "width": 434.5,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vite.md",
+                "file": "md/obsidan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vite.md"
+                "file": "md/obsidan.md"
               }
             }
           }
@@ -125,8 +139,10 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "baeec0d026dcd572",
+  "active": "af73f381b0c55336",
   "lastOpenFiles": [
+    "md/obsidan.md",
+    "kanban.md",
     "md/vite.md",
     "md/java-tips.md",
     "md/npm-module.md",
@@ -134,8 +150,6 @@
     "md/一些思路.md",
     "md/nginx.md",
     "md/avaya.md",
-    "md/AntV_X6.md",
-    "md/vue3.md",
-    "md/linux搜索.md"
+    "md/AntV_X6.md"
   ]
 }

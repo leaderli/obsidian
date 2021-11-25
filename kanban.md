@@ -17,6 +17,7 @@ hide-date-display: false
 - [ ] gitlab ci
 - [ ] 可视化eclipse插件
 - [ ] netty<br>
+- [ ] fancy cursor
 
 
 ## 任务就绪池

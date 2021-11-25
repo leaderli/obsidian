@@ -59,6 +59,10 @@ export default defineConfig({
 
 [plugin-vue](https://github.com/vitejs/vite/tree/main/packages/plugin-vue#example-for-passing-options-to-vuecompiler-dom)
 
+![[#^c9todk]]
+
+
+
 ## 添加mock
 
 [vite-plugin-mock](https://github.com/anncwb/vite-plugin-mock)
@@ -179,7 +183,8 @@ axios({
 ## 一些常见问题
 
 
-Invalid Host header
+````ad-info
+title:Invalid Host header
 
 
 `vue.config.js`
@@ -190,3 +195,39 @@ module.exports = {
   }
 }
 ```
+````
+
+
+
+
+````ad-info
+title:  compilerOptions
+
+runtime-core.esm-bundler.js:6589 [Vue warn]: Failed to resolve component: 
+menubar-item If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement.
+
+```js
+import vue from '@vitejs/plugin-vue';
+
+
+export default defineConfig(({ command }) => {
+    return {
+        plugins: [
+            vue({
+                template: {
+                    compilerOptions: {
+						//需要精准定义为自己定义的标签
+                         isCustomElement : (tag) => tag.startsWith('menubar-item')
+
+                    }
+                }
+            }),
+        ],
+		
+}		
+```
+````
+
+^c9todk
+
+

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
       "basename": "vite",
       "path": "md/vite.md"
     },
@@ -51,14 +59,6 @@
     {
       "basename": "java注解",
       "path": "md/java注解.md"
-    },
-    {
-      "basename": "java基础",
-      "path": "md/java基础.md"
-    },
-    {
-      "basename": "java基础-数据类型",
-      "path": "md/java基础-数据类型.md"
     }
   ],
   "omittedPaths": [],
