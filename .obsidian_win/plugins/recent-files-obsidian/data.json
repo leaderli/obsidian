@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "vue",
+      "path": "md/vue.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
     {
       "basename": "bookmark",
       "path": "bookmark.md"
+    },
+    {
+      "basename": "npm-module",
+      "path": "md/npm-module.md"
+    },
+    {
+      "basename": "typescript",
+      "path": "md/typescript.md"
+    },
+    {
+      "basename": "AntV_X6",
+      "path": "md/AntV_X6.md"
+    },
+    {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
+      "basename": "java面试题-1",
+      "path": "md/java面试题-1.md"
+    },
+    {
+      "basename": "common_常用",
+      "path": "md/common_常用.md"
     },
     {
       "basename": "md",
@@ -19,10 +51,6 @@
     {
       "basename": "JavaPoet",
       "path": "md/JavaPoet.md"
-    },
-    {
-      "basename": "vue",
-      "path": "md/vue.md"
     },
     {
       "basename": "javaassist",
@@ -51,34 +79,6 @@
     {
       "basename": "静态内部类的泛型与建造者模式",
       "path": "md/静态内部类的泛型与建造者模式.md"
-    },
-    {
-      "basename": "md",
-      "path": "md/md.md"
-    },
-    {
-      "basename": "html",
-      "path": "md/html.md"
-    },
-    {
-      "basename": "npm-module",
-      "path": "md/npm-module.md"
-    },
-    {
-      "basename": "promise",
-      "path": "md/promise.md"
-    },
-    {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
-      "basename": "js-tips",
-      "path": "md/js-tips.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
     }
   ],
   "omittedPaths": [

@@ -164,9 +164,10 @@ function created
 
 
 ```
-## ref
+## 响应式数据
 
-我们可以通过一个新的 `ref` 函数使任何响应式变量在任何地方起作用
+### ref
+ref 让基础数据类型具备响应式
 
 ```js
 import { ref } from 'vue'
@@ -194,7 +195,56 @@ console.log(counter.value) // 0
 counter.value++
 console.log(counter.value) // 1
 ```
+### reactive
+reactive 让引用类型的数据具备响应式
 
+```html
+<template>
+    <div>  {{ me.want }} </div>
+</template>
+
+<script setup lang="ts">
+import { reactive } from 'vue';
+let me = reactive({
+    single:true,
+    want:'暖的像火炉的暖男'
+});
+setTimeout(() => {
+    me.want = '夏天容易化了';
+},3000);
+</script>
+```
+
+### toRefs、toRef
+setup + ref + reactive 实现了数据响应式，不能使用 ES6 解构，会消除响应特性。所以需要 toRefs 解构，使用时，需要先引入。
+
+```html
+<template>
+    <div>  {{ want }} </div>
+</template>
+
+<script setup lang="ts">
+	
+import { reactive ,toRefs } from 'vue';
+let me = reactive({
+    single:true,
+    want:'暖的像火炉的暖男'
+});
+setTimeout(() => {
+    me.want = '夏天容易化了';
+},3000);
+
+const { want } = toRefs(me);
+
+</script>
+```
+
+
+toRef尝试从变量中解构，如果没有则创建一个
+
+```js
+const love = toRef(me,'love')
+```
 ## withDefaults
 
 
@@ -231,6 +281,25 @@ defineProps({
   }
 })
 ```
+
+## 自定义指令
+
+[[vue#自定义指令]]
+```js
+app.directive('focus',{
+ mounted(el){
+  el.focus()
+ }
+})
+```
+
+```html
+<input type="text" v-focus />
+```
+
+### 局部自定义指令
+
+略
 
 ## 使用vuex
 

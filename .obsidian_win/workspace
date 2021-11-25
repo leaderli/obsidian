@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "40de8c3b9c13b4c8",
+        "id": "c32ef39cab1223aa",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/vue3.md",
+            "mode": "source"
           }
         }
       }
@@ -67,7 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 243
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -83,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/vue3.md"
               }
             }
           },
@@ -121,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/vue3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,17 +135,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "40de8c3b9c13b4c8",
+  "active": "c32ef39cab1223aa",
   "lastOpenFiles": [
+    "md/vue3.md",
+    "md/vue.md",
     "kanban.md",
     "bookmark.md",
-    "md.md",
-    "md/背包问题.md",
-    "md/JavaPoet.md",
-    "md/vue.md",
-    "md/test.md",
-    "md/javaassist.md",
-    "md/axios.md",
-    "md/Untitled.md"
+    "md/npm-module.md",
+    "md/typescript.md",
+    "md/AntV_X6.md",
+    "md/java-tips.md",
+    "md/java面试题-1.md",
+    "md/common_常用.md"
   ]
 }
