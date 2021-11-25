@@ -5,6 +5,10 @@
       "path": "md/vue3.md"
     },
     {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
       "basename": "conflict-files-obsidian-git",
       "path": "conflict-files-obsidian-git.md"
     },

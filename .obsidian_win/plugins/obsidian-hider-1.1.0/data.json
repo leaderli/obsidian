@@ -5,6 +5,6 @@
   "hideScroll": false,
   "hideTooltips": false,
   "hideSearchSuggestions": false,
-  "hideInstructions": true,
-  "hideMeta": true
+  "hideInstructions": false,
+  "hideMeta": false
 }

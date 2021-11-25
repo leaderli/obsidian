@@ -4,22 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "c32ef39cab1223aa",
+        "id": "06b46c4503c84f16",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "md/vue3.md",
-            "mode": "source"
+            "mode": "preview"
           }
-        }
-      },
-      {
-        "id": "25c2a87787ce8771",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
         }
       }
     ],
@@ -76,7 +68,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243
+    "width": 163,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -143,7 +136,7 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "c32ef39cab1223aa",
+  "active": "06b46c4503c84f16",
   "lastOpenFiles": [
     "md/vue3.md",
     "kanban.md",

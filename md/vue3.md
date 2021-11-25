@@ -779,8 +779,8 @@ export const allowRouter: Array<IMenubarList> = [
     "build": "vue-tsc --noEmit --skipLibCheck && vite build"
   }
 }
+```
 
-=======
 ## 动态组件
 
 [官方文档](https://v3.vuejs.org/guide/component-dynamic-async.html#dynamic-async-components)
