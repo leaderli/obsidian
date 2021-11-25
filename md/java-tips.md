@@ -84,7 +84,7 @@ new Object(){}.getClass().getEnclosingMethod().getName();
 
 
 ```ad-info
-脚本中如果有使用环境变量的地方，需要手动赋值，或者`source ~/.bash_profile`以及一些其他环境脚本
+脚本中如果有使用环境变量的地方，需要先执行source命令
 ```
 
 ```java
@@ -115,6 +115,16 @@ builder.directory(new File("/Users/li/Downloads"));
 //重定向错误流，即System.Err
 builder.redirectErrorStream(true);
 Process process = builder.start();
+
+
+
+
+
+// 设定一些环境变量
+builder.environment().put("some_variable","uat")
+	
+// source
+builder.command("source","~/.bash_profile")	
 ```
 
 ### 基本类型零值

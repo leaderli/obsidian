@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/npm-module.md",
-            "mode": "preview"
+            "file": "md/java-tips.md",
+            "mode": "source"
           }
         }
       }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/npm-module.md",
+                "file": "md/java-tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/npm-module.md"
+                "file": "md/java-tips.md"
               }
             }
           }
@@ -127,8 +127,8 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
-    "md/npm-module.md",
     "md/java-tips.md",
+    "md/npm-module.md",
     "md/java-数组.md",
     "md/一些思路.md",
     "md/nginx.md",
