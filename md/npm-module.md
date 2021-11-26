@@ -314,7 +314,7 @@ npm i ts-clipboard -s
 
 ### codemirror
 
-高亮代码块
+代码编辑
 
 ```shell
 npm i @types/codemirror -s

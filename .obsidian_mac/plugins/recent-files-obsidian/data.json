@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "npm-module",
+      "path": "md/npm-module.md"
+    },
+    {
       "basename": "mockjs",
       "path": "md/mockjs.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "java-tips",
       "path": "md/java-tips.md"
-    },
-    {
-      "basename": "npm-module",
-      "path": "md/npm-module.md"
     },
     {
       "basename": "java-数组",
