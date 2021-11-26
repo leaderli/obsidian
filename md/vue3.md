@@ -380,9 +380,20 @@ import { provide } from "vue"
 provide('info',"值")
 </script>
 <template>
-  <p>{{ store.state.user.username }}</p>
+	<child/>
 </template>
+```
 
+子组件
+```html
+<script setup lang="ts">
+import { inject} from "vue"
+	
+const info = inject('info')
+</script>
+<template>
+  <p>{{ info}}</p>
+</template>
 ```
 
 ## 使用router
