@@ -5,6 +5,13 @@ categories:
 tags:
 ---
 
+## 在现有表上加唯一约束
+
+首先需要保证原有的数据值没有重复的，可以用如下sql验证
+
+```sql
+select field ,count(1) from table group by field having count(1) > 1;
+```
 ## 合并多行表记录
 
 ```sql

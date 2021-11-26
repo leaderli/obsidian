@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/kafka.md",
-            "mode": "preview"
+            "file": "md/vue3.md",
+            "mode": "source"
           }
         },
         "group": "8ce1ef61845fd0a0"
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/kafka.md",
+            "file": "md/vue3.md",
             "mode": "preview"
           }
         },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/kafka.md",
+                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/kafka.md"
+                "file": "md/vue3.md"
               }
             }
           }
@@ -141,6 +141,8 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
+    "md/vue3.md",
+    "md/sql.md",
     "md/kafka.md",
     "md/vite.md",
     "md/obsidan.md",
@@ -148,8 +150,6 @@
     "md/java-tips.md",
     "md/npm-module.md",
     "md/java-数组.md",
-    "md/一些思路.md",
-    "md/nginx.md",
-    "md/avaya.md"
+    "md/一些思路.md"
   ]
 }

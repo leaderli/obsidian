@@ -369,6 +369,22 @@ console.log('hello user ', store.state.user)
   <p>{{ store.state.user.username }}</p>
 </template>
 ```
+
+## inject provide
+用于父组件与子组件或孙组件注入数据，相对于`props`和`emit`，它支持多层嵌套
+
+父组件
+```html
+<script setup lang="ts">
+import { provide } from "vue"
+provide('info',"值")
+</script>
+<template>
+  <p>{{ store.state.user.username }}</p>
+</template>
+
+```
+
 ## 使用router
 
 参考[[vue#vue-route|router]]

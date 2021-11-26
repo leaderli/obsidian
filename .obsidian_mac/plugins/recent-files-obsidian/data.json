@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "sql",
+      "path": "md/sql.md"
+    },
+    {
       "basename": "kafka",
       "path": "md/kafka.md"
     },
@@ -45,20 +53,12 @@
       "path": "md/AntV_X6.md"
     },
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
       "basename": "linux搜索",
       "path": "md/linux搜索.md"
     },
     {
       "basename": "linux查看",
       "path": "md/linux查看.md"
-    },
-    {
-      "basename": "java",
-      "path": "md/java.md"
     }
   ],
   "omittedPaths": [],
