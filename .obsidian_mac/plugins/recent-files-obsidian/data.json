@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
       "basename": "mockjs",
       "path": "md/mockjs.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
     },
     {
       "basename": "vite",

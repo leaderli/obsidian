@@ -1,4 +1,4 @@
-使用 mockjs 来模拟 api 接口返回报文
+使用 [Mock.js](http://mockjs.com/examples.html) 来模拟 api 接口返回报文
 
 ```shell
 #安装
@@ -38,3 +38,9 @@ Mock.mock(/\/api\/.*/, function (options) {
   }
 });
 ```
+
+
+
+## 占位符
+
+参考[示例](http://mockjs.com/examples.html)

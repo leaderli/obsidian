@@ -464,6 +464,32 @@ const info = inject('info')
 </template>
 ```
 
+
+在父组件中定义[[#响应式数据]]，也可以定义readonly，限制子组件修改数据
+
+
+```html
+<script setup lang="ts">
+import { provide ,readonly} from "vue"
+
+//发布
+let info = ref("今天你学习了吗？")
+const changeInfo = (val)=>{
+ info.value = val
+}
+provide('info',readonly(info))
+//提供一个接口用于改变数据
+provide('changeInfo',changeInfo) //订阅
+</script>
+<template>
+	<child/>
+</template>
+```
+
+
+
+
+
 ## 使用router
 
 参考[[vue#vue-route|router]]
