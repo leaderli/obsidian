@@ -1,4 +1,3 @@
-
 ## 快速入门
 
 ```shell
@@ -164,9 +163,10 @@ function created
 
 
 ```
-## ref
+## 响应式数据
 
-我们可以通过一个新的 `ref` 函数使任何响应式变量在任何地方起作用
+### ref
+ref 让基础数据类型具备响应式
 
 ```js
 import { ref } from 'vue'
@@ -194,7 +194,56 @@ console.log(counter.value) // 0
 counter.value++
 console.log(counter.value) // 1
 ```
+### reactive
+reactive 让引用类型的数据具备响应式
 
+```html
+<template>
+    <div>  {{ me.want }} </div>
+</template>
+
+<script setup lang="ts">
+import { reactive } from 'vue';
+let me = reactive({
+    single:true,
+    want:'暖的像火炉的暖男'
+});
+setTimeout(() => {
+    me.want = '夏天容易化了';
+},3000);
+</script>
+```
+
+### toRefs、toRef
+setup + ref + reactive 实现了数据响应式，不能使用 ES6 解构，会消除响应特性。所以需要 toRefs 解构，使用时，需要先引入。
+
+```html
+<template>
+    <div>  {{ want }} </div>
+</template>
+
+<script setup lang="ts">
+	
+import { reactive ,toRefs } from 'vue';
+let me = reactive({
+    single:true,
+    want:'暖的像火炉的暖男'
+});
+setTimeout(() => {
+    me.want = '夏天容易化了';
+},3000);
+
+const { want } = toRefs(me);
+
+</script>
+```
+
+
+toRef尝试从变量中解构，如果没有则创建一个
+
+```js
+const love = toRef(me,'love')
+```
 ## withDefaults
 
 
@@ -227,10 +276,29 @@ import { PropType } from 'vue'
 defineProps({
   menuList: {
     type: Object as PropType<Array < IMenubarList >>,
-    default: []
+    default: function() {return []}
   }
 })
 ```
+
+## 自定义指令
+
+[[vue#自定义指令]]
+```js
+app.directive('focus',{
+ mounted(el){
+  el.focus()
+ }
+})
+```
+
+```html
+<input type="text" v-focus />
+```
+
+### 局部自定义指令
+
+略
 
 ## 使用vuex
 
@@ -738,5 +806,165 @@ export const allowRouter: Array<IMenubarList> = [
     "build": "vue-tsc --noEmit --skipLibCheck && vite build"
   }
 }
+```
+
+## 动态组件
+
+[官方文档](https://v3.vuejs.org/guide/component-dynamic-async.html#dynamic-async-components)
+
+```html
+ <component :is='menu.meta.icon' class='icons'/>
+```
+
+
+## eslint
+
+[eslint-vue](https://eslint.vuejs.org/user-guide/#usage)
+
+```shell
+npm install --save-dev eslint eslint-plugin-vue @typescript-eslint/parser @typescript-eslint/eslint-plugin 
+```
+
+`package.json`
+
+```json
+"scripts": {
+	"lint": "eslint . --ext .ts,vue"
+},
+```
+
+`.eslintrc.js`
+```js
+module.exports = {
+    parser: 'vue-eslint-parser',
+    parserOptions: {
+        parser: '@typescript-eslint/parser',
+        sourceType: 'module',
+        ecmaFeatures: {
+            jsx: true,
+            tsx: true
+        }
+    },
+    env: {
+        browser: true,
+        node: true,
+        'vue/setup-compiler-macros': true // 支持setup语法糖
+
+    },
+    plugins: ['@typescript-eslint'],
+    extends: [
+        'plugin:@typescript-eslint/recommended',
+        'plugin:vue/vue3-recommended'
+    ],
+    rules: {
+        'vue/singleline-html-element-content-newline': 'off',
+        'vue/multiline-html-element-content-newline': 'off',
+        'vue/html-indent': ['error', 4],
+        indent: ['error', 4], // 4行缩进
+        'vue/script-indent': ['error', 4],
+        quotes: ['error', 'single'], // 单引号
+        'vue/html-quotes': ['error', 'single'],
+        semi: ['error', 'always'], // 使用分号
+        'space-infix-ops': ['error', { int32Hint: false }], // 要求操作符周围有空格
+        'no-multi-spaces': 'error', // 禁止多个空格
+        'no-whitespace-before-property': 'error', // 禁止在属性前使用空格
+        'space-before-blocks': 'error', // 在块之前强制保持一致的间距
+        'space-before-function-paren': ['error', 'never'], // 在“ function”定义打开括号之前强制不加空格
+        'space-in-parens': ['error', 'never'], // 强制括号左右的不加空格
+        'space-infix-ops': 'error', // 运算符之间留有间距
+        'spaced-comment': ['error', 'always'], // 注释间隔
+        'template-tag-spacing': ['error', 'always'], // 在模板标签及其文字之间需要空格
+        'no-var': 'error',
+        'prefer-destructuring': [
+            'error',
+            {
+                // 优先使用数组和对象解构
+                array: true,
+                object: true
+            },
+            {
+                enforceForRenamedProperties: false
+            }
+        ],
+        'comma-dangle': ['error', 'never'], // 最后一个属性不允许有逗号
+        'arrow-spacing': 'error', // 箭头函数空格
+        'prefer-template': 'error',
+        'template-curly-spacing': 'error',
+        'quote-props': ['error', 'as-needed'], // 对象字面量属性名称使用引号
+        'object-curly-spacing': ['error', 'always'], // 强制在花括号中使用一致的空格
+        'no-unneeded-ternary': 'error', // 禁止可以表达为更简单结构的三元操作符
+        'no-restricted-syntax': [
+            'error',
+            'WithStatement',
+            'BinaryExpression[operator="in"]'
+        ], // 禁止with/in语句
+        'no-lonely-if': 'error', // 禁止 if 语句作为唯一语句出现在 else 语句块中
+        'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }], // 要求方法链中每个调用都有一个换行符
+        // 路径别名设置
+        'no-submodule-imports': ['off', '/@'],
+        'no-implicit-dependencies': ['off', ['/@']],
+        '@typescript-eslint/no-explicit-any': 'off', // 类型可以使用any
+        '@typescript-eslint/no-non-null-assertion': 'off',
+        'vue/multi-word-component-names': 'off',
+        'prettier/prettier': 'off',
+        'no-undef':'error', // 未定义的变量
+        'vue/script-setup-uses-vars': 'error' // 
+
+    }
+};
 
 ```
+
+`.eslintignore`
+
+```txt
+build/*.js
+src/assets
+public
+dist
+```
+
+
+部分代码不使用eslint检测
+
+```js
+type define_component = DefineComponent<unknown, unknown, any>; // eslint-disable-line
+
+
+/* eslint-disable no-console, no-control-regex*/
+console.log('JavaScript debug log');
+console.log('eslint is disabled now');
+```
+
+## stylelint
+
+```shell
+npm i stylelint stylelint-config-standard -D
+
+```
+
+
+```js
+module.exports = {
+    processors: [],
+    plugins: [],
+    extends: "stylelint-config-standard", // 这是官方推荐的方式
+    ignoreFiles: ["node_modules/**", "dist/**"],
+    rules: {
+        "at-rule-no-unknown": [ true, {
+            "ignoreAtRules": [
+                "responsive",
+                "tailwind"
+            ]
+        }],
+        "indentation": 4,        // 4个空格
+        "selector-pseudo-element-no-unknown": [true, {
+            "ignorePseudoElements": ["v-deep"]
+        }],
+        "value-keyword-case": null
+    }
+}
+```
+
+
+

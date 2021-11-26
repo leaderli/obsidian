@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "vimMode": false,
+  "vimMode": true,
   "fileSortOrder": "alphabetical",
   "foldHeading": true,
   "foldIndent": true,

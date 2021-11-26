@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "40de8c3b9c13b4c8",
+        "id": "06b46c4503c84f16",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "kanban.md",
+            "mode": "source"
           }
         }
       }
@@ -38,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#htext/red",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -63,11 +64,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 367,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -134,17 +137,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "40de8c3b9c13b4c8",
+  "active": "06b46c4503c84f16",
   "lastOpenFiles": [
     "kanban.md",
-    "bookmark.md",
-    "md.md",
-    "md/背包问题.md",
-    "md/JavaPoet.md",
-    "md/vue.md",
-    "md/test.md",
-    "md/javaassist.md",
     "md/axios.md",
-    "md/Untitled.md"
+    "md/ForkJoinPool.md",
+    "bookmark.md",
+    "md/npm-module.md",
+    "md/vue3.md",
+    "conflict-files-obsidian-git.md",
+    "md/vue.md",
+    "md/typescript.md",
+    "md/AntV_X6.md"
   ]
 }

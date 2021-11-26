@@ -141,6 +141,9 @@
 [Develop Plug-ins Using RCP](https://www.programcreek.com/develop-plug-ins-using-rcp/)
 
 [Rich Client Platform - Eclipsepedia](https://wiki.eclipse.org/Rich_Client_Platform)
+
+
+[前端常用插件、工具类库汇总](https://juejin.cn/post/6844903683411410951#heading-8) #js
 ## book
 
 [Jiumo Search 鸠摩搜索 - 文档搜索引擎](https://www.jiumodiary.com/)
@@ -187,6 +190,15 @@
 
 [网盘搜索,就上盘搜搜 - 最好用的百度云搜索引擎](http://www.pansoso.com/)
 
+[RSSHub](https://docs.rsshub.app/) *rss*
+
+[BAT大厂面试题与全栈知识体系结合 | Java 全栈知识体系](https://pdai.tech/md/outline/x-outline.html#%E5%85%A8%E6%A0%88%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E6%80%BB%E8%A7%88)
+
+[创造狮 创意工作者导航](http://chuangzaoshi.com/index)
+
+[DZone Java](https://dzone.com/java-jdk-development-tutorials-tools-news)
+
+[LKs - 良心到难以置信的网站推荐](https://xiangjianan.gitee.io/lks/)
 ## 工具软件
 
 [GitHub](https://github.com/)
@@ -224,4 +236,3 @@
 [Vim 分屏功能+无插件Vim编程技巧 - CSDN博客](https://blog.csdn.net/wrwerew/article/details/43054065)
 
 
-[RSSHub](https://docs.rsshub.app/) *rss*

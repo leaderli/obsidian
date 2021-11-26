@@ -1,12 +1,9 @@
----
-title: node模块
-date: 2020-07-04 02:06:00
+https://github.com/SortableJS/vue.draggable.next/SortableJS/vue.draggable.nextdate: 2020-07-04 02:06:00
 categories: nodejs
 tags:
 ---
 
 ## 后台运行库
-*1*
 pm2 是一个进程管理工具,可以用它来管理你的 node 进程，并查看 node 进程的状态，当然也支持性能监控，进程守护，负载均衡等功能
 
 ```shell
@@ -295,4 +292,112 @@ var object = require('lodash/fp/object');
 // Cherry-pick methods for smaller browserify/rollup/webpack bundles.
 var at = require('lodash/at');
 var curryN = require('lodash/fp/curryN');
+```
+
+
+
+###  dropzone
+
+上传文件
+
+```shell
+npm i @types/dropzone -s
+```
+
+
+###  clipboard
+复制粘贴
+```shell
+npm i ts-clipboard -s
+```
+
+
+### codemirror
+
+高亮代码块
+
+```shell
+npm i @types/codemirror -s
+```
+
+
+###  file-saver
+保存为文件
+
+```shell
+npm i @types/file-saver -s
+
+```
+
+
+###  fuse
+
+模糊搜索
+
+```shell
+npm install --save fuse.js
+```
+
+
+### jszip
+
+```shell
+npm install jszip -s
+```
+
+
+### nprogress
+
+```shell
+npm i @types/nprogress -s
+```
+
+###  types/sortablejs
+
+实现拖拽效果
+
+```shell
+npm i @types/sortablejs -s 
+```
+
+###  vuedraggable
+
+基于sortable的vue的拖拽，[github](https://github.com/SortableJS/vue.draggable.next)
+
+```shell
+npm i -S vuedraggable@next 
+```
+
+### vue-splitpane
+
+分割窗口
+
+```shell
+npm i splitpanes@next -s
+```
+
+### xlsx
+
+```shell
+npm i xlsx -s
+```
+
+
+### animejs
+
+动画效果 [github](https://github.com/juliangarnier/anime/)
+
+
+```shell
+npm install animejs --save
+
+```
+
+
+###  normalize.css
+
+在默认的HTML元素样式上提供了跨浏览器的高度一致性
+
+```shell
+npm install normalize.css -s
 ```
