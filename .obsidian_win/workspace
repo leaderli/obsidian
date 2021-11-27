@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "kanban.md",
-            "mode": "source"
+            "file": "md/vue3.md",
+            "mode": "preview"
           }
         }
       }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/vue3.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/vue3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,12 +139,12 @@
   },
   "active": "06b46c4503c84f16",
   "lastOpenFiles": [
+    "md/vue3.md",
     "kanban.md",
     "md/axios.md",
     "md/ForkJoinPool.md",
     "bookmark.md",
     "md/npm-module.md",
-    "md/vue3.md",
     "conflict-files-obsidian-git.md",
     "md/vue.md",
     "md/typescript.md",

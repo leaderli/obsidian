@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "npm-module",
       "path": "md/npm-module.md"
-    },
-    {
-      "basename": "vue3",
-      "path": "md/vue3.md"
     },
     {
       "basename": "conflict-files-obsidian-git",
