@@ -5,6 +5,14 @@
       "path": "kanban.md"
     },
     {
+      "basename": "java-utils",
+      "path": "md/java-utils.md"
+    },
+    {
+      "basename": "idea",
+      "path": "md/idea.md"
+    },
+    {
       "basename": "js",
       "path": "md/js.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "背包问题",
       "path": "md/背包问题.md"
-    },
-    {
-      "basename": "JavaPoet",
-      "path": "md/JavaPoet.md"
-    },
-    {
-      "basename": "javaassist",
-      "path": "md/javaassist.md"
     }
   ],
   "omittedPaths": [

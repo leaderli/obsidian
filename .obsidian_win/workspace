@@ -139,14 +139,14 @@
   "active": "06b46c4503c84f16",
   "lastOpenFiles": [
     "kanban.md",
+    "md/java-utils.md",
+    "md/idea.md",
     "md/js.md",
     "md/js-tips.md",
     "md/promise.md",
     "md/typescript.md",
     "md/vue3.md",
     "md/axios.md",
-    "md/ForkJoinPool.md",
-    "bookmark.md",
-    "md/npm-module.md"
+    "md/ForkJoinPool.md"
   ]
 }

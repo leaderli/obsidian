@@ -200,3 +200,8 @@ code style|enable formatter markers in comments
 
 ##  springboot yml 无自动提示
 项目右键点 Modules，然后点 + 号看是否无 spring 选项
+
+
+##  junit test 一直 build
+
+关闭maven的 delegate IDE build/run action to maven
