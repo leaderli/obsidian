@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
       "basename": "kanban",
       "path": "kanban.md"
+    },
+    {
+      "basename": "js",
+      "path": "md/js.md"
+    },
+    {
+      "basename": "js-tips",
+      "path": "md/js-tips.md"
+    },
+    {
+      "basename": "promise",
+      "path": "md/promise.md"
+    },
+    {
+      "basename": "typescript",
+      "path": "md/typescript.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
     },
     {
       "basename": "axios",
@@ -31,10 +47,6 @@
     {
       "basename": "vue",
       "path": "md/vue.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
     },
     {
       "basename": "AntV_X6",
@@ -67,18 +79,6 @@
     {
       "basename": "javaassist",
       "path": "md/javaassist.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "md/Untitled.md"
-    },
-    {
-      "basename": "计算机组成笔记",
-      "path": "md/计算机组成笔记.md"
-    },
-    {
-      "basename": "设计模式",
-      "path": "md/设计模式.md"
     }
   ],
   "omittedPaths": [

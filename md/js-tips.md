@@ -428,46 +428,30 @@ b = a.shift();
 ```
 
 
-##  一些语法
 
 
-### !!
-将所有数据类型转换为boolean类型
+## 数组查找指定元素
 
-```shell
-$ !!1
-true
-$ !!0
-false
-```
-
-### + 字符
-
-```shell
-$ +'0'
-0
-$ +'a'
-NaN
-$ +'0.1'
-0.1
-
-$ -'0'
--0
-$ -'a'
-NaN
-$ -'0.1'
-0.1
-```
-
-### ... 
-
+相比较与filter，find在找到元素时即返回，找不到返回undefined
 ```js
-let { x, y, ...z } = { x: 1, y: 2, a: 3, b: 4 }
-console.log(x) // 1
-console.log(y) // 2
-console.log(z) // { a: 3, b: 4 }
+const a = [1,2,3,4,5];
+const result = a.find( 
+  item =>{
+    return item === 3
+  }
+)
+```
 
-// Spread Properties
-let n = { x, y, ...z }
-console.log(n) // { x: 1, y: 2, a: 3, b: 4 }
+
+
+## flat
+```js
+const deps = {
+    '采购部':[1,2,3],
+    '人事部':[5,8,12],
+    '行政部':[5,14,79],
+    '运输部':[3,64,105],
+}
+let member = Object.values(deps).flat(Infinity);
+
 ```

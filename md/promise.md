@@ -152,3 +152,16 @@ async function lazy() {
 
 lazy()
 ```
+
+
+## 示例
+
+```js
+const fn = async () =>{
+  const res1 = await fn1();
+  const res2 = await fn2();
+  console.log(res1);// 1
+  console.log(res2);// 2
+}
+
+```
