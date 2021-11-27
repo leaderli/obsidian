@@ -5,6 +5,10 @@
       "path": "kanban.md"
     },
     {
+      "basename": "java面试题-1",
+      "path": "md/java面试题-1.md"
+    },
+    {
       "basename": "java-utils",
       "path": "md/java-utils.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "java-tips",
       "path": "md/java-tips.md"
-    },
-    {
-      "basename": "java面试题-1",
-      "path": "md/java面试题-1.md"
     },
     {
       "basename": "common_常用",

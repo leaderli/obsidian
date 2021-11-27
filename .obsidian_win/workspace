@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "3edcf6ea0465b1c1",
+    "id": "ce021b5037310fab",
     "type": "split",
     "children": [
       {
-        "id": "06b46c4503c84f16",
+        "id": "90d4c2780aeb3da9",
         "type": "leaf",
         "state": {
           "type": "kanban",
@@ -136,17 +136,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "06b46c4503c84f16",
+  "active": "90d4c2780aeb3da9",
   "lastOpenFiles": [
     "kanban.md",
+    "resource/v4.0-JavaGuide面试突击版.pdf",
+    "md/java面试题-1.md",
     "md/java-utils.md",
     "md/idea.md",
     "md/js.md",
     "md/js-tips.md",
     "md/promise.md",
     "md/typescript.md",
-    "md/vue3.md",
-    "md/axios.md",
-    "md/ForkJoinPool.md"
+    "md/vue3.md"
   ]
 }
