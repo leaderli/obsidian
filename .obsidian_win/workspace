@@ -11,19 +11,7 @@
           "state": {
             "file": "kanban.md"
           }
-        },
-        "group": "a6e55548cd872f5b"
-      },
-      {
-        "id": "58a29864d00f439e",
-        "type": "leaf",
-        "state": {
-          "type": "kanban",
-          "state": {
-            "file": "kanban.md"
-          }
-        },
-        "group": "a6e55548cd872f5b"
+        }
       }
     ],
     "direction": "vertical"
