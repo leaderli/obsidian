@@ -7,9 +7,10 @@
         "id": "90d4c2780aeb3da9",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/stream.md",
+            "mode": "preview"
           }
         }
       }
@@ -38,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "section:(js filter)",
+                "query": "reactor",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -68,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367,
-    "collapsed": true
+    "width": 367
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/stream.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/stream.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/stream.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,6 +138,8 @@
   },
   "active": "90d4c2780aeb3da9",
   "lastOpenFiles": [
+    "md/stream.md",
+    "md/Stream流工作原理浅析与模仿.md",
     "kanban.md",
     "resource/v4.0-JavaGuide面试突击版.pdf",
     "md/java面试题-1.md",
@@ -145,8 +147,6 @@
     "md/idea.md",
     "md/js.md",
     "md/js-tips.md",
-    "md/promise.md",
-    "md/typescript.md",
-    "md/vue3.md"
+    "md/promise.md"
   ]
 }

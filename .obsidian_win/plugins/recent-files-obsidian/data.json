@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "stream",
+      "path": "md/stream.md"
+    },
+    {
+      "basename": "Stream流工作原理浅析与模仿",
+      "path": "md/Stream流工作原理浅析与模仿.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "common_常用",
       "path": "md/common_常用.md"
-    },
-    {
-      "basename": "md",
-      "path": "md.md"
-    },
-    {
-      "basename": "背包问题",
-      "path": "md/背包问题.md"
     }
   ],
   "omittedPaths": [
