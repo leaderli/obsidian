@@ -21,7 +21,6 @@ hide-date-display: false
 
 ## 任务就绪池
 
-- [ ] reactor
 - [ ] #htext/red  ==减肥==
 
 
@@ -29,6 +28,7 @@ hide-date-display: false
 
 - [ ] unix编程艺术阅读 每天2% @{2022-01-31}
 - [ ] 动机心理学阅读 @{2021-12-31}
+- [ ] reactor <br>细节补充
 
 
 ## 任务验收池

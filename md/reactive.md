@@ -19,8 +19,18 @@ JVM上的响应流规范
 
 所谓的响应式编程其实就是有一个发布者出发一个事情，有一个或多个订阅者角色来响应式处理这件事，订阅者需要先订阅发布者的事件，一个发布者可以支持多个订阅者，发布者通过onSubsribe事件通知到订阅者，订阅者通过request(n)方法，告诉发布者自己需要多少请求（称为[[#被压]]或者控流），发布者根据请求通过onNext不停的给订阅者发送事件，直到最后出现onError或onComplete终止事件。各种reactive框架都要遵循这个规范，其中[reactor](https://projectreactor.io/) 就是其中一个实现。
 
-## 被压
-略
+## 使用
+
+```xml
+<dependency>  
+   <groupId>io.projectreactor</groupId>  
+   <artifactId>reactor-core</artifactId>  
+   <version>3.0.3.RELEASE</version>  
+</dependency>
+```
+## 背压
+
+backpressure
 
 ## FLux & Mono
 
@@ -29,10 +39,14 @@ Mono：	是一个具有0-1个元素的Publisher
 
 
 ```java
+
 // 创建一个空的Flux
 Flux.empty().subscribe(System.out::println);
 // 执行过程会抛异常
 Flux.error(new RuntimeException()).subscribe(System.out::println);
+
+Flux.just("1","2")
+Mono.just("1")
 
 ```
 
@@ -218,5 +232,176 @@ public void test5() throws Throwable {
 	Thread.sleep(10000);
 
 }
+```
+
+
+Flux一些独有创建方法
+```java
+Flux.fromArray(new String[]{"1", "2"}).subscribe(System.out::println);  
+
+Flux.fromIterable(Arrays.asList("1", "2")).subscribe(System.out::println);  
+
+// stream转换为Flux只能被订阅一次  
+Flux.fromStream(Stream.of("1", "2")).subscribe(System.out::println);
+
+Flux.range(0,10).subscribe(System.out::println);
+```
+
+Mono一些独有创建方法
+
+```java
+Mono.fromCallable(() -> {  
+    Thread.sleep(1000);  
+    return "123";  
+}).subscribe(System.out::println);
+```
+
+
+## subscribe
+
+subscribe() 是一个阻塞方法，调用之前执行链不会真正执行。当订阅者通过subscribe方法让订阅者订阅上自己，有有个onSubscribe事件发生时，订阅者就会通过request方法告知生产者自己需要多少个请求，生产者就会不停调用onNext方法把事件数据传递给订阅者，直到发生onError或onComplete终止。
+
+Subscriber是一个接口
+
+```java
+public interface Subscriber<T> {
+    void onSubscribe(Subscription var1);
+
+    void onNext(T var1);
+
+    void onError(Throwable var1);
+
+    void onComplete();
+}
+```
+
+Flux和Mono的subscribe()方法重载了很多个同名方法，例如我们常用的方式是使用一个传入Consumer函数，这个Consumer最终由onNext执行。
+
+
+`Flux.java`
+```java
+public final Cancellation subscribe(Consumer<? super T> consumer) {  
+   Objects.requireNonNull(consumer, "consumer");  
+   return subscribe(consumer, null, null);  
+}
+
+public final Cancellation subscribe(Consumer<? super T> consumer,  
+      Consumer<? super Throwable> errorConsumer,  
+      Runnable completeConsumer,  
+      Consumer<? super Subscription> subscriptionConsumer) {  
+   LambdaSubscriber<T> consumerAction = new LambdaSubscriber<>(consumer,  
+         errorConsumer, completeConsumer, subscriptionConsumer);  
+  
+   subscribe(consumerAction);  
+   return consumerAction;  
+}
 
 ```
+
+`LambdaSubscriber.java`
+
+```java
+@Override  
+public final void onNext(T x) {  
+   if (x == null) {  
+      throw Exceptions.argumentIsNullException();  
+   }  
+   try {  
+      if (consumer != null) {  
+         consumer.accept(x);  
+      }  
+   }  
+   catch (Throwable t) {  
+      Exceptions.throwIfFatal(t);  
+      this.subscription.cancel();  
+      onError(t);  
+   }  
+}
+```
+
+
+或者查看我们上面示例中的`SlowSubscriber`。
+
+
+## 常用API
+
+1. filter
+2. defaultIfEmpty
+3. any
+4. all
+5. reduce
+6. collect
+7. take
+	```java
+	Flux.range(0,10).take(5).subscribe(System.out::println);
+	// 0
+	// 1
+	// 2
+	// 3
+	// 4
+	```
+8. skip
+	```java
+	Flux.range(0,10).skip(5).subscribe(System.out::println);
+	// 5
+	// 6
+	// 7
+	// 8
+	// 9
+	```
+9. sort
+10. count
+11. doOnRequest
+12. doOnNext
+	```java
+	Flux.fromArray(new String[]{"1", "2"}).doOnNext(sink->{  
+		System.out.println("doOnNext:"+sink);  
+	}).subscribe(System.out::println);
+
+	// doOnNext:1
+	// 1
+	// doOnNext:2
+	// 2
+	```
+13. doOnComplete
+14. doOnError
+15. doOnSubscribe
+16. doOnTerminate
+17. doOnCancel
+18. zipWith
+	```java
+	Flux.fromIterable(Arrays.asList("a", "b", "c"))  
+			.distinct()  
+			.sort()  
+			.zipWith(Flux.range(1, Integer.MAX_VALUE), (string, count) -> String.format("%2d. %s", count, string))  
+			.subscribe(System.out::println);
+	 // 1. a
+	 // 2. b
+	 // 3. c
+	```
+19. concatWith
+	```java
+	Flux.fromIterable(Arrays.asList("a", "b", "c"))  
+		    .concatWith(Mono.just("d"))
+			.distinct()  
+			.sort()  
+			.zipWith(Flux.range(1, Integer.MAX_VALUE), (string, count) -> String.format("%2d. %s", count, string))  
+			.subscribe(System.out::println);
+	 // 1. a
+	 // 2. b
+	 // 3. c
+     // 4. d
+	```
+	
+20. delaySubscriptionMillis
+
+	```java
+	// 延迟订阅信息，不是每条消息
+	CountDownLatch latch = new CountDownLatch(1);  
+	Flux.just("1").delaySubscriptionMillis(2000).subscribe(next -> {  
+		System.out.println(next);  
+		latch.countDown();  
+	});  
+
+	latch.await();
+	```

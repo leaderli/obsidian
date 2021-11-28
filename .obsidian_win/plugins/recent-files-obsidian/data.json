@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
       "basename": "reactive",
       "path": "md/reactive.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Stream流工作原理浅析与模仿",
       "path": "md/Stream流工作原理浅析与模仿.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     },
     {
       "basename": "java面试题-1",
