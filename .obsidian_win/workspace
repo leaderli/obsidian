@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/stream.md",
+            "file": "md/reactive.md",
+            "mode": "source"
+          }
+        },
+        "group": "8db9853cae043817"
+      },
+      {
+        "id": "ee8498d1f5a2e0ce",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/reactive.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "8db9853cae043817"
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367
+    "width": 367,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/stream.md",
+                "file": "md/reactive.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/stream.md"
+                "file": "md/reactive.md"
               }
             }
           },
@@ -123,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/stream.md",
+                "file": "md/reactive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,13 +152,13 @@
   },
   "active": "90d4c2780aeb3da9",
   "lastOpenFiles": [
-    "md/stream.md",
+    "md/reactive.md",
+    "md/idea.md",
     "md/Stream流工作原理浅析与模仿.md",
     "kanban.md",
     "resource/v4.0-JavaGuide面试突击版.pdf",
     "md/java面试题-1.md",
     "md/java-utils.md",
-    "md/idea.md",
     "md/js.md",
     "md/js-tips.md",
     "md/promise.md"
