@@ -392,6 +392,13 @@ onMounted(() => {
 </script>
 ```
 
+
+可定制进度条的具体形式，下面是默认的
+```js
+NProgress.configure({
+	template: '<div class="bar" role="bar"><div class="peg"></div></div><div class="spinner" role="spinner"><div class="spinner-icon"></div></div>'
+});
+```
 ###  types/sortablejs
 
 实现拖拽效果
