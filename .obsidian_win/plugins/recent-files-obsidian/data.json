@@ -5,6 +5,46 @@
       "path": "kanban.md"
     },
     {
+      "basename": "reactive",
+      "path": "md/reactive.md"
+    },
+    {
+      "basename": "idea",
+      "path": "md/idea.md"
+    },
+    {
+      "basename": "Stream流工作原理浅析与模仿",
+      "path": "md/Stream流工作原理浅析与模仿.md"
+    },
+    {
+      "basename": "java面试题-1",
+      "path": "md/java面试题-1.md"
+    },
+    {
+      "basename": "java-utils",
+      "path": "md/java-utils.md"
+    },
+    {
+      "basename": "js",
+      "path": "md/js.md"
+    },
+    {
+      "basename": "js-tips",
+      "path": "md/js-tips.md"
+    },
+    {
+      "basename": "promise",
+      "path": "md/promise.md"
+    },
+    {
+      "basename": "typescript",
+      "path": "md/typescript.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
       "basename": "axios",
       "path": "md/axios.md"
     },
@@ -21,20 +61,12 @@
       "path": "md/npm-module.md"
     },
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
       "basename": "conflict-files-obsidian-git",
       "path": "conflict-files-obsidian-git.md"
     },
     {
       "basename": "vue",
       "path": "md/vue.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
     },
     {
       "basename": "AntV_X6",
@@ -45,40 +77,8 @@
       "path": "md/java-tips.md"
     },
     {
-      "basename": "java面试题-1",
-      "path": "md/java面试题-1.md"
-    },
-    {
       "basename": "common_常用",
       "path": "md/common_常用.md"
-    },
-    {
-      "basename": "md",
-      "path": "md.md"
-    },
-    {
-      "basename": "背包问题",
-      "path": "md/背包问题.md"
-    },
-    {
-      "basename": "JavaPoet",
-      "path": "md/JavaPoet.md"
-    },
-    {
-      "basename": "javaassist",
-      "path": "md/javaassist.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "md/Untitled.md"
-    },
-    {
-      "basename": "计算机组成笔记",
-      "path": "md/计算机组成笔记.md"
-    },
-    {
-      "basename": "设计模式",
-      "path": "md/设计模式.md"
     }
   ],
   "omittedPaths": [

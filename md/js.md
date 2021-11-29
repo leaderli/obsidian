@@ -231,33 +231,194 @@ hi();
 
 ### 语法糖
 
-1. 一般对象格式如下
+####  一般对象格式如下
 
-   ```javascript
-   obj = {
-     a: "a",
-     b: "b",
-   };
-   ```
+```javascript
+obj = {
+ a: "a",
+ b: "b",
+};
+```
 
-   当值为一个对象的时候，我们可以使用简写方式
+当值为一个对象的时候，我们可以使用简写方式
 
-   ```javascript
-   c = {};
-   obj = {
-     c,
-   };
-   ```
+```javascript
+c = {};
+obj = {
+ c,
+};
+```
 
-2. 变量声明
+####  析构赋值
 
-   ```javascript
-   obj = {
-     a: "a",
-     b: "b",
-   };
+```javascript
+obj = {
+ a: "a",
+ b: "b",
+};
 
-   var { a, b } = obj;
-   console.log(a);
-   console.log(b);
-   ```
+var { a, b } = obj;
+console.log(a);
+console.log(b);
+
+//使用其他变量名
+var {a:hello} = obj;
+console.log(hello)
+```
+
+#### 扩展运算符，会自动去重
+```js
+const a = [1,2,3];
+const b = [1,5,6];
+const c = [...new Set([...a,...b])];//[1,2,3,5,6]
+
+const obj1 = {
+  a:1,
+}
+const obj2 = {
+  b:1,
+}
+const obj = {...obj1,...obj2};//{a:1,b:1}
+```
+
+析构还可以用做变量
+```js
+let { x, y, ...z } = { x: 1, y: 2, a: 3, b: 4 }
+console.log(x) // 1
+console.log(y) // 2
+console.log(z) // { a: 3, b: 4 }
+
+// Spread Properties
+let n = { x, y, ...z }
+console.log(n) // { x: 1, y: 2, a: 3, b: 4 }
+```
+
+
+
+
+#### !!
+将所有数据类型转换为boolean类型
+
+```shell
+$ !!1
+true
+$ !!0
+false
+```
+
+#### + 字符
+
+```shell
+$ +'0'
+0
+$ +'a'
+NaN
+$ +'0.1'
+0.1
+
+$ -'0'
+-0
+$ -'a'
+NaN
+$ -'0.1'
+0.1
+```
+
+#### 可选链操作符
+
+```js
+const name = obj?.name;
+
+// 等同于
+
+const name = obj && obj.name;
+
+
+
+//函数
+func?.(...args)
+```
+
+
+
+#### 参数默认值
+
+```js
+
+function f(x=1){
+    console.log(x);
+}
+
+f();
+```
+
+
+#### 字符串模板
+
+```js
+// 普通字符串
+`In JavaScript '\n' is a line-feed.`
+// 多行字符串
+`In JavaScript this is
+ not legal.`
+console.log(`string text line 1
+string text line 2`);
+// 字符串中嵌入变量
+let name = "Bob", time = "today";
+`Hello ${name}, how are you ${time}?`
+```
+
+
+#### 属性名表达式
+
+```js
+let propKey = 'foo';
+let obj = {
+  [propKey]: true,
+  ['a' + 'bc']: 123
+};
+```
+
+#### symbol
+
+一种新的原始数据类型
+
+
+```js
+let s = Symbol();
+typeof s
+// "symbol"
+
+let sym = Symbol('My symbol');
+String(sym) // 'Symbol(My symbol)'
+sym.toString() // 'Symbol(My symbol)'
+```
+
+
+#### proxy
+
+一种编程语言层面提供的`元编程`，用于修改某些操作的默认行为，Proxy可以理解称，在目标对象之前假设一层拦截，外界对该对象的访问，都必须先通过这层拦截。因此提供了一种机制，可以对外界的访问进行过滤和改写。
+
+
+```js
+var obj = new Proxy({}, {
+    get: function (target, propKey, receiver) {
+        console.log(`getting ${propKey}!`);
+        return Reflect.get(target, propKey, receiver);
+    },
+    set: function (target, propKey, value, receiver) {
+        console.log(`setting ${propKey}!`);
+        return Reflect.set(target, propKey, value, receiver);
+    }
+});
+
+
+obj.count = 1
+//  setting count!
+++obj.count
+//  getting count!
+//  setting count!
+//  2
+
+console.log(obj); //{ count: 2 }
+```

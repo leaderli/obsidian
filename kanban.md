@@ -16,12 +16,11 @@ hide-date-display: false
 - [ ] gitlab ci
 - [ ] 可视化eclipse插件
 - [ ] netty<br>
+- [ ] ugo语言实现 github
 
 
 ## 任务就绪池
 
-- [ ] Okhttp
-- [ ] reactor
 - [ ] #htext/red  ==减肥==
 
 
@@ -29,6 +28,7 @@ hide-date-display: false
 
 - [ ] unix编程艺术阅读 每天2% @{2022-01-31}
 - [ ] 动机心理学阅读 @{2021-12-31}
+- [ ] reactor <br>细节补充
 
 
 ## 任务验收池
@@ -43,6 +43,7 @@ hide-date-display: false
 ## 任务完成池
 
 - [x] [2021最新最详细的Vite+vue3+Volar+Ts+Element-plus框架学习项目案例_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1QP4y1p748?p=6&spm_id_from=pageDriver)
+- [x] Okhttp
 - [x] forkjoinpool
 - [x] fancy cursor
 - [x] promise
