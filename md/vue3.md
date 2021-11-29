@@ -64,6 +64,8 @@ onMounted(()=>{
 ```html
 <script setup lang="ts">
 
+import { watch } from 'vue'
+
 
 // 定义使用父组件的变量
 const props = defineProps({
@@ -176,7 +178,7 @@ const counter = ref(0)
 `ref` 接收参数并将其包裹在一个带有 `value` property 的对象中返回，然后可以使用该 property 访问或更改响应式变量的值：
 
 ```js
-import { ref } from 'vue'
+import { ref ,watch } from 'vue'
 
 const counter = ref(0)
 
