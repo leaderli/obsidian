@@ -59,7 +59,6 @@ export default defineConfig({
 
 [plugin-vue](https://github.com/vitejs/vite/tree/main/packages/plugin-vue#example-for-passing-options-to-vuecompiler-dom)
 
-![[#^c9todk]]
 
 
 

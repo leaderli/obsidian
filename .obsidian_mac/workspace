@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
+            "file": "md/vite.md",
             "mode": "source"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
+            "file": "md/vite.md",
             "mode": "preview"
           }
         },
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue3.md",
+                "file": "md/vite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue3.md"
+                "file": "md/vite.md"
               }
             }
           }
@@ -141,10 +141,10 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
+    "md/vite.md",
     "md/vue3.md",
     "md/npm-module.md",
     "md/mockjs.md",
-    "md/vite.md",
     "md/sql.md",
     "md/kafka.md",
     "md/obsidan.md",
