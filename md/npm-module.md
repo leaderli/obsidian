@@ -1,4 +1,4 @@
-https://github.com/SortableJS/vue.draggable.next/SortableJS/vue.draggable.nextdate: 2020-07-04 02:06:00
+https://github.com/rstacruz/nprogress/SortableJS/vue.draggable.next/SortableJS/vue.draggable.nextdate: 2020-07-04 02:06:00
 categories: nodejs
 tags:
 ---
@@ -348,8 +348,48 @@ npm install jszip -s
 
 ### nprogress
 
+[github](https://github.com/rstacruz/nprogress)
 ```shell
-npm i @types/nprogress -s
+npm i nprogress -s
+npm i @types/nprogress -d
+
+```
+
+```html
+<template>
+    <div>
+        <pre v-highlightjs='sourcecode'><code class='javascript' /></pre>
+    </div>
+</template>
+
+<script setup lang="ts">
+
+import { ref ,onMounted } from 'vue';
+import NProgress from 'nprogress';
+import 'nprogress/nprogress.css';
+
+let sourcecode = ref('var hello = 1');
+
+NProgress.configure({
+    showSpinner:false
+});
+
+
+onMounted(() => {
+    console.log('start');
+    NProgress.start();
+    console.log('start');
+    
+    setTimeout(() => {
+        
+        sourcecode.value = 'var fuck = 2';
+        NProgress.done();
+        console.log('done',sourcecode.value);
+        
+    }, 3000);
+}
+);
+</script>
 ```
 
 ###  types/sortablejs
