@@ -1,4 +1,4 @@
-https://github.com/rstacruz/nprogress/SortableJS/vue.draggable.next/SortableJS/vue.draggable.nextdate: 2020-07-04 02:06:00
+Live Demo | Fuse.js/rstacruz/nprogress/SortableJS/vue.draggable.next/SortableJS/vue.draggable.nextdate: 2020-07-04 02:06:00
 categories: nodejs
 tags:
 ---
@@ -325,19 +325,63 @@ npm i @types/codemirror -s
 保存为文件
 
 ```shell
-npm i @types/file-saver -s
+npm i file-saver -s
+npm i @types/file-saver -d
 
 ```
 
 
 ###  fuse
 
-模糊搜索
+模糊搜索 [Live Demo | Fuse.js](https://fusejs.io/demo.html)
 
 ```shell
 npm install --save fuse.js
 ```
 
+fusejs搜索的list不支持响应式，list数据变化时需要重新new
+
+
+```
+const arr = [
+    {
+        title: 'Old Man\'s War',
+        author: {
+            firstName: 'John',
+            lastName: 'Scalzi'
+        }
+    },
+    {
+        title: 'The Lock Artist',
+        author: {
+            firstName: 'Steve',
+            lastName: 'Hamilton'
+        }
+    }
+]
+const options = {
+    // isCaseSensitive: false,
+    // includeScore: false,
+    // shouldSort: true,
+    // includeMatches: false,
+    // findAllMatches: false,
+    // minMatchCharLength: 1,
+    // location: 0,
+    // threshold: 0.6,
+    // distance: 100,
+    // useExtendedSearch: false,
+    // ignoreLocation: false,
+    // ignoreFieldNorm: false,
+    keys: [
+        'title',
+        'author.firstName'
+    ]
+};
+
+const fuse = new Fuse(myList);
+const pattern = 'a';
+console.log(fuse.search(pattern as string));
+```
 
 ### jszip
 
