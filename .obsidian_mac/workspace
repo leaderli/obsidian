@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lodash",
+                "query": "\"const emit  = defineEmits(['on-change'])\"re",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
