@@ -4,28 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "90d4c2780aeb3da9",
+        "id": "155e273897f248bf",
         "type": "leaf",
-        "dimension": 67.51302083333333,
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/Stream流工作原理浅析与模仿.md",
+            "mode": "preview"
           }
-        },
-        "group": "8db9853cae043817"
-      },
-      {
-        "id": "ee8498d1f5a2e0ce",
-        "type": "leaf",
-        "dimension": 32.486979166666664,
-        "state": {
-          "type": "kanban",
-          "state": {
-            "file": "kanban.md"
-          }
-        },
-        "group": "8db9853cae043817"
+        }
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287
+    "width": 100,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/Stream流工作原理浅析与模仿.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -126,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/Stream流工作原理浅析与模仿.md"
               }
             }
           },
@@ -136,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/Stream流工作原理浅析与模仿.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,12 +137,12 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "90d4c2780aeb3da9",
+  "active": "155e273897f248bf",
   "lastOpenFiles": [
+    "md/Stream流工作原理浅析与模仿.md",
     "kanban.md",
     "md/reactive.md",
     "md/idea.md",
-    "md/Stream流工作原理浅析与模仿.md",
     "resource/v4.0-JavaGuide面试突击版.pdf",
     "md/java面试题-1.md",
     "md/java-utils.md",
