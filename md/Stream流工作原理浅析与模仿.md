@@ -314,3 +314,217 @@ public class PipeLine<T> {
 ```
 
 参考[Stream 流水线原理](https://www.jianshu.com/p/893fb6febc70)
+
+
+
+## 优化
+
+通过定义不同的接口来约束行为，类似于[[静态内部类的泛型与建造者模式|建造者模式]]的方式，而不是在运行时去检测。
+
+
+```java
+public interface LiFunction<T, R> {
+
+    R apply(T request, R last);
+}
+```
+
+定义约束行为的接口
+
+```java
+public interface LinterPredicate<T> extends Function<T,Boolean> {  
+    LinterCombineOperation<T> and();  
+    LinterCombineOperation<T> or();  
+}
+public interface LinterOperation<T> {  
+    LinterPredicate<T> test(Predicate<T> predicate);  
+}
+public interface LinterNotOperation<T> {  
+    LinterOperation<T> not();  
+}
+
+//因为not后面仅运行断言类的操作，所以需要和连接符区分开
+public interface LinterCombineOperation<T> extends LinterOperation<T>,LinterNotOperation<T> {  
+  
+}
+
+//定义一个抽象实现类组合接口，可定义多个实现类
+public interface LinterLogicPipeLine<T> extends LinterCombineOperation<T>, LinterPredicate<T>{  
+}
+```
+
+一个双向链表，用于实现链式调用
+
+```java
+package com.leaderli.liutil.stream;
+
+public abstract class LiSink<T, R> implements LiFunction<T, R> {
+
+    public final LiSink<T, R> prev;
+    public LiSink<T, R> next;
+
+
+    public LiSink(LiSink<T, R> prev) {
+        this.prev = prev;
+        if (prev != null) {
+            prev.next = this;
+        }
+
+    }
+
+
+    public final R next(T request,R lastValue){
+        if(this.next!=null){
+            return this.next.apply(request, lastValue);
+        }
+        return lastValue;
+    }
+
+
+	//找到链表的头部执行断言
+    public final R request(T request) {
+
+        LiSink<T, R> prev = this;
+        while (prev.prev != null) {
+            prev = prev.prev;
+        }
+        return prev.apply(request, null);
+    }
+
+}
+```
+
+定义一个基础的断言类，方便用于其他的断言方法，例如`len`,`regex`等
+
+```java
+package com.leaderli.liutil.stream;  
+  
+import java.util.function.Predicate;  
+  
+public class LiPredicateSink<T> extends LiSink<T, Boolean> {  
+  
+    public static final boolean NO_NOT_OPERATION = false;  
+    public static final boolean IS_NOT_OPERATION = true;  
+    private final Predicate<T> predicate;  
+  
+    public LiPredicateSink(LiSink<T, java.lang.Boolean> prev, Predicate<T> predicate) {  
+        super(prev);  
+        this.predicate = predicate;  
+    }  
+  
+  
+    /**  
+ * @param notOperation 标记是否前面为not操作符，如果是not，则predicate的值取反  
+ */  
+ @Override  
+ public Boolean apply(T request, Boolean notOperation) {  
+        boolean apply = predicate.test(request);  
+        apply = notOperation != apply;  
+        return next(request, apply);  
+    }  
+}
+```
+
+
+
+具体实现类
+
+```java
+package com.leaderli.liutil.stream;
+
+import java.util.function.Predicate;
+
+public class LiLogicPipeLine<T> implements LinterLogicPipeLine<T>{
+
+
+    private static class Head<T> extends LiSink<T, Boolean> {
+
+        public Head() {
+            super(null);
+        }
+
+        @Override
+        public Boolean apply(T request, Boolean last) {
+            return next(request, LiPredicateSink.NO_NOT_OPERATION);
+        }
+    }
+
+    protected LiSink<T, Boolean> liSink = new Head<>();
+
+    protected LiLogicPipeLine() {
+
+    }
+
+
+    public static <T> LinterCombineOperation<T> instance() {
+
+        return new LiLogicPipeLine<>();
+    }
+
+    @Override
+    public Boolean apply(T t) {
+        return liSink.request(t);
+    }
+
+    @Override
+    public LinterOperation<T> not() {
+        this.liSink = new LiSink<T, Boolean>(this.liSink) {
+            @Override
+            public Boolean apply(T request, Boolean last) {
+                return next(request, LiPredicateSink.IS_NOT_OPERATION);
+            }
+        };
+        return this;
+    }
+
+    @Override
+    public LinterPredicate<T> test(Predicate<T> predicate) {
+
+        this.liSink = new LiPredicateSink<>(this.liSink, predicate);
+
+        return this;
+    }
+
+
+    @Override
+    public LinterCombineOperation<T> and() {
+
+        this.liSink = new LiSink<T, Boolean>(this.liSink) {
+            @Override
+            public Boolean apply(T request, Boolean lastPredicateResult) {
+                //短路
+                if (lastPredicateResult) {
+                    return next(request, LiPredicateSink.NO_NOT_OPERATION);
+                }
+                return false;
+            }
+        };
+        return this;
+    }
+
+    @Override
+    public LinterCombineOperation<T> or() {
+        this.liSink = new LiSink<T, Boolean>(this.liSink) {
+            @Override
+            public Boolean apply(T request, Boolean lastPredicateResult) {
+                //短路
+                if (lastPredicateResult) {
+                    return true;
+                }
+                return next(request, LiPredicateSink.NO_NOT_OPERATION);
+            }
+        };
+        return this;
+    }
+
+}
+```
+
+实际使用
+
+```java
+LiLogicPipeLine.instance().not().test(str->false).and().not().test(str->false);  
+assert logic.apply("hello");
+```
+
+当我们需要扩展行为时
