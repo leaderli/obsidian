@@ -527,4 +527,88 @@ LiLogicPipeLine.instance().not().test(str->false).and().not().test(str->false);
 assert logic.apply("hello");
 ```
 
-当我们需要扩展行为时
+当我们根据具体泛型去扩展行为时，我们可以重新定义接口规范
+
+```java
+private interface MyLinterPredicate extends LinterPredicate<String> {  
+	
+    MyLinterCombineOperation and();  
+  
+    MyLinterCombineOperation or();  
+  
+}  
+  
+private interface MyLinterOperation extends LinterOperation<String> {  
+	
+    MyLinterPredicate len(int size);  
+	
+    MyLinterPredicate test(Predicate<String> predicate);  
+}  
+  
+private interface MyLinterNotOperation extends LinterNotOperation<String> {  
+	
+    MyLinterOperation not();  
+}  
+  
+private interface MyLinterCombineOperation extends MyLinterOperation, MyLinterNotOperation, LinterCombineOperation<String> {  
+}  
+  
+  
+private interface MyLinterLogicPipeLine extends MyLinterCombineOperation, MyLinterPredicate {  
+  
+}
+```
+
+通过适配器的方式将实际操作转发给`LiLogicPipeLine`
+
+```java
+ public class MyLiLogicPipeLine implements MyLinterLogicPipeLine {
+
+	private final LiLogicPipeLine<String> proxy = (LiLogicPipeLine<String>) LiLogicPipeLine.<String>instance();
+
+	private MyLiLogicPipeLine() {
+
+	}
+
+	public static <T> MyLiLogicPipeLine instance() {
+
+		return new MyLiLogicPipeLine();
+	}
+
+	@Override
+	public MyLinterCombineOperation and() {
+		proxy.and();
+		return this;
+	}
+
+	@Override
+	public MyLinterCombineOperation or() {
+		proxy.or();
+		return this;
+	}
+
+	@Override
+	public MyLinterOperation not() {
+		proxy.not();
+		return this;
+	}
+
+	@Override
+	public MyLinterPredicate test(Predicate<String> predicate) {
+		proxy.test(predicate);
+		return this;
+	}
+
+	@Override
+	public Boolean apply(String s) {
+		return proxy.apply(s);
+	}
+
+	@Override
+	public MyLinterPredicate len(int size) {
+		test(str -> size == str.length());
+		return this;
+	}
+}
+```
+
