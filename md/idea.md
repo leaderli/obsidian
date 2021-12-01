@@ -1,6 +1,10 @@
 #java #tips #util #快捷键 
 
 
+## 设置
+
+![[settings.zip]]
+
 ## 为了方便在各个平台使用，统一定义快捷键
 
 mac 上使用 command 键替代 alt

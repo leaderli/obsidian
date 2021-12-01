@@ -7,9 +7,10 @@
         "id": "bd46234cac2910da",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/idea.md",
+            "mode": "preview"
           }
         }
       }
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/idea.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/idea.md"
               }
             }
           },
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/idea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,10 +139,10 @@
   },
   "active": "bd46234cac2910da",
   "lastOpenFiles": [
+    "md/idea.md",
     "kanban.md",
     "md/Stream流工作原理浅析与模仿.md",
     "md/reactive.md",
-    "md/idea.md",
     "resource/v4.0-JavaGuide面试突击版.pdf",
     "md/java面试题-1.md",
     "md/java-utils.md",
