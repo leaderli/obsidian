@@ -266,10 +266,17 @@ for (const path in modules) {
 如果想要直接引入，可以使用`import.meta.globEager` 代替：
 
 ```js
-const modules = import.meta.globEager('./modules/.ts')
-or (const path in modules) {
-  	console.log(modules[path])
-  })
+//./modules/demo.ts
+const demo = {
+	a:1
 }
 
+export default demo
+```
+```js
+const modules = import.meta.globEager('./modules/.ts')
+or (const path in modules) {
+  	console.log(modules[path].default)//  {a:1}
+  })
+}
 ```
