@@ -6,11 +6,11 @@
       {
         "id": "bd46234cac2910da",
         "type": "leaf",
-        "dimension": 31.315104166666668,
+        "dimension": 37.95572916666667,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/perl.md",
+            "file": "md/linux常用命令.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "f595b705d5fe6844",
         "type": "leaf",
-        "dimension": 68.68489583333334,
+        "dimension": 62.044270833333336,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/perl.md",
+            "file": "md/linux常用命令.md",
             "mode": "preview"
           }
         },
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(## awk)",
+                "query": "\"nl \"",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291,
-    "collapsed": true
+    "width": 291
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/perl.md",
+                "file": "md/linux常用命令.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/perl.md"
+                "file": "md/linux常用命令.md"
               }
             }
           },
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/perl.md",
+                "file": "md/linux常用命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,8 +153,8 @@
   },
   "active": "bd46234cac2910da",
   "lastOpenFiles": [
-    "md/perl.md",
     "md/linux常用命令.md",
+    "md/perl.md",
     "md/spring-returnValueHandlers.md",
     "md/shell-tips.md",
     "md/bash.md",
