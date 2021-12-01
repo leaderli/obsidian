@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "idea",
+      "path": "md/idea.md"
+    },
+    {
       "basename": "java-reactive",
       "path": "md/java-reactive.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "avaya",
       "path": "md/avaya.md"
-    },
-    {
-      "basename": "AntV_X6",
-      "path": "md/AntV_X6.md"
     }
   ],
   "omittedPaths": [],

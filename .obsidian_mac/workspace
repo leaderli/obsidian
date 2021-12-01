@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-reactive.md",
+            "file": "md/idea.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"const emit  = defineEmits(['on-change'])\"re",
+                "query": "idea",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5,
-    "collapsed": true
+    "width": 434.5
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-reactive.md",
+                "file": "md/idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java-reactive.md"
+                "file": "md/idea.md"
               }
             }
           }
@@ -128,6 +127,7 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
+    "md/idea.md",
     "md/java-reactive.md",
     "md/npm-module.md",
     "md/vue3.md",
@@ -136,7 +136,6 @@
     "md/sql.md",
     "md/kafka.md",
     "md/obsidan.md",
-    "kanban.md",
-    "md/java-tips.md"
+    "kanban.md"
   ]
 }
