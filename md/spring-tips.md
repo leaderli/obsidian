@@ -193,3 +193,34 @@ public class ContextRefreshedListener
     }
 }
 ```
+
+
+###  在ServletContextListener中注入Spring对象
+
+```java
+@WebListener
+public class ContextWebListener implements ServletContextListener {
+ 
+    @Override
+    public void contextDestroyed(ServletContextEvent arg0) {
+        // TODO Auto-generated method stub
+        LogHelper.info("web stop!");
+        System.out.println("dao++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+    }
+ 
+    @Override
+    public void contextInitialized(ServletContextEvent sce) {
+        // TODO Auto-generated method stub
+        // SpringBeanAutowiringSupport.processInjectionBasedOnCurrentContext(this);
+        WebApplicationContextUtils.getRequiredWebApplicationContext(sce.getServletContext())
+                .getAutowireCapableBeanFactory().autowireBean(this);//加上这一句
+        LogHelper.info("web start!");
+        System.out.println("dao++++"+dao.count());
+        LogHelper.info("web start! finish");
+    }
+ 
+ 
+    @Autowired
+    private ApplicationMetricsDao dao;
+}
+```

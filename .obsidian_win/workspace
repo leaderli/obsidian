@@ -6,13 +6,28 @@
       {
         "id": "bd46234cac2910da",
         "type": "leaf",
+        "dimension": 31.315104166666668,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/mac.md",
+            "file": "md/perl.md",
+            "mode": "source"
+          }
+        },
+        "group": "fe2d34785cbbe488"
+      },
+      {
+        "id": "f595b705d5fe6844",
+        "type": "leaf",
+        "dimension": 68.68489583333334,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/perl.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "fe2d34785cbbe488"
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stream.of",
+                "query": "line:(## awk)",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -69,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100,
+    "width": 291,
     "collapsed": true
   },
   "right": {
@@ -86,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/mac.md",
+                "file": "md/perl.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/mac.md"
+                "file": "md/perl.md"
               }
             }
           },
@@ -124,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/mac.md",
+                "file": "md/perl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,15 +154,15 @@
   },
   "active": "bd46234cac2910da",
   "lastOpenFiles": [
+    "md/perl.md",
+    "md/linux常用命令.md",
+    "md/spring-returnValueHandlers.md",
+    "md/shell-tips.md",
+    "md/bash.md",
+    "md/spring-tips.md",
     "md/mac.md",
     "bookmark.md",
     "md/idea.md",
-    "kanban.md",
-    "md/Stream流工作原理浅析与模仿.md",
-    "md/reactive.md",
-    "resource/v4.0-JavaGuide面试突击版.pdf",
-    "md/java面试题-1.md",
-    "md/java-utils.md",
-    "md/js.md"
+    "kanban.md"
   ]
 }

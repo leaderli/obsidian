@@ -249,31 +249,6 @@ ls *.jar|xargs -I {} jadx {} -d src
 `wget -r -np --reject=html www.download.example`
 或者可以把`reject`换做 `--accept`=`iso,c,h`，表示只接受以此结尾的文件，分隔符为逗号`（comma-separated）`
 
-## `AWK`
-
-默认情况下`awk`以空格进行分割字符串，`-F`，可以指定分割符  
-`‘{print $1}’`，输出第几个分割字符
-
-截取除第一位之后的所有元素
-
-```shell
-echo  1 2 3 4 5|awk '{first = $1; $1 = ""; print $0 }'
-```
-
-示例：
-
-```shell
-more 1.txt|awk -F ',' '{print $2}'
-```
-
-使用条件判断筛选数据
-
-```shell
-awk 'length($2) ==12 && $2 > 20190101 && $2 <= 20191212 {print $0}'
-
-
-```
-
 ## `history`
 
 设置历史记录不重复

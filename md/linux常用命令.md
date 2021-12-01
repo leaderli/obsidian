@@ -205,12 +205,16 @@ cat /etc/passwd|cut -d : -f 1 # 以：作为分隔符，取第一个域
 
 ### awk
 
+[[perl#类似awk的用法]]
+
 awk的基本语法为
 > pattern { action }
 
 pattern用来确定是否执行action，awk命令是行驱动的，即针对每行文本，判断是否满足pattern，若满足则执行action。BEGIN和END，则是在第一行之前和最后一行之后执行的特殊的pattern
 
-```awk
+默认情况下`awk`以空格进行分割字符串，`-F`，可以指定分割符  `‘{print $1}’`，输出第几个分割字符
+
+```perl
 BEGIN { print "START" }
       { print         }
 END   { print "STOP"  }
@@ -218,7 +222,7 @@ END   { print "STOP"  }
 
 awk可使用变量
 
-```awk
+```perl
 BEGIN {x=5}
 {print x,$x}
 END {print "done"}
@@ -255,29 +259,45 @@ done
 4. 使用正则表达式
 
    ```shell
-   echo abc |awk  '/a/{print}' #正则匹配
-   echo abc |awk  '!/a/{print}'#正则不匹配
+   echo abc |awk  '/a/ {print $0}'
+   # 当正则匹配时打印  
+   # abc
+   
+   
+   echo abc |awk  '!/a/ {print $0}'
+   #正则不匹配时打印
+   # 
    ```
 
 5. 注意事项
 
-   - awk脚本中不可以使用`'`
+   - awk脚本中不可以使用单引号`'`
 
    - 一般情况下awk与grep无法配合使用，当grep使用参数`--line-buffered`时，则可以
 
-   示例：
+#### 示例：
 
-   根据搜索条件追踪相关日志
+1. 根据搜索条件追踪相关日志
+	```shell
+	#!/bin/bash
+	log="$1"
+	filter="$2"
+	# 06/04/2021 16:55:55:221 INFO - 010000012345678 0012345
+	ucid=`awk '/'"$filter"'/{exit};END{print $5}' < <(tail -n0 -f "$log")`
+	# 06/04/2021 16:55:55:221 INFO - 010000012345678 End
+	awk '{print};/'"$ucid"' End/{exit}' < <(tail -n0 -f "$log"|grep --line-buffered "$ucid")
+	```
 
-   ```shell
-   #!/bin/bash
-   log="$1"
-   filter="$2"
-   #06/04/2021 16:55:55:221 INFO - 010000012345678 0012345
-   ucid=`awk '/'"$filter"'/{exit};END{print $5}' < <(tail -n0 -f "$log")`
-   #06/04/2021 16:55:55:221 INFO - 010000012345678 End
-   awk '{print};/'"$ucid"' End/{exit}' < <(tail -n0 -f "$log"|grep --line-buffered "$ucid")
-   ```
+2. 截取除第一位之后的所有元素
+
+	```shell
+	echo  1 2 3 4 5|awk '{first = $1; $1 = ""; print $0 }'
+	```
+3. 使用条件判断筛选数据
+
+	```shell
+	awk 'length($2) ==12 && $2 > 20190101 && $2 <= 20191212 {print $0}'
+	```
 
 ### tail
 
