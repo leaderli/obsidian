@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "155e273897f248bf",
+        "id": "bd46234cac2910da",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "md/Stream流工作原理浅析与模仿.md",
-            "mode": "source"
+            "file": "kanban.md"
           }
         }
       }
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/Stream流工作原理浅析与模仿.md",
+                "file": "kanban.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/Stream流工作原理浅析与模仿.md"
+                "file": "kanban.md"
               }
             }
           },
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/Stream流工作原理浅析与模仿.md",
+                "file": "kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,10 +136,10 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "155e273897f248bf",
+  "active": "bd46234cac2910da",
   "lastOpenFiles": [
-    "md/Stream流工作原理浅析与模仿.md",
     "kanban.md",
+    "md/Stream流工作原理浅析与模仿.md",
     "md/reactive.md",
     "md/idea.md",
     "resource/v4.0-JavaGuide面试突击版.pdf",
