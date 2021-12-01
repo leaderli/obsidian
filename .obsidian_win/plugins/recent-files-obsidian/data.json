@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "mac",
+      "path": "md/mac.md"
+    },
+    {
+      "basename": "bookmark",
+      "path": "bookmark.md"
+    },
+    {
       "basename": "idea",
       "path": "md/idea.md"
     },
@@ -47,10 +55,6 @@
     {
       "basename": "ForkJoinPool",
       "path": "md/ForkJoinPool.md"
-    },
-    {
-      "basename": "bookmark",
-      "path": "bookmark.md"
     },
     {
       "basename": "npm-module",

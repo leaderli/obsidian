@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/idea.md",
+            "file": "md/mac.md",
             "mode": "preview"
           }
         }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/idea.md",
+                "file": "md/mac.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/idea.md"
+                "file": "md/mac.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/idea.md",
+                "file": "md/mac.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,6 +139,8 @@
   },
   "active": "bd46234cac2910da",
   "lastOpenFiles": [
+    "md/mac.md",
+    "bookmark.md",
     "md/idea.md",
     "kanban.md",
     "md/Stream流工作原理浅析与模仿.md",
@@ -146,8 +148,6 @@
     "resource/v4.0-JavaGuide面试突击版.pdf",
     "md/java面试题-1.md",
     "md/java-utils.md",
-    "md/js.md",
-    "md/js-tips.md",
-    "md/promise.md"
+    "md/js.md"
   ]
 }
