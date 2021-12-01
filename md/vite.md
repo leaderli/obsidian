@@ -233,3 +233,43 @@ export default defineConfig(({ command }) => {
 ^c9todk
 
 
+## glob
+
+[glob | Vite 官方中文文档](https://cn.vitejs.dev/guide/features.html#glob-import)
+
+Vite 支持使用特殊的 `import.meta.glob` 函数从文件系统导入多个模块：
+
+```js
+const modules = import.meta.glob('./dir/*.js')
+```
+
+以上会被转译为
+```js
+// vite 生成的代码
+const modules = {
+  './dir/foo.js': () => import('./dir/foo.js'),
+  './dir/bar.js': () => import('./dir/bar.js')
+}
+```
+
+你可以遍历 `modules` 对象的 key 值来访问相应的模块，匹配到的文件默认是懒加载的，通过动态导入实现
+
+```js
+for (const path in modules) {
+  modules[path]().then((mod) => {
+    console.log(path, mod)
+  })
+}
+```
+
+
+如果想要直接引入，可以使用`import.meta.globEager` 代替：
+
+```js
+const modules = import.meta.globEager('./modules/.ts')
+or (const path in modules) {
+  	console.log(modules[path])
+  })
+}
+
+```
