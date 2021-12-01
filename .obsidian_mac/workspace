@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/idea.md",
-            "mode": "preview"
+            "file": "md/vue3.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "idea",
+                "query": "require.c",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/idea.md",
+                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/idea.md"
+                "file": "md/vue3.md"
               }
             }
           }
@@ -127,15 +127,15 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
+    "md/vue3.md",
+    "md/vue.md",
     "md/idea.md",
     "md/java-reactive.md",
     "md/npm-module.md",
-    "md/vue3.md",
     "md/vite.md",
     "md/mockjs.md",
     "md/sql.md",
     "md/kafka.md",
-    "md/obsidan.md",
-    "kanban.md"
+    "md/obsidan.md"
   ]
 }
