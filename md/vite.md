@@ -284,3 +284,14 @@ or (const path in modules) {
 ## svg
 
 [vite-plugin svg](https://github.com/anncwb/vite-plugin-svg-icons)
+
+根据`color`的颜色自动调整图标颜色，可以将样式写成如下
+
+```css
+stroke:currentColor
+```
+
+有些svg文件是更改
+```css
+fill:currentColor
+```
