@@ -869,9 +869,7 @@ import {defineComponent,h,resolveComponent} from 'vue'
 	
 export default defineComponent({
 	render(){
-		return {
-			h(resolveComponent('el-button'),{},()=>[])
-		}
+		return  h(resolveComponent('el-button'),{},()=>[])
 	}
 })
 	

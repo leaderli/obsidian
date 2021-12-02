@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -69,16 +77,8 @@
       "path": "md/typescript.md"
     },
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
       "basename": "axios",
       "path": "md/axios.md"
-    },
-    {
-      "basename": "ForkJoinPool",
-      "path": "md/ForkJoinPool.md"
     }
   ],
   "omittedPaths": [
