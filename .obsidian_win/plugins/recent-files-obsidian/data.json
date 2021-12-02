@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Stream流工作原理浅析与模仿",
-      "path": "md/Stream流工作原理浅析与模仿.md"
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
+      "basename": "perl",
+      "path": "md/perl.md"
+    },
+    {
+      "basename": "spring-returnValueHandlers",
+      "path": "md/spring-returnValueHandlers.md"
+    },
+    {
+      "basename": "shell-tips",
+      "path": "md/shell-tips.md"
+    },
+    {
+      "basename": "bash",
+      "path": "md/bash.md"
+    },
+    {
+      "basename": "spring-tips",
+      "path": "md/spring-tips.md"
+    },
+    {
+      "basename": "mac",
+      "path": "md/mac.md"
+    },
+    {
+      "basename": "bookmark",
+      "path": "bookmark.md"
+    },
+    {
+      "basename": "idea",
+      "path": "md/idea.md"
     },
     {
       "basename": "kanban",
       "path": "kanban.md"
     },
     {
-      "basename": "idea",
-      "path": "md/idea.md"
+      "basename": "Stream流工作原理浅析与模仿",
+      "path": "md/Stream流工作原理浅析与模仿.md"
     },
     {
       "basename": "java面试题-1",
@@ -47,34 +79,6 @@
     {
       "basename": "ForkJoinPool",
       "path": "md/ForkJoinPool.md"
-    },
-    {
-      "basename": "bookmark",
-      "path": "bookmark.md"
-    },
-    {
-      "basename": "npm-module",
-      "path": "md/npm-module.md"
-    },
-    {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
-    },
-    {
-      "basename": "vue",
-      "path": "md/vue.md"
-    },
-    {
-      "basename": "AntV_X6",
-      "path": "md/AntV_X6.md"
-    },
-    {
-      "basename": "java-tips",
-      "path": "md/java-tips.md"
-    },
-    {
-      "basename": "common_常用",
-      "path": "md/common_常用.md"
     }
   ],
   "omittedPaths": [
