@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "svg",
+                "query": "tou",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5
+    "width": 434.5,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",

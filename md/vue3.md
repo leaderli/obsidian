@@ -818,10 +818,14 @@ export const allowRouter: Array<IMenubarList> = [
 
 
 
-```js
-import {ref} from 'vue'
+响应式泛型类型
 
-let a:ref<number> = ref(1)
+```js
+import {ref,Ref} from 'vue'
+
+let a:Ref<number> = ref<number>(1)
+
+let b:UnwrapNestedRefs<object> = reactvie<object>({})
 ```
 
 
