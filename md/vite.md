@@ -1,4 +1,4 @@
-[官方配置](https://vitejs.dev/config/)
+https://github.com/anncwb/vite-plugin-svg-iconsejs.dev/config/)
 ## 快速入门
 
 ```shell
@@ -280,3 +280,7 @@ or (const path in modules) {
   })
 }
 ```
+
+## svg
+
+[vite-plugin svg](https://github.com/anncwb/vite-plugin-svg-icons)

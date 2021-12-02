@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
       "basename": "vite",
       "path": "md/vite.md"
+    },
+    {
+      "basename": "ASM",
+      "path": "md/ASM.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
     },
     {
       "basename": "vue",
@@ -55,10 +59,6 @@
     {
       "basename": "一些思路",
       "path": "md/一些思路.md"
-    },
-    {
-      "basename": "nginx",
-      "path": "md/nginx.md"
     }
   ],
   "omittedPaths": [],
