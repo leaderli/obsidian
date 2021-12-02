@@ -844,6 +844,29 @@ export const allowRouter: Array<IMenubarList> = [
  <component :is='menu.meta.icon' class='icons'/>
 ```
 
+也可以使用`resolveComponent`通过 [[#render]]的方式动态渲染
+
+
+
+## render
+
+> 目前还没找到支持 vue3 composition api 的写法
+
+```html
+<script lang='ts'>
+	
+import {defineComponent,h,resolveComponent} from 'vue'
+	
+export default defineComponent({
+	render(){
+		return {
+			h(resolveComponent('el-button'),{},()=>[])
+		}
+	}
+})
+	
+</script>
+```
 
 ## eslint
 
