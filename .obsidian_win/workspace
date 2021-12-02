@@ -4,30 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "bd46234cac2910da",
+        "id": "571a04eb97cd9b3a",
         "type": "leaf",
-        "dimension": 37.95572916666667,
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "md/linux常用命令.md",
-            "mode": "source"
+            "file": "kanban.md"
           }
-        },
-        "group": "fe2d34785cbbe488"
-      },
-      {
-        "id": "f595b705d5fe6844",
-        "type": "leaf",
-        "dimension": 62.044270833333336,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/linux常用命令.md",
-            "mode": "preview"
-          }
-        },
-        "group": "fe2d34785cbbe488"
+        }
       }
     ],
     "direction": "vertical"
@@ -100,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/linux常用命令.md",
+                "file": "kanban.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/linux常用命令.md"
+                "file": "kanban.md"
               }
             }
           },
@@ -138,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/linux常用命令.md",
+                "file": "kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,8 +135,9 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "bd46234cac2910da",
+  "active": "571a04eb97cd9b3a",
   "lastOpenFiles": [
+    "kanban.md",
     "md/linux常用命令.md",
     "md/perl.md",
     "md/spring-returnValueHandlers.md",
@@ -161,7 +146,6 @@
     "md/spring-tips.md",
     "md/mac.md",
     "bookmark.md",
-    "md/idea.md",
-    "kanban.md"
+    "md/idea.md"
   ]
 }
