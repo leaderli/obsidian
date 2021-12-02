@@ -818,6 +818,12 @@ export const allowRouter: Array<IMenubarList> = [
 
 
 
+```js
+import {ref} from 'vue'
+
+let a:ref<number> = ref(1)
+```
+
 
 
 ## vue-tsc
