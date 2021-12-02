@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vite.md",
+            "file": "md/vue3.md",
             "mode": "source"
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vite.md",
+                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vite.md"
+                "file": "md/vue3.md"
               }
             }
           }
@@ -127,9 +127,9 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
+    "md/vue3.md",
     "md/vite.md",
     "md/vue.md",
-    "md/vue3.md",
     "md/idea.md",
     "md/java-reactive.md",
     "md/npm-module.md",
