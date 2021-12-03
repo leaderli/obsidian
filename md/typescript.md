@@ -1,9 +1,11 @@
-## 快速入门
+### 快速入门
 
 [ 菜鸟教程)](https://www.runoob.com/typescript/ts-install.html)
 
 
-一些语法
+### 配置
+
+[tsconfig.json](https://www.tslang.cn/docs/handbook/tsconfig-json.html)
 
 ### 类型断言
 
@@ -44,6 +46,59 @@ let a1:String = arr[0]
 ```
 
 上面例子里，我们定义了`StringArray`接口，它具有索引签名。 这个索引签名表示了当用 `number`去索引`StringArray`时会得到`string`类型的返回值。
+
+### keyof
+
+该操作符可以用于获取某种类型的所有键，其返回类型是联合类型。
+
+```js
+interface Person {  
+ name: string;  
+ age: number;  
+ location: string;  
+}  
+  
+type K1 = keyof Person; // "name" | "age" | "location"  
+type K2 = keyof Person[];  // number | "length" | "push" | "concat" | ...  
+type K3 = keyof { [x: string]: Person };  // string | number
+```
+
+除了接口外，keyof 也可以用于操作类，比如：
+
+```js
+class Person {  
+ name: string = "Semlinker";  
+}  
+  
+let sname: keyof Person;  
+sname = "name";  
+```
+
+若把 `sname = "name"` 改为 `sname = "age"` 的话，TypeScript 编译器会提示以下错误信息：
+
+```js
+Type '"age"' is not assignable to type '"name"'.
+```
+
+
+keyof 操作符除了支持接口和类之外，它也支持基本数据类型：
+
+
+```js
+let K1: keyof boolean; // let K1: "valueOf"  
+let K2: keyof number; // let K2: "toString" | "toFixed" | "toExponential" | ...  
+let K3: keyof symbol; // let K1: "valueOf"
+```
+
+此外 `keyof` 也称为输入索引类型查询，与之相对应的是索引访问类型，也称为查找类型。在语法上，它们看起来像属性或元素访问，但最终会被转换为类型：
+
+```js
+type P1 = Person["name"];  // string  
+type P2 = Person["name" | "age"];  // string | number  
+type P3 = string["charAt"];  // (pos: number) => string  
+type P4 = string[]["push"];  // (...items: string[]) => number  
+type P5 = string[][0];  // string
+```
 ### 变量作用域
 
 ```javascript

@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vite.md",
+            "file": "md/vue3.md",
+            "mode": "source"
+          }
+        },
+        "group": "d7b223500e37e628"
+      },
+      {
+        "id": "bcf96cdfb9a057f4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/vue3.md",
             "mode": "preview"
           }
-        }
+        },
+        "group": "d7b223500e37e628"
       }
     ],
     "direction": "vertical"
@@ -39,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tou",
+                "query": "keyof",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vite.md",
+                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vite.md"
+                "file": "md/vue3.md"
               }
             }
           }
@@ -128,15 +141,15 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
-    "md/vite.md",
     "md/vue3.md",
+    "md/typescript.md",
+    "md/vite.md",
     "md/ASM.md",
     "md/vue.md",
     "md/idea.md",
     "md/java-reactive.md",
     "md/npm-module.md",
     "md/mockjs.md",
-    "md/sql.md",
-    "md/kafka.md"
+    "md/sql.md"
   ]
 }
