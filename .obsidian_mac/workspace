@@ -6,10 +6,11 @@
       {
         "id": "baeec0d026dcd572",
         "type": "leaf",
+        "dimension": 66.7175572519084,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
+            "file": "md/dom4j.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "bcf96cdfb9a057f4",
         "type": "leaf",
+        "dimension": 33.2824427480916,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
+            "file": "md/dom4j.md",
             "mode": "preview"
           }
         },
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue3.md",
+                "file": "md/dom4j.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue3.md"
+                "file": "md/dom4j.md"
               }
             }
           }
@@ -141,6 +143,7 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
+    "md/dom4j.md",
     "md/vue3.md",
     "md/typescript.md",
     "md/vite.md",
@@ -149,7 +152,6 @@
     "md/idea.md",
     "md/java-reactive.md",
     "md/npm-module.md",
-    "md/mockjs.md",
-    "md/sql.md"
+    "md/mockjs.md"
   ]
 }
