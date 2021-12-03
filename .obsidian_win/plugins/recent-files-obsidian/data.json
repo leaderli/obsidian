@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "kanban",
-      "path": "kanban.md"
+      "basename": "动机心理学",
+      "path": "md/动机心理学.md"
     },
     {
       "basename": "vite",
       "path": "md/vite.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
     },
     {
       "basename": "vue3",
@@ -75,10 +79,6 @@
     {
       "basename": "typescript",
       "path": "md/typescript.md"
-    },
-    {
-      "basename": "axios",
-      "path": "md/axios.md"
     }
   ],
   "omittedPaths": [

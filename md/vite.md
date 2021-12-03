@@ -234,7 +234,6 @@ export default defineConfig(({ command }) => {
 
 
 ## glob
-
 [glob | Vite 官方中文文档](https://cn.vitejs.dev/guide/features.html#glob-import)
 
 Vite 支持使用特殊的 `import.meta.glob` 函数从文件系统导入多个模块：
@@ -291,7 +290,10 @@ or (const path in modules) {
 <svg stroke="currentColor"> <svg>
 ```
 
-图标大小调整
+
+
+图标大小调整 
 ```html
 <svg viewBox="0 0 24 24"> <svg>
 ```
+
