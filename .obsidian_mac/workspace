@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
-            "mode": "source"
+            "file": "md/vite.md",
+            "mode": "preview"
           }
         }
       }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue3.md",
+                "file": "md/vite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue3.md"
+                "file": "md/vite.md"
               }
             }
           }
@@ -128,8 +128,8 @@
   },
   "active": "baeec0d026dcd572",
   "lastOpenFiles": [
-    "md/vue3.md",
     "md/vite.md",
+    "md/vue3.md",
     "md/ASM.md",
     "md/vue.md",
     "md/idea.md",
