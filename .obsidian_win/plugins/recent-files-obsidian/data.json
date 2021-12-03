@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
     },
@@ -37,10 +49,6 @@
       "path": "md/idea.md"
     },
     {
-      "basename": "kanban",
-      "path": "kanban.md"
-    },
-    {
       "basename": "Stream流工作原理浅析与模仿",
       "path": "md/Stream流工作原理浅析与模仿.md"
     },
@@ -69,16 +77,8 @@
       "path": "md/typescript.md"
     },
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
       "basename": "axios",
       "path": "md/axios.md"
-    },
-    {
-      "basename": "ForkJoinPool",
-      "path": "md/ForkJoinPool.md"
     }
   ],
   "omittedPaths": [
