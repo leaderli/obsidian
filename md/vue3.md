@@ -60,6 +60,12 @@ onMounted(()=>{
 ```
 
 
+获取`$el`属性，得到当前组件的dom
+
+```js
+liRef.value.$el.getBoundingClientRect()
+```
+
 `HelloWorld.vue`
 ```html
 <script setup lang="ts">
