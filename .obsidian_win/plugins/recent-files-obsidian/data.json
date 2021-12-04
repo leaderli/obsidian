@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ffmpeg",
+      "path": "md/ffmpeg.md"
+    },
+    {
       "basename": "vim",
       "path": "md/vim.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "js-tips",
       "path": "md/js-tips.md"
-    },
-    {
-      "basename": "promise",
-      "path": "md/promise.md"
     }
   ],
   "omittedPaths": [

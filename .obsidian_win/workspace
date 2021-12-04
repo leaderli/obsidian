@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vim.md",
-            "mode": "preview"
+            "file": "md/ffmpeg.md",
+            "mode": "source"
           }
         }
       }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vim.md",
+                "file": "md/ffmpeg.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vim.md"
+                "file": "md/ffmpeg.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/vim.md",
+                "file": "md/ffmpeg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,6 +154,7 @@
   },
   "active": "78618591d2fd3451",
   "lastOpenFiles": [
+    "md/ffmpeg.md",
     "md/vim.md",
     "kanban.md",
     "md/Untitled 1.md",
@@ -162,7 +163,6 @@
     "md/vue3.md",
     "md/linux常用命令.md",
     "md/perl.md",
-    "md/spring-returnValueHandlers.md",
-    "md/shell-tips.md"
+    "md/spring-returnValueHandlers.md"
   ]
 }
