@@ -1,15 +1,16 @@
 {
   "main": {
-    "id": "ce021b5037310fab",
+    "id": "2d99d17dea3592e3",
     "type": "split",
     "children": [
       {
-        "id": "8e1dbc51d1e5baeb",
+        "id": "78618591d2fd3451",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/vim.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291,
-    "collapsed": true
+    "width": 291
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/vim.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/vim.md"
               }
             }
           },
@@ -123,9 +123,25 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/vim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a83d1617189c1af9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e1dbc51d1e5baeb",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "kanban.md"
               }
             }
           }
@@ -136,17 +152,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "8e1dbc51d1e5baeb",
+  "active": "78618591d2fd3451",
   "lastOpenFiles": [
+    "md/vim.md",
     "kanban.md",
+    "md/Untitled 1.md",
     "md/动机心理学.md",
     "md/vite.md",
     "md/vue3.md",
     "md/linux常用命令.md",
     "md/perl.md",
     "md/spring-returnValueHandlers.md",
-    "md/shell-tips.md",
-    "md/bash.md",
-    "md/spring-tips.md"
+    "md/shell-tips.md"
   ]
 }

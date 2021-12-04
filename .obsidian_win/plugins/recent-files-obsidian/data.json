@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vim",
+      "path": "md/vim.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "promise",
       "path": "md/promise.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
     }
   ],
   "omittedPaths": [
