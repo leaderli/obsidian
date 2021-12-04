@@ -59,16 +59,19 @@ worker_processes 1;
 
 ```bash
 [Unit]
-Description=nginx
-After=network.target
-  
+Description=nginx - high performance web server
+Documentation=https://nginx.org/en/docs/
+After=network-online.target remote-fs.target nss-lookup.target
+Wants=network-online.target
+
 [Service]
 Type=forking
-ExecStart=/usr/sbin/nginx
-ExecReload=/usr/sbin/nginx -s reload
-ExecStop=/usr/sbin/nginx -s quit
-PrivateTmp=true
-  
+PIDFile=/var/run/nginx.pid
+ExecStartPre=/usr/sbin/nginx -t -c /etc/nginx/nginx.conf
+ExecStart=/usr/sbin/nginx -c /etc/nginx/nginx.conf
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
+
 [Install]
 WantedBy=multi-user.target
 ```

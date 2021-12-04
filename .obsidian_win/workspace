@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/spring-initMethod执行过程.md",
+            "file": "md/nginx.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "section:(spring autowire)",
+                "query": "section:(history shell)",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/spring-initMethod执行过程.md",
+                "file": "md/nginx.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/spring-initMethod执行过程.md"
+                "file": "md/nginx.md"
               }
             }
           },
@@ -123,25 +123,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/spring-initMethod执行过程.md",
+                "file": "md/nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "a83d1617189c1af9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8e1dbc51d1e5baeb",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "kanban.md"
               }
             }
           }
@@ -149,19 +133,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360
+    "width": 360,
+    "collapsed": true
   },
   "active": "9e135f1072392f02",
   "lastOpenFiles": [
+    "md/nginx.md",
+    "md/shell-tips.md",
+    "md/linux环境变量.md",
+    "md/linux搜索.md",
     "md/spring-initMethod执行过程.md",
     "unresolved links output.md",
     "md/spring-ControllerAdvice源码分析.md",
     "md/spring-returnValueHandlers.md",
     "unlinked files output.md",
-    "md/jenkins远程发布.md",
-    "md/hexo.md",
-    "md/分布式锁实现.md",
-    "md/文章文件名（不要后缀）.md",
-    "jenkins远程发布/jenkins插件镜像.jpg.md"
+    "md/jenkins远程发布.md"
   ]
 }
