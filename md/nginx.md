@@ -340,6 +340,16 @@ server {
 user  root;
 ```
 
+或者是SELinux的缘故，禁止nginx访问static文件，通过下述配置开启即可。
+
+```shell
+sudo setsebool -P httpd_can_network_connect on 
+
+chcon -Rt httpd_sys_content_t /path/to/www
+```
+
+
+
 ### 无法访问虚拟机端口
 
 将防火墙打开

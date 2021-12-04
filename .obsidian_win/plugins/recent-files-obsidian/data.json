@@ -5,6 +5,10 @@
       "path": "md/nginx.md"
     },
     {
+      "basename": "linux",
+      "path": "md/linux.md"
+    },
+    {
       "basename": "shell-tips",
       "path": "md/shell-tips.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "vue3",
       "path": "md/vue3.md"
-    },
-    {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
     }
   ],
   "omittedPaths": [
