@@ -232,6 +232,20 @@ export default defineConfig(({ command }) => {
 
 ^c9todk
 
+````ad-info
+> Error: spawn xdg-open ENOENT
+
+关闭启动后用浏览器打开
+
+```js
+server:{
+	open:false
+}
+```
+
+
+````
+
 
 ## glob
 [glob | Vite 官方中文文档](https://cn.vitejs.dev/guide/features.html#glob-import)

@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
+      "basename": "vim",
+      "path": "md/vim.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -67,18 +79,6 @@
     {
       "basename": "ffmpeg",
       "path": "md/ffmpeg.md"
-    },
-    {
-      "basename": "vim",
-      "path": "md/vim.md"
-    },
-    {
-      "basename": "动机心理学",
-      "path": "md/动机心理学.md"
-    },
-    {
-      "basename": "vite",
-      "path": "md/vite.md"
     }
   ],
   "omittedPaths": [
