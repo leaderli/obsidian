@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "vscode相关",
+      "path": "md/vscode相关.md"
+    },
+    {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
       "basename": "nginx",
       "path": "md/nginx.md"
     },
     {
       "basename": "vue3",
       "path": "md/vue3.md"
-    },
-    {
-      "basename": "vite",
-      "path": "md/vite.md"
     },
     {
       "basename": "kanban",
@@ -75,10 +79,6 @@
     {
       "basename": "jenkins远程发布",
       "path": "md/jenkins远程发布.md"
-    },
-    {
-      "basename": "hexo",
-      "path": "md/hexo.md"
     }
   ],
   "omittedPaths": [
