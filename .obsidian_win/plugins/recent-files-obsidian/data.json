@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "mysql",
+      "path": "md/mysql.md"
+    },
+    {
       "basename": "nginx",
       "path": "md/nginx.md"
     },
@@ -65,20 +73,12 @@
       "path": "md/vim.md"
     },
     {
-      "basename": "kanban",
-      "path": "kanban.md"
-    },
-    {
       "basename": "动机心理学",
       "path": "md/动机心理学.md"
     },
     {
       "basename": "vite",
       "path": "md/vite.md"
-    },
-    {
-      "basename": "vue3",
-      "path": "md/vue3.md"
     }
   ],
   "omittedPaths": [
