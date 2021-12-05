@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vscode相关.md",
-            "mode": "source"
+            "file": "md/vue3.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "paths",
+                "query": "defineProps",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vscode相关.md",
+                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vscode相关.md"
+                "file": "md/vue3.md"
               }
             }
           },
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/vscode相关.md",
+                "file": "md/vue3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,10 +138,10 @@
   },
   "active": "f82424b6b74409b9",
   "lastOpenFiles": [
+    "md/vue3.md",
     "md/vscode相关.md",
     "md/vite.md",
     "md/nginx.md",
-    "md/vue3.md",
     "kanban.md",
     "md/css.md",
     "md/typescript.md",
