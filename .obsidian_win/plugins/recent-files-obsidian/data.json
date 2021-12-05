@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "nginx",
+      "path": "md/nginx.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
       "basename": "vite",
       "path": "md/vite.md"
     },
@@ -21,20 +29,12 @@
       "path": "md/npm-module.md"
     },
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
       "basename": "vim",
       "path": "md/vim.md"
     },
     {
       "basename": "mysql",
       "path": "md/mysql.md"
-    },
-    {
-      "basename": "nginx",
-      "path": "md/nginx.md"
     },
     {
       "basename": "linux",

@@ -349,6 +349,27 @@ chcon -Rt httpd_sys_content_t /path/to/www
 ```
 
 
+### Permission denied
+
+>nginx: [emerg] open() "/var/run/nginx.pid" failed (13: Permission denied)
+
+将`nginx.conf`中的
+
+```conf
+pid  /var/run/nginx/nginx.pid
+```
+并将
+
+```shell
+chown nginx:nginx /var/run/nginx
+```
+
+若是使用systemctl启动，则同时需要修改`/usr/lib/systemd/system/nginx.service`
+
+```shell
+PIDFile=/var/run/nginx/nginx.pid
+```
+
 
 ### 无法访问虚拟机端口
 
