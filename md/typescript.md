@@ -155,3 +155,13 @@ npm install @types/node  -g
 // 在申明有null的变量后加 !
 const portalDiv = document.getElementById('#your-element')!;
 ```
+
+
+> Could not find a declaration file for module 'lodash'. '
+
+需要在`tsconfig.jons`中加上配置`node_modules/@types`
+```json
+{
+	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue","node_modules/@types"]
+}
+```

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "typescript",
+      "path": "md/typescript.md"
+    },
+    {
+      "basename": "npm-module",
+      "path": "md/npm-module.md"
+    },
+    {
       "basename": "vue3",
       "path": "md/vue3.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "分布式锁实现",
       "path": "md/分布式锁实现.md"
-    },
-    {
-      "basename": "bookmark",
-      "path": "bookmark.md"
-    },
-    {
-      "basename": "ffmpeg",
-      "path": "md/ffmpeg.md"
     }
   ],
   "omittedPaths": [
