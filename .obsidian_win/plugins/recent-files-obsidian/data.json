@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "css",
+      "path": "md/css.md"
+    },
+    {
       "basename": "typescript",
       "path": "md/typescript.md"
     },
@@ -13,16 +25,8 @@
       "path": "md/vue3.md"
     },
     {
-      "basename": "vite",
-      "path": "md/vite.md"
-    },
-    {
       "basename": "vim",
       "path": "md/vim.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     },
     {
       "basename": "mysql",
@@ -75,10 +79,6 @@
     {
       "basename": "hexo",
       "path": "md/hexo.md"
-    },
-    {
-      "basename": "分布式锁实现",
-      "path": "md/分布式锁实现.md"
     }
   ],
   "omittedPaths": [
