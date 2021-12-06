@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4bfb898686c94de6",
+        "id": "4f14590f7bf3a196",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "md/vue.md",
-            "mode": "preview"
+            "file": "kanban.md"
           }
         }
       }
@@ -39,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "slot",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -55,17 +54,9 @@
               "type": "starred",
               "state": {}
             }
-          },
-          {
-            "id": "a414de19b3407843",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -85,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue.md",
+                "file": "kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue.md"
+                "file": "kanban.md"
               }
             }
           }
@@ -125,17 +116,17 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "4bfb898686c94de6",
+  "active": "4f14590f7bf3a196",
   "lastOpenFiles": [
-    "md/vue.md",
     "kanban.md",
-    "md/dom4j.md",
     "md/vue3.md",
-    "md/typescript.md",
     "md/vite.md",
+    "md/npm-module.md",
+    "md/vue.md",
+    "md/dom4j.md",
+    "md/typescript.md",
     "md/ASM.md",
     "md/idea.md",
-    "md/java-reactive.md",
-    "md/npm-module.md"
+    "md/java-reactive.md"
   ]
 }

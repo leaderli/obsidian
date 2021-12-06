@@ -446,6 +446,67 @@ console.log('hello user ', store.state.user)
 </template>
 ```
 
+## 使用Pinia
+
+[官方文档](https://pinia.esm.dev/core-concepts/)
+
+```shell
+npm install pinia -s
+```
+
+
+`store/index.ts`
+```js
+import { createPinia } from 'pinia';  
+export const pinia = createPinia();
+```
+
+`store/modules/User.ts`
+
+```js
+import { defineStore } from 'pinia';  
+  
+// 泛型接口
+import { User } from '@/type/user';  
+
+  
+export const defineUser = defineStore({  
+    id: 'user',  
+    state: (): User => ({  
+        username: 'li',  
+        password: 'li'  
+ }),  
+    getters: {},  
+    actions: {}  
+});
+```
+
+注册
+`main.ts`
+```js
+import { createApp,Directive } from 'vue';
+import { pinia} from './store'
+
+const app = createApp(App);
+app.use(pinia)
+```
+
+使用
+```html
+<template>  
+    <h2>about页面</h2>  
+    <p>{{ user.username }}</p>  
+</template>  
+  
+<script setup lang="ts">  
+import { defineUser } from '@/store/modules/user';  
+import { User } from '@/type/user';
+  
+const user:User = defineUser();  
+  
+  
+</script>
+```
 ## inject provide
 用于父组件与子组件或孙组件注入数据，相对于`props`和`emit`，它支持多层嵌套
 
