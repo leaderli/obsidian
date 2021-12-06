@@ -4,30 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "baeec0d026dcd572",
+        "id": "4bfb898686c94de6",
         "type": "leaf",
-        "dimension": 66.7175572519084,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/dom4j.md",
-            "mode": "source"
-          }
-        },
-        "group": "d7b223500e37e628"
-      },
-      {
-        "id": "bcf96cdfb9a057f4",
-        "type": "leaf",
-        "dimension": 33.2824427480916,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/dom4j.md",
+            "file": "md/vue.md",
             "mode": "preview"
           }
-        },
-        "group": "d7b223500e37e628"
+        }
       }
     ],
     "direction": "vertical"
@@ -54,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "keyof",
+                "query": "router-link",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -84,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5,
-    "collapsed": true
+    "width": 392
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/dom4j.md",
+                "file": "md/vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/dom4j.md"
+                "file": "md/vue.md"
               }
             }
           }
@@ -141,17 +125,17 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "baeec0d026dcd572",
+  "active": "4bfb898686c94de6",
   "lastOpenFiles": [
+    "md/vue.md",
+    "kanban.md",
     "md/dom4j.md",
     "md/vue3.md",
     "md/typescript.md",
     "md/vite.md",
     "md/ASM.md",
-    "md/vue.md",
     "md/idea.md",
     "md/java-reactive.md",
-    "md/npm-module.md",
-    "md/mockjs.md"
+    "md/npm-module.md"
   ]
 }

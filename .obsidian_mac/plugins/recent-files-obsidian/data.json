@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "vue",
+      "path": "md/vue.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
       "basename": "dom4j",
       "path": "md/dom4j.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "ASM",
       "path": "md/ASM.md"
-    },
-    {
-      "basename": "vue",
-      "path": "md/vue.md"
     },
     {
       "basename": "idea",
@@ -51,10 +55,6 @@
     {
       "basename": "obsidan",
       "path": "md/obsidan.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     },
     {
       "basename": "java-tips",
