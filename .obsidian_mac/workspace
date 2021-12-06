@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "router-link",
+                "query": "slot",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
