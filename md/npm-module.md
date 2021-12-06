@@ -1,8 +1,3 @@
-Live Demo | Fuse.js/rstacruz/nprogress/SortableJS/vue.draggable.next/SortableJS/vue.draggable.nextdate: 2020-07-04 02:06:00
-categories: nodejs
-tags:
----
-
 ## 后台运行库
 pm2 是一个进程管理工具,可以用它来管理你的 node 进程，并查看 node 进程的状态，当然也支持性能监控，进程守护，负载均衡等功能
 
