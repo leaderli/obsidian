@@ -7,9 +7,10 @@
         "id": "4f14590f7bf3a196",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/vue3.md",
+            "mode": "source"
           }
         }
       }
@@ -56,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -76,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/vue3.md"
               }
             }
           }
@@ -118,15 +119,15 @@
   },
   "active": "4f14590f7bf3a196",
   "lastOpenFiles": [
-    "kanban.md",
     "md/vue3.md",
+    "md/typescript.md",
+    "md/axios.md",
     "md/vite.md",
+    "unresolved links output.md",
+    "unlinked files output.md",
+    "kanban.md",
     "md/npm-module.md",
     "md/vue.md",
-    "md/dom4j.md",
-    "md/typescript.md",
-    "md/ASM.md",
-    "md/idea.md",
-    "md/java-reactive.md"
+    "md/dom4j.md"
   ]
 }

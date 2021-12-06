@@ -165,3 +165,10 @@ const portalDiv = document.getElementById('#your-element')!;
 	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue","node_modules/@types"]
 }
 ```
+
+## 泛型示例
+
+```js
+const func = function<T extends object>(paras:T){
+}
+```
