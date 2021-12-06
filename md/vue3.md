@@ -686,6 +686,8 @@ const color = 'green'
 
 ##  安装sass
 
+[Sass基础教程 Sass快速入门 Sass中文手册 | Sass中文网](https://www.sass.hk/guide/)
+
 ```shell
 npm install node-sass sass-loader sass
 ```

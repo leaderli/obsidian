@@ -59,16 +59,19 @@ worker_processes 1;
 
 ```bash
 [Unit]
-Description=nginx
-After=network.target
-  
+Description=nginx - high performance web server
+Documentation=https://nginx.org/en/docs/
+After=network-online.target remote-fs.target nss-lookup.target
+Wants=network-online.target
+
 [Service]
 Type=forking
-ExecStart=/usr/sbin/nginx
-ExecReload=/usr/sbin/nginx -s reload
-ExecStop=/usr/sbin/nginx -s quit
-PrivateTmp=true
-  
+PIDFile=/var/run/nginx.pid
+ExecStartPre=/usr/sbin/nginx -t -c /etc/nginx/nginx.conf
+ExecStart=/usr/sbin/nginx -c /etc/nginx/nginx.conf
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
+
 [Install]
 WantedBy=multi-user.target
 ```
@@ -336,6 +339,37 @@ server {
 ```nginx
 user  root;
 ```
+
+或者是SELinux的缘故，禁止nginx访问static文件，通过下述配置开启即可。
+
+```shell
+sudo setsebool -P httpd_can_network_connect on 
+
+chcon -Rt httpd_sys_content_t /path/to/www
+```
+
+
+### Permission denied
+
+>nginx: [emerg] open() "/var/run/nginx.pid" failed (13: Permission denied)
+
+将`nginx.conf`中的
+
+```conf
+pid  /var/run/nginx/nginx.pid
+```
+并将
+
+```shell
+chown nginx:nginx /var/run/nginx
+```
+
+若是使用systemctl启动，则同时需要修改`/usr/lib/systemd/system/nginx.service`
+
+```shell
+PIDFile=/var/run/nginx/nginx.pid
+```
+
 
 ### 无法访问虚拟机端口
 

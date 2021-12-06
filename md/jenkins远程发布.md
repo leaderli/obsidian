@@ -83,4 +83,3 @@ jenkins 插件镜像
 https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json
 ```
 
-![jenkins插件镜像](jenkins远程发布/jenkins插件镜像.jpg)

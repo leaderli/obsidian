@@ -17,6 +17,9 @@ hide-date-display: false
 - [ ] 可视化eclipse插件
 - [ ] netty<br>
 - [ ] ugo语言实现 github
+- [ ] spring扫描类的过程
+- [ ] yacc lex
+- [ ] swagger
 
 
 ## 任务就绪池

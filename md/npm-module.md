@@ -273,7 +273,6 @@ console.log("Note that you can't use value here if parseString is async; extract
 Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库。Lodash 通过降低 array、number、objects、string 等等的使用难度从而让 JavaScript 变得更简单
 
 ```shell
-$ npm i -g npm
 $ npm i --save lodash
 ```
 

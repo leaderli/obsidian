@@ -1,84 +1,84 @@
 {
   "recentFiles": [
     {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "vscode相关",
+      "path": "md/vscode相关.md"
+    },
+    {
       "basename": "vite",
       "path": "md/vite.md"
     },
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
+      "basename": "nginx",
+      "path": "md/nginx.md"
     },
     {
       "basename": "kanban",
       "path": "kanban.md"
     },
     {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
-    },
-    {
-      "basename": "perl",
-      "path": "md/perl.md"
-    },
-    {
-      "basename": "spring-returnValueHandlers",
-      "path": "md/spring-returnValueHandlers.md"
-    },
-    {
-      "basename": "shell-tips",
-      "path": "md/shell-tips.md"
-    },
-    {
-      "basename": "bash",
-      "path": "md/bash.md"
-    },
-    {
-      "basename": "spring-tips",
-      "path": "md/spring-tips.md"
-    },
-    {
-      "basename": "mac",
-      "path": "md/mac.md"
-    },
-    {
-      "basename": "bookmark",
-      "path": "bookmark.md"
-    },
-    {
-      "basename": "idea",
-      "path": "md/idea.md"
-    },
-    {
-      "basename": "Stream流工作原理浅析与模仿",
-      "path": "md/Stream流工作原理浅析与模仿.md"
-    },
-    {
-      "basename": "java面试题-1",
-      "path": "md/java面试题-1.md"
-    },
-    {
-      "basename": "java-utils",
-      "path": "md/java-utils.md"
-    },
-    {
-      "basename": "js",
-      "path": "md/js.md"
-    },
-    {
-      "basename": "js-tips",
-      "path": "md/js-tips.md"
-    },
-    {
-      "basename": "promise",
-      "path": "md/promise.md"
+      "basename": "css",
+      "path": "md/css.md"
     },
     {
       "basename": "typescript",
       "path": "md/typescript.md"
     },
     {
-      "basename": "axios",
-      "path": "md/axios.md"
+      "basename": "npm-module",
+      "path": "md/npm-module.md"
+    },
+    {
+      "basename": "vim",
+      "path": "md/vim.md"
+    },
+    {
+      "basename": "mysql",
+      "path": "md/mysql.md"
+    },
+    {
+      "basename": "linux",
+      "path": "md/linux.md"
+    },
+    {
+      "basename": "shell-tips",
+      "path": "md/shell-tips.md"
+    },
+    {
+      "basename": "linux环境变量",
+      "path": "md/linux环境变量.md"
+    },
+    {
+      "basename": "linux搜索",
+      "path": "md/linux搜索.md"
+    },
+    {
+      "basename": "spring-initMethod执行过程",
+      "path": "md/spring-initMethod执行过程.md"
+    },
+    {
+      "basename": "unresolved links output",
+      "path": "unresolved links output.md"
+    },
+    {
+      "basename": "spring-ControllerAdvice源码分析",
+      "path": "md/spring-ControllerAdvice源码分析.md"
+    },
+    {
+      "basename": "spring-returnValueHandlers",
+      "path": "md/spring-returnValueHandlers.md"
+    },
+    {
+      "basename": "unlinked files output",
+      "path": "unlinked files output.md"
+    },
+    {
+      "basename": "jenkins远程发布",
+      "path": "md/jenkins远程发布.md"
     }
   ],
   "omittedPaths": [

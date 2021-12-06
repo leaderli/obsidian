@@ -309,3 +309,25 @@ ctrl+w l 向右移动
 map <F4> :w <CR> :! gg <CR>
 ```
 
+
+## 插件
+
+### typescript
+
+```shell
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+```shell
+git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
+```
+
+编辑`~/.vimrc`
+
+```txt
+call plug#begin('~/.vim/plugged')
+Plug 'leafgarland/typescript-vim'
+call plug#end()
+```
+
+打开`vi`，输入`:PlugInstall`
