@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
       "basename": "vue3",
       "path": "md/vue3.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "nginx",
       "path": "md/nginx.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     },
     {
       "basename": "css",
