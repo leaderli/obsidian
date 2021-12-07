@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "2d99d17dea3592e3",
+    "id": "f8eb1beba4fe7d69",
     "type": "split",
     "children": [
       {
-        "id": "3cd73627a0b51e5a",
+        "id": "fa15d520f940b3c2",
         "type": "leaf",
         "state": {
           "type": "kanban",
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -135,11 +135,11 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "3cd73627a0b51e5a",
+  "active": "fa15d520f940b3c2",
   "lastOpenFiles": [
     "kanban.md",
-    "md/vue3.md",
     "md/vscode相关.md",
+    "md/vue3.md",
     "md/vite.md",
     "md/nginx.md",
     "md/css.md",
