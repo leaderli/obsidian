@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "!!",
+                "query": "prototype",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
