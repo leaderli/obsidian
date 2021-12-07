@@ -296,14 +296,20 @@ console.log(n) // { x: 1, y: 2, a: 3, b: 4 }
 
 
 
-#### !!
+#### !
 将所有数据类型转换为boolean类型
 
 ```shell
-$ !!1
-true
-$ !!0
+$ !1
 false
+$ !0
+true
+$ !null
+true
+$ !undefined
+true
+$ !''
+true
 ```
 
 #### + 字符

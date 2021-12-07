@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
+            "file": "md/js.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "!!",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue3.md",
+                "file": "md/js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue3.md"
+                "file": "md/js.md"
               }
             }
           }
@@ -119,6 +119,7 @@
   },
   "active": "4f14590f7bf3a196",
   "lastOpenFiles": [
+    "md/js.md",
     "md/vue3.md",
     "md/typescript.md",
     "md/axios.md",
@@ -127,7 +128,6 @@
     "unlinked files output.md",
     "kanban.md",
     "md/npm-module.md",
-    "md/vue.md",
-    "md/dom4j.md"
+    "md/vue.md"
   ]
 }
