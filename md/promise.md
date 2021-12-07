@@ -128,7 +128,7 @@ f1().then(x => {
 })
 ```
 
-### awaite
+### await
 
 await也是一个修饰符，只能放在async函数内部，await关键字的作用，就是获取Promise返回的内容，获取的是Promise函数中的resolve或者reject的值，
 如果await后面并不是一个Promise的返回值，则会按照同步程序返回值处理

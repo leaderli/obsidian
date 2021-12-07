@@ -67,7 +67,7 @@ export default defineConfig({
 [vite-plugin-mock](https://github.com/anncwb/vite-plugin-mock)
 
 ```shell
-npm i  mockjs -S
+npm i  mockjs -D
 
 npm i vite-plugin-mock -D
 
@@ -77,16 +77,21 @@ npm i vite-plugin-mock -D
 `vite.config.ts`
 
 ```js
-export default defineConfig(({ command, mode }) => {
-	return {
-		plugins: [
-			vue(),
-			viteMockServe({
-				// mock的ts文件的路径
-				mockPath: "mock",
-				localEnabled: command === "serve",
-			}),
-		],
+import { viteMockServe } from 'vite-plugin-mock';
+
+
+export default defineConfig(({ command }) => {
+    return {
+        plugins: [
+            vue(),
+            viteMockServe({
+                // default
+                mockPath: 'mock',
+                logger: false,
+                localEnabled: command === 'serve'
+            }),
+
+        ],
 		server: {
 			//代理配置，
 			proxy: {
@@ -101,7 +106,9 @@ export default defineConfig(({ command, mode }) => {
 				},
 			},
 		}
-	}
+    };
+});
+
 ```
 
 
