@@ -172,3 +172,23 @@ const portalDiv = document.getElementById('#your-element')!;
 const func = function<T extends object>(paras:T){
 }
 ```
+
+定义function的类型，可以通过`interface`构建
+
+```js
+
+//1
+const func = ():()=>number => ()=>1;
+
+
+//2
+export interface IReturnFunction<ValueType>
+{
+    (): ValueType;
+}
+
+const func = ():IReturnFunction<number> => ()=>1;
+
+
+console.log(func()())
+```
