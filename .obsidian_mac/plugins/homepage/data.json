@@ -2,6 +2,6 @@
   "defaultNote": "kanban",
   "workspaceEnabled": false,
   "hasRibbonIcon": false,
-  "openMode": "Replace all open notes",
+  "openMode": "Keep open notes",
   "alwaysPreview": true
 }

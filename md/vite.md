@@ -1,3 +1,7 @@
+---
+icon:  summary
+---
+
 https://github.com/anncwb/vite-plugin-svg-iconsejs.dev/config/)
 ## 快速入门
 
@@ -5,7 +9,6 @@ https://github.com/anncwb/vite-plugin-svg-iconsejs.dev/config/)
 npm init vite@latest
 
 # 根据提示依次输入项目名，选择vue vue-ts
-
 ```
 
 `vite.config.ts`

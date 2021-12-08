@@ -15,7 +15,7 @@
   "minimalIcons": true,
   "fancyCursor": false,
   "trimNames": true,
-  "fullWidthMedia": true,
+  "fullWidthMedia": false,
   "bordersToggle": true,
   "minimalStatus": true,
   "focusMode": false,

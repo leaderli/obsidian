@@ -1,5 +1,5 @@
 ---
-tag:  people
+icon: test
 ---
 使用 [Mock.js](http://mockjs.com/examples.html) 来模拟 api 接口返回报文
 
