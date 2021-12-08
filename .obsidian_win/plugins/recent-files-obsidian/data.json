@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "mockjs",
+      "path": "md/mockjs.md"
+    },
+    {
+      "basename": "bookmark",
+      "path": "bookmark.md"
+    },
+    {
       "basename": "JavaPoet",
       "path": "md/JavaPoet.md"
     },
@@ -11,14 +19,6 @@
     {
       "basename": "kanban",
       "path": "kanban.md"
-    },
-    {
-      "basename": "bookmark",
-      "path": "bookmark.md"
-    },
-    {
-      "basename": "mockjs",
-      "path": "md/mockjs.md"
     },
     {
       "basename": "linux",

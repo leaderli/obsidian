@@ -7,8 +7,11 @@
         "id": "21fbb29269ae6ab6",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "md/mockjs.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -81,6 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "md/mockjs.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "md/mockjs.md"
+              }
             }
           },
           {
@@ -116,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "md/mockjs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,12 +137,12 @@
   },
   "active": "21fbb29269ae6ab6",
   "lastOpenFiles": [
+    "md/mockjs.md",
+    "bookmark.md",
     "md/JavaPoet.md",
     "md/java-utils.md",
     "kanban.md",
-    "bookmark.md",
     "template/ad_template.md",
-    "md/mockjs.md",
     "md/linux.md",
     "md/java-reactive.md",
     "md/vscode相关.md",
