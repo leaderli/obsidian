@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/aop.md",
-            "mode": "preview"
+            "file": "md/sql.md",
+            "mode": "source"
           }
         }
       }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/aop.md",
+                "file": "md/sql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/aop.md"
+                "file": "md/sql.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/aop.md",
+                "file": "md/sql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,6 +132,8 @@
   },
   "active": "6887251d3cde94bf",
   "lastOpenFiles": [
+    "md/sql.md",
+    "md/mysql.md",
     "md/aop.md",
     "kanban.md",
     "md/vite.md",
@@ -139,8 +141,6 @@
     "md/mockjs.md",
     "md/mockito.md",
     "md/bash.md",
-    "md/js.md",
-    "md/js-tips.md",
-    "md/promise.md"
+    "md/js.md"
   ]
 }

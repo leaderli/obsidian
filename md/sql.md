@@ -359,4 +359,8 @@ create table dept_2 as select * from dept where 1 =0;
 create table dept_2 like dept
 
 
+-- 查询固定值
+
+select param1 ,'' as param2 from  some_table
 ```
+
