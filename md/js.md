@@ -358,6 +358,12 @@ const name = obj && obj.name;
 
 //函数
 func?.(...args)
+
+
+
+const name = obj?.name||'b'
+
+
 ```
 
 

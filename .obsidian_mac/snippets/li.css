@@ -80,3 +80,9 @@ a[href^="#htext/red"] + mark{
 
 
 }
+
+
+
+:not(.cm-hmd-internal-link)[data-link-tag$="people" i]::before{
+  content: "🪀 "
+}

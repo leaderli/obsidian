@@ -64,6 +64,8 @@ export default defineConfig({
 
 ## 添加mock
 
+[[mockjs]]
+
 [vite-plugin-mock](https://github.com/anncwb/vite-plugin-mock)
 
 ```shell

@@ -1,0 +1,14 @@
+{
+  "targetAttributes": [
+    "tag"
+  ],
+  "targetTags": true,
+  "presetFields": [],
+  "displayFieldsInContextMenu": true,
+  "globallyIgnoredFields": [],
+  "classFilesPath": "",
+  "getFromInlineField": true,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true
+}
