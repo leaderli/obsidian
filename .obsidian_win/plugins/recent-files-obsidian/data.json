@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "git",
+      "path": "md/git.md"
+    },
+    {
       "basename": "mockjs",
       "path": "md/mockjs.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "linux搜索",
       "path": "md/linux搜索.md"
-    },
-    {
-      "basename": "spring-initMethod执行过程",
-      "path": "md/spring-initMethod执行过程.md"
     }
   ],
   "omittedPaths": [

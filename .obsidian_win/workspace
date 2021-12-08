@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/mockjs.md",
+            "file": "md/git.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "defineProps",
+                "query": "git rm",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -64,7 +64,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/mockjs.md",
+                "file": "md/git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/mockjs.md"
+                "file": "md/git.md"
               }
             }
           },
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/mockjs.md",
+                "file": "md/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,6 +138,7 @@
   },
   "active": "21fbb29269ae6ab6",
   "lastOpenFiles": [
+    "md/git.md",
     "md/mockjs.md",
     "bookmark.md",
     "md/JavaPoet.md",
@@ -145,7 +147,6 @@
     "template/ad_template.md",
     "md/linux.md",
     "md/java-reactive.md",
-    "md/vscode相关.md",
-    "md/vue3.md"
+    "md/vscode相关.md"
   ]
 }
