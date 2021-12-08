@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "fa15d520f940b3c2",
+        "id": "f60898bd9869268c",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/java-reactive.md",
+            "mode": "source"
           }
         }
       }
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/java-reactive.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/java-reactive.md"
               }
             }
           },
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/java-reactive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,8 +136,9 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "fa15d520f940b3c2",
+  "active": "f60898bd9869268c",
   "lastOpenFiles": [
+    "md/java-reactive.md",
     "kanban.md",
     "md/vscode相关.md",
     "md/vue3.md",
@@ -145,7 +147,6 @@
     "md/css.md",
     "md/typescript.md",
     "md/npm-module.md",
-    "md/vim.md",
-    "md/mysql.md"
+    "md/vim.md"
   ]
 }
