@@ -1,17 +1,14 @@
 {
   "main": {
-    "id": "f8eb1beba4fe7d69",
+    "id": "9bce5f77835281c4",
     "type": "split",
     "children": [
       {
-        "id": "f60898bd9869268c",
+        "id": "21fbb29269ae6ab6",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/java-reactive.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -64,12 +61,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 286
+    "width": 176
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,11 +81,10 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-reactive.md",
-                "collapseAll": false,
-                "extraContext": true,
+                "collapseAll": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
@@ -112,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "md/java-reactive.md"
-              }
+              "state": {}
             }
           },
           {
@@ -123,30 +116,29 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/java-reactive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 360,
-    "collapsed": true
+    "width": 360
   },
-  "active": "f60898bd9869268c",
+  "active": "21fbb29269ae6ab6",
   "lastOpenFiles": [
-    "md/java-reactive.md",
+    "md/JavaPoet.md",
+    "md/java-utils.md",
     "kanban.md",
+    "bookmark.md",
+    "template/ad_template.md",
+    "md/mockjs.md",
+    "md/linux.md",
+    "md/java-reactive.md",
     "md/vscode相关.md",
-    "md/vue3.md",
-    "md/vite.md",
-    "md/nginx.md",
-    "md/css.md",
-    "md/typescript.md",
-    "md/npm-module.md",
-    "md/vim.md"
+    "md/vue3.md"
   ]
 }
