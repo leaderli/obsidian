@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mockjs",
+                "query": "preventde",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392,
-    "collapsed": true
+    "width": 392
   },
   "right": {
     "id": "4b761e4e5ad66709",
