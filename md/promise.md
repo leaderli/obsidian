@@ -154,6 +154,22 @@ lazy()
 ```
 
 
+## 泛型
+
+```javascript
+function test(arg: string): Promise<number> {
+    return new Promise<number>((resolve, reject) => {
+        if (arg === "a") {
+            resolve(1);
+        } else {
+            reject("1");
+        }
+    });
+}
+
+
+```
+
 ## 示例
 
 ```js

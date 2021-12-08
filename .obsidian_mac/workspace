@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/typescript.md",
+            "file": "md/promise.md",
             "mode": "source"
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/typescript.md",
+                "file": "md/promise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/typescript.md"
+                "file": "md/promise.md"
               }
             }
           }
@@ -119,8 +119,8 @@
   },
   "active": "4f14590f7bf3a196",
   "lastOpenFiles": [
-    "md/typescript.md",
     "md/promise.md",
+    "md/typescript.md",
     "md/AntV_X6.md",
     "md/vite.md",
     "md/vue.md",
