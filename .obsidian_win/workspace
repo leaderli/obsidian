@@ -1,15 +1,16 @@
 {
   "main": {
-    "id": "f8eb1beba4fe7d69",
+    "id": "9bce5f77835281c4",
     "type": "split",
     "children": [
       {
-        "id": "fa15d520f940b3c2",
+        "id": "21fbb29269ae6ab6",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/git.md",
+            "mode": "preview"
           }
         }
       }
@@ -38,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "defineProps",
+                "query": "git rm",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -64,11 +65,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 286
+    "width": 176
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -84,11 +85,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
-                "collapseAll": false,
-                "extraContext": true,
+                "file": "md/git.md",
+                "collapseAll": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
@@ -112,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/git.md"
               }
             }
           },
@@ -122,30 +123,30 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 360,
-    "collapsed": true
+    "width": 360
   },
-  "active": "fa15d520f940b3c2",
+  "active": "21fbb29269ae6ab6",
   "lastOpenFiles": [
+    "md/git.md",
+    "md/mockjs.md",
+    "bookmark.md",
+    "md/JavaPoet.md",
+    "md/java-utils.md",
     "kanban.md",
-    "md/vscode相关.md",
-    "md/vue3.md",
-    "md/vite.md",
-    "md/nginx.md",
-    "md/css.md",
-    "md/typescript.md",
-    "md/npm-module.md",
-    "md/vim.md",
-    "md/mysql.md"
+    "template/ad_template.md",
+    "md/linux.md",
+    "md/java-reactive.md",
+    "md/vscode相关.md"
   ]
 }

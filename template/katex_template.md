@@ -1,5 +1,0 @@
-$
-\begin{cases}
- \\
-\end{cases}
-$

@@ -5,7 +5,7 @@
   "foldHeading": true,
   "foldIndent": true,
   "showLineNumber": true,
-  "showUnsupportedFiles": false,
+  "showUnsupportedFiles": true,
   "attachmentFolderPath": "resource",
   "showFrontmatter": true,
   "readableLineLength": false,
@@ -15,11 +15,12 @@
   "autoPairBrackets": true,
   "defaultViewMode": "preview",
   "useMarkdownLinks": false,
-  "autoPairMarkdown": false,
+  "autoPairMarkdown": true,
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "strictLineBreaks": true
 }

@@ -259,7 +259,7 @@ Mono.fromCallable(() -> {
 
 ## subscribe
 
-subscribe() 是一个阻塞方法，调用之前执行链不会真正执行。当订阅者通过subscribe方法让订阅者订阅上自己，有有个onSubscribe事件发生时，订阅者就会通过request方法告知生产者自己需要多少个请求，生产者就会不停调用onNext方法把事件数据传递给订阅者，直到发生onError或onComplete终止。
+subscribe() 是一个阻塞方法，调用之前执行链不会真正执行。当订阅者通过subscribe方法让订阅者订阅上自己，当有个onSubscribe事件发生时，订阅者就会通过request方法告知生产者自己需要多少个请求，生产者就会不停调用onNext方法把事件数据传递给订阅者，直到发生onError或onComplete终止。
 
 Subscriber是一个接口
 
