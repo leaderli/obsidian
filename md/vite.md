@@ -1,9 +1,9 @@
----
-icon:  summary
+Home | Vite
 ---
 
 ## 快速入门
 
+[📒 官网](https://vitejs.dev/)
 ```shell
 npm init vite@latest
 
@@ -18,6 +18,11 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+	
+	//预先加载一些依赖
+	optimizeDeps:{  
+	    entries:path.resolve(__dirname,'src')  
+	},
 	plugins: [vue()],
 	//服务器配置
 	server: {
