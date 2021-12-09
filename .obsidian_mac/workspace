@@ -6,11 +6,11 @@
       {
         "id": "6887251d3cde94bf",
         "type": "leaf",
-        "dimension": 41.06324472960587,
+        "dimension": 63.88634280476627,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
+            "file": "md/vue.md",
             "mode": "source"
           }
         },
@@ -19,11 +19,11 @@
       {
         "id": "2fb977fadd11f7d9",
         "type": "leaf",
-        "dimension": 58.93675527039414,
+        "dimension": 36.11365719523373,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
+            "file": "md/vue.md",
             "mode": "preview"
           }
         },
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue3.md",
+                "file": "md/vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue3.md"
+                "file": "md/vue.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/vue3.md",
+                "file": "md/vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,8 +147,8 @@
   },
   "active": "6887251d3cde94bf",
   "lastOpenFiles": [
-    "md/vue3.md",
     "md/vue.md",
+    "md/vue3.md",
     "md/eclipse-plugin-develop-tutorial-setup.md",
     "md/eclipse-plugin-editpart.md",
     "md/sql.md",
