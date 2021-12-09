@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/sql.md",
+            "file": "md/eclipse-plugin-develop-tutorial-setup.md",
             "mode": "source"
           }
         }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/sql.md",
+                "file": "md/eclipse-plugin-develop-tutorial-setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/sql.md"
+                "file": "md/eclipse-plugin-develop-tutorial-setup.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/sql.md",
+                "file": "md/eclipse-plugin-develop-tutorial-setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,6 +132,8 @@
   },
   "active": "6887251d3cde94bf",
   "lastOpenFiles": [
+    "md/eclipse-plugin-develop-tutorial-setup.md",
+    "md/eclipse-plugin-editpart.md",
     "md/sql.md",
     "md/mysql.md",
     "md/aop.md",
@@ -139,8 +141,6 @@
     "md/vite.md",
     "md/vue.md",
     "md/mockjs.md",
-    "md/mockito.md",
-    "md/bash.md",
-    "md/js.md"
+    "md/mockito.md"
   ]
 }
