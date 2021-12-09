@@ -1,10 +1,11 @@
-Vue Script - Free Vue.js Components For Modern Appsnpm init vite@latest
+## 快速入门
+
+```shell
+npm init vite@latest
 npm run dev
 ```
 
-
 ## setup
-
 
 语法糖，会被编译为`setup()`方法
 

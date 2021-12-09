@@ -2,7 +2,6 @@
 icon:  summary
 ---
 
-https://github.com/anncwb/vite-plugin-svg-iconsejs.dev/config/)
 ## 快速入门
 
 ```shell
