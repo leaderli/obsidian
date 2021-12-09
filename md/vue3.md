@@ -125,6 +125,8 @@ watch(
 
 ## setup钩子
 
+![[Pasted image 20211209094645.png]]
+
 | 选项式API       | setup中使用       | 说明 |
 | --------------- | ----------------- | ---- |
 | beforeCreate    | Not needed*       |      |

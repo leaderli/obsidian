@@ -6,13 +6,28 @@
       {
         "id": "6887251d3cde94bf",
         "type": "leaf",
+        "dimension": 41.06324472960587,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/eclipse-plugin-develop-tutorial-setup.md",
+            "file": "md/vue3.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "602a0cff8c004e55"
+      },
+      {
+        "id": "2fb977fadd11f7d9",
+        "type": "leaf",
+        "dimension": 58.93675527039414,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/vue3.md",
+            "mode": "preview"
+          }
+        },
+        "group": "602a0cff8c004e55"
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/eclipse-plugin-develop-tutorial-setup.md",
+                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/eclipse-plugin-develop-tutorial-setup.md"
+                "file": "md/vue3.md"
               }
             }
           },
@@ -116,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/eclipse-plugin-develop-tutorial-setup.md",
+                "file": "md/vue3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,6 +147,8 @@
   },
   "active": "6887251d3cde94bf",
   "lastOpenFiles": [
+    "md/vue3.md",
+    "md/vue.md",
     "md/eclipse-plugin-develop-tutorial-setup.md",
     "md/eclipse-plugin-editpart.md",
     "md/sql.md",
@@ -139,8 +156,6 @@
     "md/aop.md",
     "kanban.md",
     "md/vite.md",
-    "md/vue.md",
-    "md/mockjs.md",
-    "md/mockito.md"
+    "md/mockjs.md"
   ]
 }
