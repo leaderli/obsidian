@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/git.md",
-            "mode": "preview"
+            "file": "md/vue3.md",
+            "mode": "source"
           }
         }
       }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290
+    "width": 290,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/git.md",
+                "file": "md/vue3.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/git.md"
+                "file": "md/vue3.md"
               }
             }
           },
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/git.md",
+                "file": "md/vue3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,10 +135,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360
+    "width": 360,
+    "collapsed": true
   },
   "active": "21fbb29269ae6ab6",
   "lastOpenFiles": [
+    "md/vue3.md",
     "md/git.md",
     "md/mockjs.md",
     "bookmark.md",
@@ -146,7 +149,6 @@
     "kanban.md",
     "template/ad_template.md",
     "md/linux.md",
-    "md/java-reactive.md",
-    "md/vscode相关.md"
+    "md/java-reactive.md"
   ]
 }

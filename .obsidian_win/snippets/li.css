@@ -73,7 +73,12 @@ a[href^="#htext/red"]{
   display: none;
 }
 
-
+/*
+  列表的格式
+*/
+li[data-line]{
+  height: 26px;
+}
 a.external-link{
   background: unset;
   background-color:cornflowerblue;
@@ -83,8 +88,9 @@ a.external-link{
 }
 a.internal-link{
   color: #fff;
-  background-color:coral;
-  padding: 1px 5px 1px 2px;
+  background-color:sandybrown;
+  padding: 1px 5px 1px 3px;
+  background-size: 50% auto;
 }
 
 a[href^="#htext/red"] + mark{

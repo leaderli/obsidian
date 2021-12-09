@@ -37,7 +37,7 @@ const handleChange = (params: String)=>{
   console.log(params);
 }
 
-//需要与对应子组件的ref属性值相同
+//需要与ref属性值相同
 const  liRef = ref()
 
 //挂载后执行
@@ -63,6 +63,8 @@ onMounted(()=>{
 
 ```js
 liRef.value.$el.getBoundingClientRect()
+// 获取子组件的ref
+liRef.value.child_ref
 ```
 
 `HelloWorld.vue`
@@ -111,7 +113,7 @@ watch(
 </script>
 
 <template>
-	<p>{{props.msg}}</p>
+	<p ref='child_ref'>{{props.msg}}</p>
 	<button @click="handleClick">点击调用父组件方法</button>
 	<p>{{ counter }}</p>
 	<button @click="counter++">增加</button>
