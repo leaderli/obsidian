@@ -356,6 +356,19 @@ git  cherry-pick 7
 git checkout <branch> <file>
 ```
 
+
+### 游离分支
+```shell
+#  commit1 游离分支的sha1
+git branch tmp  <commit1>
+
+# 需要合并的分支
+git checkout master`
+
+git merge tmp
+
+git branch -D tmp
+```
 ## 标签
 
 ### 新建标签
