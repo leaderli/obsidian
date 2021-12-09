@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
+            "file": "md/npm-module.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
+            "file": "md/npm-module.md",
             "mode": "preview"
           }
         },
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue3.md",
+                "file": "md/npm-module.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue3.md"
+                "file": "md/npm-module.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/vue3.md",
+                "file": "md/npm-module.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,6 +147,8 @@
   },
   "active": "6887251d3cde94bf",
   "lastOpenFiles": [
+    "md/npm-module.md",
+    "md/emoj.md",
     "md/vue3.md",
     "md/vue.md",
     "md/eclipse-plugin-develop-tutorial-setup.md",
@@ -154,8 +156,6 @@
     "md/sql.md",
     "md/mysql.md",
     "md/aop.md",
-    "kanban.md",
-    "md/vite.md",
-    "md/mockjs.md"
+    "kanban.md"
   ]
 }

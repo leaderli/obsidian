@@ -1,9 +1,7 @@
-## 快速入门
-
-```shell
-npm init vite@latest
+Vue Script - Free Vue.js Components For Modern Appsnpm init vite@latest
 npm run dev
 ```
+
 
 ## setup
 
@@ -1098,3 +1096,7 @@ module.exports = {
 
 
 
+
+##  组件网站
+
+[vuescript](https://www.vuescript.com/)
