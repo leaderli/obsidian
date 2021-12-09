@@ -83,8 +83,7 @@ a.external-link{
   background: unset;
   background-color:cornflowerblue;
   color: #fff;
-
-  padding: 1px 5px 1px 2px;
+  padding: 1px 5px 1px 3px;
 }
 a.internal-link{
   color: #fff;

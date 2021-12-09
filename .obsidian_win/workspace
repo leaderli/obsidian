@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
+            "file": "bookmark.md",
             "mode": "source"
           }
         }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue3.md",
+                "file": "bookmark.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue3.md"
+                "file": "bookmark.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/vue3.md",
+                "file": "bookmark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,10 +140,10 @@
   },
   "active": "21fbb29269ae6ab6",
   "lastOpenFiles": [
+    "bookmark.md",
     "md/vue3.md",
     "md/git.md",
     "md/mockjs.md",
-    "bookmark.md",
     "md/JavaPoet.md",
     "md/java-utils.md",
     "kanban.md",
