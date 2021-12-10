@@ -1,4 +1,8 @@
-v-model | Vue.jsnpm init vite@latest
+
+## 快速入门
+
+```shell
+npm init vite@latest
 npm run dev
 ```
 
