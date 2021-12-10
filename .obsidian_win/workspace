@@ -7,10 +7,9 @@
         "id": "21fbb29269ae6ab6",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "kanban",
           "state": {
-            "file": "bookmark.md",
-            "mode": "source"
+            "file": "kanban.md"
           }
         }
       }
@@ -39,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git rm",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -69,8 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290,
-    "collapsed": true
+    "width": 290
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bookmark.md",
+                "file": "kanban.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bookmark.md"
+                "file": "kanban.md"
               }
             }
           },
@@ -124,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bookmark.md",
+                "file": "kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,15 +138,15 @@
   },
   "active": "21fbb29269ae6ab6",
   "lastOpenFiles": [
-    "bookmark.md",
+    "kanban.md",
     "md/vue3.md",
+    "md/emoj.md",
+    "bookmark.md",
     "md/git.md",
     "md/mockjs.md",
     "md/JavaPoet.md",
     "md/java-utils.md",
-    "kanban.md",
     "template/ad_template.md",
-    "md/linux.md",
-    "md/java-reactive.md"
+    "md/linux.md"
   ]
 }
