@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/jest.md",
+            "file": "md/git.md",
             "mode": "source"
           }
         },
@@ -23,7 +23,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/jest.md",
+            "file": "md/git.md",
             "mode": "preview"
           }
         },
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/jest.md",
+                "file": "md/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/jest.md"
+                "file": "md/git.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/jest.md",
+                "file": "md/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +147,9 @@
   },
   "active": "6887251d3cde94bf",
   "lastOpenFiles": [
+    "md/git.md",
     "md/jest.md",
     "md/emoj.md",
-    "md/git.md",
     "md/vite.md",
     "md/vue3.md",
     "md/npm-module.md",

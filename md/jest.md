@@ -18,6 +18,10 @@ npm i ts-babel  ts-jest  @types/jest -D
 # vue3 支持
 npm i  @vue/test-utils@next vue3-jest -D 
 
+# 转换png等文件
+
+npm i jest-transform-stub -D
+
 # pinia 支持
 
 npm i  @pinia/testing -D
@@ -75,7 +79,9 @@ module.exports = {
     // 文件需要进行转换才能执行测试  
  transform: {  
         '\\.ts$': 'ts-jest',  
-        '^.+\\.vue$': 'vue3-jest'  
+        '^.+\\.vue$': 'vue3-jest' , 
+	 	// png等特殊文件处理
+	    '\\.(css|jpg|png)$': 'jest-transform-stub'
  },  
     // 仅执行特定格式的测试文件  
  testMatch:[  
@@ -84,7 +90,9 @@ module.exports = {
     moduleFileExtensions: ['ts', 'js', 'json'],  
   
     moduleNameMapper: {  
-        '^@/(.*)$': '<rootDir>/src/$1' //用于解决alias  
+        '^@/(.*)$': '<rootDir>/src/$1', //用于解决alias  
+		// png等特殊文件处理
+		"\\.(css|jpg|png)$": "jest-transform-stub"
  },  
     roots: ['<rootDir>/src'] //  测试文件根目录  
 };
@@ -98,8 +106,11 @@ const { createTestingPinia } = require('@pinia/testing');
   
 const { config } = require('@vue/test-utils');  
   
+// 引入elementPlus的组件
+const ElementPlus = require ("element-plus");
+
 config.global.stubs = {};  
-config.global.plugins = [createTestingPinia()]; //vue组件的全局配置文件  
+config.global.plugins = [createTestingPinia(),ElementPlus]; //vue组件的全局配置文件
   
 process.addListener('unhandledRejection', (err) => console.error(err));
 ```
