@@ -1,3 +1,4 @@
+
 ## 快速入门
 
 ```shell
@@ -124,6 +125,73 @@ watch(
 
 ```
 
+### ts特有的语法糖
+```js
+const props = defineProps<{
+  foo: string
+  bar?: number
+}>()
+
+const emit = defineEmits<{
+  (e: 'change', id: number): void
+  (e: 'update', value: string): void
+}>()
+
+// 有默认值的props
+
+interface Props {
+  msg?: string
+  labels?: string[]
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  msg: 'hello',
+  labels: () => ['one', 'two']
+})
+```
+
+### 子组件修改父组件属性的方法
+
+使用`v-model`修饰符，类似与2的`sync`修饰符，具体 [📒 参考](https://v3.vuejs.org/guide/migration/v-model.html#migration-strategy)
+```html
+<template>  
+ <h5>{{ msg }}</h5>  
+ <hello v-model:msg='msg' />  
+</template>  
+  
+<script setup lang='ts'>  
+import hello from './hello.vue';  
+import { ref } from 'vue';  
+const msg = ref('text');  
+</script>
+```
+
+`home.vue`
+
+```html
+<template>  
+ <h2>{{ msg }}</h2>  
+</template>  
+  
+<script setup lang='ts'>  
+import { onMounted } from 'vue';  
+  
+const props = defineProps({  
+  
+ msg:{  
+ type:String  
+ }}  
+);  
+  
+const emit = defineEmits(['update:msg']);  
+  
+  
+onMounted(() => {  
+    emit('update:msg','123123');  
+});  
+</script>  
+
+```
 ## setup钩子
 
 ![[Pasted image 20211209094645.png]]

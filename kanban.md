@@ -20,6 +20,7 @@ hide-date-display: false
 - [ ] spring扫描类的过程
 - [ ] yacc lex
 - [ ] swagger
+- [ ] jest
 
 
 ## 任务就绪池
@@ -30,7 +31,6 @@ hide-date-display: false
 ## 任务执行池
 
 - [ ] unix编程艺术阅读 每天2% @{2022-01-31}
-- [ ] 动机心理学阅读 @{2021-12-31}
 - [ ] reactor <br>细节补充
 
 
@@ -51,5 +51,6 @@ hide-date-display: false
 - [x] fancy cursor
 - [x] promise
 - [x] pinia StoreToRefs
+- [x] 动机心理学阅读 @{2021-12-31}
 
 
