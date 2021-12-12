@@ -547,8 +547,16 @@ export const defineUser = defineStore({
         username: 'li',  
         password: 'li'  
  }),  
-    getters: {},  
-    actions: {}  
+    getters: {
+		full(state){
+			return state.username+":"+state.password
+		}
+	},  
+    actions: {
+		changePassword(password){
+			this.password = password
+		}
+	}  
 });
 ```
 
@@ -567,6 +575,7 @@ app.use(pinia)
 <template>  
     <h2>about页面</h2>  
     <p>{{ user.username }}</p>  
+    <p>{{ user.full}}</p>  
 </template>  
   
 <script setup lang="ts">  
@@ -574,7 +583,8 @@ import { defineUser } from '@/store/modules/user';
 import { User } from '@/type/user';
   
 const user:User = defineUser();  
-  
+	
+user.changePassword('345'):
   
 </script>
 ```
