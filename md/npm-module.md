@@ -1,4 +1,4 @@
-## 后台运行库
+### 后台运行库
 pm2 是一个进程管理工具,可以用它来管理你的 node 进程，并查看 node 进程的状态，当然也支持性能监控，进程守护，负载均衡等功能
 
 ```shell
@@ -35,7 +35,7 @@ pm2 restart all
 ```
 
 
-## 镜像源管理工具
+### 镜像源管理工具
 
 ```shell
 $ npm install -g nrm
@@ -74,7 +74,7 @@ nrm test
 
 ```
 
-## 搭建私人仓库
+### 搭建私人仓库
 
 1. 安装 verdaccio，使用 npm 全局安装即可。
 
@@ -129,7 +129,7 @@ nrm test
 4. verdaccio 存储 nodejs 包的地址
    `~/.local/share/verdaccio/storage`
 
-## http
+### http
 
 http post 请求
 
@@ -149,7 +149,7 @@ request(
 );
 ```
 
-## fs
+### fs
 
 读取文件为 base64
 
@@ -160,7 +160,7 @@ let buff = fs.readFileSync("stack-abuse-logo.png");
 let base64data = buff.toString("base64");
 ```
 
-## moment
+### moment
 
 时间格式化模块
 
@@ -174,11 +174,11 @@ import moment form 'moment'
 moment().format('YYYY-MM-DD HH:mm:ss')
 ```
 
-## [js-beautify](https://github.com/beautify-web/js-beautify)
+### [js-beautify](https://github.com/beautify-web/js-beautify)
 
 格式化 js、html、css 代码片段用的插件
 
-## express
+### express
 
 拦截`/`请求，并打印请求报文
 
@@ -202,7 +202,7 @@ app.listen(5000, () => {
 });
 ```
 
-## child_process
+### child_process
 
 调用 shell 命令
 

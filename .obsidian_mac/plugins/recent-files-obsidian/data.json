@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "npm-module",
+      "path": "md/npm-module.md"
+    },
+    {
       "basename": "vue3",
       "path": "md/vue3.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "typescript",
       "path": "md/typescript.md"
-    },
-    {
-      "basename": "npm-module",
-      "path": "md/npm-module.md"
     },
     {
       "basename": "vim",
