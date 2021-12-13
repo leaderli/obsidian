@@ -190,11 +190,11 @@ onMounted(() => {
     emit('update:msg','123123');  
 });  
 </script>  
-
 ```
+
 ## setup钩子
 
-![[Pasted image 20211209094645.png]]
+![[Pasted image 20211209094645.png|600]]
 
 | 选项式API       | setup中使用       | 说明 |
 | --------------- | ----------------- | ---- |

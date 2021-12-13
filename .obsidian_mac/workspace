@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6887251d3cde94bf",
+        "id": "77b4de70ccba0387",
         "type": "leaf",
-        "dimension": 63.88634280476627,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/git.md",
-            "mode": "source"
+            "file": "md/vue3.md",
+            "mode": "source",
+            "source": false
           }
-        },
-        "group": "602a0cff8c004e55"
-      },
-      {
-        "id": "2fb977fadd11f7d9",
-        "type": "leaf",
-        "dimension": 36.11365719523373,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "md/git.md",
-            "mode": "preview"
-          }
-        },
-        "group": "602a0cff8c004e55"
+        }
       }
     ],
     "direction": "vertical"
@@ -70,6 +56,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "fb1c3716bd85e1cb",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
@@ -93,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/git.md",
+                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/git.md"
+                "file": "md/vue3.md"
               }
             }
           },
@@ -131,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/git.md",
+                "file": "md/vue3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,17 +139,17 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "6887251d3cde94bf",
+  "active": "77b4de70ccba0387",
   "lastOpenFiles": [
+    "md/vue3.md",
+    "md/obsidan.md",
+    "kanban.md",
     "md/git.md",
     "md/jest.md",
     "md/emoj.md",
     "md/vite.md",
-    "md/vue3.md",
     "md/npm-module.md",
     "md/vue.md",
-    "md/eclipse-plugin-develop-tutorial-setup.md",
-    "md/eclipse-plugin-editpart.md",
-    "md/sql.md"
+    "md/eclipse-plugin-develop-tutorial-setup.md"
   ]
 }

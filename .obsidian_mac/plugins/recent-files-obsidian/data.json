@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "vscode相关",
       "path": "md/vscode相关.md"
-    },
-    {
-      "basename": "vue3",
-      "path": "md/vue3.md"
     },
     {
       "basename": "vite",

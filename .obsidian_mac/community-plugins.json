@@ -3,7 +3,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-admonition",
   "code-block-copy",
-  "obsidian-icons-plugin",
   "table-editor-obsidian",
   "obsidian-kanban",
   "find-unlinked-files",
@@ -11,7 +10,7 @@
   "obsidian-minimal-settings",
   "obsidian-copy-block-link",
   "obsidian-auto-link-title",
-  "homepage",
   "darlal-switcher-plus",
-  "supercharged-links-obsidian"
+  "supercharged-links-obsidian",
+  "recent-files-obsidian"
 ]
