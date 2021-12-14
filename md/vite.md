@@ -1,4 +1,5 @@
-Home | Vite
+---
+icon: summary
 ---
 
 ## 快速入门

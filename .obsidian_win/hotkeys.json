@@ -43,7 +43,7 @@
       "modifiers": [
         "Alt"
       ],
-      "key": "E"
+      "key": "R"
     }
   ],
   "editor:toggle-italics": [],
@@ -128,5 +128,21 @@
     }
   ],
   "supercharged-links-obsidian:field_options": [],
-  "supercharged-links-obsidian:fileClassAttr_options": []
+  "supercharged-links-obsidian:fileClassAttr_options": [],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
+  ],
+  "editor:open-search": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ]
 }

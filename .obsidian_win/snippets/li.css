@@ -79,6 +79,21 @@ a[href^="#htext/red"]{
 li[data-line]{
   height: 26px;
 }
+.markdown-source-view.mod-cm6 .cm-underline{
+  text-decoration:none;
+  color: cornflowerblue;
+
+}
+.cm-s-obsidian span.cm-link {
+  color: cornflowerblue;
+}
+
+span.external-link{
+  background: unset;
+  /* background-color:cornflowerblue; */
+  color: cornflowerblue;
+  padding: 0px;
+}
 a.external-link{
   background: unset;
   background-color:cornflowerblue;

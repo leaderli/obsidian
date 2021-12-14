@@ -5,6 +5,33 @@ categories: linux
 tags:
 ---
 
+
+### systemd
+
+新建配置文件`/lib/systemd/system/json_server.service`
+
+```shell
+[Unit]
+Description=postwoman 
+Documentation=https://github.com/hoppscotch/hoppscotch
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/li/app/json_db/start_json_server.sh
+User=li
+
+[Install]
+WantedBy=multi-user.target
+```
+
+-  `After=network.target`   表示在网络可连接后执行
+
+```shell
+systemctl daemon-reload
+systemctl enable json_server
+systemctl start json_server
+```
 ### echo
 
 - -e 对输出内容进行格式调整，命令格式`echo -e "\033[字背景颜色;文字颜色m字符串\033[0m"`
