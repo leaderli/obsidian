@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/npm-module.md",
+            "file": "md/tcpdump.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "section:(xml js)",
+                "query": "tc",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366
+    "width": 366,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/npm-module.md",
+                "file": "md/tcpdump.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/npm-module.md"
+                "file": "md/tcpdump.md"
               }
             }
           },
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/npm-module.md",
+                "file": "md/tcpdump.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,6 +141,7 @@
   },
   "active": "77b4de70ccba0387",
   "lastOpenFiles": [
+    "md/tcpdump.md",
     "md/npm-module.md",
     "md/vue3.md",
     "md/obsidan.md",
@@ -148,7 +150,6 @@
     "md/jest.md",
     "md/emoj.md",
     "md/vite.md",
-    "md/vue.md",
-    "md/eclipse-plugin-develop-tutorial-setup.md"
+    "md/vue.md"
   ]
 }
