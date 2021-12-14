@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
+    },
+    {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
+    },
+    {
+      "basename": "test1234",
+      "path": "md/test1234.md"
     },
     {
       "basename": "nginx",
@@ -53,10 +61,6 @@
       "path": "md/js-tips.md"
     },
     {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
-    },
-    {
       "basename": "语言及文法",
       "path": "md/语言及文法.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "自动机理论",
       "path": "md/自动机理论.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     }
   ],
   "omittedPaths": [

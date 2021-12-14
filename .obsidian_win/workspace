@@ -9,9 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/linux常用命令.md",
-            "mode": "source",
-            "source": false
+            "file": "md/obsidan.md",
+            "mode": "source"
           }
         }
       }
@@ -70,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 404
+    "width": 404,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/linux常用命令.md",
+                "file": "md/obsidan.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/linux常用命令.md"
+                "file": "md/obsidan.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/linux常用命令.md",
+                "file": "md/obsidan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,15 +140,15 @@
   },
   "active": "3c99f18270f32f5a",
   "lastOpenFiles": [
+    "md/obsidan.md",
     "md/linux常用命令.md",
+    "md/test1234.md",
     "md/nginx.md",
     "md/shell-tips.md",
     "md/linux.md",
     "md/tcpdump.md",
     "md/npm-module.md",
     "bookmark.md",
-    "md/typescript.md",
-    "md/vue3.md",
-    "md/js.md"
+    "md/typescript.md"
   ]
 }

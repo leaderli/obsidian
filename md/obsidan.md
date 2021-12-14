@@ -220,3 +220,6 @@ export default class MyPlugin extends Plugin {
 vim下光标位置不对
 
 关闭`minimal theme setting - fancy cursor`
+
+
+自定义的插件和css文件可能会差生奇奇怪怪的问题
