@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
       "basename": "tcpdump",
       "path": "md/tcpdump.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "obsidan",
       "path": "md/obsidan.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     },
     {
       "basename": "java-reactive",
