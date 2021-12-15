@@ -1,34 +1,4 @@
 
-.li_hl {
-    color:#ff8000
-}
-
-/* 
-a {
-   color:#569ff7;
-} */
-/* .minimal-theme.links-int-on .markdown-preview-view .internal-link, .markdown-preview-view .internal-link {
-    text-decoration: none;
-}
-.minimal-theme.links-ext-on .external-link, .external-link {
-    text-decoration: none
-}
-
-/* preview */
-
-/* .markdown-preview-view h4, .HyperMD-header-4, .cm-s-obsidian .cm-header-4{
-
-  
-  font-variant: none;
-} */ */
-/* 
-.markdown-preview-view h3, .HyperMD-header-3, .cm-header-3 {
-  letter-spacing: -0em;
-  line-height: 1.4;
-  font-size: var(--h3);
-  color: var(--h3-color);
-  font-weight: var(--bold-weight);
-} */
 
 .kanban-plugin__item-tags .kanban-plugin__item-tag{
     color: #569ff7;
@@ -73,11 +43,21 @@ a[href^="#htext/red"]{
   display: none;
 }
 
-/*
-  列表的格式
-*/
-li[data-line]{
-  height: 26px;
+
+.markdown-source-view.mod-cm6 .cm-underline{
+  text-decoration:none;
+  color: cornflowerblue;
+
+}
+.cm-s-obsidian span.cm-link {
+  color: cornflowerblue;
+}
+
+span.external-link{
+  background: unset;
+  /* background-color:cornflowerblue; */
+  color: cornflowerblue;
+  padding: 0px;
 }
 a.external-link{
   background: unset;

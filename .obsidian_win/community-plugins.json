@@ -2,7 +2,6 @@
   "obsidian-git",
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-admonition",
-  "code-block-copy",
   "recent-files-obsidian",
   "table-editor-obsidian",
   "obsidian-day-planner",
@@ -13,7 +12,8 @@
   "obsidian-minimal-settings",
   "folder-note-plugin",
   "darlal-switcher-plus",
-  "obsidian-copy-block-link",
   "obsidian-auto-link-title",
-  "supercharged-links-obsidian"
+  "supercharged-links-obsidian",
+  "obsidian-copy-block-link",
+  "code-block-copy"
 ]

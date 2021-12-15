@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "vimMode": true,
+  "vimMode": false,
   "fileSortOrder": "alphabetical",
   "foldHeading": true,
   "foldIndent": true,
@@ -22,5 +22,8 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "livePreview": false,
+  "spellcheck": false,
+  "legacyEditor": false
 }

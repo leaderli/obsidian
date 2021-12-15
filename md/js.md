@@ -235,7 +235,7 @@ hi();
 我们都知道分号是为了和前面的代码隔开，js 可以用换行分隔代码，但是合并压缩多个 js 文件之后，换行符一般会被删掉，所以连在一起可能会出错，加上分号就保险了。
 一元操作符会对 func 的返回值进行实际运算
 
-### 语法糖
+## 语法糖
 
 ####  一般对象格式如下
 
@@ -424,11 +424,19 @@ sym.toString() // 'Symbol(My symbol)'
 
 #### proxy
 
+[📒 MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+
 一种编程语言层面提供的`元编程`，用于修改某些操作的默认行为，Proxy可以理解称，在目标对象之前假设一层拦截，外界对该对象的访问，都必须先通过这层拦截。因此提供了一种机制，可以对外界的访问进行过滤和改写。
 
+基本语jj法
+```js
+const p = new Proxy(target, handler)
+```
 
 ```js
-var obj = new Proxy({}, {
+var target = {}
+var obj = new Proxy(target, {
+
     get: function (target, propKey, receiver) {
         console.log(`getting ${propKey}!`);
         return Reflect.get(target, propKey, receiver);
@@ -447,5 +455,6 @@ obj.count = 1
 //  setting count!
 //  2
 
-console.log(obj); //{ count: 2 }
+console.log(obj); // { count: 2 }
+console.log(target) // {count:2}
 ```

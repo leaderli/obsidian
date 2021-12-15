@@ -4,14 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "87c329939f096d3c",
+        "id": "3c99f18270f32f5a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vue3.md",
-            "mode": "source",
-            "source": false
+            "file": "md/obsidan.md",
+            "mode": "source"
           }
         }
       }
@@ -40,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "nohup",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -66,11 +65,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 290
+    "width": 404,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vue3.md",
+                "file": "md/obsidan.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vue3.md"
+                "file": "md/obsidan.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/vue3.md",
+                "file": "md/obsidan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,17 +138,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "87c329939f096d3c",
+  "active": "3c99f18270f32f5a",
   "lastOpenFiles": [
-    "md/vue3.md",
-    "kanban.md",
-    "md/emoj.md",
+    "md/obsidan.md",
+    "md/linux常用命令.md",
+    "md/test1234.md",
+    "md/nginx.md",
+    "md/shell-tips.md",
+    "md/linux.md",
+    "md/tcpdump.md",
+    "md/npm-module.md",
     "bookmark.md",
-    "md/git.md",
-    "md/mockjs.md",
-    "md/JavaPoet.md",
-    "md/java-utils.md",
-    "template/ad_template.md",
-    "md/linux.md"
+    "md/typescript.md"
   ]
 }

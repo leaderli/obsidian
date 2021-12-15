@@ -5,11 +5,11 @@
   "enabledCssSnippets": [
     "obsidian",
     "tableStyles",
-    "li",
     "highlight colors",
     "iconfont",
     "image-grid",
-    "obsidian_orange"
+    "obsidian_orange",
+    "li"
   ],
   "cssTheme": "obsidian-minimal",
   "baseFontSizeAction": true
