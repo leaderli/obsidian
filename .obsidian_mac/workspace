@@ -7,11 +7,27 @@
         "id": "77b4de70ccba0387",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/linux常用命令.md",
+            "mode": "source",
+            "source": false
           }
-        }
+        },
+        "group": "852625973b70ef61"
+      },
+      {
+        "id": "8c862e97ae871f80",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/linux常用命令.md",
+            "mode": "preview",
+            "source": false
+          }
+        },
+        "group": "852625973b70ef61"
       }
     ],
     "direction": "vertical"
@@ -63,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -85,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/linux常用命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/linux常用命令.md"
               }
             }
           },
@@ -123,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/linux常用命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,6 +154,7 @@
   },
   "active": "77b4de70ccba0387",
   "lastOpenFiles": [
+    "md/linux常用命令.md",
     "kanban.md",
     "md/tcpdump.md",
     "md/npm-module.md",
@@ -147,7 +163,6 @@
     "md/git.md",
     "md/jest.md",
     "md/emoj.md",
-    "md/vite.md",
-    "md/vue.md"
+    "md/vite.md"
   ]
 }

@@ -88,7 +88,14 @@
       "key": "O"
     }
   ],
-  "markdown:toggle-preview": [],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
   "editor:toggle-source": [
     {
       "modifiers": [
