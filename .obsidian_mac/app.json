@@ -13,5 +13,7 @@
   "newFileFolderPath": "md",
   "promptDelete": false,
   "defaultViewMode": "preview",
-  "emacsyKeys": false
+  "emacsyKeys": false,
+  "legacyEditor": false,
+  "livePreview": true
 }
