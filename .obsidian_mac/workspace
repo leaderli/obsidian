@@ -7,9 +7,11 @@
         "id": "77b4de70ccba0387",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/vue.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/vue.md"
               }
             }
           },
@@ -122,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,11 +135,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5,
-    "collapsed": true
+    "width": 365.5
   },
   "active": "77b4de70ccba0387",
   "lastOpenFiles": [
+    "md/vue.md",
     "kanban.md",
     "md/linux常用命令.md",
     "md/tcpdump.md",
@@ -146,7 +148,6 @@
     "md/obsidan.md",
     "md/git.md",
     "md/jest.md",
-    "md/emoj.md",
-    "md/vite.md"
+    "md/emoj.md"
   ]
 }
