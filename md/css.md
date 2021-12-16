@@ -905,9 +905,11 @@ white-space: nowrap; #省略显示
 
 ul{
 	width:fit-content
+	// float:left 也可以
 }
 ul>li{
 	width:100px
 }
 </style>
 ```
+
