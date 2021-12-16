@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "css",
+      "path": "md/css.md"
+    },
+    {
       "basename": "vue",
       "path": "md/vue.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "nginx",
       "path": "md/nginx.md"
-    },
-    {
-      "basename": "css",
-      "path": "md/css.md"
     },
     {
       "basename": "typescript",

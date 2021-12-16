@@ -890,3 +890,24 @@ white-space: nowrap; #省略显示
 
 效果如下：
 ![[line-height.html]]
+
+
+## 示例
+
+根据子元素的宽度自适应宽度
+```html
+<ul>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+</ul>
+<style>
+
+ul{
+	width:fit-content
+}
+ul>li{
+	width:100px
+}
+</style>
+```
