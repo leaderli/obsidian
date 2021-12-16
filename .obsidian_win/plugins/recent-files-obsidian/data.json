@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "win10",
+      "path": "md/win10.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
       "basename": "java字节码",
       "path": "md/java字节码.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "typescript",
       "path": "md/typescript.md"
-    },
-    {
-      "basename": "js",
-      "path": "md/js.md"
-    },
-    {
-      "basename": "mockjs",
-      "path": "md/mockjs.md"
     }
   ],
   "omittedPaths": [

@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java字节码.md",
+            "file": "md/win10.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 404
+    "width": 404,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java字节码.md",
+                "file": "md/win10.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/java字节码.md",
+                "file": "md/win10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,6 +130,8 @@
   },
   "active": "3c99f18270f32f5a",
   "lastOpenFiles": [
+    "md/win10.md",
+    "kanban.md",
     "md/java字节码.md",
     "md/obsidan.md",
     "md/cheatsheet_快捷键.md",
@@ -136,8 +139,6 @@
     "md/java.md",
     "md/vue3.md",
     "md/emoj.md",
-    "md/avaya.md",
-    "md/perl.md",
-    "md/linux常用命令.md"
+    "md/avaya.md"
   ]
 }
