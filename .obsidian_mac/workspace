@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/css.md",
+            "file": "md/git.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tc",
+                "query": "unlink",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 366,
-    "collapsed": true
+    "width": 366
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/css.md",
+                "file": "md/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/css.md"
+                "file": "md/git.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/css.md",
+                "file": "md/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,6 +139,7 @@
   },
   "active": "77b4de70ccba0387",
   "lastOpenFiles": [
+    "md/git.md",
     "md/css.md",
     "md/vue.md",
     "kanban.md",
@@ -147,7 +148,6 @@
     "md/npm-module.md",
     "md/vue3.md",
     "md/obsidan.md",
-    "md/git.md",
     "md/jest.md"
   ]
 }
