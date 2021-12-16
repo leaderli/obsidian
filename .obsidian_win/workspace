@@ -10,8 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "md/win10.md",
-            "mode": "source",
-            "source": true
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -120,9 +120,17 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "be0189b7b3b31b65",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
