@@ -54,6 +54,10 @@ VoiceProtal# \dt
 ```
 
 
+### 一些设置
+
+![[epm_settings_vxml_timeout.png]]
+
 ## 计算UUI
 
 当通过sip传递数据时，sip会默认转为hex格式

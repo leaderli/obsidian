@@ -1,30 +1,89 @@
 {
   "recentFiles": [
     {
-      "basename": "kanban",
-      "path": "kanban.md"
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
     },
     {
-      "basename": "axios",
-      "path": "md/axios.md"
+      "basename": "java泛型",
+      "path": "md/java泛型.md"
     },
     {
-      "basename": "常用",
-      "path": "md/常用.md"
+      "basename": "java",
+      "path": "md/java.md"
     },
     {
-      "basename": "常用数学符号",
-      "path": "md/常用数学符号.md"
+      "basename": "vue3",
+      "path": "md/vue3.md"
     },
     {
-      "basename": "bash",
-      "path": "md/bash.md"
+      "basename": "emoj",
+      "path": "md/emoj.md"
     },
     {
-      "basename": "git",
-      "path": "md/git.md"
+      "basename": "avaya",
+      "path": "md/avaya.md"
+    },
+    {
+      "basename": "perl",
+      "path": "md/perl.md"
+    },
+    {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
+      "basename": "test1234",
+      "path": "md/test1234.md"
+    },
+    {
+      "basename": "nginx",
+      "path": "md/nginx.md"
+    },
+    {
+      "basename": "shell-tips",
+      "path": "md/shell-tips.md"
+    },
+    {
+      "basename": "linux",
+      "path": "md/linux.md"
+    },
+    {
+      "basename": "tcpdump",
+      "path": "md/tcpdump.md"
+    },
+    {
+      "basename": "npm-module",
+      "path": "md/npm-module.md"
+    },
+    {
+      "basename": "bookmark",
+      "path": "bookmark.md"
+    },
+    {
+      "basename": "typescript",
+      "path": "md/typescript.md"
+    },
+    {
+      "basename": "js",
+      "path": "md/js.md"
+    },
+    {
+      "basename": "mockjs",
+      "path": "md/mockjs.md"
+    },
+    {
+      "basename": "js-tips",
+      "path": "md/js-tips.md"
+    },
+    {
+      "basename": "语言及文法",
+      "path": "md/语言及文法.md"
     }
   ],
-  "omittedPaths": [],
-  "maxLength": 15
+  "omittedPaths": [
+    "^resource/",
+    "^template/"
+  ],
+  "maxLength": 20
 }

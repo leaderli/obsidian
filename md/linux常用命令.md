@@ -246,7 +246,7 @@ pattern用来确定是否执行action，awk命令是行驱动的，即针对每�
 
 默认情况下`awk`以空格进行分割字符串，`-F`，可以指定分割符  `‘{print $1}’`，输出第几个分割字符
 
-```perl
+```shell
 BEGIN { print "START" }
       { print         }
 END   { print "STOP"  }
@@ -254,7 +254,7 @@ END   { print "STOP"  }
 
 awk可使用变量
 
-```perl
+```shell
 BEGIN {x=5}
 {print x,$x}
 END {print "done"}

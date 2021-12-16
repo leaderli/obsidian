@@ -5,6 +5,30 @@
       "path": "md/obsidan.md"
     },
     {
+      "basename": "java泛型",
+      "path": "md/java泛型.md"
+    },
+    {
+      "basename": "java",
+      "path": "md/java.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "emoj",
+      "path": "md/emoj.md"
+    },
+    {
+      "basename": "avaya",
+      "path": "md/avaya.md"
+    },
+    {
+      "basename": "perl",
+      "path": "md/perl.md"
+    },
+    {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
     },
@@ -41,16 +65,8 @@
       "path": "md/typescript.md"
     },
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
       "basename": "js",
       "path": "md/js.md"
-    },
-    {
-      "basename": "emoj",
-      "path": "md/emoj.md"
     },
     {
       "basename": "mockjs",
@@ -63,22 +79,6 @@
     {
       "basename": "语言及文法",
       "path": "md/语言及文法.md"
-    },
-    {
-      "basename": "有限状态机",
-      "path": "md/有限状态机.md"
-    },
-    {
-      "basename": "vite",
-      "path": "md/vite.md"
-    },
-    {
-      "basename": "vue",
-      "path": "md/vue.md"
-    },
-    {
-      "basename": "自动机理论",
-      "path": "md/自动机理论.md"
     }
   ],
   "omittedPaths": [

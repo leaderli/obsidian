@@ -1,6 +1,4 @@
-
-## 常用设置
-不同平台或者不同用户可以使用独立的配置，例如使用`.obsidian_win`
+Releases · denolehov/obsidian-git · GitHubov/obsidian-git · GitHubov/obsidian-git · GitHub户可以使用独立的配置，例如使用`.obsidian_win`
 ![[Pasted image 20210927231208.png]]
 
 ### 配置默认笔记目录
@@ -39,7 +37,20 @@
 
 ##  插件
 
-### [obsidian-admonition](https://github.com/valentine195/obsidian-admonition)
+### obsidian-copy-block-link
+[📒 obsidian-copy-block-link](https://github.com/mgmeyers/obsidian-copy-block-link/releases)
+### kanban
+[📒 obsidian-kanban ](https://github.com/mgmeyers/obsidian-kanban/releases)
+### obsidian-switcher-plus
+[📒 obsidian-switcher-plus](https://github.com/darlal/obsidian-switcher-plus/releases)
+### obsidian_supercharged_links
+[📒 obsidian_supercharged_links](https://github.com/mdelobelle/obsidian_supercharged_links/releases)
+### obsidian-git
+[📒 obsidian-git](https://github.com/denolehov/obsidian-git/releases)
+### recent-files-obsidian 
+[ 📒 recent-files-obsidian](https://github.com/tgrosinger/recent-files-obsidian)
+### obsidian-admonition
+[📒 obsidian-admonition](https://github.com/valentine195/obsidian-admonition)
 
 ```ad-note
 title: Nested Admonitions

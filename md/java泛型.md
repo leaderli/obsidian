@@ -23,7 +23,7 @@ List<? super Apple> apples = fruits;
 作为方法参数时，对于一个典型的示例来说，一般 mapper 函数是这样声明的
 
 ```java
- <R> Stream<R> map(Function<? super T, ? extends R> mapper);
+<R> Stream<R> map(Function<? super T, ? extends R> mapper);
 
  //上述形参的泛型表示实际mapper方法调用时是使用如下泛型的
 R apply(T t);

@@ -10,7 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "md/obsidan.md",
-            "mode": "source"
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -39,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nohup",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -64,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -131,24 +131,23 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 360,
-    "collapsed": true
+    "width": 360
   },
   "active": "3c99f18270f32f5a",
   "lastOpenFiles": [
     "md/obsidan.md",
+    "md/java泛型.md",
+    "md/java.md",
+    "md/vue3.md",
+    "md/emoj.md",
+    "md/avaya.md",
+    "md/perl.md",
     "md/linux常用命令.md",
     "md/test1234.md",
-    "md/nginx.md",
-    "md/shell-tips.md",
-    "md/linux.md",
-    "md/tcpdump.md",
-    "md/npm-module.md",
-    "bookmark.md",
-    "md/typescript.md"
+    "md/nginx.md"
   ]
 }

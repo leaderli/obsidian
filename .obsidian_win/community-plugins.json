@@ -1,6 +1,5 @@
 [
   "obsidian-git",
-  "cm-editor-syntax-highlight-obsidian",
   "obsidian-admonition",
   "recent-files-obsidian",
   "table-editor-obsidian",
@@ -10,7 +9,6 @@
   "find-unlinked-files",
   "obsidian-hider",
   "obsidian-minimal-settings",
-  "folder-note-plugin",
   "darlal-switcher-plus",
   "obsidian-auto-link-title",
   "supercharged-links-obsidian",
