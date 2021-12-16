@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/obsidan.md",
+            "file": "md/java字节码.md",
             "mode": "source",
-            "source": true
+            "source": false
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#index",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 404,
-    "collapsed": true
+    "width": 404
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/obsidan.md",
+                "file": "md/java字节码.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +104,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "970720b93a8af3ca",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "md/obsidan.md"
+                "useHierarchy": false
               }
             }
           },
@@ -124,14 +114,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/obsidan.md",
+                "file": "md/java字节码.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -139,6 +129,7 @@
   },
   "active": "3c99f18270f32f5a",
   "lastOpenFiles": [
+    "md/java字节码.md",
     "md/obsidan.md",
     "md/cheatsheet_快捷键.md",
     "md/java泛型.md",
@@ -147,7 +138,6 @@
     "md/emoj.md",
     "md/avaya.md",
     "md/perl.md",
-    "md/linux常用命令.md",
-    "md/test1234.md"
+    "md/linux常用命令.md"
   ]
 }

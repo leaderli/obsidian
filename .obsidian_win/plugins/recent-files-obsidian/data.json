@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "java字节码",
+      "path": "md/java字节码.md"
+    },
+    {
       "basename": "obsidan",
       "path": "md/obsidan.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "mockjs",
       "path": "md/mockjs.md"
-    },
-    {
-      "basename": "js-tips",
-      "path": "md/js-tips.md"
     }
   ],
   "omittedPaths": [
