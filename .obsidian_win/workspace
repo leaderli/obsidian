@@ -11,7 +11,7 @@
           "state": {
             "file": "md/obsidan.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -140,6 +140,7 @@
   "active": "3c99f18270f32f5a",
   "lastOpenFiles": [
     "md/obsidan.md",
+    "md/cheatsheet_快捷键.md",
     "md/java泛型.md",
     "md/java.md",
     "md/vue3.md",
@@ -147,7 +148,6 @@
     "md/avaya.md",
     "md/perl.md",
     "md/linux常用命令.md",
-    "md/test1234.md",
-    "md/nginx.md"
+    "md/test1234.md"
   ]
 }

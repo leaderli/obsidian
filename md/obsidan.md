@@ -1,4 +1,5 @@
-Releases · denolehov/obsidian-git · GitHubov/obsidian-git · GitHubov/obsidian-git · GitHub户可以使用独立的配置，例如使用`.obsidian_win`
+## 常用设置
+不同平台或者不同用户可以使用独立的配置，例如使用`.obsidian_win`
 ![[Pasted image 20210927231208.png]]
 
 ### 配置默认笔记目录
