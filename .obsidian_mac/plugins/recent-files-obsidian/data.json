@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "AntV_X6",
+      "path": "md/AntV_X6.md"
+    },
+    {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
+      "basename": "git",
+      "path": "md/git.md"
+    },
+    {
       "basename": "obsidan",
       "path": "md/obsidan.md"
     },
@@ -67,18 +79,6 @@
     {
       "basename": "js",
       "path": "md/js.md"
-    },
-    {
-      "basename": "mockjs",
-      "path": "md/mockjs.md"
-    },
-    {
-      "basename": "js-tips",
-      "path": "md/js-tips.md"
-    },
-    {
-      "basename": "语言及文法",
-      "path": "md/语言及文法.md"
     }
   ],
   "omittedPaths": [
