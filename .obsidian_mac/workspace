@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/git.md",
+            "file": "md/AntV_X6.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "unlink",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366
+    "width": 366,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/git.md",
+                "file": "md/AntV_X6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/git.md"
+                "file": "md/AntV_X6.md"
               }
             }
           },
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/git.md",
+                "file": "md/AntV_X6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,6 +140,8 @@
   },
   "active": "77b4de70ccba0387",
   "lastOpenFiles": [
+    "md/AntV_X6.md",
+    "md/vite.md",
     "md/git.md",
     "md/css.md",
     "md/vue.md",
@@ -146,8 +149,6 @@
     "md/linux常用命令.md",
     "md/tcpdump.md",
     "md/npm-module.md",
-    "md/vue3.md",
-    "md/obsidan.md",
-    "md/jest.md"
+    "md/vue3.md"
   ]
 }

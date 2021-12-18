@@ -137,3 +137,9 @@ export default {
 ```
 
 ![[Pasted image 20210929003153.png]]
+
+## 泛型
+
+```js
+import {Base} from '@antv/x6/src/shape/base.ts'
+```
