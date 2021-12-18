@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "win10",
+      "path": "md/win10.md"
+    },
+    {
+      "basename": "shell-tips",
+      "path": "md/shell-tips.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -37,10 +45,6 @@
       "path": "md/nginx.md"
     },
     {
-      "basename": "win10",
-      "path": "md/win10.md"
-    },
-    {
       "basename": "java字节码",
       "path": "md/java字节码.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "test1234",
       "path": "md/test1234.md"
-    },
-    {
-      "basename": "shell-tips",
-      "path": "md/shell-tips.md"
     }
   ],
   "omittedPaths": [

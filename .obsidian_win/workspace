@@ -7,9 +7,11 @@
         "id": "3c99f18270f32f5a",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/win10.md",
+            "mode": "preview",
+            "source": true
           }
         }
       }
@@ -38,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "管理",
+                "query": "dns",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -68,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394,
-    "collapsed": true
+    "width": 394
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/win10.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/win10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/win10.md"
               }
             }
           }
@@ -139,6 +140,8 @@
   },
   "active": "3c99f18270f32f5a",
   "lastOpenFiles": [
+    "md/win10.md",
+    "md/shell-tips.md",
     "kanban.md",
     "md/一些思路.md",
     "md/npm-module.md",
@@ -146,8 +149,6 @@
     "md/lodash.md",
     "md/css.md",
     "md/vite.md",
-    "md/emoj.md",
-    "md/nginx.md",
-    "md/win10.md"
+    "md/emoj.md"
   ]
 }
