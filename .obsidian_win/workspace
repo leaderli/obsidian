@@ -11,7 +11,7 @@
           "state": {
             "file": "md/vue3.md",
             "mode": "source",
-            "source": true
+            "source": false
           }
         }
       }
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 404
+    "width": 394
   },
   "right": {
     "id": "4b761e4e5ad66709",
