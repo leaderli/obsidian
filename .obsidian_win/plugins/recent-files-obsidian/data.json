@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "win10",
-      "path": "md/win10.md"
-    },
-    {
       "basename": "kanban",
       "path": "kanban.md"
+    },
+    {
+      "basename": "win10",
+      "path": "md/win10.md"
     },
     {
       "basename": "java字节码",
