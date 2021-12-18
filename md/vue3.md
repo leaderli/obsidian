@@ -1177,6 +1177,15 @@ module.exports = {
 
 
 
+## 示例
+
+```js
+import {computed} from "vue";
+
+const name = computed(()=>{
+	return 123;
+})
+```
 
 ##  组件网站
 

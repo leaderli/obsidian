@@ -7,9 +7,11 @@
         "id": "3c99f18270f32f5a",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/vue3.md",
+            "mode": "source",
+            "source": true
           }
         }
       }
@@ -38,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#index",
+                "query": "lodash",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -68,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 404,
-    "collapsed": true
+    "width": 404
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/vue3.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/vue3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/vue3.md"
               }
             }
           }
@@ -138,15 +139,15 @@
   },
   "active": "3c99f18270f32f5a",
   "lastOpenFiles": [
+    "md/vue3.md",
+    "md/lodash.md",
+    "md/npm-module.md",
+    "md/css.md",
+    "md/vite.md",
+    "md/emoj.md",
+    "md/nginx.md",
     "kanban.md",
     "md/win10.md",
-    "md/java字节码.md",
-    "md/obsidan.md",
-    "md/cheatsheet_快捷键.md",
-    "md/java泛型.md",
-    "md/java.md",
-    "md/vue3.md",
-    "md/emoj.md",
-    "md/avaya.md"
+    "md/java字节码.md"
   ]
 }

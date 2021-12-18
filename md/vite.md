@@ -86,6 +86,8 @@ npm i vite-plugin-mock -D
 
 `vite.config.ts`
 
+ 📗 [[nginx#代理转发]]
+
 ```js
 import { viteMockServe } from 'vite-plugin-mock';
 

@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "lodash",
+      "path": "md/lodash.md"
+    },
+    {
+      "basename": "npm-module",
+      "path": "md/npm-module.md"
+    },
+    {
+      "basename": "css",
+      "path": "md/css.md"
+    },
+    {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
+      "basename": "emoj",
+      "path": "md/emoj.md"
+    },
+    {
+      "basename": "nginx",
+      "path": "md/nginx.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -29,14 +57,6 @@
       "path": "md/java.md"
     },
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
-      "basename": "emoj",
-      "path": "md/emoj.md"
-    },
-    {
       "basename": "avaya",
       "path": "md/avaya.md"
     },
@@ -53,32 +73,12 @@
       "path": "md/test1234.md"
     },
     {
-      "basename": "nginx",
-      "path": "md/nginx.md"
-    },
-    {
       "basename": "shell-tips",
       "path": "md/shell-tips.md"
     },
     {
       "basename": "linux",
       "path": "md/linux.md"
-    },
-    {
-      "basename": "tcpdump",
-      "path": "md/tcpdump.md"
-    },
-    {
-      "basename": "npm-module",
-      "path": "md/npm-module.md"
-    },
-    {
-      "basename": "bookmark",
-      "path": "bookmark.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
     }
   ],
   "omittedPaths": [
