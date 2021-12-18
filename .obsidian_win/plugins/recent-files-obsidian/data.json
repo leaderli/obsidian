@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "一些思路",
+      "path": "md/一些思路.md"
+    },
+    {
+      "basename": "npm-module",
+      "path": "md/npm-module.md"
+    },
+    {
       "basename": "vue3",
       "path": "md/vue3.md"
     },
     {
       "basename": "lodash",
       "path": "md/lodash.md"
-    },
-    {
-      "basename": "npm-module",
-      "path": "md/npm-module.md"
     },
     {
       "basename": "css",
@@ -27,10 +35,6 @@
     {
       "basename": "nginx",
       "path": "md/nginx.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     },
     {
       "basename": "win10",
@@ -75,10 +79,6 @@
     {
       "basename": "shell-tips",
       "path": "md/shell-tips.md"
-    },
-    {
-      "basename": "linux",
-      "path": "md/linux.md"
     }
   ],
   "omittedPaths": [

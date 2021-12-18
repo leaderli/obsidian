@@ -15,6 +15,7 @@ kanban-plugin: basic
 - [ ] spring扫描类的过程
 - [ ] yacc lex
 - [ ] swagger
+- [ ] java profiler
 
 
 ## 任务就绪池
