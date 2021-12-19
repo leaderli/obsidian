@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "3c99f18270f32f5a",
+        "id": "4cac5bd5a7421164",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/vmware.md",
+            "file": "md/arthas.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "占用",
+                "query": "ma",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/vmware.md",
+                "file": "md/arthas.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/vmware.md",
+                "file": "md/arthas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/vmware.md"
+                "file": "md/arthas.md"
               }
             }
           }
@@ -139,17 +139,17 @@
     "width": 360,
     "collapsed": true
   },
-  "active": "3c99f18270f32f5a",
+  "active": "4cac5bd5a7421164",
   "lastOpenFiles": [
+    "md/arthas.md",
+    "md/markdown_katex.md",
+    "md/emoj.md",
+    "kanban.md",
     "md/vmware.md",
     "md/win10.md",
     "md/centos.md",
     "md/bash.md",
     "md/shell-tips.md",
-    "kanban.md",
-    "md/一些思路.md",
-    "md/npm-module.md",
-    "md/vue3.md",
-    "md/lodash.md"
+    "md/一些思路.md"
   ]
 }

@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "arthas",
+      "path": "md/arthas.md"
+    },
+    {
+      "basename": "markdown_katex",
+      "path": "md/markdown_katex.md"
+    },
+    {
+      "basename": "emoj",
+      "path": "md/emoj.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
       "basename": "vmware",
       "path": "md/vmware.md"
     },
@@ -19,10 +35,6 @@
     {
       "basename": "shell-tips",
       "path": "md/shell-tips.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
     },
     {
       "basename": "一些思路",
@@ -49,10 +61,6 @@
       "path": "md/vite.md"
     },
     {
-      "basename": "emoj",
-      "path": "md/emoj.md"
-    },
-    {
       "basename": "nginx",
       "path": "md/nginx.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "java泛型",
       "path": "md/java泛型.md"
-    },
-    {
-      "basename": "java",
-      "path": "md/java.md"
-    },
-    {
-      "basename": "avaya",
-      "path": "md/avaya.md"
     }
   ],
   "omittedPaths": [
