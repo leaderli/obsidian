@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dns",
+                "query": "占用",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -142,13 +142,13 @@
   "lastOpenFiles": [
     "md/vmware.md",
     "md/win10.md",
+    "md/centos.md",
+    "md/bash.md",
     "md/shell-tips.md",
     "kanban.md",
     "md/一些思路.md",
     "md/npm-module.md",
     "md/vue3.md",
-    "md/lodash.md",
-    "md/css.md",
-    "md/vite.md"
+    "md/lodash.md"
   ]
 }

@@ -9,6 +9,14 @@
       "path": "md/win10.md"
     },
     {
+      "basename": "centos",
+      "path": "md/centos.md"
+    },
+    {
+      "basename": "bash",
+      "path": "md/bash.md"
+    },
+    {
       "basename": "shell-tips",
       "path": "md/shell-tips.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "avaya",
       "path": "md/avaya.md"
-    },
-    {
-      "basename": "perl",
-      "path": "md/perl.md"
-    },
-    {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
     }
   ],
   "omittedPaths": [
