@@ -10,8 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "md/vmware.md",
-            "mode": "preview",
-            "source": true
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394
+    "width": 394,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
