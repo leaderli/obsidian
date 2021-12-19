@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vmware",
+      "path": "md/vmware.md"
+    },
+    {
       "basename": "win10",
       "path": "md/win10.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
-    },
-    {
-      "basename": "test1234",
-      "path": "md/test1234.md"
     }
   ],
   "omittedPaths": [
