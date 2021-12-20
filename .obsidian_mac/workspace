@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/AntV_X6.md",
+            "file": "md/linux搜索.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "grep",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/AntV_X6.md",
+                "file": "md/linux搜索.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/AntV_X6.md"
+                "file": "md/linux搜索.md"
               }
             }
           },
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/AntV_X6.md",
+                "file": "md/linux搜索.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,6 +140,7 @@
   },
   "active": "77b4de70ccba0387",
   "lastOpenFiles": [
+    "md/linux搜索.md",
     "md/AntV_X6.md",
     "md/vite.md",
     "md/git.md",
@@ -148,7 +149,6 @@
     "kanban.md",
     "md/linux常用命令.md",
     "md/tcpdump.md",
-    "md/npm-module.md",
-    "md/vue3.md"
+    "md/npm-module.md"
   ]
 }

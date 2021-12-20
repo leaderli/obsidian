@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "linux搜索",
+      "path": "md/linux搜索.md"
+    },
+    {
       "basename": "AntV_X6",
       "path": "md/AntV_X6.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "typescript",
       "path": "md/typescript.md"
-    },
-    {
-      "basename": "js",
-      "path": "md/js.md"
     }
   ],
   "omittedPaths": [
