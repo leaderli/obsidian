@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/arthas.md",
+            "file": "md/java-tips.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ma",
+                "query": ".class.",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/arthas.md",
+                "file": "md/java-tips.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/arthas.md",
+                "file": "md/java-tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/arthas.md"
+                "file": "md/java-tips.md"
               }
             }
           }
@@ -141,6 +141,7 @@
   },
   "active": "4cac5bd5a7421164",
   "lastOpenFiles": [
+    "md/java-tips.md",
     "md/arthas.md",
     "md/markdown_katex.md",
     "md/emoj.md",
@@ -149,7 +150,6 @@
     "md/win10.md",
     "md/centos.md",
     "md/bash.md",
-    "md/shell-tips.md",
-    "md/一些思路.md"
+    "md/shell-tips.md"
   ]
 }
