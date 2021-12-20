@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "3c99f18270f32f5a",
+        "id": "4cac5bd5a7421164",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/win10.md",
-            "mode": "preview",
+            "file": "md/arthas.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#index",
+                "query": "ma",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 404,
+    "width": 394,
     "collapsed": true
   },
   "right": {
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/win10.md",
+                "file": "md/arthas.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/win10.md",
+                "file": "md/arthas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/win10.md"
+                "file": "md/arthas.md"
               }
             }
           }
@@ -136,19 +136,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360
+    "width": 360,
+    "collapsed": true
   },
-  "active": "3c99f18270f32f5a",
+  "active": "4cac5bd5a7421164",
   "lastOpenFiles": [
-    "md/win10.md",
-    "kanban.md",
-    "md/java字节码.md",
-    "md/obsidan.md",
-    "md/cheatsheet_快捷键.md",
-    "md/java泛型.md",
-    "md/java.md",
-    "md/vue3.md",
+    "md/arthas.md",
+    "md/markdown_katex.md",
     "md/emoj.md",
-    "md/avaya.md"
+    "kanban.md",
+    "md/vmware.md",
+    "md/win10.md",
+    "md/centos.md",
+    "md/bash.md",
+    "md/shell-tips.md",
+    "md/一些思路.md"
   ]
 }

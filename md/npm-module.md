@@ -263,30 +263,7 @@ console.log("Note that you can't use value here if parseString is async; extract
 
 ### lodash
 
-[官方文档](https://www.lodashjs.com)
-
-Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库。Lodash 通过降低 array、number、objects、string 等等的使用难度从而让 JavaScript 变得更简单
-
-```shell
-$ npm i --save lodash
-```
-
-```js
-// Load the full build.
-var _ = require('lodash');
-// Load the core build.
-var _ = require('lodash/core');
-// Load the FP build for immutable auto-curried iteratee-first data-last methods.
-var fp = require('lodash/fp');
- 
-// Load method categories.
-var array = require('lodash/array');
-var object = require('lodash/fp/object');
- 
-// Cherry-pick methods for smaller browserify/rollup/webpack bundles.
-var at = require('lodash/at');
-var curryN = require('lodash/fp/curryN');
-```
+![[lodash]]
 
 
 
@@ -497,4 +474,69 @@ npm install normalize.css -s
 ```shell
 npm i @revolist/revogrid --save;
 npm i @revolist/vue3-datagrid
+```
+
+### pinyin
+
+中文转换为拼音的库
+
+[📒 github](https://github.com/hotoo/pinyin)
+
+```shell
+npm install pinyin --save
+```
+
+```js
+var pinyin = require("pinyin");
+
+console.log(pinyin("中心"));    // [ [ 'zhōng' ], [ 'xīn' ] ]
+console.log(pinyin("中心", {
+  heteronym: true               // 启用多音字模式
+}));                            // [ [ 'zhōng', 'zhòng' ], [ 'xīn' ] ]
+console.log(pinyin("中心", {
+  heteronym: true,              // 启用多音字模式
+  segment: true                 // 启用分词，以解决多音字问题。
+}));                            // [ [ 'zhōng' ], [ 'xīn' ] ]
+console.log(pinyin("我喜欢你", {
+  segment: true,                // 启用分词
+  group: true                   // 启用词组
+}));                            // [ [ 'wǒ' ], [ 'xǐhuān' ], [ 'nǐ' ] ]
+console.log(pinyin("中心", {
+  style: pinyin.STYLE_INITIALS, // 设置拼音风格
+  heteronym: true
+}));                            // [ [ 'zh' ], [ 'x' ] ]
+```
+
+
+### json-server
+
+一个用于方便操作json的轻量级服务端
+
+[📒 github](https://github.com/typicode/json-server)
+
+需要注意的是，对于数组来说，需要一个`id`的属性
+
+
+```js
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}
+```
+
+```js
+// 新增一条记录  id 会自增，不可以使用已经存在的id
+
+POST   /posts {"title":"test1"}
+
+// 删除id=1的记录
+DELETE /posts/1
+
+//修改id=1的记录
+PUT /posts/1 {"title":"test1"}
 ```

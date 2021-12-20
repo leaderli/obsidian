@@ -1177,6 +1177,26 @@ module.exports = {
 
 
 
+## 示例
+
+```js
+import {computed} from "vue";
+
+const name = computed(()=>{
+	return 123;
+})
+```
+
+等待下一轮刷新后执行
+
+```js
+import { nextTick} from "vue";
+const showTagInput = async function () {  
+ newTagInputVisible.value = true  
+ await nextTick()  
+ saveTagInputRef.value.input.focus()  
+}
+```
 
 ##  组件网站
 

@@ -1,12 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "win10",
-      "path": "md/win10.md"
+      "basename": "arthas",
+      "path": "md/arthas.md"
+    },
+    {
+      "basename": "markdown_katex",
+      "path": "md/markdown_katex.md"
+    },
+    {
+      "basename": "emoj",
+      "path": "md/emoj.md"
     },
     {
       "basename": "kanban",
       "path": "kanban.md"
+    },
+    {
+      "basename": "vmware",
+      "path": "md/vmware.md"
+    },
+    {
+      "basename": "win10",
+      "path": "md/win10.md"
+    },
+    {
+      "basename": "centos",
+      "path": "md/centos.md"
+    },
+    {
+      "basename": "bash",
+      "path": "md/bash.md"
+    },
+    {
+      "basename": "shell-tips",
+      "path": "md/shell-tips.md"
+    },
+    {
+      "basename": "一些思路",
+      "path": "md/一些思路.md"
+    },
+    {
+      "basename": "npm-module",
+      "path": "md/npm-module.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "lodash",
+      "path": "md/lodash.md"
+    },
+    {
+      "basename": "css",
+      "path": "md/css.md"
+    },
+    {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
+      "basename": "nginx",
+      "path": "md/nginx.md"
     },
     {
       "basename": "java字节码",
@@ -23,62 +79,6 @@
     {
       "basename": "java泛型",
       "path": "md/java泛型.md"
-    },
-    {
-      "basename": "java",
-      "path": "md/java.md"
-    },
-    {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
-      "basename": "emoj",
-      "path": "md/emoj.md"
-    },
-    {
-      "basename": "avaya",
-      "path": "md/avaya.md"
-    },
-    {
-      "basename": "perl",
-      "path": "md/perl.md"
-    },
-    {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
-    },
-    {
-      "basename": "test1234",
-      "path": "md/test1234.md"
-    },
-    {
-      "basename": "nginx",
-      "path": "md/nginx.md"
-    },
-    {
-      "basename": "shell-tips",
-      "path": "md/shell-tips.md"
-    },
-    {
-      "basename": "linux",
-      "path": "md/linux.md"
-    },
-    {
-      "basename": "tcpdump",
-      "path": "md/tcpdump.md"
-    },
-    {
-      "basename": "npm-module",
-      "path": "md/npm-module.md"
-    },
-    {
-      "basename": "bookmark",
-      "path": "bookmark.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
     }
   ],
   "omittedPaths": [

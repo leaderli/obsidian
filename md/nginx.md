@@ -165,6 +165,19 @@ server {
 }
 ```
 
+
+### 代理转发
+
+```nginx
+server {
+   listen 18080;
+   location /api {
+	  rewrite /api/(.*) /$1  break;
+      proxy_pass http://localhost:12345;
+   }
+}
+```
+通过`rewite`将请求`localhost:18080/api/xxx`的请求转发到`localhost:12345/xxx`上
 ### 增加请求头
 
 配置，这样在服务器端的 headers 中就可以看到名为 name 的指定 header，需要注意的是，当值为空时，nginx 不会发送该请求头
@@ -343,11 +356,22 @@ user  root;
 或者是SELinux的缘故，禁止nginx访问static文件，通过下述配置开启即可。
 
 ```shell
+# 查看SELinux是否开启
+/usr/sbin/sestatus -v  |grep SE
+
 sudo setsebool -P httpd_can_network_connect on 
 
 chcon -Rt httpd_sys_content_t /path/to/www
 ```
 
+
+```ad-info
+修改
+/etc/selinux/config
+将SELINUX=enforcing改为
+SELINUX=disabled
+需要重启
+```
 
 ### Permission denied
 

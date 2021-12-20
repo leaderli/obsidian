@@ -1,9 +1,6 @@
 ---
 
 kanban-plugin: basic
-show-relative-date: true
-hide-date-in-title: true
-hide-date-display: false
 
 ---
 
@@ -18,7 +15,7 @@ hide-date-display: false
 - [ ] spring扫描类的过程
 - [ ] yacc lex
 - [ ] swagger
-- [ ] arthas
+- [ ] java profiler
 
 
 ## 任务就绪池
@@ -26,6 +23,7 @@ hide-date-display: false
 - [ ] #htext/red  ==减肥==
 - [ ] 程序员修炼之道
 - [ ] beyond felling
+- [ ] arthas
 
 
 ## 任务执行池
@@ -58,3 +56,10 @@ hide-date-display: false
 - [x] 动机心理学阅读 @{2021-12-31}
 
 
+
+
+%% kanban:settings
+```
+{"kanban-plugin":"basic","show-relative-date":true,"hide-date-in-title":true,"hide-date-display":false}
+```
+%%
