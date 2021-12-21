@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "nginx",
+      "path": "md/nginx.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
+      "basename": "centos",
+      "path": "md/centos.md"
+    },
+    {
       "basename": "typescript",
       "path": "md/typescript.md"
     },
@@ -57,28 +73,12 @@
       "path": "md/perl.md"
     },
     {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
-    },
-    {
       "basename": "test1234",
       "path": "md/test1234.md"
     },
     {
-      "basename": "nginx",
-      "path": "md/nginx.md"
-    },
-    {
       "basename": "shell-tips",
       "path": "md/shell-tips.md"
-    },
-    {
-      "basename": "linux",
-      "path": "md/linux.md"
-    },
-    {
-      "basename": "tcpdump",
-      "path": "md/tcpdump.md"
     }
   ],
   "omittedPaths": [

@@ -12,7 +12,7 @@ tags:
 
 ```shell
 [Unit]
-Description=postwoman 
+Description=json_server
 Documentation=https://github.com/hoppscotch/hoppscotch
 After=network.target
 
