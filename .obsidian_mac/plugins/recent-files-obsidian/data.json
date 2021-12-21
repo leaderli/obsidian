@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "typescript",
+      "path": "md/typescript.md"
+    },
+    {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
+      "basename": "vscode相关",
+      "path": "md/vscode相关.md"
+    },
+    {
       "basename": "arthas",
       "path": "md/arthas.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "AntV_X6",
       "path": "md/AntV_X6.md"
-    },
-    {
-      "basename": "vite",
-      "path": "md/vite.md"
     },
     {
       "basename": "git",
@@ -71,14 +79,6 @@
     {
       "basename": "tcpdump",
       "path": "md/tcpdump.md"
-    },
-    {
-      "basename": "npm-module",
-      "path": "md/npm-module.md"
-    },
-    {
-      "basename": "bookmark",
-      "path": "bookmark.md"
     }
   ],
   "omittedPaths": [

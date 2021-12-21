@@ -7,6 +7,31 @@
 
 [tsconfig.json](https://www.tslang.cn/docs/handbook/tsconfig-json.html)
 
+```js
+{  
+  "compilerOptions": {  
+    "target": "esnext",  
+    "useDefineForClassFields": true,  
+    "module": "esnext",  
+    "moduleResolution": "node",  
+    "strict": true,  
+    "jsx": "preserve",  
+    "sourceMap": true,  
+    "resolveJsonModule": true,  
+    "esModuleInterop": true,  
+    "skipLibCheck": true,  
+    "lib": ["esnext", "dom"],  
+    "baseUrl": ".",  
+    "paths": {  
+      "@": ["src"],  
+      "@/*": ["src/*"]  
+    }  
+  },  
+  "include": ["*.d.ts","src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue","node_modules/@types"]  
+}
+```
+
+- skipLibCheckd tsc忽略node_modules
 ### 类型断言
 
 类型断言可以用来手动指定一个值的类型，即允许变量从一种类型更改为另一种类型。
