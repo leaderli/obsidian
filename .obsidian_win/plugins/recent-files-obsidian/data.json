@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
+      "basename": "centos",
+      "path": "md/centos.md"
+    },
+    {
       "basename": "java-tips",
       "path": "md/java-tips.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "win10",
       "path": "md/win10.md"
-    },
-    {
-      "basename": "centos",
-      "path": "md/centos.md"
     },
     {
       "basename": "bash",
@@ -75,10 +79,6 @@
     {
       "basename": "obsidan",
       "path": "md/obsidan.md"
-    },
-    {
-      "basename": "cheatsheet_快捷键",
-      "path": "md/cheatsheet_快捷键.md"
     }
   ],
   "omittedPaths": [

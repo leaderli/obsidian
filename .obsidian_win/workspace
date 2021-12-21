@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-tips.md",
+            "file": "md/linux常用命令.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ".class.",
+                "query": "systemctl",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394,
-    "collapsed": true
+    "width": 394
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-tips.md",
+                "file": "md/linux常用命令.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/java-tips.md",
+                "file": "md/linux常用命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java-tips.md"
+                "file": "md/linux常用命令.md"
               }
             }
           }
@@ -141,6 +140,8 @@
   },
   "active": "4cac5bd5a7421164",
   "lastOpenFiles": [
+    "md/linux常用命令.md",
+    "md/centos.md",
     "md/java-tips.md",
     "md/arthas.md",
     "md/markdown_katex.md",
@@ -148,8 +149,6 @@
     "kanban.md",
     "md/vmware.md",
     "md/win10.md",
-    "md/centos.md",
-    "md/bash.md",
-    "md/shell-tips.md"
+    "md/bash.md"
   ]
 }

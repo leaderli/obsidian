@@ -13,14 +13,15 @@ tags:
 ```shell
 [Unit]
 Description=json_server
-Documentation=https://github.com/hoppscotch/hoppscotch
+Documentation=json_server 
 After=network.target
 
 [Service]
-Type=simple
-Restart=always
-RestartSec=1
-ExecStart=/home/li/app/json_db/start_json_server.sh
+PIDFile=/home/li/app/li-nav/json_server.pid
+ExecStart=/home/li/app/li-nav/start_json_server.sh
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
+
 User=li
 
 [Install]
