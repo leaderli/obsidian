@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/linux搜索.md",
+            "file": "md/arthas.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "grep",
+                "query": "line:(# find)",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/linux搜索.md",
+                "file": "md/arthas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/linux搜索.md"
+                "file": "md/arthas.md"
               }
             }
           },
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/linux搜索.md",
+                "file": "md/arthas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,10 +136,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 365.5,
+    "collapsed": true
   },
   "active": "77b4de70ccba0387",
   "lastOpenFiles": [
+    "md/arthas.md",
+    "md/emoj.md",
     "md/linux搜索.md",
     "md/AntV_X6.md",
     "md/vite.md",
@@ -147,8 +150,6 @@
     "md/css.md",
     "md/vue.md",
     "kanban.md",
-    "md/linux常用命令.md",
-    "md/tcpdump.md",
-    "md/npm-module.md"
+    "md/linux常用命令.md"
   ]
 }

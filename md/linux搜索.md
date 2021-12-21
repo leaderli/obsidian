@@ -12,8 +12,7 @@ tags:
 - `info` 命令详细的介绍
 - `which` 命令安装目录
 
-## 搜索文件
-
+## find
 1. `locate <name>`使用索引去查找文件，如果文件更新，需要定期执行更新命令(`updatedb`)来更新索引库.
 2. `find` 实时查找命令
    命令语法`find [path] [expression]`

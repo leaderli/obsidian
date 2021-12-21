@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "arthas",
+      "path": "md/arthas.md"
+    },
+    {
+      "basename": "emoj",
+      "path": "md/emoj.md"
+    },
+    {
       "basename": "linux搜索",
       "path": "md/linux搜索.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "vue3",
       "path": "md/vue3.md"
-    },
-    {
-      "basename": "emoj",
-      "path": "md/emoj.md"
     },
     {
       "basename": "avaya",
@@ -75,10 +79,6 @@
     {
       "basename": "bookmark",
       "path": "bookmark.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
     }
   ],
   "omittedPaths": [
