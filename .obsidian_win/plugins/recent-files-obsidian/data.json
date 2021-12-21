@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
       "basename": "arthas",
       "path": "md/arthas.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "cheatsheet_快捷键",
       "path": "md/cheatsheet_快捷键.md"
-    },
-    {
-      "basename": "java泛型",
-      "path": "md/java泛型.md"
     }
   ],
   "omittedPaths": [

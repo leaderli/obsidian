@@ -405,3 +405,20 @@ public class TestCompile {
 }
 
 ```
+
+
+## 获取所有枚举值
+
+```java
+enum Color {  
+ RED,GREEN  
+}  
+  
+@Test  
+public void test() throws Throwable{  
+ for (Color enumConstant : Color.class.getEnumConstants()) {  
+ System.out.println(enumConstant);  
+    }  
+  
+}
+```
