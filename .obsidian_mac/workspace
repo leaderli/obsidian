@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/nginx.md",
-            "mode": "preview",
+            "file": "md/typescript.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366
+    "width": 366,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/nginx.md",
+                "file": "md/typescript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/nginx.md"
+                "file": "md/typescript.md"
               }
             }
           },
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/nginx.md",
+                "file": "md/typescript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,15 +141,15 @@
   },
   "active": "77b4de70ccba0387",
   "lastOpenFiles": [
+    "md/typescript.md",
+    "md/vue3.md",
     "md/nginx.md",
     "kanban.md",
     "md/linux常用命令.md",
     "md/centos.md",
-    "md/typescript.md",
     "md/vite.md",
     "md/vscode相关.md",
     "md/arthas.md",
-    "md/emoj.md",
-    "md/linux搜索.md"
+    "md/emoj.md"
   ]
 }

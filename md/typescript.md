@@ -198,6 +198,11 @@ const func = function<T extends object>(paras:T){
 }
 ```
 
+复杂类型，可以如下定义
+```js
+const params:{name:string,age:number}
+```
+
 定义function的类型，可以通过`interface`构建
 
 ```js

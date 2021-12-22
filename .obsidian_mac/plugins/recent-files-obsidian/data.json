@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "typescript",
+      "path": "md/typescript.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
       "basename": "nginx",
       "path": "md/nginx.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "centos",
       "path": "md/centos.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
     },
     {
       "basename": "vite",
@@ -59,10 +63,6 @@
     {
       "basename": "java",
       "path": "md/java.md"
-    },
-    {
-      "basename": "vue3",
-      "path": "md/vue3.md"
     },
     {
       "basename": "avaya",
