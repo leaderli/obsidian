@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "工作总结",
+      "path": "md/工作总结.md"
+    },
+    {
+      "basename": "一些思路",
+      "path": "md/一些思路.md"
+    },
+    {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
     },
@@ -45,10 +53,6 @@
       "path": "md/shell-tips.md"
     },
     {
-      "basename": "一些思路",
-      "path": "md/一些思路.md"
-    },
-    {
       "basename": "npm-module",
       "path": "md/npm-module.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "java字节码",
       "path": "md/java字节码.md"
-    },
-    {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
     }
   ],
   "omittedPaths": [

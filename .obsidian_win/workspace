@@ -6,14 +6,30 @@
       {
         "id": "4cac5bd5a7421164",
         "type": "leaf",
+        "dimension": 54.173764906303234,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/linux常用命令.md",
+            "file": "md/工作总结.md",
             "mode": "source",
             "source": false
           }
-        }
+        },
+        "group": "cb83f80ccf2aaf5c"
+      },
+      {
+        "id": "843939686b66b6df",
+        "type": "leaf",
+        "dimension": 45.826235093696766,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "md/工作总结.md",
+            "mode": "preview",
+            "source": false
+          }
+        },
+        "group": "cb83f80ccf2aaf5c"
       }
     ],
     "direction": "vertical"
@@ -70,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394
+    "width": 394,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/linux常用命令.md",
+                "file": "md/工作总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/linux常用命令.md",
+                "file": "md/工作总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/linux常用命令.md"
+                "file": "md/工作总结.md"
               }
             }
           }
@@ -140,6 +157,8 @@
   },
   "active": "4cac5bd5a7421164",
   "lastOpenFiles": [
+    "md/工作总结.md",
+    "md/一些思路.md",
     "md/linux常用命令.md",
     "md/centos.md",
     "md/java-tips.md",
@@ -147,8 +166,6 @@
     "md/markdown_katex.md",
     "md/emoj.md",
     "kanban.md",
-    "md/vmware.md",
-    "md/win10.md",
-    "md/bash.md"
+    "md/vmware.md"
   ]
 }
