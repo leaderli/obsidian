@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "jest",
+      "path": "md/jest.md"
+    },
+    {
       "basename": "工作总结",
       "path": "md/工作总结.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "nginx",
       "path": "md/nginx.md"
-    },
-    {
-      "basename": "java字节码",
-      "path": "md/java字节码.md"
     }
   ],
   "omittedPaths": [
