@@ -235,6 +235,40 @@ hi();
 我们都知道分号是为了和前面的代码隔开，js 可以用换行分隔代码，但是合并压缩多个 js 文件之后，换行符一般会被删掉，所以连在一起可能会出错，加上分号就保险了。
 一元操作符会对 func 的返回值进行实际运算
 
+## 类
+
+```js
+class Base {
+	public static age = 1;
+
+	public static log() {
+		console.log(this.age);
+	}
+
+    public static setAge(age:number) {
+        this.age = age;
+    }
+}
+
+class Person extends Base{
+
+}
+
+Base.setAge(2)
+
+Base.log()
+Person.log()
+
+Person.setAge(30)
+Base.log()
+Person.log()
+
+// 2
+// 2
+// 2
+// 30
+```
+
 ## 语法糖
 
 ####  一般对象格式如下

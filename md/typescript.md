@@ -207,18 +207,14 @@ const params:{name:string,age:number}
 
 ```js
 
-//1
-const func = ():()=>number => ()=>1;
+const f1: () => void = ()=>console.log('f1');
+f1()
 
 
-//2
-export interface IReturnFunction<ValueType>
-{
-    (): ValueType;
+interface Func{
+    ():void
 }
 
-const func = ():IReturnFunction<number> => ()=>1;
-
-
-console.log(func()())
+const f2:Func =  ()=>console.log('f2')
+f2()
 ```

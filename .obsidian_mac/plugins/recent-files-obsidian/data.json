@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
+      "basename": "js",
+      "path": "md/js.md"
     },
     {
       "basename": "typescript",
       "path": "md/typescript.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
     },
     {
       "basename": "nginx",
@@ -75,10 +79,6 @@
     {
       "basename": "test1234",
       "path": "md/test1234.md"
-    },
-    {
-      "basename": "shell-tips",
-      "path": "md/shell-tips.md"
     }
   ],
   "omittedPaths": [
