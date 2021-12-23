@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "systemctl",
+                "query": "jesty",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -86,8 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 394,
-    "collapsed": true
+    "width": 394
   },
   "right": {
     "id": "4b761e4e5ad66709",
