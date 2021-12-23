@@ -228,3 +228,8 @@ SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further detail
 	<artifactId>slf4j-simple</artifactId>
 </dependency>
 ```
+
+
+## typescript不检测代码类型
+
+![[Pasted image 20211223185044.png|400]]

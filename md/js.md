@@ -494,3 +494,24 @@ obj.count = 1
 console.log(obj); // { count: 2 }
 console.log(target) // {count:2}
 ```
+
+### export
+
+export一个class
+```js
+class Person { ... }
+
+export { Person as default}
+
+
+
+// import flow_page from '...'
+```
+
+```js
+class Person { ... }
+
+export { Person }
+
+// import {flow_page} from '...'
+```

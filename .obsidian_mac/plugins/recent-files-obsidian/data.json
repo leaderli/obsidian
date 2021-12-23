@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "js",
-      "path": "md/js.md"
+      "basename": "idea",
+      "path": "md/idea.md"
     },
     {
       "basename": "typescript",
       "path": "md/typescript.md"
+    },
+    {
+      "basename": "js",
+      "path": "md/js.md"
     },
     {
       "basename": "vue3",
@@ -75,10 +79,6 @@
     {
       "basename": "perl",
       "path": "md/perl.md"
-    },
-    {
-      "basename": "test1234",
-      "path": "md/test1234.md"
     }
   ],
   "omittedPaths": [

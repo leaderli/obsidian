@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/js.md",
+            "file": "md/idea.md",
             "mode": "source",
             "source": false
           }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/js.md",
+                "file": "md/idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/js.md"
+                "file": "md/idea.md"
               }
             }
           },
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/js.md",
+                "file": "md/idea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,15 +141,15 @@
   },
   "active": "77b4de70ccba0387",
   "lastOpenFiles": [
-    "md/js.md",
+    "md/idea.md",
     "md/typescript.md",
+    "md/js.md",
     "md/vue3.md",
     "md/nginx.md",
     "kanban.md",
     "md/linux常用命令.md",
     "md/centos.md",
     "md/vite.md",
-    "md/vscode相关.md",
-    "md/arthas.md"
+    "md/vscode相关.md"
   ]
 }

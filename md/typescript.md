@@ -32,6 +32,7 @@
 ```
 
 - skipLibCheckd tsc忽略node_modules
+
 ### 类型断言
 
 类型断言可以用来手动指定一个值的类型，即允许变量从一种类型更改为另一种类型。
@@ -46,7 +47,7 @@ var a = <number><any> str;
 var b = str as any as Number
 ```
 
-### 类型推断
+### 类型
 
 当类型没有给出时，TypeScript 编译器利用类型推断来推断类型。
 
@@ -59,6 +60,63 @@ num = "12";    // 编译错误
 console.log(num);
 ```
 
+对于确实无法预知一个值的类型，应该使用`unknown`
+```js
+let a:unkown = 30;
+
+a+1 //Error  无法直接操作，需要先校验类型
+
+if(typeof a === 'number'){
+	a+1;
+}
+```
+
+类型支持交集和并集`|` `&` 
+
+```js
+type a = Cat|Dog
+type a = Cat & Dog
+```
+
+#### 条件类型
+
+```js
+type IsString<T> = T extends string ? true : false;
+
+
+type ToArray<T> = T extends unkonwn?T[]:T[]
+
+type A = toArray<number> // number[]
+type B = toArray<number|string> // number[]|string[]
+
+// 内置条件类型
+
+// Exclude<T,U> 在T不在U
+type A = number | string;
+type B = string;
+type C = Exclude<A, B>; //number
+
+
+//NonNullable<T>   排除unll和undefined
+type A = number | null;
+type B = NonNullable<A>
+
+
+// ReturnType<F> 函数返回类型
+type A =  ()=>number
+type B = ReturnType<A> //number
+
+
+```
+
+### 枚举
+
+```js
+enum Language{
+	English,
+	CHinese
+}
+```
 ### 可索引的类型
 与使用接口描述函数类型差不多，我们也可以描述那些能够“通过索引得到”的类型，比如`a[10]`或`ageMap["daniel"]`。 可索引类型具有一个 `索引签名`，它描述了`对象索引的类型`，还有相应的`索引返回值类型`。
 ```js
@@ -164,8 +222,6 @@ ts-node  demo.ts
 
 ## 问题
 
-
-
 > Cannot find name 'console'
 
 ```shell
@@ -191,7 +247,26 @@ const portalDiv = document.getElementById('#your-element')!;
 }
 ```
 
-## 泛型示例
+## 泛型
+
+泛型声明的位置，有两种方式
+
+```js
+type Filter1 = {
+	<T>(T): T;
+};
+
+
+let f1: Filter1 = <T>(arg:T)=>arg
+
+
+type Filter2<T> = {
+	(): T;
+};
+const f2: Filter2<number> = () => 1;
+
+```
+## 示例
 
 ```js
 const func = function<T extends object>(paras:T){
@@ -217,4 +292,26 @@ interface Func{
 
 const f2:Func =  ()=>console.log('f2')
 f2()
+```
+
+
+一个`仅仅导入/导出` 声明语法
+```js
+interface LiType {
+	name: string;
+}
+
+export type { LiType as default };
+
+// import type from  '...'
+    
+```
+
+
+this的类型
+
+```js
+function hello(this:Date){
+
+}
 ```
