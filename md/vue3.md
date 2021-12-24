@@ -38,8 +38,8 @@ const handleChange = (params: String)=>{
   console.log(params);
 }
 
-//需要与ref属性值相同
-const  liRef = ref()
+//需要与ref属性值相同，ref可申明具体的dom泛型，比如button可以使用HTMLButtonElement
+const  liRef = ref<HTMLElemnt>()
 
 //挂载后执行
 onMounted(()=>{

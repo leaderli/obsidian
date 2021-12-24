@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/idea.md",
+            "file": "md/vue3.md",
             "mode": "source",
             "source": false
           }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/idea.md",
+                "file": "md/vue3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/idea.md"
+                "file": "md/vue3.md"
               }
             }
           },
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/idea.md",
+                "file": "md/vue3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,10 +141,10 @@
   },
   "active": "77b4de70ccba0387",
   "lastOpenFiles": [
+    "md/vue3.md",
     "md/idea.md",
     "md/typescript.md",
     "md/js.md",
-    "md/vue3.md",
     "md/nginx.md",
     "kanban.md",
     "md/linux常用命令.md",

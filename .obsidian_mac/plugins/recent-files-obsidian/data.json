@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
       "basename": "idea",
       "path": "md/idea.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "js",
       "path": "md/js.md"
-    },
-    {
-      "basename": "vue3",
-      "path": "md/vue3.md"
     },
     {
       "basename": "nginx",
