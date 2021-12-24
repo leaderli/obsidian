@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "git",
+      "path": "md/git.md"
+    },
+    {
+      "basename": "maven",
+      "path": "md/maven.md"
+    },
+    {
       "basename": "vue3",
       "path": "md/vue3.md"
     },
@@ -57,10 +65,6 @@
       "path": "md/AntV_X6.md"
     },
     {
-      "basename": "git",
-      "path": "md/git.md"
-    },
-    {
       "basename": "obsidan",
       "path": "md/obsidan.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "avaya",
       "path": "md/avaya.md"
-    },
-    {
-      "basename": "perl",
-      "path": "md/perl.md"
     }
   ],
   "omittedPaths": [

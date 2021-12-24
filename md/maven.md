@@ -286,8 +286,7 @@ pom 是最基础的组件，是 maven 用来构建项目的基础配置文件，
 所有的 Java 系统属性都可以使用 Maven 属性引用,使用`mvn help:system`命令可查看所有的 Java 系统属性;`System.getProperties()`可得到所有的 Java 属性;`${user.home}`表示用户目录;
 
 ### 环境变量属性
-
-所有的环境变量都可以用以`env.`开头的 Maven 属性引用使用`mvn help:system`命令可查看所有环境变量;\${env.JAVA_HOME}表示 JAVA_HOME 环境变量的值;
+所有的环境变量都可以用以`env.`开头的 Maven 属性引用使用`mvn help:system`命令可查看所有环境变量;`${env.JAVA_HOME}`表示 JAVA_HOME 环境变量的值;
 
 ### 手动指定变量
 
