@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "bash",
+      "path": "md/bash.md"
+    },
+    {
+      "basename": "jenkins",
+      "path": "md/jenkins.md"
+    },
+    {
       "basename": "jest",
       "path": "md/jest.md"
     },
@@ -49,10 +57,6 @@
       "path": "md/win10.md"
     },
     {
-      "basename": "bash",
-      "path": "md/bash.md"
-    },
-    {
       "basename": "shell-tips",
       "path": "md/shell-tips.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "vite",
       "path": "md/vite.md"
-    },
-    {
-      "basename": "nginx",
-      "path": "md/nginx.md"
     }
   ],
   "omittedPaths": [

@@ -1,6 +1,66 @@
 {
   "recentFiles": [
     {
+      "basename": "idea",
+      "path": "md/idea.md"
+    },
+    {
+      "basename": "typescript",
+      "path": "md/typescript.md"
+    },
+    {
+      "basename": "js",
+      "path": "md/js.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "nginx",
+      "path": "md/nginx.md"
+    },
+    {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
+      "basename": "centos",
+      "path": "md/centos.md"
+    },
+    {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
+      "basename": "vscode相关",
+      "path": "md/vscode相关.md"
+    },
+    {
+      "basename": "arthas",
+      "path": "md/arthas.md"
+    },
+    {
+      "basename": "emoj",
+      "path": "md/emoj.md"
+    },
+    {
+      "basename": "linux搜索",
+      "path": "md/linux搜索.md"
+    },
+    {
+      "basename": "AntV_X6",
+      "path": "md/AntV_X6.md"
+    },
+    {
+      "basename": "git",
+      "path": "md/git.md"
+    },
+    {
       "basename": "obsidan",
       "path": "md/obsidan.md"
     },
@@ -13,72 +73,12 @@
       "path": "md/java.md"
     },
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
-      "basename": "emoj",
-      "path": "md/emoj.md"
-    },
-    {
       "basename": "avaya",
       "path": "md/avaya.md"
     },
     {
       "basename": "perl",
       "path": "md/perl.md"
-    },
-    {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
-    },
-    {
-      "basename": "test1234",
-      "path": "md/test1234.md"
-    },
-    {
-      "basename": "nginx",
-      "path": "md/nginx.md"
-    },
-    {
-      "basename": "shell-tips",
-      "path": "md/shell-tips.md"
-    },
-    {
-      "basename": "linux",
-      "path": "md/linux.md"
-    },
-    {
-      "basename": "tcpdump",
-      "path": "md/tcpdump.md"
-    },
-    {
-      "basename": "npm-module",
-      "path": "md/npm-module.md"
-    },
-    {
-      "basename": "bookmark",
-      "path": "bookmark.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
-    },
-    {
-      "basename": "js",
-      "path": "md/js.md"
-    },
-    {
-      "basename": "mockjs",
-      "path": "md/mockjs.md"
-    },
-    {
-      "basename": "js-tips",
-      "path": "md/js-tips.md"
-    },
-    {
-      "basename": "语言及文法",
-      "path": "md/语言及文法.md"
     }
   ],
   "omittedPaths": [
