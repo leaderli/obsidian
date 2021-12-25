@@ -30,3 +30,7 @@ ipconfig /flushdns
 4. 在单击CPU标签，然后再“关联的句柄”右侧的搜索框中输入要删除的文件夹名。例：tre文件夹名。
 5. 找到关于要删除的文件夹名目录。然后右键，结束进程。
 
+
+## 添加右键菜单
+
+[vscode如何添加鼠标右键打开文件_zzsan的博客-CSDN博客_vscode怎么设置右键打开](https://blog.csdn.net/zzsan/article/details/79305279)
