@@ -66,10 +66,10 @@ a.external-link{
   padding: 1px 5px 1px 3px;
 }
 a.internal-link{
-  color: #fff;
-  background-color:sandybrown;
-  padding: 1px 5px 1px 3px;
-  background-size: 50% auto;
+  /* color: #fff; */
+  /* background-color:sandybrown; */
+  padding: 0 3px
+  /* background-size: 50% auto; */
 }
 
 a[href^="#htext/red"] + mark{
