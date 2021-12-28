@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
+      "basename": "centos",
+      "path": "md/centos.md"
+    },
+    {
       "basename": "avaya",
       "path": "md/avaya.md"
     },
@@ -35,14 +43,6 @@
     {
       "basename": "kanban",
       "path": "kanban.md"
-    },
-    {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
-    },
-    {
-      "basename": "centos",
-      "path": "md/centos.md"
     },
     {
       "basename": "vite",
