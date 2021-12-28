@@ -132,6 +132,15 @@ tts可以使用ssml的语法编写
 
 在End节点中，增加返回参数`AAI`，向其中赋值参数，avaya平台会自动将其拼接到`C8`后面
 
+```xml
+<form>
+	<property name="fetchaudiodelay" value="1s"/>
+	<property name="fetchaudio" value="music.wav"/>
+	<block>
+		<submit next="next?id='123'"/>
+	</block>
+</form>
+```
 ## ccxml
 
 一些方便使用的script脚本，因为ccxml中的js引擎版本较低，有些方法是不支持的
@@ -269,3 +278,5 @@ name: name.connection.connected
 protocol: sip
 
 ```
+
+

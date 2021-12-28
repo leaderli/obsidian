@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "avaya",
+      "path": "md/avaya.md"
+    },
+    {
       "basename": "git",
       "path": "md/git.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "java",
       "path": "md/java.md"
-    },
-    {
-      "basename": "avaya",
-      "path": "md/avaya.md"
     }
   ],
   "omittedPaths": [
