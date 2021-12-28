@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "npm-module",
+      "path": "md/npm-module.md"
+    },
+    {
+      "basename": "node",
+      "path": "md/node.md"
+    },
+    {
+      "basename": "nginx",
+      "path": "md/nginx.md"
+    },
+    {
+      "basename": "vue-element-admin",
+      "path": "md/vue-element-admin.md"
+    },
+    {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
+    },
+    {
+      "basename": "gitlab",
+      "path": "md/gitlab.md"
+    },
+    {
+      "basename": "vmware",
+      "path": "md/vmware.md"
     },
     {
       "basename": "centos",
@@ -37,10 +61,6 @@
       "path": "md/js.md"
     },
     {
-      "basename": "nginx",
-      "path": "md/nginx.md"
-    },
-    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -59,26 +79,6 @@
     {
       "basename": "emoj",
       "path": "md/emoj.md"
-    },
-    {
-      "basename": "linux搜索",
-      "path": "md/linux搜索.md"
-    },
-    {
-      "basename": "AntV_X6",
-      "path": "md/AntV_X6.md"
-    },
-    {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
-    },
-    {
-      "basename": "java泛型",
-      "path": "md/java泛型.md"
-    },
-    {
-      "basename": "java",
-      "path": "md/java.md"
     }
   ],
   "omittedPaths": [

@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "77b4de70ccba0387",
+        "id": "885f52442540f012",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/idea.md",
+            "file": "md/npm-module.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "systemctl",
+                "query": "systemd",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366,
-    "collapsed": true
+    "width": 366
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/idea.md",
+                "file": "md/npm-module.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/idea.md"
+                "file": "md/npm-module.md"
               }
             }
           },
@@ -125,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/idea.md",
+                "file": "md/npm-module.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,17 +138,17 @@
     "width": 365.5,
     "collapsed": true
   },
-  "active": "77b4de70ccba0387",
+  "active": "885f52442540f012",
   "lastOpenFiles": [
-    "md/idea.md",
-    "md/typescript.md",
-    "md/js.md",
-    "md/vue3.md",
+    "md/npm-module.md",
+    "md/node.md",
     "md/nginx.md",
-    "kanban.md",
+    "md/vue-element-admin.md",
     "md/linux常用命令.md",
+    "md/gitlab.md",
+    "md/vmware.md",
     "md/centos.md",
-    "md/vite.md",
-    "md/vscode相关.md"
+    "md/avaya.md",
+    "md/git.md"
   ]
 }
