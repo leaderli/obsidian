@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "npm-module",
-      "path": "md/npm-module.md"
+      "basename": "js-tips",
+      "path": "md/js-tips.md"
+    },
+    {
+      "basename": "js",
+      "path": "md/js.md"
     },
     {
       "basename": "node",
       "path": "md/node.md"
+    },
+    {
+      "basename": "chrome-debug",
+      "path": "md/chrome-debug.md"
+    },
+    {
+      "basename": "尾调用优化",
+      "path": "md/尾调用优化.md"
+    },
+    {
+      "basename": "npm-module",
+      "path": "md/npm-module.md"
     },
     {
       "basename": "nginx",
@@ -57,28 +73,12 @@
       "path": "md/typescript.md"
     },
     {
-      "basename": "js",
-      "path": "md/js.md"
-    },
-    {
       "basename": "kanban",
       "path": "kanban.md"
     },
     {
       "basename": "vite",
       "path": "md/vite.md"
-    },
-    {
-      "basename": "vscode相关",
-      "path": "md/vscode相关.md"
-    },
-    {
-      "basename": "arthas",
-      "path": "md/arthas.md"
-    },
-    {
-      "basename": "emoj",
-      "path": "md/emoj.md"
     }
   ],
   "omittedPaths": [

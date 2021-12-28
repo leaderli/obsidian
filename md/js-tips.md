@@ -7,6 +7,12 @@ tags:
   - tips
 ---
 
+## 打印方法的调用栈
+
+```js
+var err = new Error()
+console.log(err.stack)
+```
 ## 格式化输出 json
 
 ```javascript
