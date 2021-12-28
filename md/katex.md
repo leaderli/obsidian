@@ -2,7 +2,7 @@
 
 基本 KaTex 首尾需要`$`包含,例如`$X_y$`表示$X_y$
 
-常用
+### 常用
 
 | 表达式                         | 示例                                    |
 |:------------------------------ |:--------------------------------------- |
@@ -49,6 +49,21 @@
 | `\displaystyle\sum_{i=1}^n`    | $\displaystyle\sum_{i=1}^n$    |
 | `\Rightarrow`                  | $\Rightarrow$                               |
 
+
+### 颜色
+
+```latex
+$$
+\colorbox{black}{\color{white}123}
+$$
+```
+
+$$
+\colorbox{black}{\color{white}123}
+\colorbox{#DDD}{\color{#777}123}
+$$
+
+### 其他
 ```ad-warning
 title:
 块状使用`$$`包含
@@ -61,12 +76,13 @@ title:
 \end{cases}
 ```
 
-$
+$$
  \begin{cases}
    a &\text{if } b \\
    c &\text{if } d
 \end{cases}
-$
+$$
+
 
 换行
 
@@ -77,12 +93,12 @@ $
 \end{align}
 ```
 
-$
+$$
 \begin{align}
 1 == 1 \\
 2 == 2
 \end{align}
-$
+$$
 
 ```ad-fail
 不支持中文

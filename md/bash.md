@@ -517,6 +517,13 @@ do
 done
 
 
+# 下面这种方式也可以
+string='1 2 3 4'
+for var in ${array[@]}
+do
+   echo $var
+done
+
 
 ```
 
