@@ -1,4 +1,4 @@
-	---
+---
 title: linux常用命令
 date: 2020-05-13 21:53:18
 categories: linux
