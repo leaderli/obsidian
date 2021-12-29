@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "AntV_X6",
+      "path": "md/AntV_X6.md"
+    },
+    {
+      "basename": "arthas",
+      "path": "md/arthas.md"
+    },
+    {
       "basename": "js-tips",
       "path": "md/js-tips.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "typescript",
       "path": "md/typescript.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
-    },
-    {
-      "basename": "vite",
-      "path": "md/vite.md"
     }
   ],
   "omittedPaths": [

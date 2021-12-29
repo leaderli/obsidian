@@ -143,3 +143,40 @@ export default {
 ```js
 import {Base} from '@antv/x6/src/shape/base.ts'
 ```
+
+
+## 一些示例
+
+当使用dnd拖拽生成控件时，默认会clone node，对于自定义node需要重写clone方法
+```js
+import {Cell,Edge,Graph,Node,Shape} from '@antv/x6'
+class Group extends Shape.Rect{
+
+	clone(options?:Cell.CloneOptions):this extends Node? Node:(this extends Edge ? Edge:Cell){
+		const clone = super.clone()
+		//对于自定义组件这样才能将metadata传递给clone后的对象
+		clone.store.data = this.store.datja
+		return clone;
+	}
+}
+
+const metadata = {
+	x:20,
+	y:20,
+	width:100,
+	height:40,
+	attrs:{
+		body:{fill},
+		label:{
+			text:'123',
+			fill:'#000',
+			fontSize:16
+		}
+	},
+	data:{
+		parent:true
+	}
+}
+const group = new Group(metadata)
+
+```

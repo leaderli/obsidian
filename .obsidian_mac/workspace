@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/js-tips.md",
+            "file": "md/AntV_X6.md",
             "mode": "source",
-            "source": true
+            "source": false
           }
         }
       }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/js-tips.md",
+                "file": "md/AntV_X6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/js-tips.md"
+                "file": "md/AntV_X6.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/js-tips.md",
+                "file": "md/AntV_X6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,6 +140,8 @@
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/AntV_X6.md",
+    "md/arthas.md",
     "md/js-tips.md",
     "md/js.md",
     "md/node.md",
@@ -147,8 +149,6 @@
     "md/尾调用优化.md",
     "md/npm-module.md",
     "md/nginx.md",
-    "md/vue-element-admin.md",
-    "md/linux常用命令.md",
-    "md/gitlab.md"
+    "md/vue-element-admin.md"
   ]
 }
