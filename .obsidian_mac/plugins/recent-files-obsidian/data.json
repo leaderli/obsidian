@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "typescript",
+      "path": "md/typescript.md"
+    },
+    {
+      "basename": "js",
+      "path": "md/js.md"
+    },
+    {
       "basename": "AntV_X6",
       "path": "md/AntV_X6.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "js-tips",
       "path": "md/js-tips.md"
-    },
-    {
-      "basename": "js",
-      "path": "md/js.md"
     },
     {
       "basename": "node",
@@ -75,10 +79,6 @@
     {
       "basename": "idea",
       "path": "md/idea.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
     }
   ],
   "omittedPaths": [
