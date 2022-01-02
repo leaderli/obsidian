@@ -12,6 +12,8 @@ C:\Windows\System32\drivers\etc
 
 ```shell
 ipconfig /flushdns
+
+netsh winsock reset
 ```
 
 ###  无法枚举容器内对象
