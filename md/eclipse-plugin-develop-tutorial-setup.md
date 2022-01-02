@@ -39,20 +39,23 @@ eclipse 中工具区示例
 
 ## 入门实例
 
-1. 新建一个插件工程
+### 新建一个插件工程
    ![eclipse-plugin-develop-tutorial-setup_new.png](eclipse-plugin-develop-tutorial-setup_new.png)
 
    ![eclipse-plugin-develop-tutorial-setup_new_name.png](eclipse-plugin-develop-tutorial-setup_new_name.png)
    使用一个唯一 ID
 
-2. 新增一个扩展点
-   `MANIFEST.MF`为插件工程的配置文件
+### 新增扩展点
+`MANIFEST.MF`为插件工程的配置文件
+
+下面为新增perspectives为例
+
    ![eclipse-plugin-develop-tutorial-setup_new_extensions.png](eclipse-plugin-develop-tutorial-setup_new_extensions.png)
 
    ![eclipse-plugin-develop-tutorial-setup_new_extensions_2.png](eclipse-plugin-develop-tutorial-setup_new_extensions_2.png)
-   保存后会生成`build.xml`文件，编辑该文件，在扩展点`org.eclipse.ui.perspectives`下，增加`perspective`布局
+  保存后会生成`build.xml`文件，编辑该文件，在扩展点`org.eclipse.ui.perspectives`下，增加`perspective`布局
 
-3. 编辑扩展点
+ 编辑扩展点
 
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
@@ -74,8 +77,7 @@ eclipse 中工具区示例
    - name 为透视图的名称
    - icon 为透视图的图标，其值为项目路径下的文件
 
-4. 透视图增加窗口
-   增加扩展点`org.eclipse.ui.perspectiveExtensions`，并编辑扩展点
+透视图增加窗口，增加扩展点`org.eclipse.ui.perspectiveExtensions`，并编辑扩展点
 
    ```xml
    <extension
@@ -103,7 +105,7 @@ eclipse 中工具区示例
    </extension>
    ```
 
-5. 启动
+### 启动
    ![eclipse-plugin-develop-tutorial-setup_start.png](eclipse-plugin-develop-tutorial-setup_start.png)
    ![eclipse-plugin-develop-tutorial-setup_perspective.png](eclipse-plugin-develop-tutorial-setup_perspective.png)
    我们可以看到生成了 hello 透视图，且透视图下有 console 窗口和资源窗口
@@ -118,7 +120,7 @@ eclipse 中工具区示例
 
 可能需要的依赖
 
-```txt
+```java
 org.eclipse.ui,
 org.eclipse.core.runtime,
 org.eclipse.ui.workbench,
