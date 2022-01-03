@@ -19,20 +19,22 @@ kanban-plugin: basic
 
 - [ ] beyond felling
 - [ ] 编译原理学习<br> @{2022-12-31}
-- [ ] 可视化eclipse插件 @{2022-12-31}
 
 
 ## 任务执行池
 
-- [ ] reactor <br>细节补充
-- [ ] 程序员修炼之道
 - [ ] #htext/red  ==减肥== @{2022-12-31}
+- [ ] 程序员修炼之道
+- [ ] 可视化eclipse插件每天50行代码<br>@{2022-12-31}
+- [ ] 被讨厌的勇气
+- [ ] educated 英文版
 
 
 ## 任务阻塞池
 
 - [ ] apoll配置中心
 - [ ] gitlab ci
+- [ ] reactor <br>细节补充
 
 
 ## 任务完成池
