@@ -9,12 +9,13 @@ tags:
 
 1. 下载 eclipse
    在[官方链接](https://www.eclipse.org/downloads/packages/)下载合适的版本，我选择的版本为
-   [oxygen 3a](https://www.eclipse.org/downloads/packages/release/oxygen/3a)
+   [oxygen 3a](https://www.eclipse.org/downloads/packages/release/oxygen/3a/eclipse-ide-eclipse-committers)
 2. 安装插件
    [wiki](http://wiki.eclipse.org/Eclipse_Project_Update_Sites)上维护了最新的官方插件地址，选择你的 eclipse 对应版本的插件地址，例如[4.7](http://download.eclipse.org/eclipse/updates/4.7)
    在 eclipse 中点击`Help` -> `Install New Software`
    ![eclipse-plugin-develop-tutorial-setup_安装插件.png](eclipse-plugin-develop-tutorial-setup_安装插件.png)
 
+>百度云盘和阿里云盘上放了整合版本
 ## 概念
 
 eclipse 工具区由多个部件组成，包括 menu bar，tool bar 等

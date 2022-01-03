@@ -331,3 +331,6 @@ call plug#end()
 ```
 
 打开`vi`，输入`:PlugInstall`
+
+### eclipse
+[Vrapper](http://vrapper.sourceforge.net/update-site/stable)
