@@ -42,3 +42,42 @@ public class ImageUtil {
 }
 
 ```
+
+## 进度条
+参考 [Eclipse Jobs and Background Processing - Tutorial](https://www.vogella.com/tutorials/EclipseJobs/article.html)
+
+```java
+import java.util.concurrent.TimeUnit;
+
+import org.eclipse.core.runtime.IProgressMonitor;
+import org.eclipse.core.runtime.IStatus;
+import org.eclipse.core.runtime.Status;
+import org.eclipse.core.runtime.SubMonitor;
+import org.eclipse.core.runtime.jobs.Job
+
+
+Job job = new Job("create project : " + projectName) {
+
+		@Override
+		protected IStatus run(IProgressMonitor monitor) {
+			try {
+				//将任务分为100个
+				SubMonitor subMonitor = SubMonitor.convert(monitor, 100);
+				for (int i = 0; i < 10; i++) {
+					//完成10个
+					subMonitor.split(10);
+					monitor.setTaskName("create project:" + i);
+					// 设定为还剩70个
+					// subMonitor.setWorkRemaining(70);
+					TimeUnit.SECONDS.sleep(1);
+				}
+
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			return new Status(IStatus.OK, Activator.PLUGIN_ID, Messages.status_OK);
+		}
+};
+job.schedule();
+
+

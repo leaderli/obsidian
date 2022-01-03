@@ -422,3 +422,10 @@ public void test() throws Throwable{
   
 }
 ```
+
+
+## 暂停线程的另一种方式
+
+```java
+TimeUnit.SECONDS.sleep(1);
+```
