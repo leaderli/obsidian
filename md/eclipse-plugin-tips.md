@@ -90,25 +90,25 @@ import org.eclipse.core.resources.IProjectDescription;
 import org.eclipse.core.runtime.NullProgressMonitor;
 import org.eclipse.ui.IWorkbenchWindow;
 
-private void addMavenNature( IProject project){
-   IProjectDescription desc = project.getDescription();
 
-   String[] prevNatures = desc.getNatureIds(); //it takes all previous natures of project i.e studioNature,javanature
-   String[] newNatures = new String[prevNatures.length + 1];
+private static void addMavenNature(IProject project, IProgressMonitor monitor) throws CoreException {
 
-   System.arraycopy(prevNatures, 0, newNatures, 0, prevNatures.length);
 
-   newNatures[prevNatures.length] = "org.eclipse.m2e.core.maven2Nature"; //add maven nature to the project
-   desc.setNatureIds(newNatures);
+	IProjectDescription description = project.getDescription();
 
-   project.setDescription(desc, new NullProgressMonitor());
+	String[] newNatures = new String[2];
 
-   ICommand[] commands = desc.getBuildSpec();
-   List<ICommand> commandList = Arrays.asList( commands );
-   ICommand build = new BuildCommand();
-   build.setBuilderName("org.eclipse.m2e.core.maven2Builder"); //add maven builder to the project
-   List<ICommand> modList = new ArrayList<>( commandList );
-   modList.add( build );
-   desc.setBuildSpec( modList.toArray(new ICommand[]{}));
+	newNatures[0] = JavaCore.NATURE_ID;// 添加 java
+	newNatures[1] = "org.eclipse.m2e.core.maven2Nature";// 添加 maven
+
+	description.setNatureIds(newNatures);
+
+	project.setDescription(description, monitor);
+
+	ICommand command = description.newCommand();
+	command.setBuilderName(JavaCore.BUILDER_ID); // 添加java
+	
+	command = description.newCommand();
+	command.setBuilderName("org.eclipse.m2e.core.maven2Builder"); // 添加 maven
 }  
 ```
