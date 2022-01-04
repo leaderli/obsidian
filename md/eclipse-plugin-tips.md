@@ -1,4 +1,20 @@
 
+
+### 读取插件下的资源
+
+```java
+import com.leaderli.visual.editor.Activator;
+
+public static void copyFileFromPluginToProject(IProject project, String from, String to, IProgressMonitor monitor) throws Exception 
+	// form   resource/pom.xml
+	URL fromURL = Activator.getDefault().getBundle().getResource(from);
+	// toFile   pom.xml
+	IFile toFile = project.getFile(to);
+	//将插件下的pom.xml拷贝到项目根目录下
+	toFile.create(fromStream, true, monitor);
+
+}
+```
 ###  使用icon图标
 ```java
 package com.leaderli.visual.editor.util;
@@ -83,6 +99,7 @@ job.schedule();
 
 ###  创建一个maven项目
 在创建project的时候，将nature和buildSpec中添加maven的支持
+
 ```java
 import org.eclipse.core.resources.ICommand;
 import org.eclipse.core.resources.IProject;
@@ -111,4 +128,30 @@ private static void addMavenNature(IProject project, IProgressMonitor monitor) t
 	command = description.newCommand();
 	command.setBuilderName("org.eclipse.m2e.core.maven2Builder"); // 添加 maven
 }  
+```
+
+也需要在设置classpath的内容
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_281">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
 ```

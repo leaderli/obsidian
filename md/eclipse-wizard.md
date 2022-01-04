@@ -254,3 +254,37 @@ public class CreateFlowWizard extends Wizard implements INewWizard {
 实现的 wizard 页面如下
 
 ![eclipse-plugin-develop-tutorial-setup_wizard_page.png](eclipse-plugin-develop-tutorial-setup_wizard_page.png)
+
+
+## 一些常用wizard的类
+
+`org.eclipse.ui.dialogs.WizardNewProjectCreationPage` 新建项目的wizard，包含空值，项目以存在等检测，可以继承该类，重写校验方法
+
+```java
+private static class LowerCaseNameWizardNewProjectCreationPage extends WizardNewProjectCreationPage {
+
+	public LowerCaseNameWizardNewProjectCreationPage(String pageName) {
+		super(pageName);
+	}
+
+	@Override
+	protected boolean validatePage() {
+
+		if (super.validatePage()) {
+			String projectName = getProjectName();
+
+			if (projectName.matches("^[a-z][a-z_]*[a-z]$")) {
+				return true;
+			} else {
+				setErrorMessage("project name must lowercase or _");
+
+				return false;
+			}
+
+		}
+		return false;
+
+	}
+
+}
+```
