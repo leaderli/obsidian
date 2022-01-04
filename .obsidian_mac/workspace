@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/一些思路.md",
+            "file": "md/js-tips.md",
             "mode": "source",
             "source": true
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "section:(export class)",
+                "query": ".constructor.n",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -65,11 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 436
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/一些思路.md",
+                "file": "md/js-tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/一些思路.md"
+                "file": "md/js-tips.md"
               }
             }
           },
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/一些思路.md",
+                "file": "md/js-tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,15 +139,15 @@
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
-    "md/一些思路.md",
     "md/js-tips.md",
     "md/vue3.md",
+    "md/css.md",
+    "md/一些思路.md",
     "md/typescript.md",
     "md/js.md",
     "md/AntV_X6.md",
     "md/arthas.md",
     "md/node.md",
-    "md/chrome-debug.md",
-    "md/尾调用优化.md"
+    "md/chrome-debug.md"
   ]
 }

@@ -475,3 +475,19 @@ for (let item in MotifIntervention) {
 
 Object.keys(MotifIntervention).filter(key => !isNaN(Number(MotifIntervention[key])));
 ```
+
+## class
+
+判断某个实例对象的class类型
+
+```js
+class Node{
+}
+
+
+let node = new Node()
+
+if( node.constructor.name === Node.name){
+ ...
+}
+```
