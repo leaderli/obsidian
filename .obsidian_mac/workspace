@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/js-tips.md",
+            "file": "md/一些思路.md",
             "mode": "source",
             "source": true
           }
@@ -65,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 100,
-    "collapsed": true
+    "width": 100
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -87,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/js-tips.md",
+                "file": "md/一些思路.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/js-tips.md"
+                "file": "md/一些思路.md"
               }
             }
           },
@@ -125,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/js-tips.md",
+                "file": "md/一些思路.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,6 +138,7 @@
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/一些思路.md",
     "md/js-tips.md",
     "md/vue3.md",
     "md/typescript.md",
@@ -148,7 +147,6 @@
     "md/arthas.md",
     "md/node.md",
     "md/chrome-debug.md",
-    "md/尾调用优化.md",
-    "md/npm-module.md"
+    "md/尾调用优化.md"
   ]
 }
