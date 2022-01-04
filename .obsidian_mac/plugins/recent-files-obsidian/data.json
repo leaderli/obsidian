@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "js-tips",
+      "path": "md/js-tips.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
       "basename": "typescript",
       "path": "md/typescript.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "arthas",
       "path": "md/arthas.md"
-    },
-    {
-      "basename": "js-tips",
-      "path": "md/js-tips.md"
     },
     {
       "basename": "node",
@@ -71,10 +75,6 @@
     {
       "basename": "maven",
       "path": "md/maven.md"
-    },
-    {
-      "basename": "vue3",
-      "path": "md/vue3.md"
     },
     {
       "basename": "idea",

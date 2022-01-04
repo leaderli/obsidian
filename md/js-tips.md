@@ -461,3 +461,17 @@ const deps = {
 let member = Object.values(deps).flat(Infinity);
 
 ```
+
+## enum
+
+遍历enum
+
+```js
+for (let item in MotifIntervention) {
+    if (isNaN(Number(item))) {
+        console.log(item);
+    }
+}
+
+Object.keys(MotifIntervention).filter(key => !isNaN(Number(MotifIntervention[key])));
+```
