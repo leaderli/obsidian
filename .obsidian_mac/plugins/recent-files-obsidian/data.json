@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "工作总结",
+      "path": "md/工作总结.md"
+    },
+    {
+      "basename": "大学计算机笔记",
+      "path": "md/大学计算机笔记.md"
+    },
+    {
+      "basename": "动机心理学",
+      "path": "md/动机心理学.md"
+    },
+    {
+      "basename": "一些思路",
+      "path": "md/一些思路.md"
+    },
+    {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
       "basename": "js-tips",
       "path": "md/js-tips.md"
     },
@@ -11,10 +31,6 @@
     {
       "basename": "css",
       "path": "md/css.md"
-    },
-    {
-      "basename": "一些思路",
-      "path": "md/一些思路.md"
     },
     {
       "basename": "typescript",
@@ -63,22 +79,6 @@
     {
       "basename": "gitlab",
       "path": "md/gitlab.md"
-    },
-    {
-      "basename": "vmware",
-      "path": "md/vmware.md"
-    },
-    {
-      "basename": "centos",
-      "path": "md/centos.md"
-    },
-    {
-      "basename": "avaya",
-      "path": "md/avaya.md"
-    },
-    {
-      "basename": "git",
-      "path": "md/git.md"
     }
   ],
   "omittedPaths": [
