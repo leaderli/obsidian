@@ -1,4 +1,80 @@
 
+### 打开文件
+
+```java
+import org.eclipse.core.resources.IFile;
+import org.eclipse.core.resources.IFolder;
+import org.eclipse.core.resources.IProject;
+import org.eclipse.core.resources.IResource;
+import org.eclipse.core.resources.IWorkspaceRoot;
+import org.eclipse.core.resources.ResourcesPlugin;
+import org.eclipse.ui.IEditorInput;
+import org.eclipse.ui.IWorkbenchPage;
+import org.eclipse.ui.PartInitException;
+import org.eclipse.ui.PlatformUI;
+import org.eclipse.ui.ide.IDE;
+
+
+IWorkspaceRoot root = ResourcesPlugin.getWorkspace().getRoot();
+   IWorkbenchPage page = PlatformUI.getWorkbench().getActiveWorkbenchWindow().getActivePage();
+   IEditorInput input = page.getActiveEditor()
+     .getEditorInput();
+   IResource activeResource = input.getAdapter(IResource.class);
+   IProject iproject = activeResource.getProject();
+   IFolder iFolder = iproject.getFolder("src/demo");
+   IFile iFile = iFolder.getFile("test.java");
+
+   try {
+    IDE.openEditor(page, iFile);
+   } catch (PartInitException e) {
+    e.printStackTrace();
+   }
+
+```
+
+### 获取图标的工具类
+
+```java
+package com.leaderli.li.flow.util;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.eclipse.jface.resource.ImageDescriptor;
+import org.eclipse.jface.resource.ImageRegistry;
+import org.eclipse.swt.graphics.Image;
+
+//插件的启动类，一般自动生成
+import com.leaderli.li.flow.Activator;
+
+public class ImageUtil {
+ public static final ImageRegistry IMAGE_REGISTRY = Activator.getDefault().getImageRegistry();
+
+ public static Image getImage(String name) {
+
+  getImageDescriptor(name);
+  return IMAGE_REGISTRY.get(name);
+ }
+
+ public static ImageDescriptor getImageDescriptor(String name) {
+
+  ImageDescriptor imageDescriptor = IMAGE_REGISTRY.getDescriptor(name);
+  Image image = IMAGE_REGISTRY.get(name);
+  if (imageDescriptor == null) {
+   try {
+    imageDescriptor = ImageDescriptor
+      .createFromURL(new URL(Activator.getDefault().getBundle().getEntry("/"), "icon/" + name));
+    IMAGE_REGISTRY.put(name, imageDescriptor);
+   } catch (MalformedURLException e) {
+    e.printStackTrace();
+   }
+  }
+  return imageDescriptor;
+ }
+}
+
+```
+
 
 ### 读取插件下的资源
 
@@ -15,50 +91,6 @@ public static void copyFileFromPluginToProject(IProject project, String from, St
 
 }
 ```
-###  使用icon图标
-```java
-package com.leaderli.visual.editor.util;
-
-import java.net.MalformedURLException;
-import java.net.URL;
-
-import org.eclipse.jface.resource.ImageDescriptor;
-import org.eclipse.jface.resource.ImageRegistry;
-import org.eclipse.swt.graphics.Image;
-
-import com.leaderli.visual.editor.Activator;
-import com.leaderli.visual.editor.constant.Leaderli;
-
-
-public class ImageUtil {
-
-	public static final ImageRegistry IMAGE_REGISTRY = Activator.getDefault().getImageRegistry();
-
-	public static Image getImage(String name) {
-
-		getImageDescriptor(name);
-		return IMAGE_REGISTRY.get(name);
-	}
-
-	public static ImageDescriptor getImageDescriptor(String name) {
-
-		ImageDescriptor imageDescriptor = IMAGE_REGISTRY.getDescriptor(name);
-		if (imageDescriptor == null) {
-			try {
-				imageDescriptor = ImageDescriptor
-						.createFromURL(new URL(Activator.getDefault().getBundle().getEntry("/"), Leaderli.ICON_PATH + name));
-				IMAGE_REGISTRY.put(name, imageDescriptor);
-			} catch (MalformedURLException e) {
-				e.printStackTrace();
-				
-			}
-		}
-		return imageDescriptor;
-	}
-}
-
-```
-
 ### 进度条
 参考 [Eclipse Jobs and Background Processing - Tutorial](https://www.vogella.com/tutorials/EclipseJobs/article.html)
 
