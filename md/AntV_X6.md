@@ -147,6 +147,7 @@ import {Base} from '@antv/x6/src/shape/base.ts'
 
 ## 一些示例
 
+###  自定义组件的dnd
 当使用dnd拖拽生成控件时，默认会clone node，对于自定义node的一些metadata无法被clone，需要重写clone方法
 
 ```js
@@ -280,4 +281,15 @@ finalizeEmbedding(e: JQuery.MouseUpEvent, data: EventData.MovingTargetNode) {
     })  
   }  
 }
+```
+
+
+### 禁止节点移动
+
+[Interaction | X6](https://antv-x6.gitee.io/zh/docs/api/graph/interaction#interacting)
+
+```js
+const graph = new Graph({
+	edgeMovable:false
+})
 ```

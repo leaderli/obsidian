@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/工作总结.md",
+            "file": "md/typescript.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 436
+    "width": 436,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/工作总结.md",
+                "file": "md/typescript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/工作总结.md"
+                "file": "md/typescript.md"
               }
             }
           },
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/工作总结.md",
+                "file": "md/typescript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,6 +139,8 @@
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/typescript.md",
+    "md/AntV_X6.md",
     "md/工作总结.md",
     "md/大学计算机笔记.md",
     "md/动机心理学.md",
@@ -145,8 +148,6 @@
     "md/vite.md",
     "md/js-tips.md",
     "md/vue3.md",
-    "md/css.md",
-    "md/typescript.md",
-    "md/js.md"
+    "md/css.md"
   ]
 }

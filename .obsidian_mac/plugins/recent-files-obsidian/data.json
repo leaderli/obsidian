@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "typescript",
+      "path": "md/typescript.md"
+    },
+    {
+      "basename": "AntV_X6",
+      "path": "md/AntV_X6.md"
+    },
+    {
       "basename": "工作总结",
       "path": "md/工作总结.md"
     },
@@ -33,16 +41,8 @@
       "path": "md/css.md"
     },
     {
-      "basename": "typescript",
-      "path": "md/typescript.md"
-    },
-    {
       "basename": "js",
       "path": "md/js.md"
-    },
-    {
-      "basename": "AntV_X6",
-      "path": "md/AntV_X6.md"
     },
     {
       "basename": "arthas",

@@ -184,7 +184,13 @@ type B = ReturnType<A> //number
 ```js
 enum Language{
 	English,
-	CHinese
+	Chinese
+}
+
+// 枚举作为key时
+
+let obj = {
+	[Language.Chinese]:'ch'
 }
 ```
 ### 可索引的类型
@@ -338,6 +344,7 @@ const f2: Filter2<number> = () => 1;
 ```
 ## 示例
 
+### function的类型
 ```js
 const func = function<T extends object>(paras:T){
 }
@@ -365,7 +372,7 @@ f2()
 ```
 
 
-一个`仅仅导入/导出` 声明语法
+### 一个`仅仅导入/导出` 声明语法
 ```js
 interface LiType {
 	name: string;
@@ -378,7 +385,7 @@ export type { LiType as default };
 ```
 
 
-this的类型
+### this的类型
 
 ```js
 function hello(this:Date){
@@ -386,10 +393,43 @@ function hello(this:Date){
 }
 ```
 
-强制转换为非null、undefined类型
+### 强制转换为非null、undefined类型
 
 ```js
 let a:string|undefined
 
 let b:string = a!
+```
+
+### cast强转类型
+
+```js
+let a = '123'
+
+...
+
+(a as string).trim()
+(<string>a).trim()
+```
+
+### 类似map的类型声明
+
+```javascript
+type MyMapLikeType = Record<string, IPerson>;
+const peopleA: MyMapLikeType = {
+    "a": { name: "joe" },
+    "b": { name: "bart" },
+};
+
+enum Color{
+	red,
+	blue
+}
+
+type colorMap = Record<Color, string>;
+// 枚举需要列出所有key
+const peopleA: MyMapLikeType = {
+	[Color.red]:'red',
+	[Color.blue]:'blue'
+};
 ```
