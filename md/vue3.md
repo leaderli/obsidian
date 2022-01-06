@@ -1008,6 +1008,7 @@ let b:UnwrapNestedRefs<object> = reactvie<object>({})
 
 
 通过函数的方式动态加载组件，然后配合`<component>`的`is`属性动态加载
+
 ```js
 let paths = ['page1','page2','page3']
 
