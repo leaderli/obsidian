@@ -5,6 +5,14 @@
       "path": "md/typescript.md"
     },
     {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
       "basename": "AntV_X6",
       "path": "md/AntV_X6.md"
     },
@@ -25,16 +33,8 @@
       "path": "md/一些思路.md"
     },
     {
-      "basename": "vite",
-      "path": "md/vite.md"
-    },
-    {
       "basename": "js-tips",
       "path": "md/js-tips.md"
-    },
-    {
-      "basename": "vue3",
-      "path": "md/vue3.md"
     },
     {
       "basename": "css",

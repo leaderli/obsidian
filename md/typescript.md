@@ -179,6 +179,49 @@ type B = ReturnType<A> //number
 
 ```
 
+
+#### literal类型
+
+```js
+
+type Style = 'none' | 'dotted' | 'dashed' | 'solid'; // truncated for brevity
+type Color = `red` | 'green' | 'blue'; // truncated for brevity
+ 
+type BorderStyle = `${number}px ${Style} ${Color}`;
+ 
+let borderStyle: BorderStyle = '3px solid red';
+
+```
+
+
+根据字符串指定一个具体的类型
+
+```js
+type A = {
+	num:number
+	str:string
+}
+
+function on<Name extends Extract<keyof A, string>>(name:Name,para:A[Name]):void{
+	
+}
+
+
+on('num',123)
+on('str','123')
+
+
+type B<Name extends Extract<keyof A, string>> = {
+
+	name:Name,
+	data:A[Name]
+}
+
+const b:B<'num'> = {
+	name:'num',
+	data:123
+}
+```
 ### 枚举
 
 ```js
@@ -257,6 +300,18 @@ type P2 = Person["name" | "age"];  // string | number
 type P3 = string["charAt"];  // (pos: number) => string  
 type P4 = string[]["push"];  // (...items: string[]) => number  
 type P5 = string[][0];  // string
+```
+
+
+
+提取所有指定类型的key
+```js
+type A = {
+	num:number
+	str:string
+}
+
+type keys = Extract<keyof A,string>
 ```
 ### 变量作用域
 
