@@ -222,6 +222,8 @@ const b:B<'num'> = {
 	data:123
 }
 ```
+
+
 ### 枚举
 
 ```js
@@ -236,6 +238,7 @@ let obj = {
 	[Language.Chinese]:'ch'
 }
 ```
+
 ### 可索引的类型
 与使用接口描述函数类型差不多，我们也可以描述那些能够“通过索引得到”的类型，比如`a[10]`或`ageMap["daniel"]`。 可索引类型具有一个 `索引签名`，它描述了`对象索引的类型`，还有相应的`索引返回值类型`。
 ```js
@@ -249,6 +252,25 @@ let a1:String = arr[0]
 
 上面例子里，我们定义了`StringArray`接口，它具有索引签名。 这个索引签名表示了当用 `number`去索引`StringArray`时会得到`string`类型的返回值。
 
+
+带泛型的索引
+
+```js
+type shape = 'rect'|'ellipse'
+interface item<Shape extends shape>{
+	shape:Shape
+}
+
+type items<Shape extends shape> = {
+	[index in Shape]:item<index>
+}
+
+
+const instance:items<shape> = {
+	rect: {shape:'rect'}
+	ellipse: {shape: 'ellipse'}
+}
+```
 ### keyof
 
 该操作符可以用于获取某种类型的所有键，其返回类型是联合类型。
