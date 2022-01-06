@@ -28,6 +28,7 @@ kanban-plugin: basic
 - [ ] 可视化eclipse插件每天50行代码<br>@{2022-12-31}
 - [ ] 被讨厌的勇气
 - [ ] educated 英文版
+- [ ] new project的重构
 
 
 ## 任务阻塞池
