@@ -1007,7 +1007,7 @@ let b:UnwrapNestedRefs<object> = reactvie<object>({})
 也可以使用`resolveComponent`通过 [[#render]]的方式动态渲染
 
 
-通过函数的方式动态加载组件，然后配合`<component>`的is属性动态加载
+通过函数的方式动态加载组件，然后配合`<component>`的`is`属性动态加载
 ```js
 let paths = ['page1','page2','page3']
 
