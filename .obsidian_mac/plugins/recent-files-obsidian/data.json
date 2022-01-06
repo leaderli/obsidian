@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "typescript",
-      "path": "md/typescript.md"
-    },
-    {
       "basename": "vue3",
       "path": "md/vue3.md"
+    },
+    {
+      "basename": "promise",
+      "path": "md/promise.md"
+    },
+    {
+      "basename": "typescript",
+      "path": "md/typescript.md"
     },
     {
       "basename": "vite",
@@ -75,10 +79,6 @@
     {
       "basename": "linux常用命令",
       "path": "md/linux常用命令.md"
-    },
-    {
-      "basename": "gitlab",
-      "path": "md/gitlab.md"
     }
   ],
   "omittedPaths": [
