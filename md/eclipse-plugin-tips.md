@@ -187,3 +187,8 @@ private static void addMavenNature(IProject project, IProgressMonitor monitor) t
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
 ```
+
+###  创建WizardPage时用到的一些方法
+```java
+this.setMessage("Select a project.", IMessageProvider.WARNING); // 2
+```

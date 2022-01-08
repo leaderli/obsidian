@@ -374,6 +374,17 @@ GridData 的一些常量
 
 ```java
 public static final int FILL_VERTICAL = 1040
- public static final int FILL_HORIZONTAL =1040
- public static final int FILL_BOTH =  1808
+public static final int FILL_HORIZONTAL =1040
+public static final int FILL_BOTH =  1808
+public static final int VERTICAL_ALIGN_BEGINNING=  2
+```
+
+
+示例
+
+```java
+new Composite(parent, SWT.NONE); // 0 
+new GridData(GridData.FILL_BOTH) // 1808
+new Text(parent, SWT.BORDER | SWT.SINGLE); // 2052
+new GridData(SWT.FILL, SWT.CENTER, false, false);// 4 16777216
 ```
