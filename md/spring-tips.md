@@ -224,3 +224,15 @@ public class ContextWebListener implements ServletContextListener {
     private ApplicationMetricsDao dao;
 }
 ```
+
+
+### profiles
+
+[Profiles](https://docs.spring.io/spring-boot/docs/1.2.0.M1/reference/html/boot-features-profiles.html)
+
+
+配置环境变量
+
+```shell
+spring.profiles.active=dev,hsqldb
+```

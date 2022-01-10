@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "spring-tips",
+      "path": "md/spring-tips.md"
+    },
+    {
+      "basename": "idea",
+      "path": "md/idea.md"
+    },
+    {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
       "basename": "vue3",
       "path": "md/vue3.md"
     },
@@ -67,18 +79,6 @@
     {
       "basename": "npm-module",
       "path": "md/npm-module.md"
-    },
-    {
-      "basename": "nginx",
-      "path": "md/nginx.md"
-    },
-    {
-      "basename": "vue-element-admin",
-      "path": "md/vue-element-admin.md"
-    },
-    {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
     }
   ],
   "omittedPaths": [
