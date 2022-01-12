@@ -8,6 +8,14 @@
 
 } */
 
+.markdown-preview-view h2,
+.HyperMD-header-2,
+.cm-header-2 {
+
+  color:#197300;
+  font-style: italic;
+
+}
 
 .markdown-preview-view em {
 
