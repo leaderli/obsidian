@@ -58,6 +58,10 @@ VoiceProtal# \dt
 
 ![[epm_settings_vxml_timeout.png]]
 
+
+```ad-info
+IVR应用如果使用F5地址需要做session保持
+```
 ## 计算UUI
 
 当通过sip传递数据时，sip会默认转为hex格式
