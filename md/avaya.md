@@ -229,6 +229,8 @@ AAI必须严格按照格式，必须为类型加16进制的表现形式
 
 ### event$
 
+ccxml中可以使用的变量
+
 ```yml
 connection:
 	connectionid: 301994428
