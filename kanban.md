@@ -26,7 +26,6 @@ kanban-plugin: basic
 - [ ] #htext/red  ==减肥== @{2022-12-31}
 - [ ] 程序员修炼之道
 - [ ] 可视化eclipse插件每天50行代码<br>@{2022-12-31}
-- [ ] 被讨厌的勇气
 - [ ] educated 英文版
 - [ ] new project的重构
 
@@ -52,6 +51,7 @@ kanban-plugin: basic
 - [x] fancy cursor
 - [x] promise
 - [x] pinia StoreToRefs
+- [x] 被讨厌的勇气
 - [x] 动机心理学阅读 @{2021-12-31}
 
 
