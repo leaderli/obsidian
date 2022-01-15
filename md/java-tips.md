@@ -416,10 +416,41 @@ enum Color {
   
 @Test  
 public void test() throws Throwable{  
- for (Color enumConstant : Color.class.getEnumConstants()) {  
- System.out.println(enumConstant);  
-    }  
-  
+	for (Color enumConstant : Color.class.getEnumConstants()) {  
+		System.out.println(enumConstant);  
+	}  
+}
+```
+
+### 枚举不可以extends但可以implements
+
+```java
+interface Mode<E extends Enum<E>> {
+	public E combine();
+}
+
+enum Color implements Mode<Color> {
+        RED, GREEN;
+
+        @Override
+        public Color combine() {
+            return this;
+        }
+}
+class TextFragment<E extends Enum<E> & Mode<E>> {
+
+	E mode;
+
+	public TextFragment(E mode) {
+		this.mode = mode;
+	}
+}
+
+@Test
+public void test() {
+
+	TextFragment<Color> text = new TextFragment<>(Color.GREEN);  
+	Assert.assertSame(Color.GREEN, text.mode);
 }
 ```
 
