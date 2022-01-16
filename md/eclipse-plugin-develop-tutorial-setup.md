@@ -119,6 +119,61 @@ eclipse 中工具区示例
 
 
 
+## nature
+NATUIRE_ID 需要以包名开头
+
+```java
+package com.leaderli.visual.editor.project;
+
+import org.eclipse.core.resources.IProject;
+import org.eclipse.core.resources.IProjectNature;
+import org.eclipse.core.runtime.CoreException;
+
+import com.leaderli.visual.editor.constant.Leaderli;
+
+public class LiFlowProjectNature implements IProjectNature {
+
+	public static final String NATUIRE_ID = Leaderli.BASE_PACKAGE + ".LiVisualEditorNature";
+	private IProject project;
+
+	@Override
+	public void configure() throws CoreException {
+
+	}
+
+	@Override
+	public void deconfigure() throws CoreException {
+
+	}
+
+	@Override
+	public IProject getProject() {
+		return project;
+	}
+
+	@Override
+	public void setProject(IProject project) {
+
+		this.project = project;
+	}
+
+}
+```
+
+增加 [[#新增扩展点|extension]]  , id仅需要为包名后的一截
+
+```xml
+   <extension
+         id="LiVisualEditorNature"
+         name="LiVisualEditorNature"
+         point="org.eclipse.core.resources.natures">
+      <runtime>
+         <run
+               class="com.leaderli.visual.editor.project.LiFlowProjectNature">
+         </run>
+      </runtime>
+   </extension>
+```
 ## wizard
 ![[eclipse-wizard]]
 ## 一个图形化编辑器
