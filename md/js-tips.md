@@ -13,11 +13,66 @@ tags:
 var err = new Error()
 console.log(err.stack)
 ```
-## 格式化输出 json
+##  stringify
+`JSON.stringify(value [,replacer [,space]])`
 
-```javascript
-var json = JSON.stringify(jsonObj, null, 4);
-consol.log(json);
+- value 将要转换为JSON字符串的对象
+- replacer 可选，用于处理将要序列化的函数
+	- 如果是null,undefied或其他类型，则忽略不做处理
+	- 如果是数组，则包含在数组中的属性名才会被序列化
+	- 如果是函数，被序列化的值的每个属性都会经过该函数转换和处理
+		- 函数有两个参数`key`和`value`，当value返回为基本类型或null，则会被添加到序列化后的json中，如果为undefined，则不会输出。若返回其他对象，则会继续执行该对象的序列化过程
+- space 可选，用于指定缩进的空白字符串
+
+```js
+var a = {a:1,b:2}
+
+// 格式化输出 json
+console.log(JSON.stringify(a,null,4))
+
+console.log(JSON.stringify(a,['a'],4))
+
+console.log(JSON.stringify(a,(k,v)=>{
+
+    console.log('--',k,v)
+    return v;
+},4))
+
+b = {a:1,b:undefined}
+console.log(JSON.stringify(b));
+```
+
+输出如下
+
+```json
+{
+
+ "a": 1,
+
+ "b": 2
+
+}
+
+{
+
+ "a": 1
+
+}
+
+--  { a: 1, b: 2 }
+
+-- a 1
+
+-- b 2
+
+{
+
+ "a": 1,
+
+ "b": 2
+
+}
+{"a":1}
 ```
 
 ## js 可变参数
