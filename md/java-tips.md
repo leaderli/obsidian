@@ -407,6 +407,35 @@ public class TestCompile {
 ```
 
 
+上述编译代码的方式在tomcat中可能会运行不正常，因为相关的jar可能不在classpath中，可通过如下方式加载。
+- [[#获取项目中所有jar]]
+-  [[JavaPoet]] `JavaFile.toJavaFileObject()`
+```java
+public void test(JavaFileObject javaFileObject) throws IOException {
+
+        JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
+        JavaFileManager fileManager = compiler.getStandardFileManager(null,null,null);
+
+        List<JavaFileObject> files = new ArrayList<>();
+        files.add(javaFileObject);
+        List<String> options = new ArrayList<>();
+
+        options.add("-Xlint:unchecked");// 忽略一些检测
+        
+        options.add("-classpath"); // 将必要的jar添加到classpath
+        options.add(LiClassUtil.getAppJars().stream().collect(Collectors.joining(File.pathSeparator)));
+        
+        options.add("-d"); // 编译后的文件输出目录，
+        options.add(this.getClass().getResource("/").getPath());
+        
+        compiler.getTask(null,fileManager,null,options,null,files).call();
+
+        fileManager.close();
+
+}
+```
+
+
 ## 获取所有枚举值
 
 ```java
