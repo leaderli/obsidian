@@ -215,6 +215,16 @@ String javaSource = new String(Files.readAllBytes(Paths.get("src/Hello.java")));
 return Collections.emptyList();
 ```
 
+### getResource
+
+```java
+// getResource最终调用的是ClassLoader的方法
+
+//返回类加载器加载的当前类的路径
+Test.class.getResource(".");
+// 返回类加载的根目录
+Test.class.getResource("/");
+```
 ### classpath
 
 ```java

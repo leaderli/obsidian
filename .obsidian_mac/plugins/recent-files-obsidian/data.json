@@ -5,6 +5,10 @@
       "path": "md/java-tips.md"
     },
     {
+      "basename": "java-SPI",
+      "path": "md/java-SPI.md"
+    },
+    {
       "basename": "spring-tips",
       "path": "md/spring-tips.md"
     },

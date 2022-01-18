@@ -40,11 +40,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ".ge",
+                "query": ".getresource",
                 "matchingCase": false,
                 "explainSearch": true,
-                "collapseAll": false,
-                "extraContext": true,
+                "collapseAll": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204
+    "width": 318
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -140,6 +140,7 @@
   "active": "885f52442540f012",
   "lastOpenFiles": [
     "md/java-tips.md",
+    "md/java-SPI.md",
     "conflict-files-obsidian-git.md",
     "md/spring-tips.md",
     "md/idea.md",
@@ -147,7 +148,6 @@
     "md/promise.md",
     "md/typescript.md",
     "md/vite.md",
-    "md/AntV_X6.md",
-    "md/工作总结.md"
+    "md/AntV_X6.md"
   ]
 }
