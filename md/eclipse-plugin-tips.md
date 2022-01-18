@@ -192,3 +192,20 @@ private static void addMavenNature(IProject project, IProgressMonitor monitor) t
 ```java
 this.setMessage("Select a project.", IMessageProvider.WARNING); // 2
 ```
+
+### 获取选中元素所在的project
+
+```java
+import org.eclipse.core.resources.IProject;
+import org.eclipse.core.resources.IResource
+import org.eclipse.jdt.core.IJavaElement;
+import org.eclipse.jdt.core.IJavaProject;
+
+LiMono<Object> element = LiMono.of(selection).map(IStructuredSelection::getFirstElement);
+
+// 根据选中的元素不同，通过不同的方式去获取当前的project
+LiMono<IProject> project = element
+.cast(IJavaProject.class).map(IJavaProject::getProject)
+.or(element.cast(IResource.class).map(IResource::getProject))
+.or(element.cast(IJavaElement.class).map(IJavaElement::getResource).map(IResource::getProject))
+```

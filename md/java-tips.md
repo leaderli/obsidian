@@ -334,7 +334,7 @@ FileLock lock = raFile.getChannel().lock();
     }
 ```
 
-## 如何修改 final 修饰符的值
+### 如何修改 final 修饰符的值
 
 ```java
 String str = "fuck";
@@ -352,11 +352,11 @@ modifier.set(value, value.getModifiers() | Modifier.FINAL);}
 ```
 
 
-##  HttpServletRequest
+###  HttpServletRequest
 HttpServletRequest.getRequestURL()中获取的是请求地址，不是实际的IP地址，当通过nginx转发时，有可能返回nginx地址，想要获取真实IP，使用 [[java-config#3 InetAddress getLocalHost java net UnknownHostException 异常|InetAddress getLocalHost]]
 
 
-## 动态编译源代码
+### 动态编译源代码
 
 
 ```java
@@ -436,7 +436,7 @@ public void test(JavaFileObject javaFileObject) throws IOException {
 ```
 
 
-## 获取所有枚举值
+### 获取所有枚举值
 
 ```java
 enum Color {  
@@ -445,16 +445,61 @@ enum Color {
   
 @Test  
 public void test() throws Throwable{  
- for (Color enumConstant : Color.class.getEnumConstants()) {  
- System.out.println(enumConstant);  
-    }  
-  
+	for (Color enumConstant : Color.class.getEnumConstants()) {  
+		System.out.println(enumConstant);  
+	}  
+}
+```
+
+### 枚举不可以extends但可以implements
+
+```java
+interface Mode<E extends Enum<E>> {
+	public E combine();
+}
+
+enum Color implements Mode<Color> {
+        RED, GREEN;
+
+        @Override
+        public Color combine() {
+            return this;
+        }
+}
+class TextFragment<E extends Enum<E> & Mode<E>> {
+
+	E mode;
+
+	public TextFragment(E mode) {
+		this.mode = mode;
+	}
+}
+
+@Test
+public void test() {
+
+	TextFragment<Color> text = new TextFragment<>(Color.GREEN);  
+	Assert.assertSame(Color.GREEN, text.mode);
 }
 ```
 
 
-## 暂停线程的另一种方式
+### 暂停线程的另一种方式
 
 ```java
 TimeUnit.SECONDS.sleep(1);
+```
+
+
+### 输出java对象的内存占用
+
+```java
+System.out.println("int[256]:\t\t"+ObjectSizeCalculator.getObjectSize(new int [256]));  
+System.out.println("int[2][128]:\t"+ObjectSizeCalculator.getObjectSize(new int [2][128]));  
+System.out.println("int[128][2]:\t"+ObjectSizeCalculator.getObjectSize(new int [128][2]));
+
+
+int[256]:		1040
+int[2][128]:	1080
+int[128][2]:	3600
 ```

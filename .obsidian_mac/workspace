@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "META-INF",
+                "query": ".ge",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -140,6 +140,7 @@
   "active": "885f52442540f012",
   "lastOpenFiles": [
     "md/java-tips.md",
+    "conflict-files-obsidian-git.md",
     "md/spring-tips.md",
     "md/idea.md",
     "md/vue3.md",
@@ -147,7 +148,6 @@
     "md/typescript.md",
     "md/vite.md",
     "md/AntV_X6.md",
-    "md/工作总结.md",
-    "md/大学计算机笔记.md"
+    "md/工作总结.md"
   ]
 }

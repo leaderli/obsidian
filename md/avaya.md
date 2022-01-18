@@ -58,6 +58,10 @@ VoiceProtal# \dt
 
 ![[epm_settings_vxml_timeout.png]]
 
+
+```ad-info
+IVR应用如果使用F5地址需要做session保持
+```
 ## 计算UUI
 
 当通过sip传递数据时，sip会默认转为hex格式
@@ -224,6 +228,8 @@ AAI必须严格按照格式，必须为类型加16进制的表现形式
 
 
 ### event$
+
+ccxml中可以使用的变量
 
 ```yml
 connection:

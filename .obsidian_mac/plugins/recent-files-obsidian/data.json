@@ -75,10 +75,6 @@
     {
       "basename": "尾调用优化",
       "path": "md/尾调用优化.md"
-    },
-    {
-      "basename": "npm-module",
-      "path": "md/npm-module.md"
     }
   ],
   "omittedPaths": [

@@ -7,6 +7,14 @@ tags:
   - tips
 ---
 
+### 反射工具类
+
+```java
+import org.springframework.util.ReflectionUtils;
+
+Method log = ReflectionUtils.findMethod(SpringTest.class, "log");
+Field name = ReflectionUtils.findField(SpringTest.class, "name");
+```
 ### spring bean 多个 id
 
 ```java
