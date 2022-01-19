@@ -129,6 +129,24 @@ Job job = new Job("create project : " + projectName) {
 job.schedule();
 ```
 
+### 在其他线程中查找激活的窗口
+
+当线程不是在激活的窗口中运行时，需要使用通过下述方法来查找激活的窗口
+```java
+Display.getDefault().asyncExec(new Runnable() {
+	@Override
+	public void run() {
+		IWorkbenchWindow iw = PlatformUI.getWorkbench().getActiveWorkbenchWindow();
+		try {
+			// file  -> Ifile
+			IDE.openEditor(iw.getActivePage(), file);
+		} catch (PartInitException e) {
+			e.printStackTrace();
+		}
+	}
+});
+				
+```
 ###  创建一个maven项目
 在创建project的时候，将nature和buildSpec中添加maven的支持
 
