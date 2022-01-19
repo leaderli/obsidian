@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "typescript",
+      "path": "md/typescript.md"
+    },
+    {
       "basename": "win10",
       "path": "md/win10.md"
     },
     {
       "basename": "AntV_X6",
       "path": "md/AntV_X6.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
     },
     {
       "basename": "vue3",

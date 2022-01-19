@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/win10.md",
+            "file": "md/typescript.md",
             "mode": "source",
             "source": false
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/win10.md",
+                "file": "md/typescript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/win10.md"
+                "file": "md/typescript.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/win10.md",
+                "file": "md/typescript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,13 +135,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 365.5,
+    "collapsed": true
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/typescript.md",
     "md/win10.md",
     "md/AntV_X6.md",
-    "md/typescript.md",
     "md/vue3.md",
     "md/vite.md",
     "md/mac.md",
