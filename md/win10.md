@@ -1,3 +1,8 @@
+## 注册表
+
+### 添加环境变量
+`计算机\HKEY_CURRENT_USER\Enviroment`
+新建字符串变量`a`，设置值为`1`
 ### 修改hosts
 
 ```shell

@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "win10",
+      "path": "md/win10.md"
+    },
+    {
+      "basename": "AntV_X6",
+      "path": "md/AntV_X6.md"
+    },
+    {
+      "basename": "typescript",
+      "path": "md/typescript.md"
+    },
+    {
+      "basename": "vue3",
+      "path": "md/vue3.md"
+    },
+    {
+      "basename": "vite",
+      "path": "md/vite.md"
+    },
+    {
+      "basename": "mac",
+      "path": "md/mac.md"
+    },
+    {
       "basename": "java-tips",
       "path": "md/java-tips.md"
     },
@@ -17,24 +41,8 @@
       "path": "md/idea.md"
     },
     {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
       "basename": "promise",
       "path": "md/promise.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
-    },
-    {
-      "basename": "vite",
-      "path": "md/vite.md"
-    },
-    {
-      "basename": "AntV_X6",
-      "path": "md/AntV_X6.md"
     },
     {
       "basename": "工作总结",
@@ -71,14 +79,6 @@
     {
       "basename": "node",
       "path": "md/node.md"
-    },
-    {
-      "basename": "chrome-debug",
-      "path": "md/chrome-debug.md"
-    },
-    {
-      "basename": "尾调用优化",
-      "path": "md/尾调用优化.md"
     }
   ],
   "omittedPaths": [
