@@ -28,6 +28,9 @@ clasz.isPrimitive();
 Person[] ps = new Person[0];
 
 ps.getClass().getComponentType();
+
+// class Person
+// 若为非数组，则返回null
 ```
 
 ### 基本类型转换包装类型

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
+      "basename": "java-数组",
+      "path": "md/java-数组.md"
+    },
+    {
       "basename": "typescript",
       "path": "md/typescript.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "mac",
       "path": "md/mac.md"
-    },
-    {
-      "basename": "java-tips",
-      "path": "md/java-tips.md"
     },
     {
       "basename": "java-SPI",
@@ -75,10 +79,6 @@
     {
       "basename": "arthas",
       "path": "md/arthas.md"
-    },
-    {
-      "basename": "node",
-      "path": "md/node.md"
     }
   ],
   "omittedPaths": [
