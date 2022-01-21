@@ -337,3 +337,11 @@ Request request = new Request.Builder()
 [📒 github](https://github.com/flipkart-incubator/zjsonpatch)
 
 用来diff json文件的库
+
+
+### fastjson
+
+```java
+// 默认为null的字符串不会被序列化，可通过如下方法使其返回一个默认的空字符串
+JSONObject.toJSONString(obj,SerializerFeature.WriteNullStringAsEmpty);
+```

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/工作总结.md",
+            "file": "md/JavaPoet.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318
+    "width": 318,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/工作总结.md",
+                "file": "md/JavaPoet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/工作总结.md"
+                "file": "md/JavaPoet.md"
               }
             }
           },
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/工作总结.md",
+                "file": "md/JavaPoet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,6 +141,8 @@
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/JavaPoet.md",
+    "md/java-utils.md",
     "md/工作总结.md",
     "md/java泛型.md",
     "md/java反射.md",
@@ -147,8 +150,6 @@
     "md/oracle练习.md",
     "md/sql.md",
     "md/vim.md",
-    "md/java-tips.md",
-    "md/java-数组.md",
-    "md/typescript.md"
+    "md/java-tips.md"
   ]
 }
