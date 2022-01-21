@@ -140,10 +140,8 @@ public <T>T get(Class<T> type){
 
 ```java
 
-//java.lang.reflect.Array.newInstance(Class<T> componentType, int length)
+java.lang.reflect.Array.newInstance(Class<T> componentType, int length)
 
-ArrayWithTypeToken<Integer> arrayToken = new ArrayWithTypeToken<Integer>(Integer.class, 100);
-Integer[] array = arrayToken.create();
 
 ```
 

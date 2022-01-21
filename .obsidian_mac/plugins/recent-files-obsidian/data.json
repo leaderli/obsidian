@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "java泛型",
+      "path": "md/java泛型.md"
+    },
+    {
+      "basename": "java反射",
+      "path": "md/java反射.md"
+    },
+    {
+      "basename": "代码规范检测表",
+      "path": "md/代码规范检测表.md"
+    },
+    {
+      "basename": "oracle练习",
+      "path": "md/oracle练习.md"
+    },
+    {
+      "basename": "sql",
+      "path": "md/sql.md"
+    },
+    {
+      "basename": "vim",
+      "path": "md/vim.md"
+    },
+    {
       "basename": "java-tips",
       "path": "md/java-tips.md"
     },
@@ -55,30 +79,6 @@
     {
       "basename": "大学计算机笔记",
       "path": "md/大学计算机笔记.md"
-    },
-    {
-      "basename": "动机心理学",
-      "path": "md/动机心理学.md"
-    },
-    {
-      "basename": "一些思路",
-      "path": "md/一些思路.md"
-    },
-    {
-      "basename": "js-tips",
-      "path": "md/js-tips.md"
-    },
-    {
-      "basename": "css",
-      "path": "md/css.md"
-    },
-    {
-      "basename": "js",
-      "path": "md/js.md"
-    },
-    {
-      "basename": "arthas",
-      "path": "md/arthas.md"
     }
   ],
   "omittedPaths": [
