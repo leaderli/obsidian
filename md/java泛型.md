@@ -2,7 +2,6 @@
 
 ## 泛型 `extends super`
 
-
 ```ad-li
 不管是extends或是super，只能使用在变量声明上，实际赋值的时候，一定是指定具体实现类的，这就是extend和super的方法会有所限制
 ```
