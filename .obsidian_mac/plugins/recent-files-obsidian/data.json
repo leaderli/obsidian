@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "工作总结",
+      "path": "md/工作总结.md"
+    },
+    {
       "basename": "java泛型",
       "path": "md/java泛型.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "promise",
       "path": "md/promise.md"
-    },
-    {
-      "basename": "工作总结",
-      "path": "md/工作总结.md"
     },
     {
       "basename": "大学计算机笔记",

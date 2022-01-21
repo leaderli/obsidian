@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java泛型.md",
+            "file": "md/工作总结.md",
             "mode": "source",
             "source": false
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java泛型.md",
+                "file": "md/工作总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java泛型.md"
+                "file": "md/工作总结.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/java泛型.md",
+                "file": "md/工作总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,6 +140,7 @@
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/工作总结.md",
     "md/java泛型.md",
     "md/java反射.md",
     "md/代码规范检测表.md",
@@ -148,7 +149,6 @@
     "md/vim.md",
     "md/java-tips.md",
     "md/java-数组.md",
-    "md/typescript.md",
-    "md/win10.md"
+    "md/typescript.md"
   ]
 }
