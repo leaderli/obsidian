@@ -153,3 +153,15 @@ listArr.stream().flatMap(list->list.stream()).map(element->element.toString()).f
 //ll1
 //ll2
 ```
+
+
+### BiFunction
+```java
+BiFunction<T1, T2, LiTuple> biFunction = new BiFunction<T1, T2, LiTuple>() {  
+ @Override  
+ public LiTuple apply(T1 t1, T2 t2) {  
+ return null;  
+    }  
+};  
+biFunction.apply(_1,_2);
+```
