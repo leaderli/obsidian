@@ -22,6 +22,8 @@ Map<Object, Set<String>> collect = items.stream().collect(Collectors.groupingBy(
     Collectors.toSet())));
 
 System.out.println("collect = " + collect);
+
+
 ```
 
 ### `join`

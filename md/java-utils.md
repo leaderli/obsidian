@@ -345,3 +345,8 @@ Request request = new Request.Builder()
 // 默认为null的字符串不会被序列化，可通过如下方法使其返回一个默认的空字符串
 JSONObject.toJSONString(obj,SerializerFeature.WriteNullStringAsEmpty);
 ```
+
+### common-lang3
+
+```java
+```
