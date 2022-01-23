@@ -214,6 +214,11 @@ String javaSource = new String(Files.readAllBytes(Paths.get("src/Hello.java")));
 
 ### 返回空的集合
 
+```ad-bug
+
+该集合无法进行add操作
+```
+
 ```java
 return Collections.emptyList();
 ```
