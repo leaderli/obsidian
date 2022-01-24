@@ -227,3 +227,22 @@ LiMono<IProject> project = element
 .or(element.cast(IResource.class).map(IResource::getProject))
 .or(element.cast(IJavaElement.class).map(IJavaElement::getResource).map(IResource::getProject))
 ```
+
+### log4j
+
+```java
+// eclipse的安装根目录下添加log4j.properties文件
+BasicConfigurator.configure();
+String log4jConfPathBase = Platform
+		.getInstallLocation()
+		.getURL()
+		.getPath()
+		.substring(
+				1,
+				Platform.getInstallLocation().getURL().getPath()
+						.length() - 1);
+String log4jConfPath = log4jConfPathBase + "/log4j.properties";
+PropertyConfigurator.configure(log4jConfPath);
+```
+
+

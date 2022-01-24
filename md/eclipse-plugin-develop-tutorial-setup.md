@@ -176,6 +176,119 @@ public class LiFlowProjectNature implements IProjectNature {
 ```
 ## wizard
 ![[eclipse-wizard]]
+## 启动后加载插件
+
+新增扩展点
+```xml
+<extension point="org.eclipse.ui.startup">
+	 <startup class="org.eclipse.example.StartupClass"/>
+</extension>
+```
+
+实现类需继承接口`org.eclipse.ui.IStartup`
+
+## 监听文件变动
+
+###  快速入门
+```java
+package com.leaderli.visual.editor.listener;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+import org.eclipse.core.resources.IResourceChangeEvent;
+import org.eclipse.core.resources.IResourceChangeListener;
+import org.eclipse.core.resources.ResourcesPlugin;
+
+public class ResourceChangeListenerFactory {
+	private static final Logger LOGGER = Logger.getLogger(ResourceChangeListenerFactory.class);
+
+	static List<IResourceChangeListener> POST_CHANGE_LISTENERS = new ArrayList<>();
+
+	static {
+		POST_CHANGE_LISTENERS.add(new IResourceChangeListener() {
+
+			@Override
+			public void resourceChanged(IResourceChangeEvent event) {
+				System.out.println(event);
+				System.out.println(event.getSource());
+				System.out.println(event.getType());
+				System.out.println(event.getBuildKind());
+				System.out.println(event.getDelta());
+
+			}
+		});
+	}
+
+	public static void addResourceChangeListener() {
+		POST_CHANGE_LISTENERS.forEach(listener -> {
+			ResourcesPlugin.getWorkspace().addResourceChangeListener(listener, IResourceChangeEvent.PRE_BUILD);
+		});
+
+	}
+
+	public static void removeResourceChangeListener() {
+		POST_CHANGE_LISTENERS.forEach(listener -> {
+			ResourcesPlugin.getWorkspace().removeResourceChangeListener(listener);
+		});
+
+	}
+
+}
+```
+
+监听器需要保证非必要的时移除监听，因此我们在插件加载时添加监听，插件卸载时移除监听
+
+```java
+package com.leaderli.visual.editor;
+
+import org.eclipse.ui.plugin.AbstractUIPlugin;
+import org.osgi.framework.BundleContext;
+
+import com.leaderli.visual.editor.listener.ResourceChangeListenerFactory;
+import com.leaderli.visual.editor.util.PluginUtil;
+
+/**
+ * The activator class controls the plug-in life cycle
+ */
+public class LiFlowPlugin extends AbstractUIPlugin {
+
+	public static final String PLUGIN_ID = "com.leaderli.visual.editor"; //$NON-NLS-1$
+
+	private static LiFlowPlugin plugin;
+
+	public void start(BundleContext context) throws Exception {
+		super.start(context);
+		plugin = this;
+		ResourceChangeListenerFactory.addResourceChangeListener();
+	}
+
+	public void stop(BundleContext context) throws Exception {
+		plugin = null;
+
+		super.stop(context);
+		ResourceChangeListenerFactory.removeResourceChangeListener();
+	}
+
+	public static LiFlowPlugin getDefault() {
+		return plugin;
+	}
+
+}
+```
+
+### 监听的类型
+
+注册的监听器需指定监听的事件类型，通过一个二进制的int值来控制，可通过与运算指定多种类型的事件
+
+ - POST_CHANGE  project资源文件发生变化后，即创建文件，删除文件，修改文件时触发。通过getDelta方法，可以得出发生变化的资源文件树结构
+ - POST_BUILD
+ - PRE_BUILD 
+ - PRE_CLOSE project关闭时触发
+ - PRE_DELETE   project删除时触发
+ - PRE_REFRESH   project刷新时触发
+
 ## 一个图形化编辑器
 
 新增扩展点`org.eclipse.ui.editors`，并编辑
