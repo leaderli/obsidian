@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "git",
+      "path": "md/git.md"
+    },
+    {
       "basename": "redis-script",
       "path": "md/redis-script.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "mac",
       "path": "md/mac.md"
-    },
-    {
-      "basename": "java-SPI",
-      "path": "md/java-SPI.md"
     }
   ],
   "omittedPaths": [
