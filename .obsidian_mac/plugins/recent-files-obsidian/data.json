@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "redis-script",
+      "path": "md/redis-script.md"
+    },
+    {
+      "basename": "redis",
+      "path": "md/redis.md"
+    },
+    {
       "basename": "JavaPoet",
       "path": "md/JavaPoet.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "java-SPI",
       "path": "md/java-SPI.md"
-    },
-    {
-      "basename": "spring-tips",
-      "path": "md/spring-tips.md"
-    },
-    {
-      "basename": "idea",
-      "path": "md/idea.md"
     }
   ],
   "omittedPaths": [

@@ -108,3 +108,10 @@ for i=1,#l,1 do
 end
 return l
 ```
+
+
+## 批量删除key
+
+```shell
+redis-cli --scan --pattern "foo*" |xargs -L 1 redis-cli del
+```

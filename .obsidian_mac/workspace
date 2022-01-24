@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/JavaPoet.md",
+            "file": "md/redis-script.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Array.newInstance",
+                "query": "section:(批量 redis)",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318,
-    "collapsed": true
+    "width": 318
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/JavaPoet.md",
+                "file": "md/redis-script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/JavaPoet.md"
+                "file": "md/redis-script.md"
               }
             }
           },
@@ -125,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/JavaPoet.md",
+                "file": "md/redis-script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,6 +140,8 @@
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/redis-script.md",
+    "md/redis.md",
     "md/JavaPoet.md",
     "md/java-utils.md",
     "md/工作总结.md",
@@ -148,8 +149,6 @@
     "md/java反射.md",
     "md/代码规范检测表.md",
     "md/oracle练习.md",
-    "md/sql.md",
-    "md/vim.md",
-    "md/java-tips.md"
+    "md/sql.md"
   ]
 }
