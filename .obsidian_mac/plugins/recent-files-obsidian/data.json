@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "java-utils",
+      "path": "md/java-utils.md"
+    },
+    {
       "basename": "git",
       "path": "md/git.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "JavaPoet",
       "path": "md/JavaPoet.md"
-    },
-    {
-      "basename": "java-utils",
-      "path": "md/java-utils.md"
     },
     {
       "basename": "工作总结",

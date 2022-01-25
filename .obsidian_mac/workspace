@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/git.md",
+            "file": "md/java-utils.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kale",
+                "query": "section:(junit th)",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/git.md",
+                "file": "md/java-utils.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/git.md"
+                "file": "md/java-utils.md"
               }
             }
           },
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/git.md",
+                "file": "md/java-utils.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,16 +136,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5,
-    "collapsed": true
+    "width": 365.5
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/java-utils.md",
     "md/git.md",
     "md/redis-script.md",
     "md/redis.md",
     "md/JavaPoet.md",
-    "md/java-utils.md",
     "md/工作总结.md",
     "md/java泛型.md",
     "md/java反射.md",
