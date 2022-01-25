@@ -350,3 +350,14 @@ JSONObject.toJSONString(obj,SerializerFeature.WriteNullStringAsEmpty);
 
 ```java
 ```
+
+### EnumMap
+
+对于key是枚举的类来说，可以使用 EnumMap，它的底层是一个简单的数组
+```java
+public enum COLOR{
+	RED,GREEN
+}
+
+Map<COLOR,String> mood  = new EnumMap<>(COLOR.class)
+```
