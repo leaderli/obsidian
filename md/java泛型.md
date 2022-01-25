@@ -302,3 +302,20 @@ public class G4 implements Generic<String, List> {}
    @Autowired
    List<Generic<Object, Collection>> generics; //G1 G2
 ```
+
+## 任意泛型
+当一个类不包含任何泛型的成员变量时，其可以安全的转换为任意泛型
+
+```java
+public class Some<T>{
+
+	public void test(T t){
+
+	}
+
+	@SuppressWarnings("unchecked")  
+	public <R> Some<R> toSome() {  
+	 return (Some<R>) this;  
+	}
+}
+```
