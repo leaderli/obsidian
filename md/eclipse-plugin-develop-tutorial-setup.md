@@ -278,16 +278,160 @@ public class LiFlowPlugin extends AbstractUIPlugin {
 }
 ```
 
+### 资源文件的类型
+
+Resource的toString方法
+```java
+
+@Override
+public String toString() {
+	return getTypeString() + getFullPath().toString();
+}
+
+
+/**
+ * <li> All resources of type {@link #FILE} implement {@link IFile}.</li>
+ * <li> All resources of type {@link #FOLDER} implement {@link IFolder}.</li>
+ * <li> All resources of type {@link #PROJECT} implement {@link IProject}.</li>
+ * <li> All resources of type {@link #ROOT} implement {@link IWorkspaceRoot}.</li>
+ */
+public String getTypeString() {
+	switch (getType()) {
+		case FILE :
+			return "L"; //$NON-NLS-1$
+		case FOLDER :
+			return "F"; //$NON-NLS-1$
+		case PROJECT :
+			return "P"; //$NON-NLS-1$
+		case ROOT :
+			return "R"; //$NON-NLS-1$
+	}
+	return ""; //$NON-NLS-1$
+}
+```
 ### 监听的类型
 
 注册的监听器需指定监听的事件类型，通过一个二进制的int值来控制，可通过与运算指定多种类型的事件
 
- - POST_CHANGE  project资源文件发生变化后，即创建文件，删除文件，修改文件时触发。通过getDelta方法，可以得出发生变化的资源文件树结构
- - POST_BUILD
- - PRE_BUILD 
- - PRE_CLOSE project关闭时触发
- - PRE_DELETE   project删除时触发
- - PRE_REFRESH   project刷新时触发
+ - POST_CHANGE `1`  project资源文件发生变化后，即创建文件，删除文件，修改文件时触发。通过getDelta方法，可以得出发生变化的资源文件树结构
+ - POST_BUILD `16`
+ - PRE_BUILD `8`
+ - PRE_CLOSE `2`  project关闭时触发
+ - PRE_DELETE `4`  project删除时触发
+ - PRE_REFRESH `32`  project刷新时触发
+
+### 查看具体文件
+
+在eclipse中，资源文件的变动是从根目录递归向下查找到具体受影响的资源文件的，我们通过visitor模式去查找我们想要监听的具体的资源
+
+```java
+new IResourceChangeListener() {
+
+	@Override
+	public void resourceChanged(IResourceChangeEvent event) {
+
+		Visitor visitor = new Visitor();
+		try {
+			event.getDelta().accept(visitor);
+		} catch (CoreException e) {
+			e.printStackTrace();
+		}
+
+	}
+}
+
+
+static class Visitor implements IResourceDeltaVisitor {
+
+	/**
+	* 返回true表示继续遍历子资源
+	*/
+	@Override
+	public boolean visit(IResourceDelta delta) throws CoreException {
+
+		LOGGER.info(Arrays.toString(delta.getMarkerDeltas()) + " " + delta.getKind() + " " + delta.getFlags() + ":"
+				+ delta.getResource());
+		if (delta.getAffectedChildren().length > 0) {
+			return true;
+		}
+		return delta.getAffectedChildren().length > 0;
+	}
+
+}
+```
+
+`IResourceDelta`中主要的几个方法
+
+```java
+/**
+ * 使用bit表示当前资源变动的类型,例如100 表示当前资源为CHANGE
+ *
+ * @see IResourceDelta#REMOVED_PHANTOM 16 10000
+ * @see IResourceDelta#ADDED_PHANTOM   8   1000
+ * @see IResourceDelta#CHANGE          4    100
+ * @see IResourceDelta#REMOVED         2     10
+ * @see IResourceDelta#ADDED           1      1
+ */
+public int getKind();
+/**
+ * 使用bit表示当前资源变动的细节, 使用的时候一般配合位运算符进行操作
+ *
+ * @see IResourceDelta#DERIVED_CHANGED  10000000000000000000000
+ * @see IResourceDelta#LOCAL_CHANGED     1000000000000000000000
+ * @see IResourceDelta#ENCODING           100000000000000000000
+ * @see IResourceDelta#DESCRIPTION         10000000000000000000
+ * @see IResourceDelta#REPLACED             1000000000000000000
+ * @see IResourceDelta#MARKERS               100000000000000000
+ * @see IResourceDelta#SYNC                   10000000000000000
+ * @see IResourceDelta#TYPE                    1000000000000000
+ * @see IResourceDelta#OPEN                     100000000000000
+ * @see IResourceDelta#MOVED_TO                  10000000000000
+ * @see IResourceDelta#MOVED_FROM                 1000000000000
+ * @see IResourceDelta#COPIED_FROM                 100000000000
+ * @see IResourceDelta#CONTENT                        100000000        
+ * @see IResourceDelta#NO_CHANGE 0 
+ */
+public int getFlags();
+/**
+ * 获取受影响的资源文件
+ */
+public IResource getResource();
+
+/**
+ * 根据资源的路径直接访问某个深度的资源文件变化情况，避免多次遍历
+ */
+public IResourceDelta findMember(IPath path);
+
+```
+
+示例
+
+```java
+
+new IResourceChangeListener() {
+
+	@Override
+	public void resourceChanged(IResourceChangeEvent event) {
+
+        //对于project a1 ，我们想监听java源代码的变动，则
+		IPath path = Path.fromOSString("/a1/src/main/java");
+		IResourceDelta findMember = event.getDelta().findMember(path);
+		LOGGER.info("path:" + path + "->" + findMember);
+
+		if(findMember !=null){
+
+			Visitor visitor = new Visitor();
+			try {
+				findMember.accept(visitor);
+			} catch (CoreException e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+}
+```
+
 
 ## 一个图形化编辑器
 

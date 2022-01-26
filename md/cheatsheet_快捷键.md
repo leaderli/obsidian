@@ -58,6 +58,12 @@ iTerm2 可以自动补齐命令，输入若干字符，按 ⌘+;弹出自动补�
 9. `command+]` 前进
 
 
+```ad-info
+title:设置选中变量高亮
+Windows-> Preferences->Java->Editor->Mark Occurrences
+```
+
+
 ## obsidian
 
 | 按键               | 说明                     |
