@@ -348,7 +348,15 @@ JSONObject.toJSONString(obj,SerializerFeature.WriteNullStringAsEmpty);
 
 ### common-lang3
 
+统计代码执行时间
 ```java
+import org.apache.commons.lang3.time.StopWatch;
+
+StopWatch stopWatch = new StopWatch();  
+stopWatch.start();  
+lazy();  
+stopWatch.stop();
+System.out.println(stopWatch.getTime(TimeUnit.MILLISECONDS));
 ```
 
 ### EnumMap
