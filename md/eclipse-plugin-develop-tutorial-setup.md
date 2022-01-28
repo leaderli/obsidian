@@ -433,6 +433,20 @@ new IResourceChangeListener() {
 ```
 
 
+获取当前操作的项目
+
+```java
+class Visitor implements IResourceDeltaVisitor {
+
+	@Override
+	public boolean visit(IResourceDelta delta) throws CoreException {
+
+		// 当前的资源文件为project时，则不想要继续向下查找了
+		return delta.getResource().getType() != IContainer.PROJECT;
+	}
+
+}
+```
 ## 一个图形化编辑器
 
 新增扩展点`org.eclipse.ui.editors`，并编辑
