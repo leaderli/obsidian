@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "c++",
+      "path": "md/c++.md"
+    },
+    {
+      "basename": "c",
+      "path": "md/c.md"
+    },
+    {
       "basename": "java-utils",
       "path": "md/java-utils.md"
     },
@@ -67,18 +79,6 @@
     {
       "basename": "AntV_X6",
       "path": "md/AntV_X6.md"
-    },
-    {
-      "basename": "vue3",
-      "path": "md/vue3.md"
-    },
-    {
-      "basename": "vite",
-      "path": "md/vite.md"
-    },
-    {
-      "basename": "mac",
-      "path": "md/mac.md"
     }
   ],
   "omittedPaths": [
