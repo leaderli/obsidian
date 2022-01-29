@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "java-utils",
+      "path": "md/java-utils.md"
+    },
+    {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "c",
       "path": "md/c.md"
-    },
-    {
-      "basename": "java-utils",
-      "path": "md/java-utils.md"
     },
     {
       "basename": "git",
@@ -59,10 +63,6 @@
     {
       "basename": "vim",
       "path": "md/vim.md"
-    },
-    {
-      "basename": "java-tips",
-      "path": "md/java-tips.md"
     },
     {
       "basename": "java-数组",

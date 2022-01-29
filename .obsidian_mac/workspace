@@ -7,9 +7,11 @@
         "id": "885f52442540f012",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/java-utils.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -38,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "section:(junit th)",
+                "query": " 所有jar",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -63,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/java-utils.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/java-utils.md"
               }
             }
           },
@@ -121,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/java-utils.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,15 +139,15 @@
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/java-utils.md",
+    "md/java-tips.md",
     "kanban.md",
     "md/c++.md",
     "md/c.md",
-    "md/java-utils.md",
     "md/git.md",
     "md/redis-script.md",
     "md/redis.md",
     "md/JavaPoet.md",
-    "md/工作总结.md",
-    "md/java泛型.md"
+    "md/工作总结.md"
   ]
 }

@@ -369,3 +369,14 @@ public enum COLOR{
 
 Map<COLOR,String> mood  = new EnumMap<>(COLOR.class)
 ```
+
+### mock
+[mockjs的java实现](https://gitee.com/ForteScarlet/Mock.java)
+
+```xml
+<dependency>
+ <groupId>io.gitee.ForteScarlet</groupId>
+ <artifactId>mock.java</artifactId>
+ <version>1.9.2</version>
+</dependency>
+```
