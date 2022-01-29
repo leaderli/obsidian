@@ -22,6 +22,7 @@ String s = "1.1".replaceAll("(\\.\\d)$", "$10");//$1表示前面正则表达式�
 ### java 字符串占位符
 
 ```java
+// "hello'{0}'" 这样格式的是无效的，可以使用String.format
 String msg = "hello{0},hello{1}";
 String format = MessageFormat.format(msg, new ArrayList<>(), 100);
 System.out.println("format = " + format);

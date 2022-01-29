@@ -47,15 +47,18 @@ iTerm2 可以自动补齐命令，输入若干字符，按 ⌘+;弹出自动补�
 
 ## eclipse
 
+win中使用`alt`
+
 1. `command + 1` quick fix 快速修复
-2. `command + .` next 查找下一个错误
+2. `F2` next 查找下一个错误
 3. `command + e` 选择打开的文件
-4. `command + o` 快速outline
-5. `command + r` 打开资源
-6. `command + b` 打开方法调用处
-7. `command + d` 进入声明处
-8. `command+[` 返回
-9. `command+]` 前进
+4. `command + o`  quick outline 快速outline
+5. `command + r`  open resource 打开资源
+6. `command + b`  open call hierarchy 打开方法调用处
+7. `command + d`  open declaration 进入声明处
+8. `command + i` open implementation 打开实现类
+9. `command+[`   prev 返回
+10. `command+]`  next 前进
 
 
 ```ad-info
