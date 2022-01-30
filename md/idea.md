@@ -5,41 +5,6 @@
 
 ![[settings.zip]]
 
-## 为了方便在各个平台使用，统一定义快捷键
-
-mac 上使用 command 键替代 alt
-
-可以自定义一组快捷命令，`Quick List`
-
-| 快捷键     | 解释                    |
-| :-------- | :--------------------- |
-| F1        | quick list             |
-| F2        | next highlight error   |
-| F3        | toggle bookmark        |
-| F4        | run                    |
-| F5        | debug                  |
-| ALT 1     | project view           |
-| ALT 2     | structure view         |
-| ALT 3     | favorite view          |
-| ALT 4     | run view               |
-| ALT 5     | debug view             |
-| ALT F3    | show bookmark          |
-| ALT b     | goto to declration     |
-| ALT i     | goto to implemetation  |
-| ALT e     | recent files           |
-| ALT n     | generate ,new file     |
-| ALT w     | close active tab       |
-| ALT up    | jump to navigation bar |
-| ALT down  | jump to source         |
-| ALT left  | goto previous splitter |
-| ALT right | goto next splitter     |
-| SHIFT F6  | rename                 |
-| `ALT [`   | BACK                   |
-| ALT ]     | FORWARD                |
-
-其他快捷方式
-
-1. 窗口视图回车键进入代码
 
 ## 调试
 

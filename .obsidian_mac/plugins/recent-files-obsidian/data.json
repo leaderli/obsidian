@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "cheatsheet_快捷键",
+      "path": "md/cheatsheet_快捷键.md"
+    },
+    {
+      "basename": "idea",
+      "path": "md/idea.md"
+    },
+    {
       "basename": "java-utils",
       "path": "md/java-utils.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "typescript",
       "path": "md/typescript.md"
-    },
-    {
-      "basename": "win10",
-      "path": "md/win10.md"
-    },
-    {
-      "basename": "AntV_X6",
-      "path": "md/AntV_X6.md"
     }
   ],
   "omittedPaths": [
