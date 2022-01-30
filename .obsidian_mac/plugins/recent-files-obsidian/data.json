@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "java",
+      "path": "md/java.md"
+    },
+    {
       "basename": "cheatsheet_快捷键",
       "path": "md/cheatsheet_快捷键.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "java-数组",
       "path": "md/java-数组.md"
-    },
-    {
-      "basename": "typescript",
-      "path": "md/typescript.md"
     }
   ],
   "omittedPaths": [

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/cheatsheet_快捷键.md",
+            "file": "md/java.md",
             "mode": "source",
             "source": false
           }
@@ -40,11 +40,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " 所有jar",
+                "query": "section:(源码 jdk)",
                 "matchingCase": false,
                 "explainSearch": true,
-                "collapseAll": true,
-                "extraContext": false,
+                "collapseAll": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100
+    "width": 415
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/cheatsheet_快捷键.md",
+                "file": "md/java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/cheatsheet_快捷键.md"
+                "file": "md/java.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/cheatsheet_快捷键.md",
+                "file": "md/java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,6 +139,7 @@
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/java.md",
     "md/cheatsheet_快捷键.md",
     "md/idea.md",
     "md/java-utils.md",
@@ -147,7 +148,6 @@
     "md/c++.md",
     "md/c.md",
     "md/git.md",
-    "md/redis-script.md",
-    "md/redis.md"
+    "md/redis-script.md"
   ]
 }
