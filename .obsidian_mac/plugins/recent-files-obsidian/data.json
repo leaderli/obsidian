@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "java",
-      "path": "md/java.md"
-    },
-    {
       "basename": "cheatsheet_快捷键",
       "path": "md/cheatsheet_快捷键.md"
+    },
+    {
+      "basename": "java",
+      "path": "md/java.md"
     },
     {
       "basename": "idea",
