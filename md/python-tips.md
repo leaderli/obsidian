@@ -62,3 +62,24 @@ except:
   #可以忽略所有错误，比如ctrl c，终止sh运行的错误
   pass
 ```
+
+获取命令行参数
+[Python 命令行参数 | 菜鸟教程](https://www.runoob.com/python/python-command-line-arguments.html)
+
+```python
+#!/usr/bin/python  
+# -*- coding: UTF-8 -*-  
+  
+import sys  
+  
+print '参数个数为:', len(sys.argv), '个参数。'  
+print '参数列表:', str(sys.argv)  
+```
+
+执行以上代码，输出结果为：
+```shell
+$ python test.py arg1 arg2 arg3 
+参数个数为: 4 个参数。 
+参数列表: ['test.py', 'arg1', 'arg2', 'arg3']
+```
+

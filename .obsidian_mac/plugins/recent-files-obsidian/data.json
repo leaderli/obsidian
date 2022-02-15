@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "python-tips",
+      "path": "md/python-tips.md"
+    },
+    {
+      "basename": "shell-tips",
+      "path": "md/shell-tips.md"
+    },
+    {
+      "basename": "python",
+      "path": "md/python.md"
+    },
+    {
       "basename": "cheatsheet_快捷键",
       "path": "md/cheatsheet_快捷键.md"
     },
@@ -67,18 +79,6 @@
     {
       "basename": "oracle练习",
       "path": "md/oracle练习.md"
-    },
-    {
-      "basename": "sql",
-      "path": "md/sql.md"
-    },
-    {
-      "basename": "vim",
-      "path": "md/vim.md"
-    },
-    {
-      "basename": "java-数组",
-      "path": "md/java-数组.md"
     }
   ],
   "omittedPaths": [

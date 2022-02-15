@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/cheatsheet_快捷键.md",
+            "file": "md/python-tips.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "section:(源码 jdk)",
+                "query": "sys.argv",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415
+    "width": 336
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/cheatsheet_快捷键.md",
+                "file": "md/python-tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/cheatsheet_快捷键.md"
+                "file": "md/python-tips.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/cheatsheet_快捷键.md",
+                "file": "md/python-tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,19 +135,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 182.5
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/python-tips.md",
+    "md/shell-tips.md",
+    "md/python.md",
     "md/cheatsheet_快捷键.md",
     "md/java.md",
     "md/idea.md",
     "md/java-utils.md",
     "md/java-tips.md",
     "kanban.md",
-    "md/c++.md",
-    "md/c.md",
-    "md/git.md",
-    "md/redis-script.md"
+    "md/c++.md"
   ]
 }
