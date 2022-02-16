@@ -95,8 +95,8 @@ win中使用`alt`
 6. `command + b`  open call hierarchy 打开方法调用处
 7. `command + d`  open declaration 进入声明处
 8. `command + i` open implementation 打开实现类
-9. `command+[`   prev 返回
-10. `command+]`  next 前进
+9. `command+[`   backward history返回
+10. `command+]`  forward history 前进
 
 
 ```ad-info
