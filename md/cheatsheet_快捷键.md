@@ -85,6 +85,7 @@ mac 上使用 command 键替代 alt
 
 ## eclipse
 
+[eclipse下载地址](https://archive.eclipse.org/eclipse/downloads/)
 win中使用`alt`
 
 1. `command + 1` quick fix 快速修复
