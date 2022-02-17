@@ -26,7 +26,7 @@ kanban-plugin: basic
 - [ ] #htext/red  ==减肥== @{2022-12-31}
 - [ ] 程序员修炼之道
 - [ ] 可视化eclipse插件每天50行代码<br>@{2022-12-31}
-- [ ] flow的删除重命名
+- [ ] flow的重名名规则校验
 
 
 ## 任务阻塞池
@@ -38,6 +38,7 @@ kanban-plugin: basic
 
 ## 任务完成池
 
+- [x] flow的删除重命名
 
 
 ***
