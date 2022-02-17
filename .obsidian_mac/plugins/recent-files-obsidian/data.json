@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "win10",
+      "path": "md/win10.md"
+    },
+    {
       "basename": "python-tips",
       "path": "md/python-tips.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "代码规范检测表",
       "path": "md/代码规范检测表.md"
-    },
-    {
-      "basename": "oracle练习",
-      "path": "md/oracle练习.md"
     }
   ],
   "omittedPaths": [
