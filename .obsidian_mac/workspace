@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/win10.md",
+            "file": "md/maven.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336
+    "width": 336,
+    "collapsed": true
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/win10.md",
+                "file": "md/maven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/win10.md"
+                "file": "md/maven.md"
               }
             }
           },
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/win10.md",
+                "file": "md/maven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,6 +140,8 @@
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/maven.md",
+    "md/maven相关.md",
     "md/win10.md",
     "md/python-tips.md",
     "md/shell-tips.md",
@@ -146,8 +149,6 @@
     "md/cheatsheet_快捷键.md",
     "md/java.md",
     "md/idea.md",
-    "md/java-utils.md",
-    "md/java-tips.md",
-    "kanban.md"
+    "md/java-utils.md"
   ]
 }

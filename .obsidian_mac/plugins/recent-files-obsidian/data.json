@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "maven",
+      "path": "md/maven.md"
+    },
+    {
+      "basename": "maven相关",
+      "path": "md/maven相关.md"
+    },
+    {
       "basename": "win10",
       "path": "md/win10.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "java泛型",
       "path": "md/java泛型.md"
-    },
-    {
-      "basename": "java反射",
-      "path": "md/java反射.md"
-    },
-    {
-      "basename": "代码规范检测表",
-      "path": "md/代码规范检测表.md"
     }
   ],
   "omittedPaths": [
