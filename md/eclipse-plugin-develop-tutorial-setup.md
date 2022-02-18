@@ -15,6 +15,9 @@ tags:
    ![eclipse-plugin-develop-tutorial-setup_安装插件.png](eclipse-plugin-develop-tutorial-setup_安装插件.png)
 
 >百度云盘和阿里云盘上放了整合版本
+
+3. eclipse源码
+[Platform-releng/Platform Build - Eclipsepedia](https://wiki.eclipse.org/Platform-releng/Platform_Build#Building)
 ## 概念
 
 eclipse 工具区由多个部件组成，包括 menu bar，tool bar 等
