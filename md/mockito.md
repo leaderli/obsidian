@@ -1,4 +1,4 @@
-#java #junit #mock
+#java #junit #mock #test
 
 
 一个用来模拟测试的框架，[官方文档](https://javadoc.io/static/org.mockito/mockito-core/4.0.0/org/mockito/Mockito.html)
