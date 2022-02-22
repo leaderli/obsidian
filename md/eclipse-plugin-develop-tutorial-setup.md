@@ -1,5 +1,4 @@
----
-title: eclipse_plugin_develop_tutorial_setup
+Extension Point Tutorial_plugin_develop_tutorial_setup
 date: 2020-07-24 10:49:48
 categories: eclipse
 tags:
@@ -16,6 +15,9 @@ tags:
    ![eclipse-plugin-develop-tutorial-setup_安装插件.png](eclipse-plugin-develop-tutorial-setup_安装插件.png)
 
 >百度云盘和阿里云盘上放了整合版本
+
+3. eclipse源码
+[Platform-releng/Platform Build - Eclipsepedia](https://wiki.eclipse.org/Platform-releng/Platform_Build#Building)
 ## 概念
 
 eclipse 工具区由多个部件组成，包括 menu bar，tool bar 等
@@ -111,6 +113,8 @@ eclipse 中工具区示例
    ![eclipse-plugin-develop-tutorial-setup_perspective.png](eclipse-plugin-develop-tutorial-setup_perspective.png)
    我们可以看到生成了 hello 透视图，且透视图下有 console 窗口和资源窗口
 
+## extension
+[Extension Point Tutorial](http://ecsoya.github.io/eclipse.tutorial/wiki/ExtensionPoint-Tutorial)
 ## perspective
 
 透视图是一个包含一系列视图和内容编辑器的可视容器。默认的透视图叫 java。透视图的布局可[自定义](https://www.runoob.com/eclipse/eclipse-perspectives.html)修改
@@ -1992,7 +1996,7 @@ if (activeEditor != null) {
 
 ## 其他
 
-在 eclipse.ini 中添加下述两行，忽略启动过程中的一些保持信息
+在 eclipse.ini 中添加下述两行，忽略启动过程中的一些报告信息
 
 ```ini
 -Dorg.eclipse.epp.logging.aeri.skipReports=true
