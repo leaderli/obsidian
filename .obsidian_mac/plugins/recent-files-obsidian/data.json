@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "log4j",
+      "path": "md/log4j.md"
+    },
+    {
+      "basename": "linux搜索",
+      "path": "md/linux搜索.md"
+    },
+    {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
       "basename": "maven",
       "path": "md/maven.md"
     },
@@ -67,18 +79,6 @@
     {
       "basename": "redis",
       "path": "md/redis.md"
-    },
-    {
-      "basename": "JavaPoet",
-      "path": "md/JavaPoet.md"
-    },
-    {
-      "basename": "工作总结",
-      "path": "md/工作总结.md"
-    },
-    {
-      "basename": "java泛型",
-      "path": "md/java泛型.md"
     }
   ],
   "omittedPaths": [

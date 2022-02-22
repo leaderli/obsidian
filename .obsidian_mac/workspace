@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/maven.md",
+            "file": "md/log4j.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "开机",
+                "query": "grep",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/maven.md",
+                "file": "md/log4j.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/maven.md"
+                "file": "md/log4j.md"
               }
             }
           },
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/maven.md",
+                "file": "md/log4j.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,19 +136,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 182.5
+    "width": 182.5,
+    "collapsed": true
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/log4j.md",
+    "md/linux搜索.md",
+    "md/linux常用命令.md",
     "md/maven.md",
     "md/maven相关.md",
     "md/win10.md",
     "md/python-tips.md",
     "md/shell-tips.md",
     "md/python.md",
-    "md/cheatsheet_快捷键.md",
-    "md/java.md",
-    "md/idea.md",
-    "md/java-utils.md"
+    "md/cheatsheet_快捷键.md"
   ]
 }

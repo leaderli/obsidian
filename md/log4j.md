@@ -275,32 +275,232 @@ void rollOver() throws IOException {
 
 根据分析，我们确保`target.delete()`和`ile.renameTo(target)`只被执行一次，且其他`logger`在指定时间重新将日志流指向到最新的`log4j.log`即可。
 
-比如说简单的重写`DailyRollingFileAppender`,在`rollOver`代码处稍作修改
 
 ```java
-this.closeFile();
 
-//此处必须得停止一会，确保所有线程都没有连接到日志文件
-try{
-  Thread.sleep(3000);
-}catch(Exception e){
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.attribute.PosixFilePermission;
+import java.util.HashSet;
+import java.util.Set;
 
-}
-File target = new File(scheduledFilename);
-//当目标文件已经存在时，就说明已经被切割过了，则简单重定向即可
-if (!target.exists()) {
-    File file = new File(fileName);
-    boolean result = file.renameTo(target);
-    if (result) {
-        LogLog.debug(fileName + " -> " + scheduledFilename);
-    } else {
-        LogLog.error("Failed to rename [" + fileName + "] to [" + scheduledFilename + "].");
+import org.apache.commons.lang3.StringUtils;
+import org.apache.log4j.FileAppender;
+import org.apache.log4j.Layout;
+import org.apache.log4j.helpers.LogLog;
+import org.apache.log4j.spi.LoggingEvent;
+import org.springframework.util.Assert;
+
+
+/**
+ */
+public class MyDailyRollingFileAppender extends FileAppender implements RoleOverAppender {
+
+    private long nextCheck = System.currentTimeMillis() - 1;
+    public static int ROLL_OVER_MILLIS = 1000;
+
+    protected static String getDatePattern() {
+        return "_yyyyMMdd";
     }
+
+    public static void print(String msg) {
+        LogLog.debug(msg);
+        // System.out.println(Thread.currentThread() + " " + msg);
+    }
+
+    /**
+     *
+     * 根据端口分别停止一会儿，等切割日志完成
+     */
+    public static int waiteOtherRollOver() {
+        return ROLL_OVER_MILLIS;
+    }
+
+    // 必须得有个默认的构造器
+    public MyDailyRollingFileAppender() {
+
+    }
+
+    public MyDailyRollingFileAppender(Layout layout, String filename) throws IOException {
+        super(layout, filename, true);
+        print("activateOptions in constructor");//
+        setEncoding("UTF-8");
+        activateOptions();
+    }
+
+    @Override
+    public void activateOptions() {
+
+        // 实例化后仅执行一次
+        super.activateOptions();
+
+        Assert.isTrue(StringUtils.isNotBlank(getDatePattern()), "必须设置日志格式");
+        Assert.isTrue(StringUtils.isNotBlank(fileName), "必须设置日志文件名");
+
+        File log = new File(this.fileName);
+        if (log.exists()) {
+            nextCheck = LogFileUtil.getNextPeriod(log.lastModified());
+        }
+
+        ScheduledLog.addAppenderAndRollOver(this);
+
+    }
+
+    // 返回重命名的文件名
+    protected String getScheduledFilename(String day) {
+        return fileName + day;
+    }
+
+    public boolean notTimeToRollOver() {
+        long n = System.currentTimeMillis();
+        if (n < nextCheck) {
+            return true;
+        }
+        synchronized (this) {// 防止多线程
+            if (n < nextCheck) {
+                return true;
+            }
+            // 下次检测为下一个周期的开始时间
+            nextCheck = LogFileUtil.getNextPeriod(n);
+        }
+        return false;
+    }
+
+    @Override
+    public void rollOver() {
+
+        if (notTimeToRollOver()) {
+            return;
+        }
+
+        try {
+            rename_progress();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    private void rename_progress() throws IOException {
+
+        final String finalFileName = this.fileName;// 防止运行过程中被修改
+        File currentLogFile = new File(finalFileName);
+        long lastModified = currentLogFile.lastModified();
+
+        print("before " + LogFileUtil.getPeriod(lastModified));
+        this.closeFile();
+        // closeFile会将修改日期更新，需要重新设置最后更新时间
+        currentLogFile.setLastModified(lastModified);
+
+        print("");// 换行，保持格式好看
+        print("--------------------- " + finalFileName + ":begin to rollOver ---------------------");
+
+        // 等到一会会时间，保证所有进程都停止和日志文件的链接
+        try {
+            print("waite " + waiteOtherRollOver());
+            Thread.sleep(waiteOtherRollOver());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        if (shouldRename(lastModified)) {
+            rename(currentLogFile, LogFileUtil.getPeriod(lastModified));
+        }
+
+        print("now:" + LogFileUtil.getPeriod(System.currentTimeMillis()));
+        // 无论如何，最终日志必须输出在当前不带日期的日志文件上
+        this.setFile(finalFileName, true, this.bufferedIO, this.bufferSize);
+
+        print("after " + LogFileUtil.getPeriod(currentLogFile.lastModified()));
+
+        print("--------------------- " + finalFileName + ":finished to rollOver --------------------- ");
+        print("");// 换行，保持格式好看
+    }
+
+    public boolean shouldRename(long lastModified) {
+
+        long now = System.currentTimeMillis();
+        print(getFile() + "\tfile\t: " + LogFileUtil.getPeriod(lastModified) + " " + lastModified);
+        print(getFile() + "\tnow\t: " + LogFileUtil.getPeriod(now) + " " + now);
+
+        boolean rename = StringUtils.compare(LogFileUtil.getPeriod(lastModified), LogFileUtil.getPeriod(now)) < 0;
+        print(getFile() + "\trename\t: " + rename);
+        return rename;
+    }
+
+    public void rename(File currentLogFile, String prevPeriodName) {
+
+        String scheduledFilename = getScheduledFilename(prevPeriodName);
+        File target = new File(scheduledFilename);
+
+        if (target.exists()) {
+            print(getFile() + " target exists -> " + scheduledFilename);
+            return;
+        }
+
+        boolean result = currentLogFile.renameTo(target);
+
+        if (result) {
+
+            // 修改最后更新日期为下一个检测周期的开始
+            print(getFile() + " success rename to  -> " + scheduledFilename);
+        } else {
+
+            print(getFile() + " Failed rename to  -> " + scheduledFilename + "");
+
+            // 重命名失败，等一会会，等待其他进程完成重命名操作
+            try {
+                Thread.sleep(waiteOtherRollOver());
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    /**
+     * 解决可能出现的权限问题
+     */
+
+    @Override
+    public synchronized void setFile(String fileName, boolean append, boolean bufferedIO, int bufferSize) {
+        try {
+            super.setFile(fileName, append, bufferedIO, bufferSize);
+
+            File file = new File(fileName);
+            if (file.exists()) {
+                Set<PosixFilePermission> set = new HashSet<>();
+                set.add(PosixFilePermission.OWNER_READ);
+                set.add(PosixFilePermission.OWNER_WRITE);
+                set.add(PosixFilePermission.GROUP_READ);
+                set.add(PosixFilePermission.GROUP_WRITE);
+                set.add(PosixFilePermission.OTHERS_READ);
+                Files.setPosixFilePermissions(file.toPath(), set);
+            }
+        } catch (IOException e) {
+            errorHandler.error("setFile(" + fileName + ", true) call failed.");
+
+        }
+    }
+
+    @Override
+    protected void subAppend(LoggingEvent event) {
+        rollOver();
+        event = mapping(event);
+        if (event != null) {
+            super.subAppend(event);
+        }
+
+    }
+
+    /**
+     *
+     * 一些日志的打印信息可能需要过滤
+     */
+
+    protected LoggingEvent mapping(LoggingEvent event) {
+        return event;
+    }
+
 }
-try {
-        this.setFile(fileName, true, this.bufferedIO, this.bufferSize);
-    } catch (IOException e) {
-        errorHandler.error("setFile(" + fileName + ", true) call failed.");
-}
-    scheduledFilename = datedFilename;
 ```
