@@ -9,9 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/log4j.md",
+            "file": "md/bash.md",
             "mode": "source",
-            "source": true
+            "source": false
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "grep",
+                "query": "awk",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336,
-    "collapsed": true
+    "width": 336
   },
   "right": {
     "id": "4b761e4e5ad66709",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/log4j.md",
+                "file": "md/bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/log4j.md"
+                "file": "md/bash.md"
               }
             }
           },
@@ -125,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/log4j.md",
+                "file": "md/bash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,20 +135,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 182.5,
-    "collapsed": true
+    "width": 182.5
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/bash.md",
+    "md/linux常用命令.md",
+    "md/shell-tips.md",
+    "md/perl.md",
     "md/log4j.md",
     "md/linux搜索.md",
-    "md/linux常用命令.md",
     "md/maven.md",
     "md/maven相关.md",
     "md/win10.md",
-    "md/python-tips.md",
-    "md/shell-tips.md",
-    "md/python.md",
-    "md/cheatsheet_快捷键.md"
+    "md/python-tips.md"
   ]
 }

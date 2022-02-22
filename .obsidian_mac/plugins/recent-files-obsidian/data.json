@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "bash",
+      "path": "md/bash.md"
+    },
+    {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
+      "basename": "shell-tips",
+      "path": "md/shell-tips.md"
+    },
+    {
+      "basename": "perl",
+      "path": "md/perl.md"
+    },
+    {
       "basename": "log4j",
       "path": "md/log4j.md"
     },
     {
       "basename": "linux搜索",
       "path": "md/linux搜索.md"
-    },
-    {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
     },
     {
       "basename": "maven",
@@ -27,10 +39,6 @@
     {
       "basename": "python-tips",
       "path": "md/python-tips.md"
-    },
-    {
-      "basename": "shell-tips",
-      "path": "md/shell-tips.md"
     },
     {
       "basename": "python",
@@ -71,14 +79,6 @@
     {
       "basename": "git",
       "path": "md/git.md"
-    },
-    {
-      "basename": "redis-script",
-      "path": "md/redis-script.md"
-    },
-    {
-      "basename": "redis",
-      "path": "md/redis.md"
     }
   ],
   "omittedPaths": [

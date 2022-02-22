@@ -404,3 +404,19 @@ dig www.example.com
 sleep 3 #暂停3秒
 echo 'ok'
 ```
+
+
+## 正则匹配字符串
+
+```shell
+a='I am a simple string with digits 1234'
+pat='(.*) ([0-9]+)'
+[[ "$a" =~ $pat ]]
+echo "${BASH_REMATCH[0]}"
+echo "${BASH_REMATCH[1]}"
+echo "${BASH_REMATCH[2]}"
+```
+
+>I am a simple string with digits 1234
+>I am a simple string with digits
+>1234
