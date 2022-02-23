@@ -44,32 +44,8 @@ public class EventBusTest {
 
 ```
 
-### `junit` 断言异常
 
-```java
-public class Student {
-    public boolean canVote(int age) {
-        if (i<=0) throw new IllegalArgumentException("age should be +ve");
-        if (i<18) return false;
-        else return true;
-    }
-}
-public class TestStudent{
-
-    @Rule
-    public ExpectedException thrown= ExpectedException.none();
-
-    @Test
-    public void canVote_throws_IllegalArgumentException_for_zero_age() {
-        Student student = new Student();
-        thrown.expect(IllegalArgumentException.class);
-        thrown.expectMessage("age should be +ve");
-        student.canVote(0);
-    }
-}
-```
-
-### `poi`
+### poi
 
 在生成`excel`时，当为单元格填充内容为数字时，生成的 excel 的数字单元格左上角提示绿色小三角。可在填充单元格值时使用`Double`类型
 

@@ -68,3 +68,32 @@ void myCartesianTestMethod(
 ```
 
 ![[Pasted image 20220221003545.png]]
+
+
+
+### junit断言异常
+
+#junit4
+
+```java
+public class Student {
+    public boolean canVote(int age) {
+        if (i<=0) throw new IllegalArgumentException("age should be +ve");
+        if (i<18) return false;
+        else return true;
+    }
+}
+public class TestStudent{
+
+    @Rule
+    public ExpectedException thrown= ExpectedException.none();
+
+    @Test
+    public void canVote_throws_IllegalArgumentException_for_zero_age() {
+        Student student = new Student();
+        thrown.expect(IllegalArgumentException.class);
+        thrown.expectMessage("age should be +ve");
+        student.canVote(0);
+    }
+}
+```
