@@ -197,4 +197,4 @@ System.out.println(s0 == s3);  // true
 
 
 ## 数组
-[[java-数组]]
+[[java-array]]
