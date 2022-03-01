@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "工作总结",
+      "path": "md/工作总结.md"
+    },
+    {
+      "basename": "java注解",
+      "path": "md/java注解.md"
+    },
+    {
+      "basename": "java-stream",
+      "path": "md/java-stream.md"
+    },
+    {
+      "basename": "junit",
+      "path": "md/junit.md"
+    },
+    {
       "basename": "bash",
       "path": "md/bash.md"
     },
@@ -63,22 +79,6 @@
     {
       "basename": "java-tips",
       "path": "md/java-tips.md"
-    },
-    {
-      "basename": "kanban",
-      "path": "kanban.md"
-    },
-    {
-      "basename": "c++",
-      "path": "md/c++.md"
-    },
-    {
-      "basename": "c",
-      "path": "md/c.md"
-    },
-    {
-      "basename": "git",
-      "path": "md/git.md"
     }
   ],
   "omittedPaths": [
