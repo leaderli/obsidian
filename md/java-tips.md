@@ -71,6 +71,20 @@ klass.isArray();
 ```java
 Arrays.deepEquals(new String[]{"1","2"},new String[]{"1","2"});
 ```
+
+### 获取基础类型数组的长度
+
+```java
+Array.getLength(originalArray)
+```
+
+### 基础类型数组转换包装类数组
+
+```java
+IntStream.range(0, Array.getLength(originalArray)) //  
+ .mapToObj(index -> Array.get(originalArray, index)) //  
+ .toArray();
+```
 ### 判断类是否继承自
 
 ```java

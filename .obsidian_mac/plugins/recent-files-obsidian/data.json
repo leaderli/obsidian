@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
+      "basename": "java-array",
+      "path": "md/java-array.md"
+    },
+    {
       "basename": "工作总结",
       "path": "md/工作总结.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "idea",
       "path": "md/idea.md"
-    },
-    {
-      "basename": "java-utils",
-      "path": "md/java-utils.md"
-    },
-    {
-      "basename": "java-tips",
-      "path": "md/java-tips.md"
     }
   ],
   "omittedPaths": [
