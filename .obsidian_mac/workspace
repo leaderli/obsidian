@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Repeatable",
+                "query": "arraycopy",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
