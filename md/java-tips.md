@@ -22,16 +22,7 @@ public interface ClassConstants{
 clasz.isPrimitive();
 ```
 
-### 获取数组 class 的申明类型
 
-```java
-Person[] ps = new Person[0];
-
-ps.getClass().getComponentType();
-
-// class Person
-// 若为非数组，则返回null
-```
 
 ### 基本类型转换包装类型
 
@@ -60,31 +51,10 @@ ClassUtils.isPrimitiveOrWrapper(klass)
 properties.load(new InputStreamReader(AutoConfig.class.getResourceAsStream("/application.properties"),"utf-8"));
 ```
 
-### 判断类是否为数组
 
-```java
-klass.isArray();
-```
 
-### 判断数组是否相等
 
-```java
-Arrays.deepEquals(new String[]{"1","2"},new String[]{"1","2"});
-```
 
-### 获取基础类型数组的长度
-
-```java
-Array.getLength(originalArray)
-```
-
-### 基础类型数组转换包装类数组
-
-```java
-IntStream.range(0, Array.getLength(originalArray)) //  
- .mapToObj(index -> Array.get(originalArray, index)) //  
- .toArray();
-```
 ### 判断类是否继承自
 
 ```java
@@ -155,31 +125,6 @@ public class Primitive {
 }
 ```
 
-### 反射工具类
-
-第三方反射工具类
-
-```xml
-<dependency>
-    <groupId>org.reflections</groupId>
-    <artifactId>reflections</artifactId>
-    <version>0.9.10</version>
-</dependency>
-```
-
-扫描类在某个包下的所有子类
-
-```java
-Reflections reflections = new Reflections("my.project");
-Set<Class<? extends SomeType>> subTypes = reflections.getSubTypesOf(SomeType.class);
-
-```
-
-扫描在某个包下的被注解了某个注解的所有类
-
-```java
-Set<Class<?>> annotated = reflections.getTypesAnnotatedWith(SomeAnnotation.class);
-```
 
 ### `Comparator.comparing`
 
