@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "kanban",
+      "path": "kanban.md"
+    },
+    {
+      "basename": "springboot数据库密码加密",
+      "path": "md/springboot数据库密码加密.md"
+    },
+    {
       "basename": "java-tips",
       "path": "md/java-tips.md"
     },
@@ -71,14 +79,6 @@
     {
       "basename": "cheatsheet_快捷键",
       "path": "md/cheatsheet_快捷键.md"
-    },
-    {
-      "basename": "java",
-      "path": "md/java.md"
-    },
-    {
-      "basename": "idea",
-      "path": "md/idea.md"
     }
   ],
   "omittedPaths": [
