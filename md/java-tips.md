@@ -150,9 +150,7 @@ Comparator<Player> byAge = Comparator
 ls *.jar|xargs -I {} jadx {} -d src
 ```
 
-### 问题
 
-`NoSuchMethodError`一般是由版本冲突造成的
 
 ### 进制
 
@@ -256,26 +254,7 @@ Collections.list(resources).stream()
 >file:/D:/ProgramFiles/IDEA2020/lib/idea_rt.jar!/META-INF
 
 根据[stackoverflow](https://stackoverflow.com/questions/25729319/how-does-a-classloader-load-classes-reference-in-the-manifest-classpath)中的回答，[[maven#META-INF|META-INF]]是由JVM底层去加载的
-### 异常
 
-对于一个 Throwable 的异常，通常可根据
-
-```java
-Throwable e;
-
-// 获取其异常栈
-e.getStackTrace();
-//栈顶通常是发生异常的地方
-e.getStackTrace()[0];
-
-//当cause不为空时，直接发生异常的地方会在cause中
-if( e.getCause() !=null){
-  e = e.getCause();
-  e.getStackTrace()[0];
-}
-
-
-```
 
 
 
