@@ -144,5 +144,13 @@
       ],
       "key": "F"
     }
+  ],
+  "file-explorer:reveal-active-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
+    }
   ]
 }
