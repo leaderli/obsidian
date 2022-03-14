@@ -34,31 +34,7 @@ System.setProperty(key,value) //临时指定java环境变量
 
 也可以在`shell`中执行`echo $HOSTNAME`查看主机名，通过`ping $HOSTNAME`查看是否问题已经解决了
 
-### 4. logback 日志
 
-logback 日志在开始阶段会输出一些自身的日志，通过配置`NopStatusListener`即可以清除
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<configuration>
-
-    <!-- Stop output INFO at start -->
-    <statusListener class="ch.qos.logback.core.status.NopStatusListener" />
-
-    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
-        <layout class="ch.qos.logback.classic.PatternLayout">
-            <Pattern>
-                %d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n
-            </Pattern>
-        </layout>
-    </appender>
-
-    <root level="error">
-        <appender-ref ref="STDOUT"/>
-    </root>
-
-</configuration>
-```
 
 ### 5. `tomcat`使用`java`启动变量作为端口
 
