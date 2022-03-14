@@ -7,9 +7,11 @@
         "id": "885f52442540f012",
         "type": "leaf",
         "state": {
-          "type": "kanban",
+          "type": "markdown",
           "state": {
-            "file": "kanban.md"
+            "file": "md/linux搜索.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -38,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "placeholder",
+                "query": "section:(grep)",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -63,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kanban.md",
+                "file": "md/linux搜索.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kanban.md"
+                "file": "md/linux搜索.md"
               }
             }
           },
@@ -121,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kanban.md",
+                "file": "md/linux搜索.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,15 +140,15 @@
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/linux搜索.md",
+    "md/linux常用命令.md",
+    "md/java-utils.md",
+    "md/obsidan.md",
     "kanban.md",
     "md/springboot数据库密码加密.md",
     "md/java-tips.md",
     "md/java-array.md",
     "md/工作总结.md",
-    "md/java注解.md",
-    "md/java-stream.md",
-    "md/junit.md",
-    "md/bash.md",
-    "md/linux常用命令.md"
+    "md/java注解.md"
   ]
 }

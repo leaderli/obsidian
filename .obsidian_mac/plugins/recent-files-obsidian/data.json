@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "linux搜索",
+      "path": "md/linux搜索.md"
+    },
+    {
+      "basename": "linux常用命令",
+      "path": "md/linux常用命令.md"
+    },
+    {
+      "basename": "java-utils",
+      "path": "md/java-utils.md"
+    },
+    {
+      "basename": "obsidan",
+      "path": "md/obsidan.md"
+    },
+    {
       "basename": "kanban",
       "path": "kanban.md"
     },
@@ -11,18 +27,6 @@
     {
       "basename": "java-tips",
       "path": "md/java-tips.md"
-    },
-    {
-      "basename": "java-array",
-      "path": "md/java-array.md"
-    },
-    {
-      "basename": "工作总结",
-      "path": "md/工作总结.md"
-    },
-    {
-      "basename": "java注解",
-      "path": "md/java注解.md"
     },
     {
       "basename": "java-stream",
@@ -37,10 +41,6 @@
       "path": "md/bash.md"
     },
     {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
-    },
-    {
       "basename": "shell-tips",
       "path": "md/shell-tips.md"
     },
@@ -51,10 +51,6 @@
     {
       "basename": "log4j",
       "path": "md/log4j.md"
-    },
-    {
-      "basename": "linux搜索",
-      "path": "md/linux搜索.md"
     },
     {
       "basename": "maven",
@@ -71,14 +67,6 @@
     {
       "basename": "python-tips",
       "path": "md/python-tips.md"
-    },
-    {
-      "basename": "python",
-      "path": "md/python.md"
-    },
-    {
-      "basename": "cheatsheet_快捷键",
-      "path": "md/cheatsheet_快捷键.md"
     }
   ],
   "omittedPaths": [
