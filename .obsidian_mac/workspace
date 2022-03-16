@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "md/java-config.md",
+            "file": "md/restTemplate使用.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "logback",
+                "query": "section:(替换 java)",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "md/java-config.md",
+                "file": "md/restTemplate使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "md/java-config.md"
+                "file": "md/restTemplate使用.md"
               }
             }
           },
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "md/java-config.md",
+                "file": "md/restTemplate使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,6 +140,8 @@
   },
   "active": "885f52442540f012",
   "lastOpenFiles": [
+    "md/restTemplate使用.md",
+    "md/java-tips.md",
     "md/java-config.md",
     "md/linux搜索.md",
     "md/linux常用命令.md",
@@ -147,8 +149,6 @@
     "md/obsidan.md",
     "kanban.md",
     "md/springboot数据库密码加密.md",
-    "md/java-tips.md",
-    "md/java-array.md",
-    "md/工作总结.md"
+    "md/java-array.md"
   ]
 }

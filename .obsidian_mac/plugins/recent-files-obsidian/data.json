@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "restTemplate使用",
+      "path": "md/restTemplate使用.md"
+    },
+    {
+      "basename": "java-tips",
+      "path": "md/java-tips.md"
+    },
+    {
       "basename": "java-config",
       "path": "md/java-config.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "springboot数据库密码加密",
       "path": "md/springboot数据库密码加密.md"
-    },
-    {
-      "basename": "java-tips",
-      "path": "md/java-tips.md"
     },
     {
       "basename": "java-stream",
