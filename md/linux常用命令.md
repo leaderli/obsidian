@@ -7,75 +7,14 @@ tags:
 
 
 
-### `sort`
 
-对输出内容进行排序，默认情况下`sort`仅比较`ASCII`字符。
 
-- -n 以数字大小来排序
-- -k, --key=KEYDEF 指定使用第几个字段进行排序
-- -t，--field-separator=SEP 使用 SEP 替换默认的空格作为间隔符
-- -r 反向排序
-
-```shell
-~$ cat 1.txt
-2   c
-10  a
-300 b
-
-~$ sort 1.txt
-10  a
-2   c
-300 b
-
-~$ sort -n 1.txt
-2   c
-10  a
-300 b
-
-~$ sort -k 2 1.txt
-10  a
-300 b
-2   c
-
-~$ cat 2.txt
-2:c
-10:a
-300:b
-
-~$ sort  -t ':' -k 2  2.txt
-10:a
-300:b
-2:c
-
-```
 
 ### read
 
-read 命令用于从标准输入读取数值。
 
-```shell
-#!/bin/bash
 
-#这里默认会换行
-echo "输入网站名: "
-#读取从键盘的输入
-read website
-echo "你输入的网站名是 $website"
-exit 0  #退出
-```
 
-- -p 参数，允许在 read 命令行中直接指定一个提示
-- -s 选项能够使 read 命令中输入的数据不显示在命令终端上
-- -t 参数指定 read 命令等待输入的秒数，当计时满时，read 命令返回一个非零退出状态。
-- -n 参数设置 read 命令计数输入的字符。当输入的字符数目达到预定数目时，
-- -e 参数，以下实例输入字符 a 后按下 Tab 键就会输出相关的文件名(该目录存在的)：
-
-  ```shell
-  $ read -e -p "输入文件名:" str
-  输入文件名:a
-  a.out a.py a.pyc abc.txt
-  输入文件名:a
-  ```
 
 
 
