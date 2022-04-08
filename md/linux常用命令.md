@@ -5,43 +5,6 @@ categories: linux
 tags:
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ###  netstat
 
 ```shell
