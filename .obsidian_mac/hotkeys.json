@@ -1,5 +1,13 @@
 {
   "table-editor-obsidian:table-control-bar": [],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
+    }
+  ],
   "file-explorer:new-file": [],
   "file-explorer:new-file-in-new-pane": [],
   "editor:delete-paragraph": [],
@@ -10,7 +18,7 @@
   "app:go-back": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "["
     }
@@ -18,48 +26,39 @@
   "app:go-forward": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "]"
     }
   ],
   "app:open-help": [],
-  "editor:open-link-in-new-leaf": [],
   "app:open-settings": [],
+  "switcher:open": [],
   "editor:save-file": [],
   "editor:open-search-replace": [],
   "editor:toggle-bold": [],
   "editor:toggle-checklist-status": [],
-  "editor:toggle-comments": [],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "R"
+    }
+  ],
   "editor:toggle-italics": [],
   "editor:unfold-all": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "ArrowDown"
-    }
-  ],
-  "editor:fold-all": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowUp"
-    }
-  ],
-  "editor:toggle-fold": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "L"
     }
   ],
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "ArrowLeft"
     }
@@ -67,41 +66,91 @@
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "ArrowRight"
+    }
+  ],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:fold-all": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
     }
   ],
   "file-explorer:open": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "1"
+    }
+  ],
+  "editor:open-link-in-new-leaf": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
     }
   ],
   "darlal-switcher-plus:switcher-plus:open": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "O"
     }
   ],
-  "markdown:toggle-preview": [
+  "command-palette:open": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
-      "key": "R"
+      "key": "P"
     }
   ],
+  "supercharged-links-obsidian:field_options": [],
+  "supercharged-links-obsidian:fileClassAttr_options": [],
   "editor:toggle-source": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "E"
+    }
+  ],
+  "editor:open-search": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "file-explorer:reveal-active-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
     }
   ]
 }

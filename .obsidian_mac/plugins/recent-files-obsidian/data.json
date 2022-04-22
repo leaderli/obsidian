@@ -1,80 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "restTemplate使用",
-      "path": "md/restTemplate使用.md"
-    },
-    {
-      "basename": "java-tips",
-      "path": "md/java-tips.md"
-    },
-    {
-      "basename": "java-config",
-      "path": "md/java-config.md"
-    },
-    {
-      "basename": "linux搜索",
-      "path": "md/linux搜索.md"
-    },
-    {
-      "basename": "linux常用命令",
-      "path": "md/linux常用命令.md"
-    },
-    {
-      "basename": "java-utils",
-      "path": "md/java-utils.md"
-    },
-    {
-      "basename": "obsidan",
-      "path": "md/obsidan.md"
+      "basename": "springboot自定义加载配置文件",
+      "path": "md/springboot自定义加载配置文件.md"
     },
     {
       "basename": "kanban",
       "path": "kanban.md"
-    },
-    {
-      "basename": "springboot数据库密码加密",
-      "path": "md/springboot数据库密码加密.md"
-    },
-    {
-      "basename": "java-stream",
-      "path": "md/java-stream.md"
-    },
-    {
-      "basename": "junit",
-      "path": "md/junit.md"
-    },
-    {
-      "basename": "bash",
-      "path": "md/bash.md"
-    },
-    {
-      "basename": "shell-tips",
-      "path": "md/shell-tips.md"
-    },
-    {
-      "basename": "perl",
-      "path": "md/perl.md"
-    },
-    {
-      "basename": "log4j",
-      "path": "md/log4j.md"
-    },
-    {
-      "basename": "maven",
-      "path": "md/maven.md"
-    },
-    {
-      "basename": "maven相关",
-      "path": "md/maven相关.md"
-    },
-    {
-      "basename": "win10",
-      "path": "md/win10.md"
-    },
-    {
-      "basename": "python-tips",
-      "path": "md/python-tips.md"
     }
   ],
   "omittedPaths": [

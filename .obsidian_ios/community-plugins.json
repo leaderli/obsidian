@@ -1,13 +1,18 @@
 [
   "obsidian-git",
-  "cm-editor-syntax-highlight-obsidian",
   "obsidian-admonition",
-  "code-block-copy",
-  "obsidian-icons-plugin",
   "recent-files-obsidian",
   "table-editor-obsidian",
   "obsidian-day-planner",
-  "obsidian-timeline",
   "obsidian-kanban",
-  "obsidian-embedded-code-title"
+  "obsidian-embedded-code-title",
+  "find-unlinked-files",
+  "obsidian-hider",
+  "obsidian-minimal-settings",
+  "darlal-switcher-plus",
+  "obsidian-auto-link-title",
+  "supercharged-links-obsidian",
+  "obsidian-copy-block-link",
+  "code-block-copy",
+  "cm-editor-syntax-highlight-obsidian"
 ]

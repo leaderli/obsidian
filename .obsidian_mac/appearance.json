@@ -1,12 +1,16 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 11,
   "theme": "moonstone",
   "translucency": false,
   "enabledCssSnippets": [
     "obsidian",
     "tableStyles",
+    "highlight colors",
+    "iconfont",
+    "image-grid",
+    "obsidian_orange",
     "li"
   ],
   "cssTheme": "obsidian-minimal",
-  "baseFontSizeAction": false
+  "baseFontSizeAction": true
 }

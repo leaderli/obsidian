@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "vimMode": true,
+  "vimMode": false,
   "fileSortOrder": "alphabetical",
   "foldHeading": true,
   "foldIndent": true,
@@ -12,15 +12,18 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "md",
   "promptDelete": false,
-  "defaultViewMode": "source",
-  "emacsyKeys": false,
-  "legacyEditor": false,
-  "livePreview": true,
-  "autoPairBrackets": false,
+  "autoPairBrackets": true,
+  "defaultViewMode": "preview",
+  "useMarkdownLinks": false,
+  "autoPairMarkdown": false,
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "strictLineBreaks": true,
+  "livePreview": false,
+  "spellcheck": false,
+  "legacyEditor": false
 }
